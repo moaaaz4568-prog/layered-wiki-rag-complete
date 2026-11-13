@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+
+==================== SYS_01_CHARTER.md ====================
+
+==================== SYS_02_NAMING.md ====================
+[BROKEN] Line  17 (backtick): .md
+[BROKEN] Line  23 (backtick): C_Pattern_Interrupt.md
+[BROKEN] Line  24 (backtick): C_IceBreaker_V2_FINAL.md
+[BROKEN] Line  25 (backtick): C_كسر_التوقع.md
+[BROKEN] Line  26 (backtick): C_0.5_Reply_Rate.md
+[BROKEN] Line  27 (backtick): M_Sales_Call_Architecture.md
+[BROKEN] Line  28 (backtick): C_3_Step_Cadence.md
+[BROKEN] Line  28 (backtick): C_Three_Step_Cadence.md
+[BROKEN] Line  29 (backtick): concept_Map.md
+[BROKEN] Line  70 (backtick): C_0.5_Reply_Rate.md
+[BROKEN] Line  70 (backtick): C_0.8x_ROAS.md
+
+==================== SYS_03_TREE.md ====================
+
+==================== SYS_04_THINKING_ENGINE.md ====================
+
+==================== SYS_05_INGESTION.md ====================
+[EXISTS] Line  36 (backtick): /sdcard/Nexus_Brain/Nexus_Brain/brain/aaronxshepherd__21 Cold Email Hacks To Book More Sales Calls INSTANTLY__i7vdM5SZsmk.txt
+[EXISTS] Line  64 (backtick): domains/
+[BROKEN] Line  65 (backtick): PLAYBOOK.md
+[BROKEN] Line  66 (backtick): TERMS.md
+[BROKEN] Line  67 (backtick): CONTINGENCY_MATRIX.md
+[BROKEN] Line  68 (backtick): SOURCES_CATALOG.md
+
+==================== SYS_06_TERMS_DEEPENING.md ====================
+[EXISTS] Line 105 (backtick): /sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1. The Biggest Problem in Sales (1).txt
+
+==================== SYS_07_MASTER_ANATOMY.md ====================
+[BROKEN] Line  46 (backtick): FORMAT_MASTER.md
+
+==================== SYS_08_PLURALISM.md ====================
+[EXISTS] Line 107 (backtick): /sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1. The Biggest Problem in Sales (1).txt

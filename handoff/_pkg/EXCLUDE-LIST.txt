@@ -1,0 +1,19 @@
+# EXCLUDE-LIST — المسار absolutePaths المستبعدة من wiki-handoff-package.tar.gz
+# التاريخ: 2026-11-10 | المالك: handoff/_pkg | المرجع: PACKAGE-LOG.md §[10]
+# النطاق: أي أمر tarالنهائي يُبنى بجذر /workspace/wiki (tar -C /workspace/wiki -cf - .)
+# القاعدة الحاكمة (B3-b + قرار التمكين): لا يستثنى شيء آخر قد يكون كل ملفات
+# /workspace/wiki الأخرى ضمنه (شاملة work/.log-* و source-transfers/ 59M الأخرى).
+
+/workspace/wiki/archive-extract
+# السبب: 211M — محتواها موجود أصلاً داخل WIKI_ARCHIVE_2026-11-03.tar.gz (الجذر)
+# القياس: OBSERVED du -sb /workspace/wiki/archive-extract (مسجل في §[10])
+
+/workspace/wiki/source-transfers/github-release/WIKI_ARCHIVE_2026-11-03.tar.gz
+# السبب: نسخة مطابقة بالبايت للأرشيف الجذري (e87d82307928bf7a4eebc71b3d4f1419a7f47977ee42e35fa3714375eaee3e16)
+# OBSERVED: sha256sum للملفين متطابقة تماماً (§[10]) — إبقاؤها يكرر 60,072,453 بايت بلا قيمة
+
+/workspace/wiki/handoff/_pkg
+# السبب: آثار الحزمة نفسها (يجب ألا تحوي الحزمة نفسها: PACKAGE-LOG.md، EXCLUDE-LIST.txt، تار الناتج إن وُجد)
+# ملاحظة: نمط التفعيل في tar: --exclude='./handoff/_pkg' (مكافئ مسارياً للمسار أعلاه)
+
+# لا يوجد أي استثناء إضافي — كل ما تبقى من /workspace/wiki شامل و مطلوب ضمن الحزمة.

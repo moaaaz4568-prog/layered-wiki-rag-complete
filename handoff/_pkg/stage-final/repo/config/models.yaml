@@ -1,0 +1,42 @@
+# models.yaml — النماذج المرشحة المشروطة بالاختبار
+# المصادر: work/analysis-wiki-talk-01.md §1.8 / §2.3 / §1.10
+# المخطط: work/repo-plan-01.md §2 (config/models.yaml)
+# القاعدة: لا تضمين قبل اختباره — لا اختيار نهائي هنا
+
+selection_status: "NOT_RUN"
+chosen_embedding_model: null
+chosen_chat_model: null
+
+embedding_candidates:
+  - id: "bge-m3"
+    model_ref: "bge-m3"
+    dims: 1024
+    status: "conditional-on-test"
+    note: "مرشح مشروط بالاختبار لا اختيار نهائي؛ لم يختبر على العربية داخل Cognee ولم يجرب في wikillm"
+
+  - id: "multilingual-e5-large"
+    model_ref: "intfloat/multilingual-e5-large"
+    status: "conditional-on-test"
+    note: "مذكور كالأقرب للعربي في الرسالة 44؛ لم يختبر"
+
+  - id: "fastembed"
+    model_ref: "FastEmbed"
+    status: "conditional-on-test"
+    note: "مضمّن خفيف للنموذج الأولي؛ غير مثبت لسه الرسالة 46"
+
+chat_candidates:
+  - id: "glm-5.3-free"
+    model_ref: "glm-5.3-free"
+    status: "conditional-on-test"
+    note: "موديل دردشة Yukino للإجابة فقط من المقاطع المسترجعة — لا ولن يثبّت برامج ولا يفتح ترمنال؛ يدخل عند توفر المفتاح لحظيا + إعادة تشغيل الترمنال"
+
+vector_stores:
+  - id: "chromadb"
+    status: "conditional-on-test"
+    note: "البديل الجاهز لـ Cognee لو ثبت أنه مثقل أو الاستخراج ضعيف"
+
+  - id: "cognee"
+    status: "conditional-on-test"
+    note: "GraphRAG مفضّل تحت الاختبار لكن العربية غير مثبتة رسميا فيه؛ لا يُختار قبل اختبار"
+
+blocked_rule: "لا تضمين قبل اختباره — لا اختيار نهائي في هذا الملف؛ الحالة NOT_RUN"

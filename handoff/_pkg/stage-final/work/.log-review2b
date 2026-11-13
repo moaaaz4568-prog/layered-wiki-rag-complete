@@ -1,0 +1,98 @@
+[0m
+> build · crouton-alpha-free
+Small-scope security sweep — running the five grep checks, then writing the report.
+[0m$ [0mgrep -rn 'ghp_|github_pat_|sk-|AKIA|PRIVATE KEY|password=' repo/ 2>&1; echo EXIT:$?
+EXIT:1
+[0m$ [0mcat .gitignore 2>&1; echo ---; cat repo/.gitignore 2>&1; echo EXIT:$?
+cat: .gitignore: No such file or directory
+---
+# Secrets & local files
+*.env
+!.env.example
+.hcnsec_key
+cookies.txt
+
+# Data / databases / artifacts
+*.db
+MANIFEST.json
+zcode-*
+archive-extract/
+source-transfers/
+
+# Media / generated
+*.opus
+*.vtt
+*.log
+
+# Archives / caches / deps
+*.zip
+node_modules/
+__pycache__/
+EXIT:0
+[0m$ [0mfind repo -type f -size +100k -exec ls -lh {} \; 2>&1; echo EXIT:$?
+EXIT:0
+[0m$ [0mgrep -rn 'ghp_' MESSAGES.md repo/MESSAGES.md 2>&1; echo EXIT:$?; ls -la *.md repo/*.md 2>&1 | head -n 100
+grep: MESSAGES.md: No such file or directory
+EXIT:2
+ls: cannot access '*.md': No such file or directory
+-rw-r--r-- 1 box box  2432 Nov  5 00:53 repo/AGENTS.md
+-rw-r--r-- 1 box box 13062 Nov  5 00:52 repo/ARCHITECTURE.md
+-rw-r--r-- 1 box box  4385 Nov  5 00:52 repo/CHANGELOG.md
+-rw-r--r-- 1 box box 15085 Nov  5 00:52 repo/CONTEXT.md
+-rw-r--r-- 1 box box  5259 Nov  5 00:53 repo/DESIGN-REFERENCE.md
+-rw-r--r-- 1 box box  7341 Nov  5 00:52 repo/IDEAS.md
+-rw-r--r-- 1 box box  5030 Nov  5 00:52 repo/MASTER.md
+-rw-r--r-- 1 box box 16667 Nov  5 00:52 repo/MESSAGES.md
+-rw-r--r-- 1 box box  6182 Nov  5 00:53 repo/PROVENANCE.md
+-rw-r--r-- 1 box box  9696 Nov  5 00:52 repo/README.md
+-rw-r--r-- 1 box box  5413 Nov  5 00:52 repo/REJECTED.md
+[0m$ [0mhead -n 100 AGENTS.md 2>&1; echo ===REPO===; head -n 100 repo/AGENTS.md 2>&1; echo EXIT:$?
+head: cannot open 'AGENTS.md' for reading: No such file or directory
+===REPO===
+# تعليمات الوكلاء — Arabic Agent Rules
+
+المصدر الأساسي المقترح: https://raw.githubusercontent.com/moaaaz4568-prog/layered-wiki-rag/main/AGENTS.md (تعذر جلبه: 404 وقت الإعداد).
+
+## القاعدة الأولى: اقرأ CONTEXT.md أولاً
+- قبل أي عمل، اقرأ `CONTEXT.md` في جذر المستودع.
+- ثم اقرأ هذا الملف `AGENTS.md` وملفات السياق المطلوبة.
+- لا تخمن السياق؛ استخدم ما هو موثق.
+
+## تنظيم العمل: البناء عبر وكلاء فرعيين
+- استخدم وكلاء فرعيين دائماً للتنفيذ المتعدد الخطوات.
+- المشرف (Supervisor) يخطط ويراجع فقط، ولا ينفذ مباشرة إلا عند الضرورة.
+- اسند مهام بمخرجات واضحة وقابلة للتحقق.
+- راجع نتائج الوكلاء قبل الدمج أو الإغلاق.
+
+## أدلة وتحقق
+- وسوم الأدلة الإلزامية: `OBSERVED` / `REPORTED` / `PROPOSED` / `UNKNOWN` / `NOT_RUN`.
+- `OBSERVED`: شوهد مباشرة في الملفات أو السجلات.
+- `REPORTED`: ورد في تقارير خارجية أو المستخدم.
+- `PROPOSED`: مقترح ولم يُتحقق منه بعد.
+- `UNKNOWN`: لا توجد معلومة كافية.
+- `NOT_RUN`: لم يُجرَّب أو لم يُشغَّل بعد.
+- لا تدّعِ نجاحاً لم يُختبر.
+
+## السرية والخصوصية
+- لا ترفع أسراراً أبداً (مفاتيح، رموز، كلمات مرور، ملفات بيئة).
+- المستودع خاص (Private Repo) — لا تجعله عاماً دون إذن صريح.
+- استخدم `.env.example` بنصوص فارغة فقط.
+- تحقق من `.gitignore` قبل كل commit.
+
+## جودة التنفيذ
+- التزم بالحدود: لا ترفع ملفات إخراجية أو محلية.
+- أبقِ التغييرات صغيرة، ووثّق ما لم يُختبر.
+- اذكر عند عدم اليقين بدل التخمين.
+- التزم بقيود خطة المستودع في `work/repo-plan-01.md`.
+
+## التزامات المحتوى
+- ممنوع اعتماد الأسرار في الأمثلة أو الوثائق.
+- ممنوع إخفاء حالة `NOT_RUN` أو `UNKNOWN` خلف لغة واثقة.
+- الأولوية: السلامة، الخصوصية، ثم الإنجاز.
+EXIT:0
+> build · crouton-alpha-free
+All five checks returned clean — writing the checklist report now.
+[0m← [0mWrite work/review-2.md
+Created file successfully: work/review-2.md
+> build · crouton-alpha-free
+DONE

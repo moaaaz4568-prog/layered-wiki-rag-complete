@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+total 68
+drwxrwx---. 2 root aid_everybody  3488 Oct 25 08:15 __pycache__
+-rw-rw----. 1 root aid_everybody 10658 Oct 25 08:22 audit.py
+-rw-rw----. 1 root aid_everybody  7836 Oct 25 08:17 count.py
+-rw-rw----. 1 root aid_everybody 34570 Oct 25 08:17 generate_templates.py
+-rw-rw----. 1 root aid_everybody  5060 Oct 25 08:15 nexus_rag.py

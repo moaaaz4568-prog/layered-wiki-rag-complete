@@ -1,0 +1,32 @@
+Command exited with code 0.
+
+Command output:
+total 436
+-rw-rw----. 1 root aid_everybody  2751 Oct 10 16:33 00_ARCHITECTURE.md
+-rw-rw----. 1 root aid_everybody  1105 Oct  6 11:00 01_SOURCE_INGEST.md
+-rw-rw----. 1 root aid_everybody  1163 Oct  6 11:00 02_CLAIM_EXTRACTION.md
+-rw-rw----. 1 root aid_everybody   995 Oct  6 11:00 03_CONCEPT_AUTHORING.md
+-rw-rw----. 1 root aid_everybody  7632 Oct  9 13:53 04_MASTER_AUTHORING.md
+-rw-rw----. 1 root aid_everybody  1137 Oct  6 11:00 05_RETRIEVAL_AND_EVALUATION.md
+-rw-rw----. 1 root aid_everybody  6113 Oct  8 21:58 06_SALES_SOURCE_COLLECTION.md
+-rw-rw----. 1 root aid_everybody  5994 Oct  8 21:58 07_SALES_CLAIM_REVIEW.md
+-rw-rw----. 1 root aid_everybody  4949 Oct  8 21:58 08_SALES_OPINION_PLURALISM.md
+-rw-rw----. 1 root aid_everybody  5945 Oct  8 21:57 09_SALES_CONCEPT_DEPTH.md
+-rw-rw----. 1 root aid_everybody  9513 Oct  9 13:47 10_SALES_MASTER_GATE.md
+-rw-rw----. 1 root aid_everybody  4852 Oct  8 21:57 11_AGENT_EXECUTION_CONTRACT.md
+-rw-rw----. 1 root aid_everybody  4895 Oct  8 21:57 12_ITERATION_AND_RISK_LOOP.md
+-rw-rw----. 1 root aid_everybody 10213 Oct 10 19:51 13_MULTI_DOMAIN_ARCHITECTURE.md
+-rw-rw----. 1 root aid_everybody 49008 Oct 10 19:51 14_SOURCE_ROUTING_AND_DONE_TREE.md
+-rw-rw----. 1 root aid_everybody  9408 Oct 10 15:26 15_DOMAIN_COMPLETION_GATES.md
+-rw-rw----. 1 root aid_everybody  8857 Oct 10 15:17 16_SEQUENTIAL_AGENT_ORCHESTRATION.md
+-rw-rw----. 1 root aid_everybody  8493 Oct 10 15:00 17_FOLDER_INDEX_CONTRACT.md
+-rw-rw----. 1 root aid_everybody  9707 Oct 10 19:51 18_DOMAIN_CATALOG_AND_PROCESSING_ORDER.md
+-rw-rw----. 1 root aid_everybody  9311 Oct 10 15:00 19_NEW_SOURCE_REPROCESSING.md
+-rw-rw----. 1 root aid_everybody 20564 Oct 18 13:43 20_WIKI_OPERATING_SYSTEM.md
+-rw-rw----. 1 root aid_everybody 20606 Oct 18 13:49 21_SOURCE_TO_KNOWLEDGE_PIPELINE.md
+-rw-rw----. 1 root aid_everybody 21252 Oct 18 13:56 22_WRITING_AND_EVIDENCE_SYSTEM.md
+-rw-rw----. 1 root aid_everybody 38079 Oct 18 20:37 23_RETRIEVAL_QA_AND_HONEST_STATUS.md
+-rw-rw----. 1 root aid_everybody 52634 Oct 18 20:34 24_AGENT_HANDOFF_AND_RECOVERY.md
+-rw-rw----. 1 root aid_everybody 47360 Oct 18 20:56 25_CHANGE_CONTROL_AND_UPDATE_PROTOCOL.md
+-rw-rw----. 1 root aid_everybody   806 Oct  6 11:00 99_LESSONS_AND_FAILURES.md
+-rw-rw----. 1 root aid_everybody  9497 Oct 18 21:18 INDEX.md

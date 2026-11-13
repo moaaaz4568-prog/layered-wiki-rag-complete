@@ -1,0 +1,42 @@
+[0m
+> build · crouton-alpha-free
+Applying those two fixes only.
+[0m→ [0mRead work/research-01.md 
+> build · crouton-alpha-free
+[0m← [0mEdit work/research-01.md
+Index: work/research-01.md
+===================================================================
+--- work/research-01.md
++++ work/research-01.md
+@@ -1,7 +1,7 @@
+ # Research 01 — Personal Knowledge GitHub Repo from Chat Exports: Best Practices
+ 
+-**Status:** DRAFT — being refined with web sources
++**Status:** COMPLETE — evidence-labeled
+ **Date:** 2026-11-05
+ **Scope:** (1) Structuring a personal knowledge GitHub repo from chat exports, (2) Context files so a fresh AI chat needs no re-reading, (3) Converting chat logs into wiki/second-brain, (4) Agent memory skills on GitHub
+ 
+ ## 1. Structuring a Personal Knowledge GitHub Repo from Chat Exports
+
+> build · crouton-alpha-free
+[0m← [0mEdit work/research-01.md
+Index: work/research-01.md
+===================================================================
+--- work/research-01.md
++++ work/research-01.md
+@@ -38,5 +38,11 @@
+ - OBSERVED (page fetched https://github.com/obra/superpowers): Repo ships per-harness plugin directories (.claude-plugin, .codex-plugin, .cursor-plugin, .devin-plugin, .opencode, etc.) and AGENTS.md/GEMINI.md, showing how one skills library is adapted per agent harness.
+ - PROPOSED (recommendation from https://github.com/obra/superpowers): For the chat-export wiki, bundle each conversion step (export→convert→tag→sync) as a composable skill with a mandatory bootstrap that forces the agent to check relevant skills before any task.
+ 
+ ## Sources
+-TODO
++1. https://agents.md/
++2. https://opencode.ai/docs/rules/
++3. https://docs.anthropic.com/en/docs/claude-code/memory
++4. https://help.obsidian.md/importer/overview
++5. https://github.com/YeonDu1/claude-archive-to-obsidian
++6. https://github.com/mem0ai/mem0
++7. https://github.com/obra/superpowers
+
+> build · crouton-alpha-free
+DONE

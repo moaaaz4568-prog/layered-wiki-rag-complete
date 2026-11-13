@@ -1,0 +1,71 @@
+{
+ "sourcePage": "https://www.transfernow.net/dl/202611035dwLrJSx",
+ "transferData": {
+  "metadata": {
+   "transferId": "202611035dwLrJSx",
+   "needPassword": false,
+   "validity": {
+    "from": "2026-11-03T13:50:19.960Z",
+    "to": "2026-11-10T13:50:19.972Z"
+   },
+   "files": [
+    {
+     "id": "xRRZpQ",
+     "name": "PTT-20261103-WA0000.opus",
+     "size": 423055,
+     "category": 0,
+     "downloadedBytes": 423055,
+     "downloadedSha256": "13cc0eae7864f4dd529d0416dcbc9db65909075fd18ccbac345ab90490337b64"
+    },
+    {
+     "id": "z2WNz8",
+     "name": "prompt.md",
+     "size": 14728,
+     "category": 0,
+     "downloadedBytes": 14728,
+     "downloadedSha256": "1557c6761468a4af54e53433bf30f24a57050f572c949881d4e26ca682632f16"
+    }
+   ],
+   "owner": {
+    "email": "zeyusmoaz@gmail.com",
+    "planType": "NONE"
+   },
+   "subdomain": "www",
+   "domain": "www.transfernow.net",
+   "status": "ENABLED",
+   "limitedDownloads": false,
+   "type": "S2",
+   "allowPreview": true,
+   "isSender": false,
+   "langCode": "ar",
+   "inbox": false,
+   "sender": {
+    "email": "zeyusmoaz@gmail.com"
+   },
+   "size": 437783
+  },
+  "locked": false,
+  "expiring": false,
+  "available": true,
+  "emailRequired": false,
+  "shouldBuy": false
+ },
+ "downloadedFiles": [
+  {
+   "id": "xRRZpQ",
+   "name": "PTT-20261103-WA0000.opus",
+   "size": 423055,
+   "category": 0,
+   "downloadedBytes": 423055,
+   "downloadedSha256": "13cc0eae7864f4dd529d0416dcbc9db65909075fd18ccbac345ab90490337b64"
+  },
+  {
+   "id": "z2WNz8",
+   "name": "prompt.md",
+   "size": 14728,
+   "category": 0,
+   "downloadedBytes": 14728,
+   "downloadedSha256": "1557c6761468a4af54e53433bf30f24a57050f572c949881d4e26ca682632f16"
+  }
+ ]
+}

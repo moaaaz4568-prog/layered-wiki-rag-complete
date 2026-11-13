@@ -1,0 +1,5 @@
+Command exited with code 2.
+
+Command output:
+bash: -c: line 31: syntax error near unexpected token `)'
+bash: -c: line 31: `        paths = re.findall(r"(/[\w\.\-\_\/]+(?:/[^\s\`\"\'\)]+)?)", line)'

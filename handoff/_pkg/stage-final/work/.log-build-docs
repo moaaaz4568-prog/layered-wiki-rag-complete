@@ -1,0 +1,135 @@
+[0m
+> build · crouton-alpha-free
+Writing your 11 docs — building from the plan and analysis sources.
+[0m→ [0mRead work/archive-inventory-01.md 
+[0m→ [0mRead work/repo-plan-01.md 
+[0m→ [0mRead work/analysis-wiki-talk-01.md 
+> build · crouton-alpha-free
+Sources reviewed — now drafting the 11 detailed files.
+[0m→ [0mRead work/analysis-wiki-talk-01.md [90m[offset=503][0m
+> build · crouton-alpha-free
+[0m$ [0mls -R /workspace/wiki/repo 2>&1 | head -n 100; wc -l /workspace/wiki/work/analysis-wiki-talk-01.md /workspace/wiki/work/repo-plan-01.md /workspace/wiki/work/archive-inventory-01.md
+/workspace/wiki/repo:
+IDEAS.md
+MESSAGES.md
+  712 /workspace/wiki/work/analysis-wiki-talk-01.md
+  205 /workspace/wiki/work/repo-plan-01.md
+   79 /workspace/wiki/work/archive-inventory-01.md
+  996 total
+> build · crouton-alpha-free
+[0m$ [0mmkdir -p /workspace/wiki/repo/docs && ls -la /workspace/wiki/repo/docs
+total 8
+drwxr-xr-x 2 box box 4096 Nov  5 00:52 .
+drwxr-xr-x 7 box box 4096 Nov  5 00:52 ..
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/STRUCTURE.md
+Created file successfully: repo/docs/STRUCTURE.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/GOALS.md
+Created file successfully: repo/docs/GOALS.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/RULES.md
+Created file successfully: repo/docs/RULES.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/CONCEPTS.md
+Created file successfully: repo/docs/CONCEPTS.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/METADATA-SCHEMA.md
+Created file successfully: repo/docs/METADATA-SCHEMA.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/CHUNKING.md
+Created file successfully: repo/docs/CHUNKING.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/EVALUATION.md
+Created file successfully: repo/docs/EVALUATION.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/CONTRADICTION-POLICY.md
+Created file successfully: repo/docs/CONTRADICTION-POLICY.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/KNOWN-ANSWER-SET.md
+Created file successfully: repo/docs/KNOWN-ANSWER-SET.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/STAGES.md
+Created file successfully: repo/docs/STAGES.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/docs/SOURCES.md
+Created file successfully: repo/docs/SOURCES.md
+> build · crouton-alpha-free
+[0m$ [0mls -l /workspace/wiki/repo/docs/ && wc -l /workspace/wiki/repo/docs/*.md && echo "---"; wc -c /workspace/wiki/repo/docs/*.md
+total 84
+-rw-r--r-- 1 box box 4303 Nov  5 00:53 CHUNKING.md
+-rw-r--r-- 1 box box 4991 Nov  5 00:53 CONCEPTS.md
+-rw-r--r-- 1 box box 4960 Nov  5 00:53 CONTRADICTION-POLICY.md
+-rw-r--r-- 1 box box 5626 Nov  5 00:53 EVALUATION.md
+-rw-r--r-- 1 box box 5880 Nov  5 00:52 GOALS.md
+-rw-r--r-- 1 box box 5732 Nov  5 00:53 KNOWN-ANSWER-SET.md
+-rw-r--r-- 1 box box 4060 Nov  5 00:53 METADATA-SCHEMA.md
+-rw-r--r-- 1 box box 6243 Nov  5 00:53 RULES.md
+-rw-r--r-- 1 box box 6282 Nov  5 00:53 SOURCES.md
+-rw-r--r-- 1 box box 5697 Nov  5 00:53 STAGES.md
+-rw-r--r-- 1 box box 7929 Nov  5 00:52 STRUCTURE.md
+   43 /workspace/wiki/repo/docs/CHUNKING.md
+   42 /workspace/wiki/repo/docs/CONCEPTS.md
+   44 /workspace/wiki/repo/docs/CONTRADICTION-POLICY.md
+   54 /workspace/wiki/repo/docs/EVALUATION.md
+   55 /workspace/wiki/repo/docs/GOALS.md
+   52 /workspace/wiki/repo/docs/KNOWN-ANSWER-SET.md
+   36 /workspace/wiki/repo/docs/METADATA-SCHEMA.md
+   53 /workspace/wiki/repo/docs/RULES.md
+   52 /workspace/wiki/repo/docs/SOURCES.md
+   50 /workspace/wiki/repo/docs/STAGES.md
+   90 /workspace/wiki/repo/docs/STRUCTURE.md
+  571 total
+---
+ 4303 /workspace/wiki/repo/docs/CHUNKING.md
+ 4991 /workspace/wiki/repo/docs/CONCEPTS.md
+ 4960 /workspace/wiki/repo/docs/CONTRADICTION-POLICY.md
+ 5626 /workspace/wiki/repo/docs/EVALUATION.md
+ 5880 /workspace/wiki/repo/docs/GOALS.md
+ 5732 /workspace/wiki/repo/docs/KNOWN-ANSWER-SET.md
+ 4060 /workspace/wiki/repo/docs/METADATA-SCHEMA.md
+ 6243 /workspace/wiki/repo/docs/RULES.md
+ 6282 /workspace/wiki/repo/docs/SOURCES.md
+ 5697 /workspace/wiki/repo/docs/STAGES.md
+ 7929 /workspace/wiki/repo/docs/STRUCTURE.md
+61703 total
+> build · crouton-alpha-free
+[0m$ [0mcd /workspace/wiki && for f in repo/docs/*.md; do python3 -c "
+import re
+import sys
+path = sys.argv[1]
+text = open(path, encoding='utf-8').read()
+labels = ['OBSERVED', 'REPORTED', 'PROPOSED', 'UNKNOWN', 'NOT_RUN']
+bad = []
+for i, line in enumerate(text.splitlines(), 1):
+    # every fact bullet must have a label
+    if line.strip().startswith('- '):
+        if not any(l in line for l in labels):
+            bad.append((i, line))
+# check numbers have source noted
+# find numbers like digits with comma inside bullet lines
+import re
+for i, line in enumerate(text.splitlines(), 1):
+    if re.search(r'\d', line) and ('—' in line or '：' in line or '-' in line or ':' in line):
+        if 'analysis-wiki' not in line and 'archive-inventory' not in line and 'repo-plan' not in line:
+            print(f'{path}:{i}: NUMBER WITHOUT SOURCE: {line}')
+print(f'{path}: bad bullets: {bad}')
+" "$f"; done; echo "---DONE---"
+repo/docs/CHUNKING.md: bad bullets: []
+repo/docs/CONCEPTS.md: bad bullets: []
+repo/docs/CONTRADICTION-POLICY.md: bad bullets: []
+repo/docs/EVALUATION.md: bad bullets: []
+repo/docs/GOALS.md: bad bullets: []
+repo/docs/KNOWN-ANSWER-SET.md: bad bullets: []
+repo/docs/METADATA-SCHEMA.md: bad bullets: []
+repo/docs/RULES.md:1: NUMBER WITHOUT SOURCE: # RULES — القواعد الحاكمة (13 قاعدة)
+repo/docs/RULES.md: bad bullets: []
+repo/docs/SOURCES.md: bad bullets: []
+repo/docs/STAGES.md:1: NUMBER WITHOUT SOURCE: # STAGES — المراحل من v0.1 إلى الجراف
+repo/docs/STAGES.md: bad bullets: []
+repo/docs/STRUCTURE.md: bad bullets: []
+---DONE---
+> build · crouton-alpha-free
+[0m→ [0mRead repo/docs/METADATA-SCHEMA.md 
+> build · crouton-alpha-free
+[91m[1mError: [0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.

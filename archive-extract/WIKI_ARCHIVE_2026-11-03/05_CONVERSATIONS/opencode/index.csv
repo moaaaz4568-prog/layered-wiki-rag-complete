@@ -1,0 +1,53 @@
+source_db,session_id,title,created_at,messages_count,parts_count,file_size_bytes,file_name
+main_db,ses_11a2a8c07ffeAKI5a48vUdpNI6,استكشاف wiki structure (@discover-explore subagent),2026-06-20 16:20:31,4,20,324811,main_db/ses_11a2a8c07ffeAKI5a48vUdpNI6.jsonl
+main_db,ses_11a013543ffe76eSJT3uUvKDvc,هيكلية wiki (@discover-explore subagent),2026-06-20 17:05:41,7,44,255250,main_db/ses_11a013543ffe76eSJT3uUvKDvc.jsonl
+main_db,ses_08eca9417ffebeEYPAD8obhwTQ,Explore wiki concepts source (@explore subagent),2026-07-17 17:52:34,10,39,129985,main_db/ses_08eca9417ffebeEYPAD8obhwTQ.jsonl
+main_db,ses_06c5e911fffetsFv0AlJk1YzjN,فهم هيكل الويكي على sdcard,2026-07-24 10:17:38,66,174,661677,main_db/ses_06c5e911fffetsFv0AlJk1YzjN.jsonl
+main_db,ses_f26ced106ffeMk7sCCNf8dpMea,تحليل مراجع بناء الويكي (@general subagent),2026-09-25 15:31:14,12,60,577965,main_db/ses_f26ced106ffeMk7sCCNf8dpMea.jsonl
+main_db,ses_f0c292dd0ffe766mk6TLpesYSK,متابعة مشروع متعدد المراحل عبر جيت هب والويكي,2026-09-30 19:42:17,195,633,2291119,main_db/ses_f0c292dd0ffe766mk6TLpesYSK.jsonl
+main_db,ses_f0b4f75deffeezJfVXuPBaZEhX,Design v3 wiki architecture (@Planner subagent),2026-09-30 23:40:05,9,39,240669,main_db/ses_f0b4f75deffeezJfVXuPBaZEhX.jsonl
+main_db,ses_f0586070fffeqCutkF6YMasm6X,Audit IGWIKI v2.1 source (@general subagent),2026-10-02 02:38:12,9,30,244205,main_db/ses_f0586070fffeqCutkF6YMasm6X.jsonl
+main_db,ses_f04d1144cffeaRMPtegsTrvfCM,Fix wiki links in 1836 concepts (@Worker subagent),2026-10-02 05:55:51,95,357,1098235,main_db/ses_f04d1144cffeaRMPtegsTrvfCM.jsonl
+main_db,ses_f039914e9ffeO1ow46bZf1VmcQ,Build sdcard wiki structure (@Worker subagent),2026-10-02 11:36:38,36,145,474904,main_db/ses_f039914e9ffeO1ow46bZf1VmcQ.jsonl
+main_db,ses_f0361ca36ffeTmZ0wM5rZJm11O,Build sdcard wiki structure (@Worker subagent),2026-10-02 12:37:02,4,17,52196,main_db/ses_f0361ca36ffeTmZ0wM5rZJm11O.jsonl
+main_db,ses_f01d297d0ffedTfe82N4s1pEs2,Ingest wiki.md into NEXUS_PROJECT (@Worker subagent),2026-10-02 19:53:03,42,168,1537059,main_db/ses_f01d297d0ffedTfe82N4s1pEs2.jsonl
+main_db,ses_efc72e81fffeNQ8Fjkt5ANGA8w,Reading and analyzing wiki.md for metadata extraction,2026-10-03 20:55:40,2,1,2153,main_db/ses_efc72e81fffeNQ8Fjkt5ANGA8w.jsonl
+main_db,ses_efc5789ebffeO8gvAv3G7I55Cd,Extracting data from wiki.md to JSON output,2026-10-03 21:25:34,3,5,57746,main_db/ses_efc5789ebffeO8gvAv3G7I55Cd.jsonl
+main_db,ses_efc39057bffeyUTKPl0Ej2E1Ab,تحليل wiki.md واستخراج تقرير JSON,2026-10-03 21:58:54,3,7,8344,main_db/ses_efc39057bffeyUTKPl0Ej2E1Ab.jsonl
+main_db,ses_efc373fd5ffeERHwpbUSGJleMe,Parsing wiki.md into big_pickle_analysis.json,2026-10-03 22:00:50,2,1,2920,main_db/ses_efc373fd5ffeERHwpbUSGJleMe.jsonl
+main_db,ses_e94afaf0cffeGjWc0HZdN6KpKl,wiki,2026-10-24 00:29:48,346,972,2539064,main_db/ses_e94afaf0cffeGjWc0HZdN6KpKl.jsonl
+main_db,ses_e91d076cdffeUQF56ZznYtAc28,بناء نظام الويكي المثالي — تحليل معماري,2026-10-24 13:52:51,2,1,3538,main_db/ses_e91d076cdffeUQF56ZznYtAc28.jsonl
+main_db,ses_e91cff736ffe1q2os52FLEnnWR,بناء نظام الويكي المثالي — تحليل معماري,2026-10-24 13:53:24,2,1,3558,main_db/ses_e91cff736ffe1q2os52FLEnnWR.jsonl
+main_db,ses_e91ceb1deffej8WFqmr10s6mUB,تصميم معماري لنظام الويكي المعرفي,2026-10-24 13:54:47,2,1,3531,main_db/ses_e91ceb1deffej8WFqmr10s6mUB.jsonl
+main_db,ses_e9142c179ffeu5sJttW0c81xT1,تنفيذ بروتوكول بناء wiki_ver1 لنسخة kimi,2026-10-24 16:27:38,4,2,4368,main_db/ses_e9142c179ffeu5sJttW0c81xT1.jsonl
+main_db,ses_e91313ae6ffevb9sJhyg7Fv1kK,تنفيذ بروتوكول BUILD_PROTOCOL لبناء wiki_ver1,2026-10-24 16:46:47,77,230,1006825,main_db/ses_e91313ae6ffevb9sJhyg7Fv1kK.jsonl
+main_db,ses_e8fd21b7cffezUqLcDgeU7soTU,تدقيق ملفات wikillm (@zen-researcher subagent),2026-10-24 23:10:18,2,1,4068,main_db/ses_e8fd21b7cffezUqLcDgeU7soTU.jsonl
+main_db,ses_e8fd11df0ffel71MJ1GmImKrPI,تدقيق ملفات wikillm (@explore subagent),2026-10-24 23:11:23,3,10,165362,main_db/ses_e8fd11df0ffel71MJ1GmImKrPI.jsonl
+main_db,ses_e8f88d729ffepfUUbb7uK8CYYm,wiki (fork #1),2026-10-25 00:30:19,244,675,1613372,main_db/ses_e8f88d729ffepfUUbb7uK8CYYm.jsonl
+main_db,ses_e8f888e53ffep0X0oR05BsSO1B,wiki (fork #1),2026-10-25 00:30:38,244,675,1613372,main_db/ses_e8f888e53ffep0X0oR05BsSO1B.jsonl
+main_db,ses_e8f8875eaffeum0nKPHczAIPmw,wiki (fork #1),2026-10-25 00:30:44,334,903,2176165,main_db/ses_e8f8875eaffeum0nKPHczAIPmw.jsonl
+main_db,ses_e8f6bf32bffeXyV717nhy6BL5L,تحليل الويكيات الخمس واستخلاص الأفضل (@general subagent),2026-10-25 01:01:53,16,52,511952,main_db/ses_e8f6bf32bffeXyV717nhy6BL5L.jsonl
+main_db,ses_e8f5c748cffe0KFYGcfwF5yu0H,محاكاة مستقبلية للويكي — سيناريوهات الفشل (@general subagent),2026-10-25 01:18:48,3,7,141170,main_db/ses_e8f5c748cffe0KFYGcfwF5yu0H.jsonl
+main_db,ses_e8ea9a8afffeIpdcZByiVfO714,محاكاة مستقبلية للويكي — سيناريوهات الفشل (@general subagent),2026-10-25 04:34:06,5,13,149161,main_db/ses_e8ea9a8afffeIpdcZByiVfO714.jsonl
+main_db,ses_e8dff9635ffexnn3oaUCgHVgfy,argonwiki,2026-10-25 07:39:52,173,450,1371110,main_db/ses_e8dff9635ffexnn3oaUCgHVgfy.jsonl
+main_db,ses_e85c64fafffehW5eqLtAGbXQ1I,بناء هيكل wiki_ver2 (@zen-worker subagent),2026-10-26 21:59:23,2,1,5171,main_db/ses_e85c64fafffehW5eqLtAGbXQ1I.jsonl
+main_db,ses_e85c62c97ffePiLN3rdcGWZntq,بناء قوالب wiki_ver2 (@zen-worker subagent),2026-10-26 21:59:32,2,1,5544,main_db/ses_e85c62c97ffePiLN3rdcGWZntq.jsonl
+main_db,ses_e8188680bffetLfajw6QE7g5PD,بناء موجة 1 ويكي (@general subagent),2026-10-27 17:45:29,88,312,1493456,main_db/ses_e8188680bffetLfajw6QE7g5PD.jsonl
+main_db,ses_e6b7fdbd3ffe0ShhsiJlQ7ZVQj,wiki (fork #2),2026-11-01 00:26:28,430,1126,2956966,main_db/ses_e6b7fdbd3ffe0ShhsiJlQ7ZVQj.jsonl
+main_db,ses_e6b7508c8ffeaxzs4K5eq3B6TX,استكشاف مشروع الويكي كاملاً (@general subagent),2026-11-01 00:38:17,11,45,262892,main_db/ses_e6b7508c8ffeaxzs4K5eq3B6TX.jsonl
+main_db,ses_e6b44a8efffepdpiXzFKMrpgKJ,استكشاف مشروع الويكي كاملاً (@general subagent),2026-11-01 01:31:07,4,11,40188,main_db/ses_e6b44a8efffepdpiXzFKMrpgKJ.jsonl
+main_db,ses_e6b302bb2ffeWDsbZ2ZbqlDIkz,استكشاف مشروع الويكي كاملاً (@general subagent),2026-11-01 01:53:30,2,5,7717,main_db/ses_e6b302bb2ffeWDsbZ2ZbqlDIkz.jsonl
+main_db,ses_e69d62e2affeYqepfp2Wyv3SYi,استكشاف مشروع الويكي كاملاً (@general subagent),2026-11-01 08:11:25,27,95,625493,main_db/ses_e69d62e2affeYqepfp2Wyv3SYi.jsonl
+main_db,ses_e611dfc7dffe57acQAM02Av41M,E1.1 مسح sdcard لملفات الويكي (@general subagent),2026-11-03 00:49:34,8,37,128413,main_db/ses_e611dfc7dffe57acQAM02Av41M.jsonl
+main_db,ses_e611ddf09ffes6PRGiY3IyVEZf,E1.2 مسح /root و/root/r لملفات الويكي (@general subagent),2026-11-03 00:49:42,9,40,109783,main_db/ses_e611ddf09ffes6PRGiY3IyVEZf.jsonl
+main_db,ses_e611db55cffePQvPBiU9VILhO4,E1.3 فلترة محادثات Claude Code للويكي (@general subagent),2026-11-03 00:49:52,10,40,78901,main_db/ses_e611db55cffePQvPBiU9VILhO4.jsonl
+main_db,ses_e611d35cbffeDr7X8U3ZtEP5i1,E1.5 استكشاف Antigravity للويكي (@general subagent),2026-11-03 00:50:25,13,68,288384,main_db/ses_e611d35cbffeDr7X8U3ZtEP5i1.jsonl
+main_db,ses_e611d252effeMV6fKerORx42yR,E1.6 استكشاف OmniRush للويكي (@general subagent),2026-11-03 00:50:29,38,168,570122,main_db/ses_e611d252effeMV6fKerORx42yR.jsonl
+main_db,ses_e60f385a6ffes7edyTZbPzt6Ll,P1 تخطيط أرشيف الويكي النهائي (@general subagent),2026-11-03 01:35:57,7,31,264258,main_db/ses_e60f385a6ffes7edyTZbPzt6Ll.jsonl
+backup_db,ses_ef1e8f63affeMReI0nqoO5OBxd,تحليل بنية الويكي القديمة (@explore subagent),2026-10-05 22:02:33,15,104,1716525,backup_db/ses_ef1e8f63affeMReI0nqoO5OBxd.jsonl
+backup_db,ses_ef1bd39ddffe387rt8u0LJBGn9,تحليل بنية الويكي القديمة (@explore subagent),2026-10-05 22:50:19,16,134,1814983,backup_db/ses_ef1bd39ddffe387rt8u0LJBGn9.jsonl
+backup_db,ses_ef151aa0dffe4zm4gIWVFXV4S9,تدقيق مسودة الويكي الجديدة (@Reviewer subagent),2026-10-06 00:47:48,19,111,1435986,backup_db/ses_ef151aa0dffe4zm4gIWVFXV4S9.jsonl
+backup_db,ses_ee9cf3076ffeCcSyGP0LOyxdyH,استكمال wiki unclaimed 1 (@Worker subagent),2026-10-07 11:47:40,37,187,1552408,backup_db/ses_ee9cf3076ffeCcSyGP0LOyxdyH.jsonl
+backup_db,ses_ee9cf2df6ffejlr9GKSHq0YLHv,استكمال wiki unclaimed 2 (@Worker subagent),2026-10-07 11:47:40,20,108,858199,backup_db/ses_ee9cf2df6ffejlr9GKSHq0YLHv.jsonl
+backup_db,ses_ee9cf2c75ffeO0ELgMEFHNjl5L,استكمال wiki unclaimed 3 (@Worker subagent),2026-10-07 11:47:41,17,124,1020843,backup_db/ses_ee9cf2c75ffeO0ELgMEFHNjl5L.jsonl
+backup_db,ses_ee9cf2b0effeJFCdPVJXVz7pAq,استكمال wiki unclaimed 4 (@Worker subagent),2026-10-07 11:47:41,19,113,753535,backup_db/ses_ee9cf2b0effeJFCdPVJXVz7pAq.jsonl

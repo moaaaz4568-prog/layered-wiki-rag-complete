@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "transferId": "20261103BdZVc6uf",
+    "needPassword": false,
+    "validity": {
+      "from": "2026-11-03T18:50:28.481Z",
+      "to": "2026-11-10T18:50:28.491Z"
+    },
+    "files": [
+      {
+        "id": "CbCTSM",
+        "name": "pro.md",
+        "size": 1992,
+        "category": 0
+      }
+    ],
+    "owner": {
+      "email": "zeyusmoaz@gmail.com",
+      "planType": "NONE"
+    },
+    "subdomain": "www",
+    "domain": "www.transfernow.net",
+    "status": "ENABLED",
+    "limitedDownloads": false,
+    "type": "S2",
+    "allowPreview": true,
+    "isSender": false,
+    "langCode": "ar",
+    "inbox": false,
+    "sender": {
+      "email": "zeyusmoaz@gmail.com"
+    },
+    "size": 1992
+  },
+  "locked": false,
+  "expiring": false,
+  "available": true,
+  "emailRequired": false,
+  "shouldBuy": false
+}

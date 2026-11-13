@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+=== SYS_01 Acceptance ===
+11
+=== SYS_02 Acceptance ===
+4
+=== SYS_03 Acceptance ===
+16
+=== SYS_04 Acceptance ===
+8
+=== SYS_05 Acceptance ===
+0
+10

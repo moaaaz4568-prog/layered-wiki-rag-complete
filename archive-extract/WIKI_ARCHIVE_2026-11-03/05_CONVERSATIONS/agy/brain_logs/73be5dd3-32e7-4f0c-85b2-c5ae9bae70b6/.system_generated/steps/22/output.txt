@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+total 18
+drwxrwx---. 2 root aid_everybody 3488 Oct 25 07:45 business_architecture
+drwxrwx---. 2 root aid_everybody 3488 Oct 25 07:45 content_strategy
+drwxrwx---. 2 root aid_everybody 3488 Oct 25 07:45 outreach
+drwxrwx---. 2 root aid_everybody 3488 Oct 25 07:45 pricing_offers
+drwxrwx---. 2 root aid_everybody 3488 Oct 25 07:45 sales

@@ -1,0 +1,5 @@
+Command exited with code 2.
+
+Command output:
+bash: -c: line 32: syntax error near unexpected token `)'
+bash: -c: line 32: `        abs_paths = re.findall(r"(/(?:sdcard|mnt|root)[^\s\"\'\`\)\]\}\<\>]+)", line)'

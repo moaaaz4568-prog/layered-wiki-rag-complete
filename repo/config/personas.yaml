@@ -1,0 +1,54 @@
+# personas.yaml — تعريف الشخصيات الست
+# المصادر: work/analysis-wiki-talk-01.md §1.2 / §1.5 / §1.7
+# المخطط: work/repo-plan-01.md §2 (config/personas.yaml)
+# قواعد الوسم: OBSERVED = مقاس على القرص، UNKNOWN = ما لم يُقرأ في المصدر المقروء
+# ملاحظة: لا أسرار في هذا الملف
+
+total_observed_pages: 5896
+total_observed_bytes: 31262266
+total_evidence: "OBSERVED"
+
+personas:
+  - slug: ibn-sirin
+    name_ar: "ابن سيرين"
+    domain: "تفسير الأحلام"
+    domain_evidence: "OBSERVED"
+    observed_pages: 780
+    notes: "من الأساسيين في yt-wiki؛ الكتاب المعروف تفسير الأحلام لابن سيرين؛ يشارك في تفسير الحلم المعقد مع بقية الشخصيات"
+
+  - slug: ibn-taymiyyah
+    name_ar: "ابن تيمية"
+    domain: "UNKNOWN"
+    domain_evidence: "UNKNOWN"
+    observed_pages: 81
+    notes: "من الأساسيين في yt-wiki؛ المجال لم يُذكر صراحة في المصدر المقروء فبقي UNKNOWN؛ لا تُخترع مجالا؛ الكتب UNKNOWN حتى ترد في مصدر مقاس"
+
+  - slug: ibn-al-qayyim
+    name_ar: "ابن القيم الجوزية"
+    domain: "UNKNOWN"
+    domain_evidence: "UNKNOWN"
+    observed_pages: 556
+    notes: "من الأساسيين في yt-wiki؛ المجال لم يُذكر صراحة في المصدر المقروء فبقي UNKNOWN؛ الكتب المعروفة في config/books.yaml فقط"
+
+  - slug: haitham-talaat
+    name_ar: "هيثم طلعت"
+    domain: "معالجة نفسية وعصبية"
+    domain_evidence: "OBSERVED"
+    observed_pages: 210
+    observed_bytes: 601084
+    avg_page_bytes: 2336
+    notes: "العينة التجريبية v0.1؛ وصف في المصدر بمعالج نفسي وعصبي؛ يشارك في تفسير الحلم المعقد"
+
+  - slug: emad-rashad
+    name_ar: "عماد رشاد"
+    domain: "التعافي"
+    domain_evidence: "OBSERVED"
+    observed_pages: 1423
+    notes: "من الوكييات القديمة: ويكي التعافي د عماد رشاد؛ بطاقة قديمة در-emad-rashad.md في ~/workspace/wiki-project"
+
+  - slug: ala-hamed
+    name_ar: "علاء حامد"
+    domain: "السيرة"
+    domain_evidence: "OBSERVED"
+    observed_pages: 2846
+    notes: "من الوكييات القديمة: ويكي السيرة م علاء حامد؛ بطاقة قديمة eng-alaa-hamed.md في ~/workspace/wiki-project"

@@ -1,0 +1,295 @@
+[0m
+> build · crouton-alpha-free
+جرد صغير النطاق — أقرأ المستندات العلوية فقط وأجمع الأحجام لكل مجلد.
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03 
+> build · crouton-alpha-free
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/README.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/RISKS.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/FALLBACK.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/EXPORT_NOTES.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES/README.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/README.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/02_ROOT_DOCS/README.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/03_WIKI_LAYERS/README.md 
+> build · crouton-alpha-free
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS/README.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/06_CODE_TOOLS/README.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/07_ENRICHMENT_CORE/README.md 
+[0m→ [0mRead archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/INDEX.md 
+[0m$ [0mdu -sh /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/* /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/_RESERVE 2>/dev/null; echo ---; for d in /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/*/; do echo "$d $(find "$d" -type f | wc -l) files $(du -sh "$d" | cut -f1)"; done; echo ---; ls -lh /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES/ /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/*/*.csv 2>/dev/null | head -80; ls /workspace/wiki/archive-extract/; du -h /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03.tar.gz 2>/dev/null; ls /workspace/wiki/archive-extract/source-transfers/ 2>/dev/null | head
+1.4M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES
+19M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS
+2.2M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/02_ROOT_DOCS
+14M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/03_WIKI_LAYERS
+7.2M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE
+150M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS
+17M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/06_CODE_TOOLS
+2.1M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/07_ENRICHMENT_CORE
+4.0K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/EXPORT_NOTES.md
+4.0K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/FALLBACK.md
+780K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/MANIFEST.json
+20K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/README.md
+8.0K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/_RESERVE
+4.0K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/RISKS.md
+---
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES/ 17 files 1.4M
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/ 480 files 19M
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/02_ROOT_DOCS/ 16 files 2.2M
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/03_WIKI_LAYERS/ 434 files 14M
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/ 291 files 7.2M
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS/ 990 files 150M
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/06_CODE_TOOLS/ 304 files 17M
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/07_ENRICHMENT_CORE/ 175 files 2.1M
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/_RESERVE/ 1 files 8.0K
+---
+-rw-r----- 1 box box 165K Nov  3 16:50 /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES/conversations_index.csv
+-rw-r----- 1 box box 1.2K Nov  3 16:50 /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES/excluded_files.csv
+-rw-r----- 1 box box 482K Nov  3 16:50 /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES/source_inventory.csv
+-rw-r----- 1 box box  373 Nov  3 16:16 /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/03_WIKI_LAYERS/BIG_FILE_POINTERS.csv
+-rw-r----- 1 box box 389K Nov  3 16:19 /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/BIG_FILE_POINTERS.csv
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES/:
+total 1.4M
+-rw-r----- 1 box box  11K Nov  3 16:11 AGY_WIKI_CONVERSATIONS_SCAN_REPORT.md
+-rw-r----- 1 box box 165K Nov  3 16:50 conversations_index.csv
+-rw-r----- 1 box box 1.2K Nov  3 16:50 excluded_files.csv
+-rw-r----- 1 box box  13K Nov  3 16:11 EXPLORATION_REVIEW_REPORT.md
+-rw-r----- 1 box box  26K Nov  3 16:11 GAP_CLOSURE_REPORT.md
+-rw-r----- 1 box box  24K Nov  3 16:11 GAP_SIZES_REPORT.md
+-rw-r----- 1 box box 395K Nov  3 16:50 hashes.sha256
+-rw-r----- 1 box box 147K Nov  3 16:11 master_inventory.json
+-rw-r----- 1 box box  18K Nov  3 16:11 OMNIRUSH_WIKI_CONVERSATIONS_SCAN_REPORT.md
+-rw-r----- 1 box box  14K Nov  3 16:11 OPencode_DB_WIKI_SCAN_REPORT.md
+-rw-r----- 1 box box   99 Nov  3 16:10 preflight_df.txt
+-rw-r----- 1 box box 2.8K Nov  3 16:11 README.md
+-rw-r----- 1 box box  14K Nov  3 16:11 SDCARD_WIKI_INDEX_REPORT.md
+-rw-r----- 1 box box 482K Nov  3 16:50 source_inventory.csv
+-rw-r----- 1 box box  46K Nov  3 16:11 WIKI_ARCHIVE_EXECUTION_PLAN.md
+-rw-r----- 1 box box 8.2K Nov  3 16:11 WIKI_CONVERSATION_SCAN_REPORT.md
+-rw-r----- 1 box box 7.6K Nov  3 16:11 WIKI_INDEX_REPORT.md
+WIKI_ARCHIVE_2026-11-03
+> build · crouton-alpha-free
+أكمل الجرد — أفحص أحجام المجلدات الفرعية والأرشيف المضغوط.
+[0m$ [0mls -R /workspace/wiki/archive-extract 2>/dev/null | head -n 100; echo "===TAR==="; ls -lh "/workspace/wiki/archive-extract/source-transfers/" 2>/dev/null; ls -lh /workspace/wiki/archive-extract/*.tar.gz /workspace/wiki/*.tar.gz 2>/dev/null; du -sh /workspace/wiki/archive-extract/* 2>/dev/null; du -sh /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/*/ 2>/dev/null; du -sh /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS/*/ 2>/dev/null; du -sh /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/*/ 2>/dev/null; du -sh /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/*/ /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/03_WIKI_LAYERS/*/ /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/06_CODE_TOOLS/*/ /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/07_ENRICHMENT_CORE/*/ 2>/dev/null; find /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03 -type f | wc -l; du -sh /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03
+/workspace/wiki/archive-extract:
+WIKI_ARCHIVE_2026-11-03
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03:
+00_INDEXES
+01_SDCARD_DOCS
+02_ROOT_DOCS
+03_WIKI_LAYERS
+04_NEXUS_LLM_WIKI_CORE
+05_CONVERSATIONS
+06_CODE_TOOLS
+07_ENRICHMENT_CORE
+EXPORT_NOTES.md
+FALLBACK.md
+MANIFEST.json
+README.md
+_RESERVE
+RISKS.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES:
+AGY_WIKI_CONVERSATIONS_SCAN_REPORT.md
+conversations_index.csv
+excluded_files.csv
+EXPLORATION_REVIEW_REPORT.md
+GAP_CLOSURE_REPORT.md
+GAP_SIZES_REPORT.md
+hashes.sha256
+master_inventory.json
+OMNIRUSH_WIKI_CONVERSATIONS_SCAN_REPORT.md
+OPencode_DB_WIKI_SCAN_REPORT.md
+preflight_df.txt
+README.md
+SDCARD_WIKI_INDEX_REPORT.md
+source_inventory.csv
+WIKI_ARCHIVE_EXECUTION_PLAN.md
+WIKI_CONVERSATION_SCAN_REPORT.md
+WIKI_INDEX_REPORT.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS:
+nexus_brain_wiki_docs
+NEXUS_PROJECT
+NEXUS_WIKI_SKILLS
+README.md
+root_files
+wikillm
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/nexus_brain_wiki_docs:
+NEXUS_BRAIN.md
+Nexus_Brain_Processed
+Nexus_Brain_Prompt.md
+NEXUS_LLM_WIKI.md
+NEXUS_LLM_WIKI_PHASE2.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/nexus_brain_wiki_docs/Nexus_Brain_Processed:
+AGENTS.md
+CHECKPOINT_PHASE2.md
+LOG_PHASE2.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/NEXUS_PROJECT:
+goals.md
+INGEST_01_sessions.md
+INGEST_02_numbers_contradiction.md
+INGEST_03_drf.md
+INGEST_04_agents_protocol.md
+memory.md
+plan.md
+plan_v2.md
+README.md
+worklog.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/NEXUS_WIKI_SKILLS:
+claim-extraction-and-evidence
+concept-deepening
+domain-discovery-and-routing
+domain-term-inventory
+evidence-driven-reasoning
+folder-index-and-handoff
+INDEX.md
+master-synthesis-retrieval-gate
+new-to-done-source-lifecycle
+opinion-context-evaluation
+sequential-domain-orchestration
+source-ingestion-and-dedup
+wiki-iteration-and-risk-control
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/NEXUS_WIKI_SKILLS/claim-extraction-and-evidence:
+SKILL.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/NEXUS_WIKI_SKILLS/concept-deepening:
+SKILL.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/NEXUS_WIKI_SKILLS/domain-discovery-and-routing:
+SKILL.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/NEXUS_WIKI_SKILLS/domain-term-inventory:
+SKILL.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/NEXUS_WIKI_SKILLS/evidence-driven-reasoning:
+SKILL.md
+
+===TAR===
+-rw-r--r-- 1 box box 58M Nov  5 00:40 /workspace/wiki/WIKI_ARCHIVE_2026-11-03.tar.gz
+212M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03
+1.4M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/00_INDEXES/
+19M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/
+2.2M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/02_ROOT_DOCS/
+14M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/03_WIKI_LAYERS/
+7.2M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/
+150M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS/
+17M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/06_CODE_TOOLS/
+2.1M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/07_ENRICHMENT_CORE/
+8.0K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/_RESERVE/
+46M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS/agy/
+26M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS/claude/
+46M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS/omnirush/
+34M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS/opencode/
+92K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/checkpoints/
+192K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/concepts/
+52K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/config/
+784K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/done/
+2.7M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/indexes/
+68K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/model_protocols/
+1.8M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/reports/
+440K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/systems/
+500K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/tools/
+516K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/nexus_brain_wiki_docs/
+192K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/NEXUS_PROJECT/
+196K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/NEXUS_WIKI_SKILLS/
+9.0M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/root_files/
+8.4M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/wikillm/
+8.0M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/03_WIKI_LAYERS/nexus_wiki/
+6.1M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/03_WIKI_LAYERS/wiki_small_layers/
+11M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/06_CODE_TOOLS/llm-wiki-compiler/
+5.5M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/06_CODE_TOOLS/llm-wiki-plugin/
+456K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/07_ENRICHMENT_CORE/control/
+80K	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/07_ENRICHMENT_CORE/reports_subset/
+1.6M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/07_ENRICHMENT_CORE/wiki_routing/
+2713
+212M	/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03
+> build · crouton-alpha-free
+التحقق السريع من أسماء ملفات wikillm والنواة الأساسية قبل كتابة التقرير.
+[0m$ [0mls /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/wikillm/ /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/ 2>/dev/null; ls /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/05_CONVERSATIONS/opencode/main_db/ 2>/dev/null | head -5; ls /workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/root_files/ 2>/dev/null
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/01_SDCARD_DOCS/wikillm/:
+00_source_antigravity_omnirush_planning.md
+01_user_messages_from_agy.md
+06b_user_messages_claude_substantive.md
+06_user_messages_claude_wiki.md
+07b_user_messages_omnirush_db.md
+07c_gpt6_session_user_messages.md
+07_user_messages_omnirush.md
+08_user_messages_claude_extra.md
+10_FULL_CONTEXT.md
+11_USER_VISION_AND_RULES.md
+12_AGY_NEXUS_OS_CRITIQUE.md
+20_user_intent_facts.md
+21_wikis_analysis.md
+22_future_simulation_part1.md
+22_future_simulation_part2.md
+23_protocol_review.md
+24_session_e8df_lessons.md
+24_session_e8df_review.md
+25_project_full_exploration.md
+26_architecture_file_analysis.md
+27_protocol_fixes_applied.md
+28_charter_templates_audit.md
+29_raw_sources_map.md
+34_protocol_charter_reconciliation.md
+agents
+_architect_task.md
+_archive
+argon_version
+astra_version
+BUILD_PROTOCOL.md
+DELIVERABLE_1_general_architecture.md
+DELIVERABLE_2_critique.md
+glm_version
+haiku_version
+kimi_version
+minimax_version
+_PROMPT_GLM_START.md
+
+/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/04_NEXUS_LLM_WIKI_CORE/:
+AGENTS.md
+BIG_FILE_POINTERS.csv
+checkpoints
+concepts
+config
+done
+indexes
+INDEX.md
+model_protocols
+MULTI_DOMAIN_WIKI_OPERATING_CHARTER_2026-10-09.md
+NEXUS_LLM_WIKI_ORIGINAL_README.md
+NEXUS_WIKI_EXPLAIN_3D.html
+PROJECT_INTENT_AND_EXECUTION_CHARTER_2026-10-08.md
+PROJECT_OUTPUT_LOCATION_2026-10-10.md
+README.md
+reports
+SCHEMA.md
+START_HERE.md
+STATUS_FROM_ZERO.md
+systems
+tools
+ses_06c5e911fffetsFv0AlJk1YzjN.jsonl
+ses_08eca9417ffebeEYPAD8obhwTQ.jsonl
+ses_11a013543ffe76eSJT3uUvKDvc.jsonl
+ses_11a2a8c07ffeAKI5a48vUdpNI6.jsonl
+ses_e60f385a6ffes7edyTZbPzt6Ll.jsonl
+IGWIKI_ALL_IN_ONE.txt
+NEW_WIKI_MASTER_PLAN.md
+NEXUS_LLM_WIKI_REPORT.html
+NEXUS_WIKI_EXPLAIN.html
+WIKI_SKILLS_INSTALLATION.md
+ملف السياق الكامل المحدث لكلود.md
+> build · crouton-alpha-free
+[0m$ [0mmkdir -p /workspace/wiki/work && wc -l /workspace/wiki/work/archive-inventory-01.md 2>/dev/null; echo ok
+ok
+> build · crouton-alpha-free
+[0m← [0mWrite work/archive-inventory-01.md
+Created file successfully: work/archive-inventory-01.md
+> build · crouton-alpha-free
+DONE

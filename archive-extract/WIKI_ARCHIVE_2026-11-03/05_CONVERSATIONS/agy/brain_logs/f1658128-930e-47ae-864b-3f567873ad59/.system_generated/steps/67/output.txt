@@ -1,0 +1,22 @@
+Command exited with code 0.
+
+Command output:
+
+## 3. أوامر التحقق والقياس الآلي للماستر
+
+يخضع كل ملف ماستر للأوامر الرقابية الصارمة التالية للتأكد من سلامة بنيته:
+
+```bash
+# 1. فحص وجود شرط اكتمال المصطلحات والأقسام
+grep -cE "domain_terms_complete|اكتمال مصطلحات" SYS_07_MASTER_ANATOMY.md
+
+# 2. فحص اكتمال الأقسام الثمانية عشر دون نقص
+for i in $(seq 1 18); do
+  grep -q "^### §$i " SYS_07_MASTER_ANATOMY.md && echo "Section §$i OK" || echo "MISSING §$i"
+done
+
+# 3. التحقق من سلامة نمط الأوامر على ماستر مستقبلي
+grep -c '^## §' <Master_File>                    # يجب أن يعطي 18 قسماً بالضبط
+awk '/^## §4/{f=1;next}/^## §/{f=0}f' <Master_File> | wc -w   # يجب >= 4,000 في الماستر الكبير
+awk '/^## §15/{f=1;next}/^## §/{f=0}f' <Master_File> | wc -w # يجب >= 1,800
+```

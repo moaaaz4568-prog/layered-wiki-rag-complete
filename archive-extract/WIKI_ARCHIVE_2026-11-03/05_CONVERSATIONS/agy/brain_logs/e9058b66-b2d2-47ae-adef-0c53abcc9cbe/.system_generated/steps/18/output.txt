@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+total 14
+drwxrwx---. 2 root aid_everybody 3488 Oct 25 08:04 _agy_logs
+drwxrwx---. 2 root aid_everybody 3488 Oct 25 08:04 _briefs
+drwxrwx---. 7 root aid_everybody 3488 Oct 25 01:24 wiki_ver1
+drwxrwx---. 5 root aid_everybody 3488 Oct 25 07:45 wiki_ver2

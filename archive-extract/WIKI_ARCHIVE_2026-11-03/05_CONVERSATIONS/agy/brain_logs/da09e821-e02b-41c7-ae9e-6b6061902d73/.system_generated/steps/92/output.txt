@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+/sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_11_BUSINESS_EXECUTION.md:64:grep -cE "TODO|TBD|XXX" output_business_plan.md
+/sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_12_AUDIT.md:52:حظر وجود وسوم الحشو أو الإرجاء مثل `TODO` أو `TBD` أو `XXX`:
+/sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_12_AUDIT.md:54:grep -rnE "(TODO|TBD|XXX)" /sdcard/wikillm/argon_version/wiki_ver2/systems/
+/sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_01_CHARTER.md:55:- **الخط الأحمر R11 — منع الملفات الوهمية (Placeholders):** لا يُسمح بإنشاء ملفات تحوي علامات حجز مكان فارغة (مثل TODO أو TBD). كل ملف إما محتوى تشغيلي كامل أو قالب معتمد.
+/sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_13_DELEGATION.md:15:3. **القيود الصارمة (Hard Constraints):** خلو المخرجات من الرموز المؤقتة (`TODO/TBD/XXX`)، صفر محارف CJK، والالتزام بلغة عربية فصحى نقية.

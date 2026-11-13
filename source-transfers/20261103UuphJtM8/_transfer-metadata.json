@@ -1,0 +1,51 @@
+{
+ "sourcePage": "https://www.transfernow.net/dl/20261103UuphJtM8",
+ "transferData": {
+  "metadata": {
+   "transferId": "20261103UuphJtM8",
+   "needPassword": false,
+   "validity": {
+    "from": "2026-11-03T17:24:30.869Z",
+    "to": "2026-11-10T17:24:30.878Z"
+   },
+   "files": [
+    {
+     "id": "o0reaY",
+     "name": "ملف كل كلام الويكي.md",
+     "size": 175533,
+     "category": 0
+    }
+   ],
+   "owner": {
+    "email": "zeyusmoaz@gmail.com",
+    "planType": "NONE"
+   },
+   "subdomain": "www",
+   "domain": "www.transfernow.net",
+   "status": "ENABLED",
+   "limitedDownloads": false,
+   "type": "S2",
+   "allowPreview": true,
+   "isSender": false,
+   "langCode": "ar",
+   "inbox": false,
+   "sender": {
+    "email": "zeyusmoaz@gmail.com"
+   },
+   "size": 175533
+  },
+  "locked": false,
+  "expiring": false,
+  "available": true,
+  "emailRequired": false,
+  "shouldBuy": false
+ },
+ "downloadedFiles": [
+  {
+   "id": "o0reaY",
+   "name": "ملف كل كلام الويكي.md",
+   "size": 175533,
+   "category": 0
+  }
+ ]
+}

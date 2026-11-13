@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+=== بدء تشغيل أداة نشر القوالب والمعمارية generate_templates.py ===
+تم إنشاء فهرس المجال: domains/sales/INDEX.md
+القسم الأساسي sales/01_discovery_qualification موجود ومكتوب يدوياً — تم تخطي إعادة كتابة قوالبه.
+تم نشر القوالب والفهرس في القسم الفرعي: sales/02_closing
+تم نشر القوالب والفهرس في القسم الفرعي: sales/03_objection_handling
+تم إنشاء فهرس المجال: domains/outreach/INDEX.md
+تم نشر القوالب والفهرس في القسم الفرعي: outreach/01_cold_email
+تم نشر القوالب والفهرس في القسم الفرعي: outreach/02_linkedin_dm
+تم نشر القوالب والفهرس في القسم الفرعي: outreach/03_followup_sequences
+تم إنشاء فهرس المجال: domains/pricing_offers/INDEX.md
+تم نشر القوالب والفهرس في القسم الفرعي: pricing_offers/01_pricing_tiers
+تم نشر القوالب والفهرس في القسم الفرعي: pricing_offers/02_offer_design
+تم نشر القوالب والفهرس في القسم الفرعي: pricing_offers/03_guarantees
+تم إنشاء فهرس المجال: domains/content_strategy/INDEX.md
+تم نشر القوالب والفهرس في القسم الفرعي: content_strategy/01_content_pillars
+تم نشر القوالب والفهرس في القسم الفرعي: content_strategy/02_distribution
+تم نشر القوالب والفهرس في القسم الفرعي: content_strategy/03_repurposing
+تم إنشاء فهرس المجال: domains/business_architecture/INDEX.md
+تم نشر القوالب والفهرس في القسم الفرعي: business_architecture/01_systems_ops
+تم نشر القوالب والفهرس في القسم الفرعي: business_architecture/02_hiring
+تم نشر القوالب والفهرس في القسم الفرعي: business_architecture/03_metrics
+
+=== اكتمال النشر بنجاح ===
+إجمالي الأقسام الفرعية المغطاة: 15
+إجمالي الملفات المنشأة والمحدثة: 61

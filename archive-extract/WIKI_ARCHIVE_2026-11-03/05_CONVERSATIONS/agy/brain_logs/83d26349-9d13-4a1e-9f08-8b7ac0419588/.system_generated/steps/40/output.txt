@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+/sdcard/Nexus_Brain/Nexus_Brain/brain/01-setup-commands.md
+/sdcard/Nexus_Brain/Nexus_Brain/brain/02-master-prompt.md
+/sdcard/Nexus_Brain/Nexus_Brain/brain/[Arabic (auto-generated)] ازاي تسعر خدمتك صح في توزيع المحتوي بسهولة [DownSub.com].srt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/2025-06-03_19-09-46 (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/Copy of Copy of Branding 8.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/Copy of Copy of Branding 9.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/Copy of Where to find Clients #1 (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/Copy of أنجح طرق تجيب بيهم عملاء أكتر_ - Freelancing 🧠💰(720P_HD) (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/How to START a Personal Brand (Full Course).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/LEAKED Fire everyone, use AI instead.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/Unlocking blended search reporting in Claude 🤯.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/افضل اونلاين بزنس للمبتدئين في 2024(بدون راس مال)_1.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/duplicates/خطوات البيع اونلاين شرح قمع المبيعات sales funnel ماهو.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/ Speed in Momentum.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/$1,097,794month selling courses at 20 (Brez Scales).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/$11,684 a day selling courses at 22 (Sam Milsap).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/$83M of Info Marketing Strategy in 23 Minutes.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/-Try to Get Sales to get Customers-.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/-الزبون دايماً علي حق- .txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1) Why People DON'T Buy - (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1,000 Hours of studying the Best Marketing Funnels in 42 Minutes.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1. The Biggest Problem in Sales (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/16 Years of Building Brands to 30M+ Followers.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/18 Psychology Tricks to Get Viewers Addicted to Your Videos.txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/2) Tricky Questions to ask your client (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/2. Sales Myths vs. Sales Realities (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/2025-04-07 14-57-53 (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/2025-06-03_18-34-31 (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/2025-06-03_18-46-22 (1).txt
+/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/3 reasons....txt

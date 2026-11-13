@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+تم انشاء /mnt/sdcard/wikillm/argon_version/wiki_ver2/COUNTS.json بنجاح كمرجع احصائي اولي.
+=== فحص مطابقة الارقام مع القرص (قاعدة sima_yi) ===
+  [OK] اجمالي الملفات: 88
+  [OK] عدد الانظمة التشغيلية: 15
+  [OK] عدد القوالب المعتمدة: 45
+  [OK] عدد فهارس المجالات: 21
+  [OK] التلوث اللغوي CJK: 0
+
+CHECK OK: جميع الارقام مطابقة للقرص بنسبة 100% — قاعدة sima_yi محققة.

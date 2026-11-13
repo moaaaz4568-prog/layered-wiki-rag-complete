@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+=== Testing paths in: systems/SYS_09_CUMULATIVE_SYNTHESIS.md ===
+=== Testing paths in: systems/SYS_10_INDEXES.md ===
+=== Testing paths in: systems/SYS_11_BUSINESS_EXECUTION.md ===
+=== Testing paths in: systems/SYS_12_AUDIT.md ===
+=== Testing paths in: systems/SYS_13_DELEGATION.md ===
+=== Testing paths in: systems/SYS_14_ANTI_PATTERNS.md ===
+=== Testing paths in: systems/SYS_15_DYNAMIC_EXPANSION.md ===
+=== Testing paths in: README.md ===
+=== Testing paths in: START_HERE.md ===
+=== Testing paths in: AGENTS.md ===
+=== Testing paths in: _BUILD_REPORT.md ===

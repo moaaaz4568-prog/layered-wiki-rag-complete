@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+
+==================== SYS_01_CHARTER.md ====================
+
+==================== SYS_02_NAMING.md ====================
+
+==================== SYS_03_TREE.md ====================
+Line  54 [ABS]: /3 -> exists: False
+
+==================== SYS_04_THINKING_ENGINE.md ====================
+
+==================== SYS_05_INGESTION.md ====================
+Line  36 [ABS]: /sdcard/Nexus_Brain/Nexus_Brain/brain/aaronxshepherd__21 Cold Email Hacks To Book More Sales Calls INSTANTLY__i7vdM5SZsmk.txt -> exists: True
+
+==================== SYS_06_TERMS_DEEPENING.md ====================
+Line 105 [ABS]: /sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1. The Biggest Problem in Sales (1).txt -> exists: True
+Line 113 [ABS]: /D06 -> exists: False
+
+==================== SYS_07_MASTER_ANATOMY.md ====================
+
+==================== SYS_08_PLURALISM.md ====================
+Line 107 [ABS]: /sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1. The Biggest Problem in Sales (1).txt -> exists: True

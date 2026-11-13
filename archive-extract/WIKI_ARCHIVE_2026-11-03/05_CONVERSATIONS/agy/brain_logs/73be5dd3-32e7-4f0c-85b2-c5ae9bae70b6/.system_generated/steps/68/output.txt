@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+Total CJK count in domains: 0
+ZERO TODO/TBD FOUND
+/sdcard/wikillm/argon_version/wiki_ver2/domains/sales/01_discovery_qualification/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/sales/02_closing/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/sales/03_objection_handling/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/outreach/01_cold_email/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/outreach/02_linkedin_dm/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/outreach/03_followup_sequences/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/pricing_offers/01_pricing_tiers/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/pricing_offers/02_offer_design/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/pricing_offers/03_guarantees/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/content_strategy/01_content_pillars/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/content_strategy/02_distribution/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/content_strategy/03_repurposing/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/business_architecture/01_systems_ops/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/business_architecture/02_hiring/PLAYBOOK_TEMPLATE.md:18
+/sdcard/wikillm/argon_version/wiki_ver2/domains/business_architecture/03_metrics/PLAYBOOK_TEMPLATE.md:18

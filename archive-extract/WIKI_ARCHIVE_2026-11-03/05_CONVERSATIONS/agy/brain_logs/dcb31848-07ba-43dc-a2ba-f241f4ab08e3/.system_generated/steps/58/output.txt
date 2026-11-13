@@ -1,0 +1,37 @@
+Command exited with code 0.
+
+Command output:
+systems/SYS_09_CUMULATIVE_SYNTHESIS.md: 0 links found
+systems/SYS_10_INDEXES.md: 0 links found
+systems/SYS_11_BUSINESS_EXECUTION.md: 4 links found
+   [/root/r/V3/00_CHARTER/FORMAT_MASTER.md](file:///root/r/V3/00_CHARTER/FORMAT_MASTER.md)
+   [/root/r/V3/00_CHARTER/TRUTH_NUMBERS.md](file:///root/r/V3/00_CHARTER/TRUTH_NUMBERS.md)
+   [/sdcard/wikillm/22_future_simulation_part2.md](file:///sdcard/wikillm/22_future_simulation_part2.md)
+   [/sdcard/Nexus_Brain/Nexus_Brain/brain/](file:///sdcard/Nexus_Brain/Nexus_Brain/brain/)
+systems/SYS_12_AUDIT.md: 4 links found
+   [/root/r/V3/00_CHARTER/GATES_11.md](file:///root/r/V3/00_CHARTER/GATES_11.md)
+   [/root/r/V3/00_CHARTER/TRUTH_NUMBERS.md](file:///root/r/V3/00_CHARTER/TRUTH_NUMBERS.md)
+   [/sdcard/wikillm/argon_version/wiki_ver2/](file:///sdcard/wikillm/argon_version/wiki_ver2/)
+   [/root/r/V3/02_CONCEPTS/07_branding/C_Contrarian_Belief_Lever.md](file:///root/r/V3/02_CONCEPTS/07_branding/C_Contrarian_Belief_Lever.md)
+systems/SYS_13_DELEGATION.md: 2 links found
+   [/root/r/NB2/00_SYSTEMS/LOG.md](file:///root/r/NB2/00_SYSTEMS/LOG.md)
+   [/sdcard/wikillm/22_future_simulation_part2.md](file:///sdcard/wikillm/22_future_simulation_part2.md)
+systems/SYS_14_ANTI_PATTERNS.md: 4 links found
+   [/sdcard/wikillm/22_future_simulation_part1.md](file:///sdcard/wikillm/22_future_simulation_part1.md)
+   [/sdcard/wikillm/22_future_simulation_part2.md](file:///sdcard/wikillm/22_future_simulation_part2.md)
+   [/root/r/V3/00_CHARTER/ANTI_DEAD_FORMULA.md](file:///root/r/V3/00_CHARTER/ANTI_DEAD_FORMULA.md)
+   [/sdcard/Nexus_Brain/Nexus_Brain/brain/](file:///sdcard/Nexus_Brain/Nexus_Brain/brain/)
+systems/SYS_15_DYNAMIC_EXPANSION.md: 3 links found
+   [/root/r/V3/00_CHARTER/FORMAT_MASTER.md](file:///root/r/V3/00_CHARTER/FORMAT_MASTER.md)
+   [/sdcard/wikillm/22_future_simulation_part1.md](file:///sdcard/wikillm/22_future_simulation_part1.md)
+   [/sdcard/wikillm/argon_version/wiki_ver2/domains/](file:///sdcard/wikillm/argon_version/wiki_ver2/domains/)
+README.md: 9 links found
+   [START_HERE.md](file:///sdcard/wikillm/argon_version/wiki_ver2/START_HERE.md)
+   [AGENTS.md](file:///sdcard/wikillm/argon_version/wiki_ver2/AGENTS.md)
+   [systems/](file:///sdcard/wikillm/argon_version/wiki_ver2/systems/)
+   [SYS_01_CHARTER.md](file:///sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_01_CHARTER.md)
+   [SYS_02_NAMING.md](file:///sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_02_NAMING.md)
+START_HERE.md: 1 links found
+   [AGENTS.md](file:///sdcard/wikillm/argon_version/wiki_ver2/AGENTS.md)
+AGENTS.md: 0 links found
+_BUILD_REPORT.md: 0 links found

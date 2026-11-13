@@ -1,0 +1,9 @@
+[0m
+> build · crouton-alpha-free
+Security review underway — grepping for leaked secrets and verifying ignore rules.
+[0m→ [0mRead repo 
+> build · crouton-alpha-free
+Starting the security review — will check every file for secrets, gitignore coverage, large binaries, and PAT redaction.
+[0m→ [0mRead repo/CONTEXT.md 
+> build · crouton-alpha-free
+Starting the security review — will check every file for secrets, gitignore coverage, large binaries, and PAT redaction.

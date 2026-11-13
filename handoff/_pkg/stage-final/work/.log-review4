@@ -1,0 +1,1493 @@
+[0m
+> build · crouton-alpha-free
+Doing completeness review — verifying counts, coverage, and file structure.
+[0m→ [0mRead . 
+> build · crouton-alpha-free
+[0m→ [0mRead work 
+[0m→ [0mRead source-transfers 
+[0m→ [0mRead repo 
+> build · crouton-alpha-free
+Starting completeness review — checking index coverage, timeline, links and planned files.
+[0m→ [0mRead work/repo-plan-01.md 
+[0m→ [0mRead work/analysis-wiki-talk-01.md 
+[0m→ [0mRead work/analysis-session-01.md 
+[0m→ [0mRead repo/MESSAGES.md 
+> build · crouton-alpha-free
+[0m$ [0mls -R /workspace/wiki/repo; echo "---wiki_all_talk headers---"; grep -c "^## \|^### \|^\*\*المستخدم" /workspace/wiki/source-transfers/wiki_all_talk.md; wc -l /workspace/wiki/source-transfers/wiki_all_talk.md; echo "---grep headers sample---"; grep -n "^## \|^# " /workspace/wiki/source-transfers/wiki_all_talk.md | head -120
+/workspace/wiki/repo:
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+config
+CONTEXT.md
+DESIGN-REFERENCE.md
+docs
+IDEAS.md
+index
+MASTER.md
+masters
+MESSAGES.md
+PROVENANCE.md
+README.md
+reference
+REJECTED.md
+sources
+templates
+timeline
+
+/workspace/wiki/repo/config:
+books.yaml
+models.yaml
+personas.yaml
+thresholds.yaml
+
+/workspace/wiki/repo/docs:
+CHUNKING.md
+CONCEPTS.md
+CONTRADICTION-POLICY.md
+EVALUATION.md
+GOALS.md
+KNOWN-ANSWER-SET.md
+METADATA-SCHEMA.md
+RULES.md
+SOURCES.md
+STAGES.md
+STRUCTURE.md
+
+/workspace/wiki/repo/index:
+bm25-results.md
+manifest-pointer.md
+
+/workspace/wiki/repo/masters:
+README.md
+review
+
+/workspace/wiki/repo/masters/review:
+checklist.md
+
+/workspace/wiki/repo/reference:
+non-goals.md
+purposes.md
+
+/workspace/wiki/repo/sources:
+archive-index.md
+file-inventory.md
+links.md
+session-export-index.md
+wiki-talk-index.md
+
+/workspace/wiki/repo/templates:
+master.md
+term.md
+
+/workspace/wiki/repo/timeline:
+timeline.md
+---wiki_all_talk headers---
+116
+2012 /workspace/wiki/source-transfers/wiki_all_talk.md
+---grep headers sample---
+1:# كل كلام محادثة الـ main chat عن الويكي — ملف واحد
+15:## 1 — 2026-10-06 08:53 — Muse
+29:## 2 — 2026-10-06 16:02 — Muse
+51:## 3 — 2026-10-07 08:52 — Muse
+65:## 4 — 2026-10-08 08:52 — Muse
+79:## 5 — 2026-10-09 08:52 — Muse
+94:## 6 — 2026-10-11 08:52 — Muse
+108:## 7 — 2026-10-12 08:57 — Muse
+124:## 8 — 2026-10-14 09:02 — Muse
+140:## 9 — 2026-10-16 08:52 — Muse
+151:## 10 — 2026-10-17 08:52 — Muse
+164:## 11 — 2026-10-18 08:53 — Muse
+178:## 12 — 2026-10-19 08:52 — Muse
+189:## 13 — 2026-10-19 17:15 — moaz
+193:## 14 — 2026-10-19 17:19 — Muse
+215:## 15 — 2026-10-19 17:24 — moaz
+218:# 🎬  YouTube Transcript Downloader — Multi-Strategy Robust Edition (Colab)
+219:# ============================================================================
+223:# >>> STEP 1: Auto-install dependencies <<<
+229:# >>> STEP 2: Run the main downloader <<<
+298:# ----------------------------------------------------------------------------
+299:# Strategy Helpers
+300:# ----------------------------------------------------------------------------
+469:# ----------------------------------------------------------------------------
+470:# Listing Videos & Shorts
+471:# ----------------------------------------------------------------------------
+513:# ----------------------------------------------------------------------------
+514:# Processing
+515:# ----------------------------------------------------------------------------
+702:## 16 — 2026-10-19 17:24 — Muse
+724:## 17 — 2026-10-19 17:27 — moaz
+728:## 18 — 2026-10-19 17:30 — Muse
+745:# فيديو واحد
+748:# قناة كاملة
+754:## 19 — 2026-10-19 17:31 — moaz
+758:## 20 — 2026-10-19 17:31 — Muse
+773:## 21 — 2026-10-19 17:31 — moaz
+777:## 22 — 2026-10-19 17:32 — Muse
+788:## 23 — 2026-10-19 17:36 — moaz
+792:## 24 — 2026-10-19 17:37 — Muse
+801:## 1. حمل قنوات اليوتيوب دي
+809:## 2. حمل كتب الشخصيات دي
+831:## 3. لو الكتاب صور مش نص
+838:## 4. ابنِ ويكي لكل مصدر
+846:## 5. حدّث الفهرس الموحد
+852:## قواعد
+862:## 25 — 2026-10-19 17:41 — moaz
+866:## 26 — 2026-10-19 17:42 — Muse
+890:## 27 — 2026-10-19 19:16 — moaz
+894:## 28 — 2026-10-19 19:16 — Muse
+926:## 29 — 2026-10-20 08:56 — Muse
+943:## 30 — 2026-10-21 08:54 — Muse
+952:## 31 — 2026-10-22 08:54 — Muse
+964:## 32 — 2026-10-23 08:52 — Muse
+972:## 33 — 2026-10-24 08:54 — Muse
+988:## 34 — 2026-10-25 08:53 — Muse
+1002:## 35 — 2026-10-26 08:54 — Muse
+1014:## 36 — 2026-10-27 08:52 — Muse
+1033:## 37 — 2026-10-28 08:54 — Muse
+1046:## 38 — 2026-10-29 08:54 — Muse
+1057:## 39 — 2026-10-30 08:55 — Muse
+1068:## 40 — 2026-10-30 18:43 — moaz
+1072:## 41 — 2026-10-30 18:44 — Muse
+1089:## 42 — 2026-10-30 18:46 — moaz
+1093:## 43 — 2026-10-30 18:47 — Muse
+1104:## 44 — 2026-10-30 18:48 — Muse
+1136:## 45 — 2026-10-30 18:49 — Muse
+1153:## 46 — 2026-10-30 21:29 — Muse
+1168:## 47 — 2026-10-30 21:30 — moaz
+1172:## 48 — 2026-10-30 21:31 — moaz
+1176:## 49 — 2026-10-30 21:34 — Muse
+1188:## 50 — 2026-10-30 21:36 — moaz
+1192:## 51 — 2026-10-30 21:36 — Muse
+1198:## 52 — 2026-10-30 21:36 — moaz
+1202:## 53 — 2026-10-30 21:37 — Muse
+1232:## 54 — 2026-10-30 22:07 — moaz
+1236:## 55 — 2026-10-30 22:10 — Muse
+1247:## 56 — 2026-10-30 23:23 — Muse
+1256:## 57 — 2026-10-30 23:28 — Muse
+1271:## 58 — 2026-10-31 08:54 — Muse
+1282:## 59 — 2026-10-31 20:59 — moaz
+1286:## 60 — 2026-10-31 20:59 — moaz
+1290:## 61 — 2026-10-31 21:03 — Muse
+1317:## 62 — 2026-10-31 21:05 — moaz
+1321:## 63 — 2026-10-31 21:11 — Muse
+1342:## 64 — 2026-10-31 21:13 — moaz
+1346:## 65 — 2026-10-31 21:21 — Muse
+1371:## 66 — 2026-10-31 21:22 — Muse
+1390:## 67 — 2026-10-31 21:23 — Muse
+1415:## 68 — 2026-10-31 21:25 — moaz
+1419:## 69 — 2026-10-31 21:28 — Muse
+1441:## 70 — 2026-10-31 21:31 — moaz
+1445:## 71 — 2026-10-31 21:31 — Muse
+1457:## 72 — 2026-10-31 21:49 — Muse
+1469:## 73 — 2026-10-31 22:42 — Muse
+1494:## 74 — 2026-10-31 22:55 — moaz
+1498:## 75 — 2026-10-31 22:55 — Muse
+1509:## 76 — 2026-10-31 22:57 — Muse
+1539:## 77 — 2026-11-01 01:54 — moaz
+1543:## 78 — 2026-11-01 01:54 — Muse
+1586:## 79 — 2026-11-01 01:56 — moaz
+1590:## 80 — 2026-11-01 01:57 — Muse
+1654:## 81 — 2026-11-01 02:09 — moaz
+1658:## 82 — 2026-11-01 02:09 — Muse
+1686:## 83 — 2026-11-01 02:17 — moaz
+1690:## 84 — 2026-11-01 02:20 — Muse
+1710:## 85 — 2026-11-01 08:54 — Muse
+1723:## 86 — 2026-11-01 09:04 — Muse
+1729:## 87 — 2026-11-01 17:38 — Muse
+1755:## 88 — 2026-11-01 17:39 — moaz
+1759:## 89 — 2026-11-01 17:40 — Muse
+1799:## 90 — 2026-11-01 17:44 — moaz
+1803:## 91 — 2026-11-01 17:48 — Muse
+1823:## 92 — 2026-11-01 17:50 — moaz
+1827:## 93 — 2026-11-01 17:51 — Muse
+1860:## 94 — 2026-11-01 17:55 — moaz
+1864:## 95 — 2026-11-01 17:57 — Muse
+1877:## 96 — 2026-11-01 18:00 — moaz
+1881:## 97 — 2026-11-01 18:01 — Muse
+1893:## 98 — 2026-11-02 08:53 — Muse
+> build · crouton-alpha-free
+[0m$ [0mgrep -n "^## [0-9]" /workspace/wiki/source-transfers/wiki_all_talk.md | wc -l; grep -n "^## [0-9]" /workspace/wiki/source-transfers/wiki_all_talk.md | tail -20; echo "---"; wc -l /workspace/wiki/repo/sources/wiki-talk-index.md; grep -c "^|" /workspace/wiki/repo/sources/wiki-talk-index.md; head -100 /workspace/wiki/repo/sources/wiki-talk-index.md
+111
+1729:## 87 — 2026-11-01 17:38 — Muse
+1755:## 88 — 2026-11-01 17:39 — moaz
+1759:## 89 — 2026-11-01 17:40 — Muse
+1799:## 90 — 2026-11-01 17:44 — moaz
+1803:## 91 — 2026-11-01 17:48 — Muse
+1823:## 92 — 2026-11-01 17:50 — moaz
+1827:## 93 — 2026-11-01 17:51 — Muse
+1860:## 94 — 2026-11-01 17:55 — moaz
+1864:## 95 — 2026-11-01 17:57 — Muse
+1877:## 96 — 2026-11-01 18:00 — moaz
+1881:## 97 — 2026-11-01 18:01 — Muse
+1893:## 98 — 2026-11-02 08:53 — Muse
+1902:## 99 — 2026-11-02 09:05 — Muse
+1916:## 100 — 2026-11-02 13:36 — Muse
+1930:## 101 — 2026-11-02 22:33 — Muse
+1955:## 102 — 2026-11-02 23:07 — Muse
+1976:## 103 — 2026-11-03 08:53 — Muse
+1991:## 104 — 2026-11-03 09:07 — Muse
+2002:## 105 — 2026-11-03 18:34 — moaz
+2006:## 106 — 2026-11-03 18:36 — Muse
+---
+122 /workspace/wiki/repo/sources/wiki-talk-index.md
+108
+# فهرس كلام الويكي — 106 رسالة (2026-10-06 → 2026-11-03)
+
+> **المصدر [OBSERVED]:** `/workspace/wiki/source-transfers/wiki_all_talk.md` — 2012 سطر، 175533 بايت.
+> **منهج الاستخراج:** أمر `grep -n "^## [0-9]"` على الملف الحقيقي، والعنوان الكامل `## N — YYYY-MM-DD HH:MM — Speaker` يُعاد ضبطه في الجدول دون اختراع.
+> **العدد [OBSERVED]:** 106 رسالة معنونة. أول ذكر للويكي: 2026-10-06 08:53 (مذكور في التحليل ومحقق في الرسالة 1). أول محادثة جوهرية: 2026-10-19 17:15 (الرسالة 13).
+> **وسم الدليل في كل جدول:** OBSERVED = عنوان/تاريخ/متحدث مقروء من الملف نفسه؛ REPORTED = موضوع/قرار منقول من التحليل أو النص من غير قياس جديد؛ UNKNOWN = لا دليل متوفر هنا.
+
+| # | التاريخ | المتحدث | الموضوع (سطر واحد) | القرار (إن وجد) | الدليل |
+|---|---|---|---|---|---|
+| 1 | 2026-10-06 08:53 | Muse | ملخص صباحي — أول ذكر للويكي: ويكي التعافي (د. عماد رشاد) مكتمل | — | OBSERVED/REPORTED |
+| 2 | 2026-10-06 16:02 | Muse | أرقام التوكنز وسجلات المحادثات (ويكي التعافي والسيرة) | — | OBSERVED/REPORTED |
+| 3 | 2026-10-07 08:52 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 4 | 2026-10-08 08:52 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 5 | 2026-10-09 08:52 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 6 | 2026-10-11 08:52 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 7 | 2026-10-12 08:57 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 8 | 2026-10-14 09:02 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 9 | 2026-10-16 08:52 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 10 | 2026-10-17 08:52 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 11 | 2026-10-18 08:53 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 12 | 2026-10-19 08:52 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 13 | 2026-10-19 17:15 | moaz | السؤال التأسيسي: تحميل ترجمات يوتيوب وقنوات علاء حامد وعماد رشاد إلى ويكي مشتركة وسؤال موحد | هدف المشروع: ويكي مشتركة تستعين بكل العقول للسؤال (REPORTED: صياغة معاذ) | OBSERVED/REPORTED |
+| 14 | 2026-10-19 17:19 | Muse | بناء نظام yt-wiki الموحد في ~/workspace/yt-wiki والفهرس الموحد | اعتماد هيكل yt-wiki كبداية التنفيذ (OBSERVED: بني على القرص) | OBSERVED/REPORTED |
+| 15 | 2026-10-19 17:24 | moaz | مشاركة سكربت كولاب متعدد الاستراتيجيات (مفتاح/كوكيز مضمنة) — المقتطف فقط، القيمة لا تُنسخ | تنبيه أمني: تغيير التوكن الظاهر (REPORTED) | OBSERVED/REPORTED |
+| 16 | 2026-10-19 17:24 | Muse | تشريح الاستراتيجيات الثلاث/الأربع ومحاذيرها | توصية بتجربة واحدة تعمل بدون كوكيز (PROPOSED) | OBSERVED/REPORTED |
+| 17 | 2026-10-19 17:27 | moaz | أمر: مسح الكوكيز والتوكن وتجربة الطرق على رابط فيديو واحد | محو الكوكيز والتوكن نهائياً من السكربتات (OBSERVED: قرار منفذ) | OBSERVED/REPORTED |
+| 18 | 2026-10-19 17:30 | Muse | تجربة الطرق الثلاث بدون كوكيز على الفيديو الاختباري | yt-dlp وحده شغّال بدون كوكيز؛ الطريقتان الأخريان LOGIN_REQUIRED (OBSERVED: مقاس بالتجربة) | OBSERVED/REPORTED |
+| 19 | 2026-10-19 17:31 | moaz | سؤال: هل سينجح التحميل والتشغيل؟ | — | OBSERVED/REPORTED |
+| 20 | 2026-10-19 17:31 | Muse | إقرار بحدود التحقق: لم تُجرَّب دورة كاملة قناة جديدة→ويكي→سؤال على قناة جديدة | يُمنع ادعاء نجاح غير مفحوص (OBSERVED: إقرار Muse) | OBSERVED/REPORTED |
+| 21 | 2026-10-19 17:31 | moaz | طلب: تحميل TXT بدل VTT لكل شيء | — | OBSERVED/REPORTED |
+| 22 | 2026-10-19 17:32 | Muse | السكربت يحمل TXT مباشرة — لا VTT إطلاقاً | اعتماد download-subs.py رسمياً؛ لا VTT في النظام الجديد (OBSERVED) | OBSERVED/REPORTED |
+| 23 | 2026-10-19 17:36 | moaz | طلب برومبت + قائمة كتب ابن القيم وابن سيرين وعلماء أحلام غربيين/مسلمين + OCR بمينك؟ | — | OBSERVED/REPORTED |
+| 24 | 2026-10-19 17:37 | Muse | برومبت كامل جاهز يتضمن قنوات وكتب وأقسام بناء | — | OBSERVED/REPORTED |
+| 25 | 2026-10-19 17:41 | moaz | طلب نقل الأسماء والمفاتيح إلى النظام وتخفيض البرومبت في README | الأسماء تنتقل إلى books.yaml والمفاتيح خارج البرومبت (REPORTED) | OBSERVED/REPORTED |
+| 26 | 2026-10-19 17:42 | Muse | نقل كامل إلى النظام: books.yaml + مفتاح خارج البرومبت + برومبت مبسط في README | اعتماد books.yaml كمرجع كتب (OBSERVED) | OBSERVED/REPORTED |
+| 27 | 2026-10-19 19:16 | moaz | طلب البرومبت + إضافة قناة هيثم طلعت + تفسير حلم معقد بالجمع من كل المصادر | — | OBSERVED/REPORTED |
+| 28 | 2026-10-19 19:16 | Muse | تسليم رابط الترمنال الجديد | — | OBSERVED/REPORTED |
+| 29 | 2026-10-20 08:56 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 30 | 2026-10-21 08:54 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 31 | 2026-10-22 08:54 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 32 | 2026-10-23 08:52 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 33 | 2026-10-24 08:54 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 34 | 2026-10-25 08:53 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 35 | 2026-10-26 08:54 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 36 | 2026-10-27 08:52 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 37 | 2026-10-28 08:54 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 38 | 2026-10-29 08:54 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 39 | 2026-10-30 08:55 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 40 | 2026-10-30 18:43 | moaz | طلب تحويل ويكي الست شخصيات إلى RAG عبر أداة (كوجني/غيرها) + مفتاح يوكينو + glm | تحديد الهدف: RAG أساساً فوق الويكي (REPORTED: صياغة معاذ) | OBSERVED/REPORTED |
+| 41 | 2026-10-30 18:44 | Muse | الجرد الأولي: 6 ويكيات 5,889 صفحة ثم مصححة، ask.py بحث كلمات لا RAG، مفتاح لحظي، glm دردشة لا تضمين | قرار: طبقة التضمين منفصلة عن الدردشة؛ مفتاح لحظي لا يُخزن (OBSERVED) | OBSERVED/REPORTED |
+| 42 | 2026-10-30 18:46 | moaz | إرسال مفتاح يوكينو + رابط مفتاح يوكينو — القيمة لا تُنسخ | — | OBSERVED/REPORTED |
+| 43 | 2026-10-30 18:47 | Muse | تأكيد استلام بدون تخزين | — | OBSERVED/REPORTED |
+| 44 | 2026-10-30 18:48 | Muse | خلاصة بحث أدوات RAG/GraphRAG (كوجني مرشح، كروما بديل) | bge-m3 مرشح مشروط بالاختبار لا اختيار نهائي (REPORTED) | OBSERVED/REPORTED |
+| 45 | 2026-10-30 18:49 | Muse | القياس الدقيق: 5,896 صفحة / 31.3MB / التقسيم الستي؛ لا كل Markdown | اعتماد 5,896 صفحة و31,262,266 بايت كرقم مرجعي (OBSERVED) | OBSERVED/REPORTED |
+| 46 | 2026-10-30 21:29 | Muse | تصحيح العينة: 20 أصغر صفحة لهشام 37,402 بايت 129 مقطعاً، لا 81 صفحة لابن تيمية؛ قياس كمبيوتر | اعتماد هيثم 20 صفحة عينة أولى (OBSERVED) | OBSERVED/REPORTED |
+| 47 | 2026-10-30 21:30 | moaz | أمر: حمّل ما تشاء وأكمل الشغل | — | OBSERVED/REPORTED |
+| 48 | 2026-10-30 21:31 | moaz | أمر: glm يعمل مكان Muse وحفظ مفتاح API واستخدام كل النماذج | رفض كلياً عمل glm كمستخدم للترمنال/تحميل (OBSERVED: تنفيذ جزئي آمن) | OBSERVED/REPORTED |
+| 49 | 2026-10-30 21:34 | Muse | تنفيذ التعديل المتفق عليه | — | OBSERVED/REPORTED |
+| 50 | 2026-10-30 21:36 | moaz | أمر: إيقاف الاختبار | — | OBSERVED/REPORTED |
+| 51 | 2026-10-30 21:36 | Muse | تأكيد الإيقاف | — | OBSERVED/REPORTED |
+| 52 | 2026-10-30 21:36 | moaz | سؤال: وضع glm في OpenCode وتشغيله بأوامر | — | OBSERVED/REPORTED |
+| 53 | 2026-10-30 21:37 | Muse | فحص إعدادات OpenCode لمزود يوكينو | المفتاح لا يُكتب كنص في ملف (OBSERVED) | OBSERVED/REPORTED |
+| 54 | 2026-10-30 22:07 | moaz | طلب إضافة المفتاح (القيمة لا تُنسخ) + رابط يوكينو | — | OBSERVED/REPORTED |
+| 55 | 2026-10-30 22:10 | Muse | إضافة عبر متغير بيئة آمن لا قيمة في ملف | مرجع {env:YUKINO_API_KEY} لا قيمة (OBSERVED) | OBSERVED/REPORTED |
+| 56 | 2026-10-30 23:23 | Muse | تحديث اختبار glm داخل OpenCode | — | OBSERVED/REPORTED |
+| 57 | 2026-10-30 23:28 | Muse | نتيجة اختبار glm داخل OpenCode | قرار الانتظار حتى إعادة تشغيل الترمنال بالمفتاح (PROPOSED) | OBSERVED/REPORTED |
+| 58 | 2026-10-31 08:54 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 59 | 2026-10-31 20:59 | moaz | طلب بحث LLM Wiki على يوتيوب بحساب معاذ وإكمال تحويل الويكي إلى RAG | — | OBSERVED/REPORTED |
+| 60 | 2026-10-31 20:59 | moaz | إرسال ثلاثة روابط يوتيوب للاختبار (Introvert Programmer، أرشيف AI، Nate Herk) | — | OBSERVED/REPORTED |
+| 61 | 2026-10-31 21:03 | Muse | بدء العمل بصراحة ما اشتغل وما وقف | — | OBSERVED/REPORTED |
+| 62 | 2026-10-31 21:05 | moaz | طلب تشغيل متصفح الجهاز + api-anything + استخدام بيانات الحساب + إضافة glm | — | OBSERVED/REPORTED |
+| 63 | 2026-10-31 21:11 | Muse | نتيجة تشغيل المتصفح وأداة api-anything | — | OBSERVED/REPORTED |
+| 64 | 2026-10-31 21:13 | moaz | طلب إيجاد سكربت الترجمة السابق وإعطائه روابط الفيديوهات + بحث يوتيوب بحسابه | — | OBSERVED/REPORTED |
+| 65 | 2026-10-31 21:21 | Muse | إيجاد السكربت والتشغيل بالأرقام | — | OBSERVED/REPORTED |
+| 66 | 2026-10-31 21:22 | Muse | توصية نقدية: ويكي لوحده ليس جاهزاً للإنتاج؛ هجين RAG أساساً + ويكي طبقة مجمعة | اعتماد الهجين: RAG أساس + ويكي فوقه (REPORTED) | OBSERVED/REPORTED |
+| 67 | 2026-10-31 21:23 | Muse | تقرير متصفح بدون دخول وبدون حظر | — | OBSERVED/REPORTED |
+| 68 | 2026-10-31 21:25 | moaz | طلب جمع أكثر من 100 فيديو عن الموضوع | — | OBSERVED/REPORTED |
+| 69 | 2026-10-31 21:28 | Muse | جمع >100 فيديو بأرقام حقيقية | — | OBSERVED/REPORTED |
+| 70 | 2026-10-31 21:31 | moaz | طلب تحميل كل 144 فيديو وقراءتها | — | OBSERVED/REPORTED |
+| 71 | 2026-10-31 21:31 | Muse | بدء التحميل الفعلي | — | OBSERVED/REPORTED |
+| 72 | 2026-10-31 21:49 | Muse | إعادة تشغيل الجهاز في النص؛ التحميل قُتل فاستؤتف من نفس النقطة دون فقد | — | OBSERVED/REPORTED |
+| 73 | 2026-10-31 22:42 | Muse | اكتمال 144/144؛ نص إنجليزي 2,783,968 حرف 509,906 كلمة | اعتماد حجم 144 (OBSERVED) | OBSERVED/REPORTED |
+| 74 | 2026-10-31 22:55 | moaz | طلب قراءة كل الفيديوهات والحل والتشغيل عبر وكلاء | — | OBSERVED/REPORTED |
+| 75 | 2026-10-31 22:55 | Muse | تشغيل 4 وكلاء على زوايا 144 فيديو | — | OBSERVED/REPORTED |
+| 76 | 2026-10-31 22:57 | Muse | حل مخصوص لوضعه من تقارير الوكلاء الأربعة | اعتماد الهجين بصيغته النهائية (REPORTED) | OBSERVED/REPORTED |
+| 77 | 2026-11-01 01:54 | moaz | طلب شرح الهيكل والحل والشكل الأفضل | — | OBSERVED/REPORTED |
+| 78 | 2026-11-01 01:54 | Muse | شرح مبسط من الأول | — | OBSERVED/REPORTED |
+| 79 | 2026-11-01 01:56 | moaz | طلب شرح علمي فعلي لا مثال شخصي | — | OBSERVED/REPORTED |
+| 80 | 2026-11-01 01:57 | Muse | شرح علمي + فلتر الشخصية إجباري كMetadata لا وزن تشابه | إلزام الفلتر المنظوري (REPORTED) | OBSERVED/REPORTED |
+| 81 | 2026-11-01 02:09 | moaz | طلب تبسيط أكثر | — | OBSERVED/REPORTED |
+| 82 | 2026-11-01 02:09 | Muse | شرح مبسط | — | OBSERVED/REPORTED |
+| 83 | 2026-11-01 02:17 | moaz | طلب ملف MD ضخم يشرح الهدف وكيف يتحقق لنموذج آخر (منظمات/أفكار أخرى) | — | OBSERVED/REPORTED |
+| 84 | 2026-11-01 02:20 | Muse | تسليم البريف العام: 678 سطر / 78,355 بايت، صفر أسماء شخصيات، صفر صيني (OBSERVED) | مشروع عام خاص لا ملخص شخصي (REPORTED) | OBSERVED/REPORTED |
+| 85 | 2026-11-01 08:54 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 86 | 2026-11-01 09:04 | Muse | حالة مزود يوكينو في OpenCode glm-5.3-free والمفتاح غير مكتوب في الملف | المفتاح لحظي + إعادة تشغيل الترمنال (OBSERVED) | OBSERVED/REPORTED |
+| 87 | 2026-11-01 17:38 | Muse | قراءة 7 ملفات للنموذج الآخر 1,889 سطر / 258,589 بايت وقياسها على القرص | — | OBSERVED/REPORTED |
+| 88 | 2026-11-01 17:39 | moaz | طلب نقد مفصل لما عجب وما لم يعجب في الويكي الثانية والماسترز | — | OBSERVED/REPORTED |
+| 89 | 2026-11-01 17:40 | Muse | تفكيك مبسط للويكي الثانية والماسترز | — | OBSERVED/REPORTED |
+| 90 | 2026-11-01 17:44 | moaz | طلب كتابة كل بيانات المحادثة من البداية في ملف واحد لرسائله ورسائله | — | OBSERVED/REPORTED |
+| 91 | 2026-11-01 17:48 | Muse | تسليم ملف السياق الكامل 9,109,934 بايت 193,619 سطر 328 مقطعاً (OBSERVED) | — | OBSERVED/REPORTED |
+> build · crouton-alpha-free
+[0m$ [0mcat /workspace/wiki/repo/sources/wiki-talk-index.md | tail -40; echo "---"; echo "check MESSAGES 19 vs analysis"; grep -c "^| " /workspace/wiki/repo/MESSAGES.md; echo "---timeline---"; cat /workspace/wiki/repo/timeline/timeline.md
+| 74 | 2026-10-31 22:55 | moaz | طلب قراءة كل الفيديوهات والحل والتشغيل عبر وكلاء | — | OBSERVED/REPORTED |
+| 75 | 2026-10-31 22:55 | Muse | تشغيل 4 وكلاء على زوايا 144 فيديو | — | OBSERVED/REPORTED |
+| 76 | 2026-10-31 22:57 | Muse | حل مخصوص لوضعه من تقارير الوكلاء الأربعة | اعتماد الهجين بصيغته النهائية (REPORTED) | OBSERVED/REPORTED |
+| 77 | 2026-11-01 01:54 | moaz | طلب شرح الهيكل والحل والشكل الأفضل | — | OBSERVED/REPORTED |
+| 78 | 2026-11-01 01:54 | Muse | شرح مبسط من الأول | — | OBSERVED/REPORTED |
+| 79 | 2026-11-01 01:56 | moaz | طلب شرح علمي فعلي لا مثال شخصي | — | OBSERVED/REPORTED |
+| 80 | 2026-11-01 01:57 | Muse | شرح علمي + فلتر الشخصية إجباري كMetadata لا وزن تشابه | إلزام الفلتر المنظوري (REPORTED) | OBSERVED/REPORTED |
+| 81 | 2026-11-01 02:09 | moaz | طلب تبسيط أكثر | — | OBSERVED/REPORTED |
+| 82 | 2026-11-01 02:09 | Muse | شرح مبسط | — | OBSERVED/REPORTED |
+| 83 | 2026-11-01 02:17 | moaz | طلب ملف MD ضخم يشرح الهدف وكيف يتحقق لنموذج آخر (منظمات/أفكار أخرى) | — | OBSERVED/REPORTED |
+| 84 | 2026-11-01 02:20 | Muse | تسليم البريف العام: 678 سطر / 78,355 بايت، صفر أسماء شخصيات، صفر صيني (OBSERVED) | مشروع عام خاص لا ملخص شخصي (REPORTED) | OBSERVED/REPORTED |
+| 85 | 2026-11-01 08:54 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 86 | 2026-11-01 09:04 | Muse | حالة مزود يوكينو في OpenCode glm-5.3-free والمفتاح غير مكتوب في الملف | المفتاح لحظي + إعادة تشغيل الترمنال (OBSERVED) | OBSERVED/REPORTED |
+| 87 | 2026-11-01 17:38 | Muse | قراءة 7 ملفات للنموذج الآخر 1,889 سطر / 258,589 بايت وقياسها على القرص | — | OBSERVED/REPORTED |
+| 88 | 2026-11-01 17:39 | moaz | طلب نقد مفصل لما عجب وما لم يعجب في الويكي الثانية والماسترز | — | OBSERVED/REPORTED |
+| 89 | 2026-11-01 17:40 | Muse | تفكيك مبسط للويكي الثانية والماسترز | — | OBSERVED/REPORTED |
+| 90 | 2026-11-01 17:44 | moaz | طلب كتابة كل بيانات المحادثة من البداية في ملف واحد لرسائله ورسائله | — | OBSERVED/REPORTED |
+| 91 | 2026-11-01 17:48 | Muse | تسليم ملف السياق الكامل 9,109,934 بايت 193,619 سطر 328 مقطعاً (OBSERVED) | — | OBSERVED/REPORTED |
+| 92 | 2026-11-01 17:50 | moaz | إرسال Infinite Brain OS وطلب دراسته للعقل بتاعنا | — | OBSERVED/REPORTED |
+| 93 | 2026-11-01 17:51 | Muse | حمله ودراسته وتشغيل المدقق: ينفع جزئياً لا كعقل بديل | اعتماد Namespace/INDEX/routing/canon؛ رفض النقل الجماعي (REPORTED) | OBSERVED/REPORTED |
+| 94 | 2026-11-01 17:55 | moaz | طلب ضم الدراسة لملف كلود وتحديثه وتفكير/بحث/بناء نظام ويكي أفضل في الشات | — | OBSERVED/REPORTED |
+| 95 | 2026-11-01 17:57 | Muse | تحديث الملف وإعادة قياسه 9,144,870 بايت 194,107 سطر (OBSERVED) | — | OBSERVED/REPORTED |
+| 96 | 2026-11-01 18:00 | moaz | سؤال عن حجم 9MB وطلب اختصار في المفاهيم لا التفاصيل المنسوخة | — | OBSERVED/REPORTED |
+| 97 | 2026-11-01 18:01 | Muse | إقرار بالتضخم (نصوص فيديوهات 7.4MB + مانيفست 1.4MB)؛ النسخة المختصرة 27,616 بايت 265 سطر | اعتماد النسخة المختصرة لكلود بدل الضخم (OBSERVED) | OBSERVED/REPORTED |
+| 98 | 2026-11-02 08:53 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 99 | 2026-11-02 09:05 | Muse | أول اختبار استرجاع BM25 على أصغر 20 صفحة لهشام بدون مفتاح ولا تثبيت | 4/4 عناوين بالنص أولى؛ 1/3 صياغات مختلفة أولى (OBSERVED) | OBSERVED/REPORTED |
+| 100 | 2026-11-02 13:36 | Muse | نفس طبقة الكلمات على كامل 210 صفحة هيثم (601,084 بايت): 12/15 أولى، 14/15 أول 3، عناوين 8/8 أولى | الفجوة المقاسة = الصياغات العامة؛ الكثيف + إعادة الترتيب عائق لا رفاهية (OBSERVED) | OBSERVED/REPORTED |
+| 101 | 2026-11-02 22:33 | Muse | مسح كامل للشات بخلاف الجرد: كل رقم جنبه مصدره وأمر قياسه | — | OBSERVED/REPORTED |
+| 102 | 2026-11-02 23:07 | Muse | تغطية كاملة للشات الرئيسي والمحادثات الجانبية؛ تصحيح غلط الجرد الأول | — | OBSERVED/REPORTED |
+| 103 | 2026-11-03 08:53 | Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+| 104 | 2026-11-03 09:07 | Muse | نتيجة keyword على كل 210 هيثم بنفس 7 أسئلة الـ20 صفحة: عناوين 4/4 أولى، صياغات 1/3 أولى (الجلطة 28، الدين 35) | تثبيت أن الكلمات فقط لا تكفي للصياغات العامة (OBSERVED) | OBSERVED/REPORTED |
+| 105 | 2026-11-03 18:34 | moaz | طلب إيقاف رابط OpenCode المتجدد ورسالة تأكيد + جمع كل كلام الويكي في ملف واحد | — | OBSERVED/REPORTED |
+| 106 | 2026-11-03 18:36 | Muse | تنفيذ: إيقاف الرابط + تجميع كلام الويكي في ملف واحد (wiki_all_talk.md) في طريق التسليم | — | OBSERVED/REPORTED |
+
+## ملاحظات
+
+- **أول رسالة 2026-10-06 08:53** — التنويه بالأرقام: ويكي التعافي 1,418 صفحة أول ظهور (REPORTED عن القراءة).
+- **الرسائل الصباحية المعمية** (1–12، 29–39، 58، 85، 98، 103) يضيق موضوعها على «ملخص صباحي» بلا اختراع محتوى لم يُقرأ هنا كاملاً؛ نصها الكامل في ملف المصدر أعلاه.
+- **لا أسرار:** الروابط القريبة من مفاتيح API تُذكر بالغائب فقط «مفتاح — القيمة لا تُنسخ» ولا تُنسخ أي قيمتها.
+- **التحقق:** عدد العناوين بعد الاستخراج = 106 (مقاس بأمر grep). أي اختلاف في العد على القرص يوقف الفهرس.
+---
+check MESSAGES 19 vs analysis
+60
+---timeline---
+# التسلسل الزمني — 2026-10-06 → 2026-11-05
+
+> **مصدر المواعيد:** عناوين الرسائل المقاسة في `/workspace/wiki/source-transfers/wiki_all_talk.md` (106 رسالة) + تحليل `/workspace/wiki/work/` — كل تواريخ هامة وسطر مرجعي في الجدول.
+
+| التاريخ | الحدث | الدليل |
+|---|---|---|
+| 2026-10-06 08:53 | أول ذكر للويكي: ويكي التعافي/السيرة في الملخصات الصباحية (نقطة البداية) | OBSERVED/REPORTED |
+| 2026-10-06 16:02 | أرقام التوكنز والسجلات: ويكي التعافي 1,418 صفحة؛ محادثات كبرى (247,288,779 + الخلفية 5,704,672,166 = 5,951,960,945) | REPORTED |
+| 2026-10-06 → 2026-10-18 | نشرات صباحية (تكرار ويكي التعافي/السيرة)؛ ويكي السيرة 2,833 → 2,844 → 2,846 (مراحل بناء) | REPORTED |
+| 2026-10-19 08:52 → 17:15 | رسالة صباحية آخرها، ثم **أول محادثة جوهرية**: السؤال التأسيسي (ويكي مشتركة لكل العقول) | OBSERVED/REPORTED |
+| 2026-10-19 17:19 | بناء `yt-wiki` الموحد في `~/workspace/yt-wiki`؛ فهرس 4,262 صفحة | REPORTED |
+| 2026-10-19 17:24 → 17:32 | اختبار يوتيوب: yt-dlp فقط بدون كوكيز؛ TXT مباشرة لا VTT | REPORTED |
+| 2026-10-19 17:36 → 17:42 | إضافة كتب كلاسيكية: books.yaml؛ مجلدات ابن سيرين/ابن تيمية/ابن القيم | REPORTED |
+| 2026-10-19 19:16 | إضافة قناة هيثم طلعت؛ هدف «تفسير حلم معقد» بالجمع من كل المصادر | REPORTED |
+| 2026-10-20 08:56 | إيقاف تنفيذ «مجلس تفسير الحلم» (`PROMPT.md` محفوظ) | REPORTED |
+| 2026-10-21 08:54 | انتهاء برسونا ابن القيم نسختها النهائية | REPORTED |
+| 2026-10-30 08:55 → 18:43 | نشرة صباحية، ثم **تحول RAG**: طلب تحويل الويكي إلى RAG عبر أداة + مفتاح يوكينو + glm | REPORTED |
+| 2026-10-30 18:44 → 21:29 | الجرد الدقيق: 5,896 صفحة / 31.3MB / التقسيم الستي؛ عينة 20 صفحة لهشام 37,402 بايت 129 مقطعاً | REPORTED |
+| 2026-10-30 22:07 → 23:28 | مفتاح يوكينو في OpenCode glm-5.3-free + مرجع بيئة `{env:YUKINO_API_KEY}` لا قيمة في ملف | REPORTED |
+| 2026-10-31 08:54 → 21:22 | نشرة صباحية، ثم **تحميل 144 فيديو** وقراءتها؛ نقد → اعتماد الهجين: RAG أساس + ويكي + namespace للشخصية + استشهاد بالمقطع الخام | REPORTED |
+| 2026-10-31 21:28 → 22:57 | توسيع 144/144؛ وكلاء أربعة؛ حل مخصوص لوضع معاذ؛ 2,783,968 حرف إنجليزي 509,906 كلمة | REPORTED |
+| 2026-11-01 01:54 → 18:01 | شرح الهيكل علمي/mبسط؛ بريف عام 678 سطر / نسخة مختصرة 27KB؛ 7 ملفات للنموذج الآخر 1,889 سطر / 258,589 بايت؛ يوكينو الحالة | REPORTED |
+| 2026-11-01 17:38 → 17:57 | قراءة 7 ملفات + تنفيذ Infinite Brain OS (مفاهيم، ليس المستودع الضخم)؛ إضافة مفاهيم إلى ملف السياق | REPORTED |
+| 2026-11-02 08:53 → 13:36 | مسح كامل للشات؛ أول اختبار BM25 على 20 صفحة لهشام؛ توسيع 210 صفحة هيثم (601,084 بايت): 12/15 أولى، 14/15 أول 3، عناوين 8/8 أولى | REPORTED |
+| 2026-11-02 22:33 → 23:07 | تغطية كاملة للشات الرئيسي والمحادثات الجانبية؛ تصحيح غلط الجرد الأول | REPORTED |
+| 2026-11-03 08:53 → 09:07 | جمود الرام: 429 ميجا متاح فقط، موديل 1–2GB لا يُفتح؛ نتائج تضمين keyword على كل 210 هيثم (عناوين 4/4 أولى، صياغات 1/3 أولى: الجلطة 28، الدين 35) | REPORTED |
+| 2026-11-03 18:34 → 18:36 | إيقاف رابط OpenCode المتجدد + تجميع كلام الويكي في ملف واحد (`wiki_all_talk.md`) | REPORTED |
+| 2026-11-03 → 2026-11-05 | **الأرشيف 212MB/2713 ملف** (`WIKI_ARCHIVE_2026-11-03`)؛ الجرد الجدولي؛ خطة المستودع `layered-wiki-rag` | REPORTED |
+
+## نقاط قياس رئيسية (لا أرقام مخترعة)
+
+- 2026-10-19: الفهرس الموحد 4,262 صفحة (1,418 + 2,844) — yt-wiki.
+- 2026-10-30: 5,896 صفحة / 31,262,266 بايت (31.3MB) — wiki-rag manifest.
+- 2026-10-31: 144/144 فيديو؛ إنجليزي 2,783,968 حرف 509,906 كلمة.
+- 2026-11-02: BM25 على 210 هيثم (601,084 بايت): 12/15 أولى، 14/15 أول 3.
+- 2026-11-03: الرام المتاح 429 ميجا؛ التضمين الكثيف لا يُركب الآن (عائق لا رفاهية).
+
+## الفترات غير المحسومة
+
+- حدود الانحرافات (الرأي الغبي/خارج المجال) غير معرّفة بعد.
+- زمن الإجابة الأقصى، قيمة k، عتبات Recall@10، ومكان النشر النهائي غير محسوم.
+- bge-m3 مرشح مشروط بالاختبار الذي لم يبدأ (الرام 429MB).
+> build · crouton-alpha-free
+[0m$ [0mcat /workspace/wiki/repo/sources/links.md; echo "===analysis 2.1 count==="; grep -c "http" /workspace/wiki/work/analysis-wiki-talk-01.md
+echo "===reference/templates/masters/config/index sizes==="
+ls -lR /workspace/wiki/repo/reference /workspace/wiki/repo/templates /workspace/wiki/repo/masters /workspace/wiki/repo/config /workspace/wiki/repo/index
+wc -l /workspace/wiki/repo/reference/* /workspace/wiki/repo/templates/* /workspace/wiki/repo/masters/README.md /workspace/wiki/repo/masters/review/* /workspace/wiki/repo/config/* /workspace/wiki/repo/index/*
+echo "===session-export-index 19 check==="
+grep -n "س9\|س6737\|س6751\|س6776\|س6850\|س11911\|س12981\|س13013\|س14956\|س15324" /workspace/wiki/repo/sources/session-export-index.md | head -30
+wc -l /workspace/wiki/repo/sources/session-export-index.md
+# الروابط الخارجية — سياق وتاريخ (بلا أسرار)
+
+> **قاعدة صارمة:** كل رابط هنا بسياق اختصار وتاريخه. روابط المفاتيح لا تُنسخ قيمتها؛ تُشار إليها بعبارة «مفتاح — القيمة لا تُنسخ». لا تُفهرس أي قيمة سرية.
+> **المصدر:** `work/analysis-wiki-talk-01.md` §2.1 + `work/analysis-session-01.md` §2. الآن لا يُفتح عن للروابط خارج السياق إلا بإذن.
+
+| الرابط | السياق | التاريخ | الدليل |
+|---|---|---|---|
+| `https://www.transfernow.net/dl/20261101suwmDHnJ` | ملف السياق الكامل المحدث لكلود (نسخة 9MB) — أول ظهور | 2026-11-01 في البريف الأصلي | REPORTED |
+| `https://github.com/topoteretes/cognee` | GraphRAG المقترح — بُني عليه التصميم، لكنه ليس الاختيار النهائي (تأجيل) | 2026-10-30 18:48 | REPORTED |
+| `https://github.com/starmynd-org/infinite-brain-os.git` | نظام تنظيم معرفة MIT (584 ملف، 4.7MB، 228 عقدة) — دراسته ودمج مفاهيمه | 2026-11-01 17:50 | REPORTED |
+| `https://youtu.be/U7UQlAWCKo8?is=alX8CoRG8Jn9HiZx` | اختبار يوتيوب الثلاثي بدون كوكيز | 2026-10-19 17:27 | REPORTED |
+| `https://youtu.be/aMOgezEHXUc?si=PSAigQYpvPf-13RI` | فيديو من الثلاثة | 2026-10-31 20:59 | REPORTED |
+| `https://youtu.be/pvcSMlhNKlo?si=2G1bCkdvW27zFDdz` | فيديو من الثلاثة | 2026-10-31 20:59 | REPORTED |
+| `https://youtu.be/DTCyvo6cC54?si=A3yb5R7-dm4-q844` | Nate Herk — المستويات | 2026-10-31 20:59 | REPORTED |
+| `https://youtube.com/@dr.haitham_talaat?si=SJb66qJcY4o3oMeR` | قناة هيثم طلعت | 2026-10-19 19:16 | REPORTED |
+| `https://api.yukino.my/keys` | مفتاح — القيمة لا تُنسخ | 2026-10-30 18:46 / 21:31 / 22:07 | OBSERVED/REPORTED |
+| `https://api.hcnsec.cn` | مفتاح — القيمة لا تُنسخ (كان داخل JSON `_type: newapi_channel_conn`) | 2026-10-19 17:36 | OBSERVED/REPORTED |
+| `https://nlozx-2a04-4e41-14-1e1--d091-1e1.run.pinggy-free.link` | رابط ترمنال pinggy الأول | 2026-10-19 19:16 | REPORTED |
+| `https://pmbwb-2a04-4e41-10-efc--dd64-efc.free.pinggy.net` | رابط ترمنال جديد | 2026-10-27 08:52 | REPORTED |
+| `http://127.0.0.1:4416/ping` | PoToken server المحلي في سكربت الكولاب | 2026-10-19 17:24 | REPORTED |
+| GitHub `geasas/youtube-transcripts` + `transcripts/transcripts_final.zip` | مستودع رفع النصوص في سكربت الكولاب | 2026-10-19 17:24 | REPORTED |
+| `github:goodnight000/api-anything` | أداة api-anything المحملة عبر `npx -y` | 2026-10-31 21:11 | REPORTED |
+
+## روابط TransferNow من الجلسة 01 — السياق فقط (بلا أسرار)
+
+| الرابط | السياق | التاريخ | الدليل |
+|---|---|---|---|
+| `https://www.transfernow.net/dl/20261103BdZVc6uf` | برومبت المستخدم — تنزيل `/workspace/wiki/pro.md` (1992 بايت) | س13013 / س14218 | REPORTED |
+| `https://www.transfernow.net/dl/20261103UuphJtM8` | ملف كلام الويكي (`wiki_all_talk.md`) | س14218 | REPORTED |
+| `https://www.transfernow.net/dl/202611035dwLrJSx` | البرومبت/الصوت — خارج النطاق ما عدا حدودًا | س14218 | REPORTED |
+| `https://www.transfernow.net/dl/20261101suwmDHnJ` | ذُكر باسم رفع سابق، وانتهى بحالة `Transfer not found` بحسب تقرير الوكيل الفرعي | الجلسة 01 | REPORTED |
+| `https://github.com/moaaaz4568-prog/layered-wiki-rag` | المستودع الخاص الناجح (commit `5b70e5923099bedcb3c911b9a20c3eb3821c8c64`) | س12935 | REPORTED |
+| `https://github.com/moaaaz4568-prog/layered-wiki-rag/releases/tag/v1.0.0` | إصدار أعاد 404 — لا يمكن تأكيد أصوله؛ يُوثَّق كعنصر مفقود لا كنص بديل | س14323 | REPORTED |
+
+## ملاحظة عن روابط المفاح
+
+- `api.yukino.my/keys` و `api.hcnsec.cn` يُذكران هنا **كعبارة وصفية فقط** «مفتاح — القيمة لا تُنسخ». لا تُنسخ أي قيمة مفتاح أو توكن إلى المستودع، ولا تُستخدم إلا لحظياً عبر متغير بيئة عند توفر الإذن.
+- جميع روابط TransferNow أعلاه روابط مشاركة مؤقتة؛ صلاحيتها تنتهي بعد مدة. فهرستها هنا للتوثيق فقط وليست نسخة احتياطية.
+===analysis 2.1 count===
+16
+===reference/templates/masters/config/index sizes===
+/workspace/wiki/repo/config:
+total 16
+-rw-r--r-- 1 box box 1395 Nov  5 00:53 books.yaml
+-rw-r--r-- 1 box box 1953 Nov  5 00:53 models.yaml
+-rw-r--r-- 1 box box 2545 Nov  5 00:53 personas.yaml
+-rw-r--r-- 1 box box  939 Nov  5 00:53 thresholds.yaml
+
+/workspace/wiki/repo/index:
+total 8
+-rw-r--r-- 1 box box 3124 Nov  5 00:53 bm25-results.md
+-rw-r--r-- 1 box box 1082 Nov  5 00:53 manifest-pointer.md
+
+/workspace/wiki/repo/masters:
+total 8
+-rw-r--r-- 1 box box 1532 Nov  5 00:53 README.md
+drwxr-xr-x 2 box box 4096 Nov  5 00:53 review
+
+/workspace/wiki/repo/masters/review:
+total 4
+-rw-r--r-- 1 box box 1455 Nov  5 00:53 checklist.md
+
+/workspace/wiki/repo/reference:
+total 12
+-rw-r--r-- 1 box box 3138 Nov  5 00:53 non-goals.md
+-rw-r--r-- 1 box box 4483 Nov  5 00:53 purposes.md
+
+/workspace/wiki/repo/templates:
+total 8
+-rw-r--r-- 1 box box 1976 Nov  5 00:53 master.md
+-rw-r--r-- 1 box box  983 Nov  5 00:53 term.md
+   38 /workspace/wiki/repo/reference/non-goals.md
+   44 /workspace/wiki/repo/reference/purposes.md
+   56 /workspace/wiki/repo/templates/master.md
+   38 /workspace/wiki/repo/templates/term.md
+   25 /workspace/wiki/repo/masters/README.md
+   23 /workspace/wiki/repo/masters/review/checklist.md
+   25 /workspace/wiki/repo/config/books.yaml
+   42 /workspace/wiki/repo/config/models.yaml
+   54 /workspace/wiki/repo/config/personas.yaml
+   21 /workspace/wiki/repo/config/thresholds.yaml
+   39 /workspace/wiki/repo/index/bm25-results.md
+   16 /workspace/wiki/repo/index/manifest-pointer.md
+  421 total
+===session-export-index 19 check===
+10:| 1 | س9 | `read the file named promptastra6fgss.md and do what the prompt says and use every tool that could helps you and use sub agents to work instead of you` |
+11:| 2 | س6737 | `use sub agents` |
+12:| 3 | س6751 | `transfer zeyusmoaz@gmail.com` — ثلاث مسافات بين الكلمتين كما وردت |
+13:| 4 | س6776 | `yes i want this and i cant download the files from the workspace so upload it to transfernow using browser and computer use` |
+14:| 5 | س6850 | `continue your work and never stop` |
+15:| 6 | س11911 | `use this on github and upload every file and every thing to my github account and save this in your agents.md file and you memory every project every file everything you do you will upload it to my github account making repo and put all this in the repo this is my access token save it in your mind and use it every single time and i dont need to say every time and every project thet you need to upload the files and using my access token key right? this is my access token :[REDACTED — مفتاح وصول مودوع، انظر القسم 4]` |
+16:| 7 | س12981 | `so did you finished and created the html file and evey thing?` |
+17:| 8 | س13013 | `https://www.transfernow.net/dl/20261103BdZVc6uf download this file and it contains my prompt to you read the text inside it and download the files i mentioned and start working and use sub agents` |
+18:| 9 | س14956 | `continue and use sub agents dont ever do work by your self` |
+19:| 10 | س15324 | `Wait a minute, why are you clicking on the video? You have nothing to do with the video. Your job is only with the wiki; you have nothing to do with the audio, the video, or anything else.` |
+70:- **مفتاح وصول شخصي لـGitHub (PAT)**: ظهر في طلب المستخدم عند س11911، وتكرر صداه داخل استدعاءات shell/قوالب GitHub API في س12516–س12849. **إجراء المساعد المعلن:** استخدامه مرة واحدة، وعدم حفظه في أي ملف، والتوصية بإلغائه وتدويره فورًا بعد الاستخدام (س12935).
+83 /workspace/wiki/repo/sources/session-export-index.md
+> build · crouton-alpha-free
+[0m$ [0mcat /workspace/wiki/repo/sources/session-export-index.md
+echo "===diff wiki-talk headers vs index dates==="
+grep "^## [0-9]" /workspace/wiki/source-transfers/wiki_all_talk.md | sed 's/^## \([0-9]*\) — \([0-9-]* [0-9:]*\) — /\1|\2|/' > /tmp/opencode/src_headers.txt
+grep "^| [0-9]" /workspace/wiki/repo/sources/wiki-talk-index.md | sed 's/^| \([0-9]*\) | \([0-9-]* [0-9:]*\) |/\1|\2|/' > /tmp/opencode/idx_headers.txt
+diff /tmp/opencode/src_headers.txt /tmp/opencode/idx_headers.txt && echo "IDENTICAL dates/numbers" || echo "DIFF ABOVE"
+wc -l /tmp/opencode/src_headers.txt /tmp/opencode/idx_headers.txt
+# فهرس تصدير الجلسة — 18267 سطرًا (OpenCode main → Wiki)
+
+> **المصدر [OBSERVED]:** `/tmp/session-e68b584d-d678-4964-806d-2372b51c2b29.md` (18267 سطرًا) — نطاق القراءة: أدوار المستخدم عند الأسطر 9، 6737، 6751، 6776، 6850، 11911، 12981، 13013، 14956، 15324، 15474، 15513، 15635، 15793، 17911، 18123، 18253، 18259، 18265، مع استنتاجات المساعد المحيطة بها.
+> **تنبيه أمني:** أُخفيت قيم الأسرار — يُذكر وجودها فقط في القسم 4. لا تُنسخ أي قيمة مفتاح إلى المستودع.
+
+## 1) طلبات المستخدم حرفيًا مرتبة زمنيًا
+
+| # | السطر | النص الحرفي |
+|---|---|---|
+| 1 | س9 | `read the file named promptastra6fgss.md and do what the prompt says and use every tool that could helps you and use sub agents to work instead of you` |
+| 2 | س6737 | `use sub agents` |
+| 3 | س6751 | `transfer zeyusmoaz@gmail.com` — ثلاث مسافات بين الكلمتين كما وردت |
+| 4 | س6776 | `yes i want this and i cant download the files from the workspace so upload it to transfernow using browser and computer use` |
+| 5 | س6850 | `continue your work and never stop` |
+| 6 | س11911 | `use this on github and upload every file and every thing to my github account and save this in your agents.md file and you memory every project every file everything you do you will upload it to my github account making repo and put all this in the repo this is my access token save it in your mind and use it every single time and i dont need to say every time and every project thet you need to upload the files and using my access token key right? this is my access token :[REDACTED — مفتاح وصول مودوع، انظر القسم 4]` |
+| 7 | س12981 | `so did you finished and created the html file and evey thing?` |
+| 8 | س13013 | `https://www.transfernow.net/dl/20261103BdZVc6uf download this file and it contains my prompt to you read the text inside it and download the files i mentioned and start working and use sub agents` |
+| 9 | س14956 | `continue and use sub agents dont ever do work by your self` |
+| 10 | س15324 | `Wait a minute, why are you clicking on the video? You have nothing to do with the video. Your job is only with the wiki; you have nothing to do with the audio, the video, or anything else.` |
+| 11 | س15474 | `what are you doing what is your plan` |
+| 12 | س15513 | `talk in arabic` |
+| 13 | س15635 | `stop everything` |
+| 14 | س15793 | `fork this session before the message i told you about download reales and file etc` — اللفظ `reales` كما ورد في التصدير |
+| 15 | س17911 | `fork this session before the message i told you about download reales and file etc` — تكرار حرفي للطلب السابق |
+| 16 | س18123 | `search in the chat history and you will find the main conversation,this coneversation is a fork but there is a main conversation with the same name i think search in history and tell excatly the names of conversations and cause i will export it` |
+| 17 | س18253 | `search for it and find it no matter how` |
+| 18 | س18259 | `search for it and find it no matter how` — تكرار ثانٍ، لا يوجد رد مساعد بعده في التصدير |
+| 19 | س18265 | `search for it and find it no matter how` — تكرار ثالث، آخر سطر في التصدير |
+
+## 2) القرارات والمخرجات
+
+### قرارات
+
+- **قرار أساسي (س11917 وما بعدها):** استخدام مفتاح GitHub مرة واحدة لإنشاء مستودع خاص، دون حفظ المفتاح في `AGENTS.md` أو ذاكرة دائمة أو remote دائم، مع استبعاد السجلات والأسرار وملفات مشروع ZCode غير المتعلقة بالمهمة، والتقييم عبر GitHub API.
+- **تصحيح النطاق (س15340–س15346، س15490):** بعد شكوى التدخل في الفيديو/الصوت، أوقف المساعد أي تحليل للفيديو أو الصوت وجعل العمل «ويكي فقط» داخل `/workspace/wiki`.
+- **قرار الأمان (س15651–س15743):** استجابة لطلب `stop everything` أرسل أوامر إيقاف لجميع الوكلاء وأعلن عدم إنشاء أو تعديل أي ملف إضافي.
+- **قاعدة الرفض الأمامية:** عدم اختراع محتوى إصدار GitHub الذي يعيد 404، وتوثيق ذلك بدلًا من تأليفه (س15509 وما بعدها).
+
+### مخرجات ملفاتية
+
+- قراءة `promptastra6fgss.md` في `/workspace/promptastra6fgss.md` (يشرح المعمارية المخصصة للويكي).
+- إنشاء وثيقتين نهائيتين عبر وكيل فرعي (س6883–س6896):
+  - `/workspace/layered-wiki-rag-design.md` — وثيقة عربية متكاملة (791 سطرًا).
+  - `/workspace/layered-wiki-rag-guide.html` — صفحة RTL تعمل دون اتصال مع بحث محلي وTOC وجداول وSVG inline.
+- حزمة TransferNow: `/tmp/opencode/layered-wiki-rag-documents.zip` (مضغوطة مع SHA-256، س11863).
+- تنزيل رابط TransferNow (س14218): `/workspace/wiki/pro.md` (1992 بايت) من رابط `20261103BdZVc6uf`، مع كشف روابط إضافية (`20261103UuphJtM8` لملف كلام الويكي، `202611035dwLrJSx` للبرومبت/الصوت).
+- إنشاء مجلدات العمل: `/workspace/wiki/work` و`/workspace/wiki/repo` (س15046).
+- تقرير مكتمل قبل الإيقاف: `/workspace/wiki/work/conversation-analysis.md` (س15785–س15789).
+- إصدار GitHub المشار إليه (`moaaaz4568-prog/layered-wiki-rag/releases/tag/v1.0.0`) أعاد 404 (س14323).
+
+### مستودعات وروابط
+
+- المستودع الخاص الناجح: `moaaaz4568-prog/layered-wiki-rag`
+  - الرابط: `https://github.com/moaaaz4568-prog/layered-wiki-rag`
+  - الـcommit: `5b70e5923099bedcb3c911b9a20c3eb3821c8c64` (س12935)
+  - المرفوع: `layered-wiki-rag-design.md`، `layered-wiki-rag-guide.html`، `promptastra6fgss.md`، `README.md`، `AGENTS.md` (آمن بلا رمز)، `CHECKSUMS.sha256`
+- رابط TransferNow المستخدم للتنزيل: `https://www.transfernow.net/dl/20261103BdZVc6uf`
+- رابط TransferNow السابق للرفع: ذُكر باسم `20261101suwmDHnJ` في البرومبت الأصلي، وانتهى بحالة `Transfer not found` بحسب تقرير الوكيل الفرعي.
+
+## 3) أفكار مستقبلية
+
+- **خطة v0.1 المقترحة في البرومبت الأصلي (س208–س211):** `git init` + بنية، 10 صفحات ويكي لمنظور واحد، خط تقطيع وتضمين وBM25 على العينة، 20 سؤالًا معروفًا مع Recall@10 وزمن، بروتوكول محدث، وملف REJECTED.
+- **التجارب الست (س260–س261):** اختبار مضمن، فلتر منظور، Recall@10 مع/بلا إعادة ترتيب، تهيئة Git، وحدة تقطيع مقابل أخرى، طبقة ويكي مع وبلاها.
+- **خارج v0.1 المعلن (س210–س211):** فلتر متعدد المنظورات، إعادة الترتيب، الجراف، الواجهة، الصيانة الآلية.
+- **هيكل مستودع الويكي المخطط (س15497–س15505، س15533–س15545):** `README.md`، `CONTEXT.md`، `MASTER.md` أو `masters/`، المتطلبات والقرارات، التسلسل الزمني وفهرس المصادر، `provenance/manifest`، `REJECTED` والمعلومات غير المحسومة، وتقرير التحقق — مع مراجعة منفصلة وفحوصات محلية.
+- **استمرار التفكير الوسيطي من المساعد:** توثيق مصادر/قرارات عبر `OBSERVED` مقابل `REPORTED` مقابل `PROPOSED` مقابل `UNKNOWN`، وقياس الأداء قبل التوسع، وتجنب إعلان النجاح قبل فحص القرص.
+
+## 4) وجود أسرار (ذكر وجود فقط — لا تُنسخ القيم)
+
+- **مفتاح وصول شخصي لـGitHub (PAT)**: ظهر في طلب المستخدم عند س11911، وتكرر صداه داخل استدعاءات shell/قوالب GitHub API في س12516–س12849. **إجراء المساعد المعلن:** استخدامه مرة واحدة، وعدم حفظه في أي ملف، والتوصية بإلغائه وتدويره فورًا بعد الاستخدام (س12935).
+- **قيم مناخية/دورة أكواد واتصال:** روابط TransferNow الموقعة وملف JSON المماثل للـURLs المباشرة (رابط موقّع بـ`download-verify`) حُفظت مؤقتًا داخل `/tmp/opencode` ولم تُنسخ هنا.
+- **ملفات حساسة بلافتة في بيئة العمل:** ملف باسم رمزي (`zcode-web-token.txt`) وسجلات تشغيلية (`zcode-*.log`، `tunnelmole-public.log`، `cloudflared.log`) وردت في فهرسة `/workspace` (س13019) — دليل وجود فقط، لم تُنسخ محتوياتها إلى هذا الملخص.
+- **توصيات تنظيف معلنة:** النص الداخلي يقرّ بضرورة استبعاد `*.env` والأسرار والlogs من أي رفع إلى GitHub (س11917، س12516).
+
+## 5) حلقات مفتوحة لم تُنجز
+
+- **Fork الجلسة التاريخي (س15795، س17911):** طُلب الـfork قبل رسالة تنزيل الملفات (`https://www.transfernow.net/dl/20261103BdZVc6uf`). النتيجة: لا توجد أداة `fork` مكشوفة، وخادم OpenCode المحلي غير متاح؛ لم يُنشأ أي ملف بديل. الحل المقترح: إجراء الـfork من الواجهة.
+- **العثور على المحادثة الرئيسية وأسماء الجلسات (س18125–س18267):** تعذّر الوصول لقائمة الجلسات؛ خدمة السجل المحلي توقفت (`connection refused — 127.0.0.1:38535`)، و sandbox أُعيد تشغيله ثم توقف مرة أخرى (رمز 125). المعرف المؤكد الوحيد: `ses_e5d33304effeelv862nBwgHnwY`. طُلب إعادة تشغيل OmniRush والرد بـ«تابع» — لم يُستكمل في التصدير (ثلاثة طلبات متطابقة عند س18253–س18265 بلا رد).
+- **بناء مستودع الويكي النهائي:** أوقف المستخدم كل شيء بعد تشغيل وكلاء التخطيط والبناء والمراجعة. اكتمل فقط `conversation-analysis.md` قبل الإيقاف؛ مخرجات `repo/README.md`، `CONTEXT.md`، `MASTER.md` وتقرير التحقق لم تُؤكَّد كإنجاز في هذا التصدير.
+- **رفع خارجي عبر المتصفح/المستخدم الآلي (س6778):** قائمة MCP فارغة فلا أداة متصفح/رفع متاحة؛ البديل كان إنشاء الملفات محليًا ثم رفعها عبر GitHub (تم). الرفع عبر TransferNow باستخدام المتصفح ظل غير منفذ.
+- **محرك Ingest/RAG وتقييماته:** محدد كوحدة v0.1 مستقبلية؛ الوثيقتان المسلّمتان (Markdown/HTML) لا تشملان تنفيذ محرك الاسترجاع. التصميم اكتمل، التنفيذ لم يبدأ.
+- **إصدار GitHub v1.0.0:** يعيد 404 ولا يمكن تأكيد أصوله؛ مصيره موثق كعنصر مفقود لا كنص بديل.
+- **تأكيد تدوير مفتاح GitHub:** أوصى المساعد بإلغائه فورًا (س12935)؛ لا يوجد في التصدير تأكيد من المستخدم بأنه قام بالتدوير.
+===diff wiki-talk headers vs index dates===
+1,111c1,106
+< 1|2026-10-06 08:53|Muse
+< 2|2026-10-06 16:02|Muse
+< 3|2026-10-07 08:52|Muse
+< 4|2026-10-08 08:52|Muse
+< 5|2026-10-09 08:52|Muse
+< 6|2026-10-11 08:52|Muse
+< 7|2026-10-12 08:57|Muse
+< 8|2026-10-14 09:02|Muse
+< 9|2026-10-16 08:52|Muse
+< 10|2026-10-17 08:52|Muse
+< 11|2026-10-18 08:53|Muse
+< 12|2026-10-19 08:52|Muse
+< 13|2026-10-19 17:15|moaz
+< 14|2026-10-19 17:19|Muse
+< 15|2026-10-19 17:24|moaz
+< 16|2026-10-19 17:24|Muse
+< 17|2026-10-19 17:27|moaz
+< 18|2026-10-19 17:30|Muse
+< 19|2026-10-19 17:31|moaz
+< 20|2026-10-19 17:31|Muse
+< 21|2026-10-19 17:31|moaz
+< 22|2026-10-19 17:32|Muse
+< 23|2026-10-19 17:36|moaz
+< 24|2026-10-19 17:37|Muse
+< ## 1. حمل قنوات اليوتيوب دي
+< ## 2. حمل كتب الشخصيات دي
+< ## 3. لو الكتاب صور مش نص
+< ## 4. ابنِ ويكي لكل مصدر
+< ## 5. حدّث الفهرس الموحد
+< 25|2026-10-19 17:41|moaz
+< 26|2026-10-19 17:42|Muse
+< 27|2026-10-19 19:16|moaz
+< 28|2026-10-19 19:16|Muse
+< 29|2026-10-20 08:56|Muse
+< 30|2026-10-21 08:54|Muse
+< 31|2026-10-22 08:54|Muse
+< 32|2026-10-23 08:52|Muse
+< 33|2026-10-24 08:54|Muse
+< 34|2026-10-25 08:53|Muse
+< 35|2026-10-26 08:54|Muse
+< 36|2026-10-27 08:52|Muse
+< 37|2026-10-28 08:54|Muse
+< 38|2026-10-29 08:54|Muse
+< 39|2026-10-30 08:55|Muse
+< 40|2026-10-30 18:43|moaz
+< 41|2026-10-30 18:44|Muse
+< 42|2026-10-30 18:46|moaz
+< 43|2026-10-30 18:47|Muse
+< 44|2026-10-30 18:48|Muse
+< 45|2026-10-30 18:49|Muse
+< 46|2026-10-30 21:29|Muse
+< 47|2026-10-30 21:30|moaz
+< 48|2026-10-30 21:31|moaz
+< 49|2026-10-30 21:34|Muse
+< 50|2026-10-30 21:36|moaz
+< 51|2026-10-30 21:36|Muse
+< 52|2026-10-30 21:36|moaz
+< 53|2026-10-30 21:37|Muse
+< 54|2026-10-30 22:07|moaz
+< 55|2026-10-30 22:10|Muse
+< 56|2026-10-30 23:23|Muse
+< 57|2026-10-30 23:28|Muse
+< 58|2026-10-31 08:54|Muse
+< 59|2026-10-31 20:59|moaz
+< 60|2026-10-31 20:59|moaz
+< 61|2026-10-31 21:03|Muse
+< 62|2026-10-31 21:05|moaz
+< 63|2026-10-31 21:11|Muse
+< 64|2026-10-31 21:13|moaz
+< 65|2026-10-31 21:21|Muse
+< 66|2026-10-31 21:22|Muse
+< 67|2026-10-31 21:23|Muse
+< 68|2026-10-31 21:25|moaz
+< 69|2026-10-31 21:28|Muse
+< 70|2026-10-31 21:31|moaz
+< 71|2026-10-31 21:31|Muse
+< 72|2026-10-31 21:49|Muse
+< 73|2026-10-31 22:42|Muse
+< 74|2026-10-31 22:55|moaz
+< 75|2026-10-31 22:55|Muse
+< 76|2026-10-31 22:57|Muse
+< 77|2026-11-01 01:54|moaz
+< 78|2026-11-01 01:54|Muse
+< 79|2026-11-01 01:56|moaz
+< 80|2026-11-01 01:57|Muse
+< 81|2026-11-01 02:09|moaz
+< 82|2026-11-01 02:09|Muse
+< 83|2026-11-01 02:17|moaz
+< 84|2026-11-01 02:20|Muse
+< 85|2026-11-01 08:54|Muse
+< 86|2026-11-01 09:04|Muse
+< 87|2026-11-01 17:38|Muse
+< 88|2026-11-01 17:39|moaz
+< 89|2026-11-01 17:40|Muse
+< 90|2026-11-01 17:44|moaz
+< 91|2026-11-01 17:48|Muse
+< 92|2026-11-01 17:50|moaz
+< 93|2026-11-01 17:51|Muse
+< 94|2026-11-01 17:55|moaz
+< 95|2026-11-01 17:57|Muse
+< 96|2026-11-01 18:00|moaz
+< 97|2026-11-01 18:01|Muse
+< 98|2026-11-02 08:53|Muse
+< 99|2026-11-02 09:05|Muse
+< 100|2026-11-02 13:36|Muse
+< 101|2026-11-02 22:33|Muse
+< 102|2026-11-02 23:07|Muse
+< 103|2026-11-03 08:53|Muse
+< 104|2026-11-03 09:07|Muse
+< 105|2026-11-03 18:34|moaz
+< 106|2026-11-03 18:36|Muse
+---
+> 1|2026-10-06 08:53| Muse | ملخص صباحي — أول ذكر للويكي: ويكي التعافي (د. عماد رشاد) مكتمل | — | OBSERVED/REPORTED |
+> 2|2026-10-06 16:02| Muse | أرقام التوكنز وسجلات المحادثات (ويكي التعافي والسيرة) | — | OBSERVED/REPORTED |
+> 3|2026-10-07 08:52| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 4|2026-10-08 08:52| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 5|2026-10-09 08:52| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 6|2026-10-11 08:52| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 7|2026-10-12 08:57| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 8|2026-10-14 09:02| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 9|2026-10-16 08:52| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 10|2026-10-17 08:52| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 11|2026-10-18 08:53| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 12|2026-10-19 08:52| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 13|2026-10-19 17:15| moaz | السؤال التأسيسي: تحميل ترجمات يوتيوب وقنوات علاء حامد وعماد رشاد إلى ويكي مشتركة وسؤال موحد | هدف المشروع: ويكي مشتركة تستعين بكل العقول للسؤال (REPORTED: صياغة معاذ) | OBSERVED/REPORTED |
+> 14|2026-10-19 17:19| Muse | بناء نظام yt-wiki الموحد في ~/workspace/yt-wiki والفهرس الموحد | اعتماد هيكل yt-wiki كبداية التنفيذ (OBSERVED: بني على القرص) | OBSERVED/REPORTED |
+> 15|2026-10-19 17:24| moaz | مشاركة سكربت كولاب متعدد الاستراتيجيات (مفتاح/كوكيز مضمنة) — المقتطف فقط، القيمة لا تُنسخ | تنبيه أمني: تغيير التوكن الظاهر (REPORTED) | OBSERVED/REPORTED |
+> 16|2026-10-19 17:24| Muse | تشريح الاستراتيجيات الثلاث/الأربع ومحاذيرها | توصية بتجربة واحدة تعمل بدون كوكيز (PROPOSED) | OBSERVED/REPORTED |
+> 17|2026-10-19 17:27| moaz | أمر: مسح الكوكيز والتوكن وتجربة الطرق على رابط فيديو واحد | محو الكوكيز والتوكن نهائياً من السكربتات (OBSERVED: قرار منفذ) | OBSERVED/REPORTED |
+> 18|2026-10-19 17:30| Muse | تجربة الطرق الثلاث بدون كوكيز على الفيديو الاختباري | yt-dlp وحده شغّال بدون كوكيز؛ الطريقتان الأخريان LOGIN_REQUIRED (OBSERVED: مقاس بالتجربة) | OBSERVED/REPORTED |
+> 19|2026-10-19 17:31| moaz | سؤال: هل سينجح التحميل والتشغيل؟ | — | OBSERVED/REPORTED |
+> 20|2026-10-19 17:31| Muse | إقرار بحدود التحقق: لم تُجرَّب دورة كاملة قناة جديدة→ويكي→سؤال على قناة جديدة | يُمنع ادعاء نجاح غير مفحوص (OBSERVED: إقرار Muse) | OBSERVED/REPORTED |
+> 21|2026-10-19 17:31| moaz | طلب: تحميل TXT بدل VTT لكل شيء | — | OBSERVED/REPORTED |
+> 22|2026-10-19 17:32| Muse | السكربت يحمل TXT مباشرة — لا VTT إطلاقاً | اعتماد download-subs.py رسمياً؛ لا VTT في النظام الجديد (OBSERVED) | OBSERVED/REPORTED |
+> 23|2026-10-19 17:36| moaz | طلب برومبت + قائمة كتب ابن القيم وابن سيرين وعلماء أحلام غربيين/مسلمين + OCR بمينك؟ | — | OBSERVED/REPORTED |
+> 24|2026-10-19 17:37| Muse | برومبت كامل جاهز يتضمن قنوات وكتب وأقسام بناء | — | OBSERVED/REPORTED |
+> 25|2026-10-19 17:41| moaz | طلب نقل الأسماء والمفاتيح إلى النظام وتخفيض البرومبت في README | الأسماء تنتقل إلى books.yaml والمفاتيح خارج البرومبت (REPORTED) | OBSERVED/REPORTED |
+> 26|2026-10-19 17:42| Muse | نقل كامل إلى النظام: books.yaml + مفتاح خارج البرومبت + برومبت مبسط في README | اعتماد books.yaml كمرجع كتب (OBSERVED) | OBSERVED/REPORTED |
+> 27|2026-10-19 19:16| moaz | طلب البرومبت + إضافة قناة هيثم طلعت + تفسير حلم معقد بالجمع من كل المصادر | — | OBSERVED/REPORTED |
+> 28|2026-10-19 19:16| Muse | تسليم رابط الترمنال الجديد | — | OBSERVED/REPORTED |
+> 29|2026-10-20 08:56| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 30|2026-10-21 08:54| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 31|2026-10-22 08:54| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 32|2026-10-23 08:52| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 33|2026-10-24 08:54| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 34|2026-10-25 08:53| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 35|2026-10-26 08:54| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 36|2026-10-27 08:52| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 37|2026-10-28 08:54| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 38|2026-10-29 08:54| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 39|2026-10-30 08:55| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 40|2026-10-30 18:43| moaz | طلب تحويل ويكي الست شخصيات إلى RAG عبر أداة (كوجني/غيرها) + مفتاح يوكينو + glm | تحديد الهدف: RAG أساساً فوق الويكي (REPORTED: صياغة معاذ) | OBSERVED/REPORTED |
+> 41|2026-10-30 18:44| Muse | الجرد الأولي: 6 ويكيات 5,889 صفحة ثم مصححة، ask.py بحث كلمات لا RAG، مفتاح لحظي، glm دردشة لا تضمين | قرار: طبقة التضمين منفصلة عن الدردشة؛ مفتاح لحظي لا يُخزن (OBSERVED) | OBSERVED/REPORTED |
+> 42|2026-10-30 18:46| moaz | إرسال مفتاح يوكينو + رابط مفتاح يوكينو — القيمة لا تُنسخ | — | OBSERVED/REPORTED |
+> 43|2026-10-30 18:47| Muse | تأكيد استلام بدون تخزين | — | OBSERVED/REPORTED |
+> 44|2026-10-30 18:48| Muse | خلاصة بحث أدوات RAG/GraphRAG (كوجني مرشح، كروما بديل) | bge-m3 مرشح مشروط بالاختبار لا اختيار نهائي (REPORTED) | OBSERVED/REPORTED |
+> 45|2026-10-30 18:49| Muse | القياس الدقيق: 5,896 صفحة / 31.3MB / التقسيم الستي؛ لا كل Markdown | اعتماد 5,896 صفحة و31,262,266 بايت كرقم مرجعي (OBSERVED) | OBSERVED/REPORTED |
+> 46|2026-10-30 21:29| Muse | تصحيح العينة: 20 أصغر صفحة لهشام 37,402 بايت 129 مقطعاً، لا 81 صفحة لابن تيمية؛ قياس كمبيوتر | اعتماد هيثم 20 صفحة عينة أولى (OBSERVED) | OBSERVED/REPORTED |
+> 47|2026-10-30 21:30| moaz | أمر: حمّل ما تشاء وأكمل الشغل | — | OBSERVED/REPORTED |
+> 48|2026-10-30 21:31| moaz | أمر: glm يعمل مكان Muse وحفظ مفتاح API واستخدام كل النماذج | رفض كلياً عمل glm كمستخدم للترمنال/تحميل (OBSERVED: تنفيذ جزئي آمن) | OBSERVED/REPORTED |
+> 49|2026-10-30 21:34| Muse | تنفيذ التعديل المتفق عليه | — | OBSERVED/REPORTED |
+> 50|2026-10-30 21:36| moaz | أمر: إيقاف الاختبار | — | OBSERVED/REPORTED |
+> 51|2026-10-30 21:36| Muse | تأكيد الإيقاف | — | OBSERVED/REPORTED |
+> 52|2026-10-30 21:36| moaz | سؤال: وضع glm في OpenCode وتشغيله بأوامر | — | OBSERVED/REPORTED |
+> 53|2026-10-30 21:37| Muse | فحص إعدادات OpenCode لمزود يوكينو | المفتاح لا يُكتب كنص في ملف (OBSERVED) | OBSERVED/REPORTED |
+> 54|2026-10-30 22:07| moaz | طلب إضافة المفتاح (القيمة لا تُنسخ) + رابط يوكينو | — | OBSERVED/REPORTED |
+> 55|2026-10-30 22:10| Muse | إضافة عبر متغير بيئة آمن لا قيمة في ملف | مرجع {env:YUKINO_API_KEY} لا قيمة (OBSERVED) | OBSERVED/REPORTED |
+> 56|2026-10-30 23:23| Muse | تحديث اختبار glm داخل OpenCode | — | OBSERVED/REPORTED |
+> 57|2026-10-30 23:28| Muse | نتيجة اختبار glm داخل OpenCode | قرار الانتظار حتى إعادة تشغيل الترمنال بالمفتاح (PROPOSED) | OBSERVED/REPORTED |
+> 58|2026-10-31 08:54| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 59|2026-10-31 20:59| moaz | طلب بحث LLM Wiki على يوتيوب بحساب معاذ وإكمال تحويل الويكي إلى RAG | — | OBSERVED/REPORTED |
+> 60|2026-10-31 20:59| moaz | إرسال ثلاثة روابط يوتيوب للاختبار (Introvert Programmer، أرشيف AI، Nate Herk) | — | OBSERVED/REPORTED |
+> 61|2026-10-31 21:03| Muse | بدء العمل بصراحة ما اشتغل وما وقف | — | OBSERVED/REPORTED |
+> 62|2026-10-31 21:05| moaz | طلب تشغيل متصفح الجهاز + api-anything + استخدام بيانات الحساب + إضافة glm | — | OBSERVED/REPORTED |
+> 63|2026-10-31 21:11| Muse | نتيجة تشغيل المتصفح وأداة api-anything | — | OBSERVED/REPORTED |
+> 64|2026-10-31 21:13| moaz | طلب إيجاد سكربت الترجمة السابق وإعطائه روابط الفيديوهات + بحث يوتيوب بحسابه | — | OBSERVED/REPORTED |
+> 65|2026-10-31 21:21| Muse | إيجاد السكربت والتشغيل بالأرقام | — | OBSERVED/REPORTED |
+> 66|2026-10-31 21:22| Muse | توصية نقدية: ويكي لوحده ليس جاهزاً للإنتاج؛ هجين RAG أساساً + ويكي طبقة مجمعة | اعتماد الهجين: RAG أساس + ويكي فوقه (REPORTED) | OBSERVED/REPORTED |
+> 67|2026-10-31 21:23| Muse | تقرير متصفح بدون دخول وبدون حظر | — | OBSERVED/REPORTED |
+> 68|2026-10-31 21:25| moaz | طلب جمع أكثر من 100 فيديو عن الموضوع | — | OBSERVED/REPORTED |
+> 69|2026-10-31 21:28| Muse | جمع >100 فيديو بأرقام حقيقية | — | OBSERVED/REPORTED |
+> 70|2026-10-31 21:31| moaz | طلب تحميل كل 144 فيديو وقراءتها | — | OBSERVED/REPORTED |
+> 71|2026-10-31 21:31| Muse | بدء التحميل الفعلي | — | OBSERVED/REPORTED |
+> 72|2026-10-31 21:49| Muse | إعادة تشغيل الجهاز في النص؛ التحميل قُتل فاستؤتف من نفس النقطة دون فقد | — | OBSERVED/REPORTED |
+> 73|2026-10-31 22:42| Muse | اكتمال 144/144؛ نص إنجليزي 2,783,968 حرف 509,906 كلمة | اعتماد حجم 144 (OBSERVED) | OBSERVED/REPORTED |
+> 74|2026-10-31 22:55| moaz | طلب قراءة كل الفيديوهات والحل والتشغيل عبر وكلاء | — | OBSERVED/REPORTED |
+> 75|2026-10-31 22:55| Muse | تشغيل 4 وكلاء على زوايا 144 فيديو | — | OBSERVED/REPORTED |
+> 76|2026-10-31 22:57| Muse | حل مخصوص لوضعه من تقارير الوكلاء الأربعة | اعتماد الهجين بصيغته النهائية (REPORTED) | OBSERVED/REPORTED |
+> 77|2026-11-01 01:54| moaz | طلب شرح الهيكل والحل والشكل الأفضل | — | OBSERVED/REPORTED |
+> 78|2026-11-01 01:54| Muse | شرح مبسط من الأول | — | OBSERVED/REPORTED |
+> 79|2026-11-01 01:56| moaz | طلب شرح علمي فعلي لا مثال شخصي | — | OBSERVED/REPORTED |
+> 80|2026-11-01 01:57| Muse | شرح علمي + فلتر الشخصية إجباري كMetadata لا وزن تشابه | إلزام الفلتر المنظوري (REPORTED) | OBSERVED/REPORTED |
+> 81|2026-11-01 02:09| moaz | طلب تبسيط أكثر | — | OBSERVED/REPORTED |
+> 82|2026-11-01 02:09| Muse | شرح مبسط | — | OBSERVED/REPORTED |
+> 83|2026-11-01 02:17| moaz | طلب ملف MD ضخم يشرح الهدف وكيف يتحقق لنموذج آخر (منظمات/أفكار أخرى) | — | OBSERVED/REPORTED |
+> 84|2026-11-01 02:20| Muse | تسليم البريف العام: 678 سطر / 78,355 بايت، صفر أسماء شخصيات، صفر صيني (OBSERVED) | مشروع عام خاص لا ملخص شخصي (REPORTED) | OBSERVED/REPORTED |
+> 85|2026-11-01 08:54| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 86|2026-11-01 09:04| Muse | حالة مزود يوكينو في OpenCode glm-5.3-free والمفتاح غير مكتوب في الملف | المفتاح لحظي + إعادة تشغيل الترمنال (OBSERVED) | OBSERVED/REPORTED |
+> 87|2026-11-01 17:38| Muse | قراءة 7 ملفات للنموذج الآخر 1,889 سطر / 258,589 بايت وقياسها على القرص | — | OBSERVED/REPORTED |
+> 88|2026-11-01 17:39| moaz | طلب نقد مفصل لما عجب وما لم يعجب في الويكي الثانية والماسترز | — | OBSERVED/REPORTED |
+> 89|2026-11-01 17:40| Muse | تفكيك مبسط للويكي الثانية والماسترز | — | OBSERVED/REPORTED |
+> 90|2026-11-01 17:44| moaz | طلب كتابة كل بيانات المحادثة من البداية في ملف واحد لرسائله ورسائله | — | OBSERVED/REPORTED |
+> 91|2026-11-01 17:48| Muse | تسليم ملف السياق الكامل 9,109,934 بايت 193,619 سطر 328 مقطعاً (OBSERVED) | — | OBSERVED/REPORTED |
+> 92|2026-11-01 17:50| moaz | إرسال Infinite Brain OS وطلب دراسته للعقل بتاعنا | — | OBSERVED/REPORTED |
+> 93|2026-11-01 17:51| Muse | حمله ودراسته وتشغيل المدقق: ينفع جزئياً لا كعقل بديل | اعتماد Namespace/INDEX/routing/canon؛ رفض النقل الجماعي (REPORTED) | OBSERVED/REPORTED |
+> 94|2026-11-01 17:55| moaz | طلب ضم الدراسة لملف كلود وتحديثه وتفكير/بحث/بناء نظام ويكي أفضل في الشات | — | OBSERVED/REPORTED |
+> 95|2026-11-01 17:57| Muse | تحديث الملف وإعادة قياسه 9,144,870 بايت 194,107 سطر (OBSERVED) | — | OBSERVED/REPORTED |
+> 96|2026-11-01 18:00| moaz | سؤال عن حجم 9MB وطلب اختصار في المفاهيم لا التفاصيل المنسوخة | — | OBSERVED/REPORTED |
+> 97|2026-11-01 18:01| Muse | إقرار بالتضخم (نصوص فيديوهات 7.4MB + مانيفست 1.4MB)؛ النسخة المختصرة 27,616 بايت 265 سطر | اعتماد النسخة المختصرة لكلود بدل الضخم (OBSERVED) | OBSERVED/REPORTED |
+> 98|2026-11-02 08:53| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 99|2026-11-02 09:05| Muse | أول اختبار استرجاع BM25 على أصغر 20 صفحة لهشام بدون مفتاح ولا تثبيت | 4/4 عناوين بالنص أولى؛ 1/3 صياغات مختلفة أولى (OBSERVED) | OBSERVED/REPORTED |
+> 100|2026-11-02 13:36| Muse | نفس طبقة الكلمات على كامل 210 صفحة هيثم (601,084 بايت): 12/15 أولى، 14/15 أول 3، عناوين 8/8 أولى | الفجوة المقاسة = الصياغات العامة؛ الكثيف + إعادة الترتيب عائق لا رفاهية (OBSERVED) | OBSERVED/REPORTED |
+> 101|2026-11-02 22:33| Muse | مسح كامل للشات بخلاف الجرد: كل رقم جنبه مصدره وأمر قياسه | — | OBSERVED/REPORTED |
+> 102|2026-11-02 23:07| Muse | تغطية كاملة للشات الرئيسي والمحادثات الجانبية؛ تصحيح غلط الجرد الأول | — | OBSERVED/REPORTED |
+> 103|2026-11-03 08:53| Muse | ملخص صباحي (تفصيل الويكي في النص الأصلي) | — | OBSERVED/REPORTED |
+> 104|2026-11-03 09:07| Muse | نتيجة keyword على كل 210 هيثم بنفس 7 أسئلة الـ20 صفحة: عناوين 4/4 أولى، صياغات 1/3 أولى (الجلطة 28، الدين 35) | تثبيت أن الكلمات فقط لا تكفي للصياغات العامة (OBSERVED) | OBSERVED/REPORTED |
+> 105|2026-11-03 18:34| moaz | طلب إيقاف رابط OpenCode المتجدد ورسالة تأكيد + جمع كل كلام الويكي في ملف واحد | — | OBSERVED/REPORTED |
+> 106|2026-11-03 18:36| Muse | تنفيذ: إيقاف الرابط + تجميع كلام الويكي في ملف واحد (wiki_all_talk.md) في طريق التسليم | — | OBSERVED/REPORTED |
+DIFF ABOVE
+  111 /tmp/opencode/src_headers.txt
+  106 /tmp/opencode/idx_headers.txt
+  217 total
+> build · crouton-alpha-free
+[0m$ [0mls -la /workspace/wiki/repo/; echo "---all files---"; find /workspace/wiki/repo -type f | sort; echo "---count---"; find /workspace/wiki/repo -type f | wc -l; echo "---plan expected list extraction---"; cat /workspace/wiki/work/repo-plan-01.md | sed -n '39,92p'
+total 164
+drwxr-xr-x 10 box box  4096 Nov  5 00:53 .
+drwxr-xr-x  6 box box  4096 Nov  5 00:52 ..
+-rw-r--r--  1 box box  2432 Nov  5 00:53 AGENTS.md
+-rw-r--r--  1 box box 13062 Nov  5 00:52 ARCHITECTURE.md
+-rw-r--r--  1 box box  4385 Nov  5 00:52 CHANGELOG.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 config
+-rw-r--r--  1 box box 15085 Nov  5 00:52 CONTEXT.md
+-rw-r--r--  1 box box  5259 Nov  5 00:53 DESIGN-REFERENCE.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 docs
+-rw-r--r--  1 box box    16 Nov  5 00:53 .env.example
+-rw-r--r--  1 box box   263 Nov  5 00:53 .gitignore
+-rw-r--r--  1 box box  7341 Nov  5 00:52 IDEAS.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 index
+-rw-r--r--  1 box box  5030 Nov  5 00:52 MASTER.md
+drwxr-xr-x  3 box box  4096 Nov  5 00:53 masters
+-rw-r--r--  1 box box 16667 Nov  5 00:52 MESSAGES.md
+-rw-r--r--  1 box box  6182 Nov  5 00:53 PROVENANCE.md
+-rw-r--r--  1 box box  9696 Nov  5 00:52 README.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 reference
+-rw-r--r--  1 box box  5413 Nov  5 00:52 REJECTED.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 sources
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 templates
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 timeline
+---all files---
+/workspace/wiki/repo/AGENTS.md
+/workspace/wiki/repo/ARCHITECTURE.md
+/workspace/wiki/repo/CHANGELOG.md
+/workspace/wiki/repo/config/books.yaml
+/workspace/wiki/repo/config/models.yaml
+/workspace/wiki/repo/config/personas.yaml
+/workspace/wiki/repo/config/thresholds.yaml
+/workspace/wiki/repo/CONTEXT.md
+/workspace/wiki/repo/DESIGN-REFERENCE.md
+/workspace/wiki/repo/docs/CHUNKING.md
+/workspace/wiki/repo/docs/CONCEPTS.md
+/workspace/wiki/repo/docs/CONTRADICTION-POLICY.md
+/workspace/wiki/repo/docs/EVALUATION.md
+/workspace/wiki/repo/docs/GOALS.md
+/workspace/wiki/repo/docs/KNOWN-ANSWER-SET.md
+/workspace/wiki/repo/docs/METADATA-SCHEMA.md
+/workspace/wiki/repo/docs/RULES.md
+/workspace/wiki/repo/docs/SOURCES.md
+/workspace/wiki/repo/docs/STAGES.md
+/workspace/wiki/repo/docs/STRUCTURE.md
+/workspace/wiki/repo/.env.example
+/workspace/wiki/repo/.gitignore
+/workspace/wiki/repo/IDEAS.md
+/workspace/wiki/repo/index/bm25-results.md
+/workspace/wiki/repo/index/manifest-pointer.md
+/workspace/wiki/repo/MASTER.md
+/workspace/wiki/repo/masters/README.md
+/workspace/wiki/repo/masters/review/checklist.md
+/workspace/wiki/repo/MESSAGES.md
+/workspace/wiki/repo/PROVENANCE.md
+/workspace/wiki/repo/README.md
+/workspace/wiki/repo/reference/non-goals.md
+/workspace/wiki/repo/reference/purposes.md
+/workspace/wiki/repo/REJECTED.md
+/workspace/wiki/repo/sources/archive-index.md
+/workspace/wiki/repo/sources/file-inventory.md
+/workspace/wiki/repo/sources/links.md
+/workspace/wiki/repo/sources/session-export-index.md
+/workspace/wiki/repo/sources/wiki-talk-index.md
+/workspace/wiki/repo/templates/master.md
+/workspace/wiki/repo/templates/term.md
+/workspace/wiki/repo/timeline/timeline.md
+---count---
+42
+---plan expected list extraction---
+layered-wiki-rag/                                   (خاص)
+├─ README.md                     (~15KB)   نقطة الدخول ودليل القراءة
+├─ CONTEXT.md                    (~30KB)   ملف السياق: ما يعرفه الـ AI الجديد دون إعادة قراءة
+├─ MESSAGES.md                   (~45KB)   «كل ما قلته» — طلبات حرفية مرتبة زمنيًا
+├─ IDEAS.md                      (~30KB)   الأفكار: قرارات/مفاهيم/مقترحات مخصصة
+├─ ARCHITECTURE.md               (~25KB)   المعمارية الهجينة الكاملة (من التصميم)
+├─ MASTER.md                     (~20KB)   الفهرس الجامع: كل الماسترز ومن أين جاءت
+├─ REJECTED.md                   (~8KB)    المرفوض المعلل
+├─ CHANGELOG.md                  (~5KB)    سجل التغييرات
+├─ PROVENANCE.md                 (~10KB)   المنشأ والتحقق: قائمة مصادر + MANIFEST
+├─ AGENTS.md                     (~6KB)   تعليمات الوكلاء (مرحلة v0.1: root فقط)
+├─ .gitignore                    (~0.5KB) منع الأسرار والضخم
+├─ .env.example                  (~0.2KB) مرجع بلا قيمة
+├─ docs/
+│  ├─ STRUCTURE.md               (~15KB)  شجرة المستودع الشرحية + معنى كل مجلد
+│  ├─ GOALS.md                   (~5KB)   الأهداف القابلة للاختبار (5 نقاط)
+│  ├─ RULES.md                   (~8KB)   القواعد الحاكمة (عدم الحذف/الادعاء/...)
+│  ├─ CONCEPTS.md                (~10KB)  قاموس مفاهيم سطرين لكل مفهوم
+│  ├─ METADATA-SCHEMA.md         (~6KB)  حقول المقطع/الصفحة حقلًا حقلًا
+│  ├─ CHUNKING.md                (~5KB)  سياسة التقطيع (عنوان/فقرة/جدول)
+│  ├─ EVALUATION.md              (~6KB)  التقييم: Recall@k / Faithfulness
+│  ├─ CONTRADICTION-POLICY.md    (~5KB)  التناقض: ميكانيكي أم عرض الطرفين
+│  ├─ KNOWN-ANSWER-SET.md        (~8KB)  20 سؤالًا معروفًا (هيثم: تُبنى بعد v0.1 — PROPOSED)
+│  ├─ STAGES.md                  (~6KB)  المراحل v0.1 → شخصية → واجهة → جراف
+│  └─ SOURCES.md                 (~10KB)  فهرس المصادر الخارجية والروابط
+├─ masters/
+│  ├─ README.md                  (~4KB)   كيف تُكتب الماستر (مصطلحات → مجلد → ماستر)
+│  ├─ review/
+│  │  └─ checklist.md           (~3KB)   قائمة مراجعة بشرية قبل الاعتماد
+│  └─ (لا تُزرع ماسترز حقيقية في v0.1 — تُوثَّق طريقة التوليد فقط؛ أي ماستر لاحق = OBSERVED)
+├─ sources/
+│  ├─ wiki-talk-index.md         (~12KB)  فهرس 106 رسالة (2026-10-06 → 2026-11-03) + أول ذكر
+│  ├─ archive-index.md           (~15KB)  خريطة الأرشيف 212MB/2713 ← مسار داخل الأرشيف
+│  ├─ session-export-index.md    (~8KB)  فهرس الجلسة 18267 سطرًا + الرسائل الـ19
+│  ├─ file-inventory.md          (~12KB)  جرد الملفات المقاسة (wiki-rag/wiki-project/...)
+│  └─ links.md                   (~6KB)  روابط خارجية (يوتيوب/TransferNow/GitHub)
+├─ timeline/
+│  └─ timeline.md                (~15KB)  التسلسل الزمني من 2026-10-06 إلى 2026-11-05
+├─ reference/
+│  ├─ purposes.md                (~5KB)  الغايات: عقول متخصصة + ماسترز + وجود التفكير
+│  └─ non-goals.md               (~3KB)  خارج النطاق: فيديو/صوت (نطاق الأمن §1.2.4)
+├─ templates/
+│  ├─ term.md                    (~1KB)   قالب مصطلح (اسم+تعريف+مصدر)
+│  └─ master.md                  (~1KB)   قالب ماستر (رئيسي + إحالات)
+├─ config/
+│  ├─ personas.yaml              (~2KB)   6 شخصيات (slug + domain + بطاقة)
+│  ├─ books.yaml                 (~2KB)   قوائم كتب (يُعاد من yt-wiki)
+│  ├─ models.yaml                (~1KB)   مرشحون مشروطون بالاختبار (لا اختيار مفروض)
+│  └─ thresholds.yaml            (~1KB)   عتبات k / Recall / زمن (تُملأ بعد أول قياسين)
+├─ index/
+│  ├─ manifest-pointer.md        (~3KB)  مؤشر لفهرس 5,896 صفحة (لا نسخة كاملة)
+│  └─ bm25-results.md            (~8KB)  نتائج BM25 المقاسة على 20 + 210 هيثم
+└─ DESIGN-REFERENCE.md           (~3KB)   موقع ملف التصميم في المستودع الحالي
+```
+> build · crouton-alpha-free
+[0m$ [0mcat /workspace/wiki/repo/reference/purposes.md; echo "===non-goals==="; cat /workspace/wiki/repo/reference/non-goals.md; echo "===templates==="; cat /workspace/wiki/repo/templates/term.md; echo "---"; cat /workspace/wiki/repo/templates/master.md; echo "===masters==="; cat /workspace/wiki/repo/masters/README.md; echo "---"; cat /workspace/wiki/repo/masters/review/checklist.md; echo "===config==="; cat /workspace/wiki/repo/config/personas.yaml; echo "---"; cat /workspace/wiki/repo/config/models.yaml; echo "---"; cat /workspace/wiki/repo/config/books.yaml; echo "---"; cat /workspace/wiki/repo/config/thresholds.yaml; echo "===index==="; cat /workspace/wiki/repo/index/manifest-pointer.md; echo "---"; cat /workspace/wiki/repo/index/bm25-results.md
+# الغايات — لماذا الويكي؟
+
+> **مصدر الغايات:** صياغات معاذ الحرفية في الرسائل + البريف الأصلي. لا غاية من عند الكاتب هنا؛ ما لم يذكر يُوسم UNKNOWN.
+
+## 1) إخراج عقول متخصصة (الغاية الكبرى)
+
+> «الهدف هو اخراج عقول متخصصة في جانب واحد محدد مثلا لو اني عملت ويكي بزنس وموجود فيها بيانات كتير عن بيزنس موديلز وعن اوتريتش واعلانات و و و الخ الهدف اني لما اجى للنموذج اقوله عايز اعمل بزنس اعملي بزنس بلان وابني البزنس بتاعي هو يكون عنده المعرفة دي كلها في دماغه ومن هنا جت فكرة الماسترز»
+
+- **الترجمة العملية:** الويكي وسيلة ل«إخراج عقول متخصصة». الماستر ملف يقرأه النموذج مرة واحدة فيصبح خبيراً في مجاله. — REPORTED
+- **الغاية التكميلية:** سؤال موحد يستعين بكل العقول معاً («عشان اجي اساله سؤال فيستعين بكل تفكير الاشخاص وعقولهم الخ ويجاوبني اجابة مفصلة مطولة» — الرسالة التأسيسية 2026-10-19 17:15). — REPORTED
+
+## 2) كل ملف يدخل بكل محتواه — بلا استثناء
+
+> «كل ملف يدخل الويكي يدخل بكل محتواه بلا استثناء. لا يوجد رأي صح ورأي خطأ؛ آراء كثيرة في الموضوع الواحد. الاستثناء: رأي غبي جداً أو خارج المجال، فيُحذف كاملاً» (قاعدة معاذ الحرفية، البريف سطر 33-35 — REPORTED)
+
+- **المعنى:** لا رأي صح ورأي خطأ في الأدب الواحد. عرض الآراء الكثيرة معاً. — REPORTED
+- **القرار الحاكم:** «مفيش حجر خالص، ونعرض الطرفين دايماً» (البريف الأصلي سطر 3 — REPORTED)
+
+## 3) مصطلحات أولاً، ومجلّد مصطلحات كامل قبل أي ماستر
+
+- **الترتيب الإلزامي:** النقل لا الحذف (r → done → processed). مصطلحات أولاً، وماستر فقط بعد اكتمال مصطلحات المجلد الرئيسي. — REPORTED
+- **الدليل المضاد في wikillm:** 27,742 ذرة مصطلح مقابل 5 ماسترز فقط = خرق «مصطلحات قبل ماستر» (BREAK). — REPORTED
+
+## 4) وجود التفكير — الاسترجاع والسياق قبل الجواب
+
+- **الهدف الأول: يرى كل ما في الويكي.** أو الكامل: يرى كل ما في الويكي ويحدد بالضبط ما يحتاجه السؤال. — REPORTED
+- **هدف قريب: استشهاد بالمقطع الخام.** كل إجابة بمقطع خام موثّق. — REPORTED
+
+## 5) النظام المتكامل بملف واحد — لا أوامر متفرقة
+
+- «اني مش عايز البرومبت ده كله ... تحطها في السيستم وتخليها نظام متكامل مش تذكر اسماء الخ ... واني فقط هروحله اقوله اقرا الملف ده مثلا ملف readme.md علي المسار ده» (2026-10-19 17:41 — REPORTED)
+- **المعنى:** الأسماء والمفاتيح وقوائم الكتب في النظام، وكل مهمة تبدأ بأمر واحد «اقرا الملف ده». — REPORTED
+
+## 6) الويكي وسيلة — السؤال الموحد هو الغاية لا القراءة البشرية
+
+- منذ اليوم الأول لم يكن بناء ويكي للقراءة البشرية، بل سؤال موحد يستعين بكل العقول معاً. — REPORTED
+
+## 7) الغايات المقاسة القابلة للاختبار
+
+1. **رؤية:** النموذج يرى كل ويكي المنظور (لا نقرأ خارج نطاق).
+2. **تحديد:** يحدد بالضبط ما يحتاجه السؤال من المقاطع المتاحة.
+3. **إجابة:** يجيب من المقاطع فقط + استشهاد بمصدر خام.
+4. **صوت المنظور:** الإجابة بصوت الشخصية التي يبحث فيها (الفلتر إجباري كما Metadata).
+5. **ثقة:** الاستشهاد يفتح على الخام. — REPORTED
+===non-goals===
+# خارج النطاق — ما لا يُبنى هنا
+
+> **خارج النطاق (Non-Goals):** لا تدرج هنا نسخ الفيديو/الصوت ولا تحليلاتهما. قرار معاذ 2026-11-03: «ليس لك علاقة بالفيديو؛ شغلك ويكي فقط» — الجرس النهائي في الجلسة في `/workspace/wiki/work/analysis-session-01.md` س15324 + §2: «أوقف المساعد أي تحليل للفيديو أو الصوت وجعل العمل «ويكي فقط» داخل `/workspace/wiki`».
+
+## 1) الفيديو والصوت — خارج النطاق
+
+- **قرار: الفيديو/الصوت خارج نطاق الويكي هنا.**
+  - المصادر: معاذ في الرسالة: «ما لك علاقة بالفيديو... شغلك ويكي فقط» (REPORTED)؛ طبقة `non-goals.md` في خطة المستودع: «خارج النطاق: الفيديو/الصوت — قرار معاذ 2026-11-03 "لا علاقته بالفيديو"»؛ ملاحظة `prompt.md` (فيديو): «يبقى خارج النطاق. يُشار إليه في non-goals.md فقط». — REPORTED
+- **الإخراج الوحيد المسموح:** رابط القناة العامة + metadata خفيفة دون نسخ النصوص الكاملة. — REPORTED
+- **السكربتات المتعلقة:** `bin/download-subs.py` و `bin/vtt-to-txt.py` وأدوات التحميل **أدوات مساعدة للقراءة السريعة فقط**، وليست جزءاً من الويكي نفسها التي تحفظ المعرفة.
+
+## 2) Graاف كبداية
+
+- **الجراف (GraphRAG) مؤجل** ما لم يثبت أن layer الأساس لا يكفي. — REPORTED
+
+## 3) نشر عام
+
+- **النشر العام على GitHub مؤجل، المستودع خاص الآن.** — REPORTED
+
+## 4) التخزين الخام على GitHub
+
+- ممنوع: `MANIFEST.json` الكامل (780KB)، `conversations_index.csv`، `source_inventory.csv`، كل `*.db`، `*.opus`، ملفات `cookies.txt`/`.hcnsec_key`/`zcode-*`، `VTT` الخام 47MB، TXT للأثرة الصحية — تُشار إليها فقط بمؤشر. الأرشيف الكامل (212MB/2713) لا يرفع أبداً. — REPORTED
+
+## 5) مجرد بيلد بلا استشهاد
+
+- الواجهة بلا فلتر شخصية مرفوضة؛ الإجابة بلا استشهاد بالمقطع الخام مرفوضة. — REPORTED
+
+## 6) النشر في ويكي قائمة بذاتها
+
+- ويكي جاهزة مسبقاً على الإنترنت أو كود مفتوح جاهز بلا تكييف لصفحاتنا مرفوض. — REPORTED
+
+## 7) الغايات غير المسؤولة
+
+- لا جراف متحرك قبل التأكد أن طبقة الكلمات-والكثيف لا تكفي.
+- لا نشر عام قبل v0.1 اكتمال.
+- لا قراءة كتب مصورة بـOCR قبل إثبات أن النص يأتِ من PDF/مكتوب.
+- لا ذاكرة فرق/كتابة متزامنة قبل وجود كاتب ثانٍ فعلي.
+- لا توسع على فشل: لا أرقام مخترعة، لا نجاح قبل فحص القرص.
+===templates===
+---
+id: term-<slug>
+type: term
+persona: <slug|_global>
+title: <اسم المصطلح>
+status: draft
+source_refs: []
+evidence: UNKNOWN
+updated: <YYYY-MM-DD>
+---
+
+# <اسم المصطلح>
+
+> تعريف موجز بسطرين كحد أقصى. لا أمثلة جديدة هنا، لا حقائق مخترعة.
+
+## التعريف
+
+<تعريف واحد أو سطران، بصيغة قاموس واضحة>
+
+## لماذا يهم
+
+<علاقته بأسئلة المنظور — سطر أو سطرين>
+
+## المصدر
+
+- <مسار خام إن وجد>
+  - صفحة: `<مسار ويكي>`
+  - مقطع: `<عنوان/فقرة أو رقم نطاق>`
+  - الدليل: `OBSERVED` | `REPORTED`
+
+## إحالات
+
+- <مصطلحات أخرى ترتبط به>
+
+## ملاحظات
+
+- لا تُدرج أي قيمة مفتاح أو رابط انقضاء هنا.
+- <حالة الحجر إن وجد> — الـ Raw هو الشاهد الوحيد؛ أي صفحة مجمعة مجرد طبقة لا حقيقة.
+---
+---
+id: master-<slug>
+type: master
+persona: <slug>
+title: <اسم الماستر>
+status: draft
+parent_terms: []  # يجب أن يكون سهمًا فقط بعد اكتمال مصطلحات مجلده
+evidence: UNKNOWN
+updated: <YYYY-MM-DD>
+---
+
+# الماستر — <اسم الشخصية/المجال>
+
+> الماستر ملف يقرأه النموذج مرة واحدة فيصبح خبيراً. **لا ماستر قبل اكتمال مصطلحات مجلده.** الترتيب: مصطلحات → مجلد → ماستر رئيسي + فرعيات بالإحالة.
+
+## 1) ملخص المنظور (من المصطلحات فقط)
+
+- <نقطة 1>
+- <نقطة 2>
+
+## 2) المفاهيم المفتاحية
+
+| المفهوم | term | المصدر |
+|---|---|---|
+| <مفهوم> | <مصطلح> | <مسار خام + مقطع> |
+
+## 3) رؤى متفق عليها داخل المنظور
+
+- العلاقة / السبب / الشرط إن وجد — كلها بوسم دليل ومصدر.
+
+## 4) الخلافات والتناقضات
+
+- اعرض الطرفين معاً دائماً ولا تمل في الحجر الصحي إلا في التناقض الميكانيكي (رقم/تاريخ). (قاعدة معاذ الحرفية — REPORTED)
+
+## 5) مجلدات الاسترجاع
+
+- raw: `<مسار الجذر أو البديل>`
+- wiki: `<مجلد wiki/<slug>/pages|index.md>`
+- terms: `<terms/<slug>/>`
+- index: `<manifest-pointer.md>`
+
+## 6) بوابة الاعتماد
+
+- [ ] مراجعة بشرية لكل صفحة مجمعة (خصوصاً دينية/علمية حساسة) — REQUIRED
+- [ ] إثبات حي على القرص قبل إعلان النجاح
+- [ ] استشهاد كامل بكل مقطع خام
+
+## 7) إحالات
+
+- المصطلحات: `<terms/<slug>/هم...>`
+- صفحات قريبة: `<wikis/...>`
+- فهرس: `<wiki/<slug>/index.md>`
+
+## ملاحظات
+
+- خط ثقة `OBSERVED` | `REPORTED` | `PROPOSED` | `UNKNOWN` | `NOT_RUN` إجباري كما هو.
+===masters===
+# الماسترز — masters/README
+
+> **الدليل:** PROPOSED (قواعد مقترحة) — العمل الفعلي للماسترز لاحقًا بوسم OBSERVED فقط
+> **المرجع:** analysis-wiki-talk-01.md §1.8.3 وقرار «مصطلحات أولاً» في repo-plan-01.md §3.3
+
+## التعريف
+
+الماستر = ملف يقرأه النموذج مرة واحدة فيصبح خبيرًا في مجلد كامل. لا يُنشأ قبل اكتمال مصطلحات مجلده الرئيسي.
+
+## خطوات التوليد
+
+1. تُجمع المصطلحات كاملة من الخام (مصطلح = اسم + تعريف + مصدر).
+2. تُبنى مصطلحات المجلد الفرعي.
+3. يُكتب الماستر الرئيسي + فرعيات بالإحالة.
+
+## القاعدة التي لا تُكسر
+
+- لا ماستر قبل اكتمال مصطلحات المجلد — حتى لو ضربت المساندة أو بادرات المحتوى.
+- الخرق المرصود: 27,742 ذرة مصطلح مقابل 5 ماسترز فقط في wikillm = ماستر قبل مصطلح. هذه هي الحالة الاحترازية التي تمنع تكرارها هنا.
+- أي ماستر لاحق يُدرج ضمن checklist.md قبل أي اعتماد.
+
+## الحالة الآن
+
+- لا ماسترز نشطة بمحتوى مثبت في v0.1؛ المجلد الحالي توثيق طريقة التوليد فقط.
+- لا توليد جماعي ولا مستودعًا بنشأ قبل التشغيل البشري.
+---
+# قائمة مراجعة بشرية قبل الاعتماد — masters/review/checklist
+
+> **الدليل:** PROPOSED (بوابة مقترحة) — العمل الفعلي للماسترز لاحقًا بوسم OBSERVED فقط
+> **القاعدة:** الترقية لـ Canon بموافقة إنسان فقط؛ الوكيل لا يرقّي شغله
+
+## نقاط الاعتماد
+
+- [ ] مراجعة بشرية كاملة لمحتوى الماستر — خصوصًا الصفحات الحساسة دينيًا / علميًا
+- [ ] إثبات حي: فحص القرص بعد التوليد، لا ادعاء نجاح من الوكلاء وحده
+- [ ] كل إجابة باستشهاد بمقطع خام — لا استثناء
+- [ ] الخامة (Raw) لم تُمس — القراءة فقط
+- [ ] الاستشهادات: المسار + عنوان المقطع + معرّف المقطع موجودة وصالحة
+- [ ] لا تناقض ميكانيكي (رقم/تاريخ) لم يُحكم بشريًا
+- [ ] المصطلحات اكتملت في المجلد الفرعي قبل الاعتماد
+- [ ] commit صغير منطقي وCHANGELOG آخر
+- [ ] لا أسرار (grep §5.2 في repo-plan-01)
+- [ ] الاعتماد نفسه مُوسوم OBSERVED بالأمر والمسار
+
+## قرار الإنسان
+
+- APPROVED / REJECTED (يُدخل يدويًا)
+
+> لا يُكتب APPROVED إلا بيد إنسان. الوكيل لا يوقع الاعتماد.
+===config===
+# personas.yaml — تعريف الشخصيات الست
+# المصادر: work/analysis-wiki-talk-01.md §1.2 / §1.5 / §1.7
+# المخطط: work/repo-plan-01.md §2 (config/personas.yaml)
+# قواعد الوسم: OBSERVED = مقاس على القرص، UNKNOWN = ما لم يُقرأ في المصدر المقروء
+# ملاحظة: لا أسرار في هذا الملف
+
+total_observed_pages: 5896
+total_observed_bytes: 31262266
+total_evidence: "OBSERVED"
+
+personas:
+  - slug: ibn-sirin
+    name_ar: "ابن سيرين"
+    domain: "تفسير الأحلام"
+    domain_evidence: "OBSERVED"
+    observed_pages: 780
+    notes: "من الأساسيين في yt-wiki؛ الكتاب المعروف تفسير الأحلام لابن سيرين؛ يشارك في تفسير الحلم المعقد مع بقية الشخصيات"
+
+  - slug: ibn-taymiyyah
+    name_ar: "ابن تيمية"
+    domain: "UNKNOWN"
+    domain_evidence: "UNKNOWN"
+    observed_pages: 81
+    notes: "من الأساسيين في yt-wiki؛ المجال لم يُذكر صراحة في المصدر المقروء فبقي UNKNOWN؛ لا تُخترع مجالا؛ الكتب UNKNOWN حتى ترد في مصدر مقاس"
+
+  - slug: ibn-al-qayyim
+    name_ar: "ابن القيم الجوزية"
+    domain: "UNKNOWN"
+    domain_evidence: "UNKNOWN"
+    observed_pages: 556
+    notes: "من الأساسيين في yt-wiki؛ المجال لم يُذكر صراحة في المصدر المقروء فبقي UNKNOWN؛ الكتب المعروفة في config/books.yaml فقط"
+
+  - slug: haitham-talaat
+    name_ar: "هيثم طلعت"
+    domain: "معالجة نفسية وعصبية"
+    domain_evidence: "OBSERVED"
+    observed_pages: 210
+    observed_bytes: 601084
+    avg_page_bytes: 2336
+    notes: "العينة التجريبية v0.1؛ وصف في المصدر بمعالج نفسي وعصبي؛ يشارك في تفسير الحلم المعقد"
+
+  - slug: emad-rashad
+    name_ar: "عماد رشاد"
+    domain: "التعافي"
+    domain_evidence: "OBSERVED"
+    observed_pages: 1423
+    notes: "من الوكييات القديمة: ويكي التعافي د عماد رشاد؛ بطاقة قديمة در-emad-rashad.md في ~/workspace/wiki-project"
+
+  - slug: ala-hamed
+    name_ar: "علاء حامد"
+    domain: "السيرة"
+    domain_evidence: "OBSERVED"
+    observed_pages: 2846
+    notes: "من الوكييات القديمة: ويكي السيرة م علاء حامد؛ بطاقة قديمة eng-alaa-hamed.md في ~/workspace/wiki-project"
+---
+# models.yaml — النماذج المرشحة المشروطة بالاختبار
+# المصادر: work/analysis-wiki-talk-01.md §1.8 / §2.3 / §1.10
+# المخطط: work/repo-plan-01.md §2 (config/models.yaml)
+# القاعدة: لا تضمين قبل اختباره — لا اختيار نهائي هنا
+
+selection_status: "NOT_RUN"
+chosen_embedding_model: null
+chosen_chat_model: null
+
+embedding_candidates:
+  - id: "bge-m3"
+    model_ref: "bge-m3"
+    dims: 1024
+    status: "conditional-on-test"
+    note: "مرشح مشروط بالاختبار لا اختيار نهائي؛ لم يختبر على العربية داخل Cognee ولم يجرب في wikillm"
+
+  - id: "multilingual-e5-large"
+    model_ref: "intfloat/multilingual-e5-large"
+    status: "conditional-on-test"
+    note: "مذكور كالأقرب للعربي في الرسالة 44؛ لم يختبر"
+
+  - id: "fastembed"
+    model_ref: "FastEmbed"
+    status: "conditional-on-test"
+    note: "مضمّن خفيف للنموذج الأولي؛ غير مثبت لسه الرسالة 46"
+
+chat_candidates:
+  - id: "glm-5.3-free"
+    model_ref: "glm-5.3-free"
+    status: "conditional-on-test"
+    note: "موديل دردشة Yukino للإجابة فقط من المقاطع المسترجعة — لا ولن يثبّت برامج ولا يفتح ترمنال؛ يدخل عند توفر المفتاح لحظيا + إعادة تشغيل الترمنال"
+
+vector_stores:
+  - id: "chromadb"
+    status: "conditional-on-test"
+    note: "البديل الجاهز لـ Cognee لو ثبت أنه مثقل أو الاستخراج ضعيف"
+
+  - id: "cognee"
+    status: "conditional-on-test"
+    note: "GraphRAG مفضّل تحت الاختبار لكن العربية غير مثبتة رسميا فيه؛ لا يُختار قبل اختبار"
+
+blocked_rule: "لا تضمين قبل اختباره — لا اختيار نهائي في هذا الملف؛ الحالة NOT_RUN"
+---
+# books.yaml — قوائم كتب الشخصيات الكلاسيكية
+# المصادر: work/analysis-wiki-talk-01.md §1.4 / §1.5
+# المخطط: work/repo-plan-01.md §2 (config/books.yaml)
+# ملاحظة: نقل الأسماء من البرومبت إلى هذا الملف حسب القرار في §1.5
+# لا أسرار في هذا الملف
+
+sources:
+  - slug: ibn-sirin
+    books:
+      - title_ar: "تفسير الأحلام لابن سيرين"
+
+  - slug: ibn-taymiyyah
+    books: []
+
+  - slug: ibn-al-qayyim
+    books:
+      - title_ar: "زاد المعاد في هدي خير العباد"
+      - title_ar: "مدارج السالكين"
+      - title_ar: "الداء والدواء"
+      - title_ar: "الفوائد"
+
+notes:
+  - statement: "القوائم أعلاه كما وردت حرفيا في analysis-wiki-talk-01.md §1.5؛ لم تُخترع كتب لابن تيمية لأن المصدر لم يذكرها"
+  - statement: "تحميل كتب علماء تفسير أحلام آخرين وفرويد ويونغ كانت طلبا في 2026-10-19 ولم تُثبت بأوامر قياس في المصدر المقروء — لا تدرج هنا كأسماء إلا ما ورد في §1.5"
+  - statement: "جهة التفاصيل التشغيلية المقروءة: ~/workspace/yt-wiki/books.yaml و ~/workspace/yt-wiki/bin/download-book.py كما وردا في §2.2.1"
+---
+# thresholds.yaml — عتبات التقييم
+# المخطط: work/repo-plan-01.md §2 (config/thresholds.yaml) + §1.8
+# القاعدة: لا رقم مخترع قبل القياسين الأولين — القيم أدناه UNKNOWN عمدا
+
+status: "NOT_RUN"
+note: "كل القيم فارغة / TODO حتى يكتمل القياسان الأولان؛ لا تُملأ من التخمين"
+
+thresholds:
+  top_k: null
+  recall_at_k: null
+  recall_target: null
+  answer_latency_max_s: null
+  rerank_latency_max_s: null
+  faithfulness_min: null
+
+todo:
+  - "تحديد k بعد أول قياسين موثّقين"
+  - "تحديد حد Recall@10 بعد أول قياسين موثّقين"
+  - "تحديد زمن الإجابة الأقصى بعد أول قياسين موثّقين"
+
+fill_rule: "لا تملأ قبل أول قياسين — حسب repo-plan-01.md §2 و§1.8؛ يُوسم أي اقتراح قبله PROPOSED لا OBSERVED"
+===index===
+# مؤشر الفهرس — manifest-pointer
+
+> **الدليل:** OBSERVED
+> **القياس:** analysis-wiki-talk-01.md §1.7 (2026-10-30 18:49 → 21:29)؛ الإجمالي النهائي 5,896 صفحة / 31,262,266 بايت (31.3MB)
+
+## أين يعيش الفهرس (لا نسخة هنا)
+
+- الموقع المحلي: `~/workspace/wiki-rag/manifest.jsonl`
+- يضم: كل صفحة ويكي بمسارها وبايتاتها و slug و sha و nchunks
+- التقسيم المقاس على القرص: ابن سيرين 780 · ابن تيمية 81 · ابن القيم 556 · هيثم طلعت 210 · عماد رشاد 1,423 · علاء حامد 2,846 → المجموع 5,896
+
+## قاعدة الحوكمة
+
+- لا نسخة منه في المستودع؛ الإشارة بالمسار فقط (Raw للقراءة فقط حسب repo-plan-01.md §1.2.5)
+- لا يُنقل جماعيًا: العينة أولًا ثم شخصية شخصية (v0.1 = هيثم فقط)
+- الرقم الجديد نفسه يحتاج أمر قياس جديدًا ومختمًا OBSERVED عند أي تحديث
+---
+# نتائج BM25 المقاسة — bm25-results
+
+> **النطاق:** النموذج الوحيد المنفذ فعليًا (قبل أي تضمين كثيف أو إعادة ترتيب)
+> **الدليل:** OBSERVED
+> **المصدر:** work/analysis-wiki-talk-01.md §1.10؛ تاريخ القياس: 2026-11-01 → 2026-11-03
+> **الاتفاق:** النتائج كلها على ويكي هيثم طلعت فقط (210 صفحة كاملة)
+
+## العينة: 20 أصغر صفحة لهيثم (المختصرات الرفيعة)
+
+- المجموع: 37,402 بايت · 129 مقطعًا
+- الأسئلة: 7 توليدت
+- أسئلة العناوين بالنص: **4/4 في المرتبة الأولى** (أوتاد الجبال، جلطة الميلاد، ثلاثة معايير الدين الصحيح، أعمار الأحافير)
+- صياغات مختلفة: **1/3** في المرتبة الأولى والباقي الثانية
+- النتيجة الأصلية الأعلى: 2/2 في المرتبة الأولى — «اختبار كلمات فقط على مجموعة صغيرة»
+
+## الأكبر 20 لهيثم (2026-11-02 13:36)
+
+- إجمالي هيثم: 210 صفحة، 601,084 بايت؛ وأكبر 20 صفحة: 123,205 بايت
+- **14/15 في المرتبة الأولى، 15/15 في أول 3**
+- الغلطة الوحيدة: دليل العين والرودسين في الثانية
+
+## كل 210 (2026-11-02 13:36)
+
+- **12/15 في المرتبة الأولى، 14/15 في أول 3**
+- كل 8 أسئلة عناوين بقيت الأولى حتى مع 210
+- اللي وقعوا: دليل العين والرودسين في الثالثة، حكم التاروت والأبراج في الخامسة، الكهانة والتاروت في الثانية
+
+## الأسئلة السبعة على 210 الكاملة (2026-11-03 09:07)
+
+- العناوين بالنص: 4/4 الأولى
+- صياغات مختلفة: 1/3 الأولى فقط — الجلطة عند الولادة في المرتبة 28، «كيف أعرف أن الدين حق» في المرتبة 35
+- القراءة: الصفحات الغنية الطويلة التي فيها نفس الكلمات العامة تفوقت على الصفحة الرفيعة التي فيها الإجابة فعلاً
+
+## القراءة المقاسة والعائق
+
+- طبقة الكلمات صامتة تقريبًا على التضخم ×10 في أسئلة العناوين؛ الفجوة المقاسة هي الصياغات العامة المشتركة الكلمات
+- الكلمات فقط تكفي لصياغة العنوان بالظبط؛ الكثيف + إعادة الترتيب صار عائقًا لا رفاهية
+- العائق الحالي (2026-11-03 09:07): الرام المتاح 429 ميجا؛ موديل 1-2 جيجا ممنوع — لا تركيب الآن
+- التحفظات: المختصرات رفيعة (~180 كلمة/صفحة) وبعض ترجمتها مقتطعت — الاختبار يثبت طبقة الكلمات على المختصرات لا على الصفحات الكاملة؛ هذا هيثم فقط لا 5,686 صفحة الباقية
+> build · crouton-alpha-free
+Verdict ready — writing review-4.md.
+[0m$ [0mgrep -c "^## [0-9][0-9]* —" /workspace/wiki/source-transfers/wiki_all_talk.md; grep "^## [0-9]" /workspace/wiki/source-transfers/wiki_all_talk.md | grep -v " — " | cat
+echo "---index rows---"; grep -c "^| [0-9]" /workspace/wiki/repo/sources/wiki-talk-index.md
+echo "---MESSAGES 19 check diff---"
+python3 -c "
+import re
+a=open('/workspace/wiki/work/analysis-session-01.md').read()
+b=open('/workspace/wiki/repo/MESSAGES.md').read()
+# extract 19 session lines from analysis
+lines=[l for l in a.splitlines() if re.match(r'\d+\. \*\*\(س\d+\)\*\*',l)]
+print(len(lines))
+for l in lines: print(l[:80])
+print('---MESSAGES section A rows---')
+sec=b.split('## أ)')[1].split('## ب)')[0]
+rows=[l for l in sec.splitlines() if re.match(r'\| \d+ \|',l)]
+print(len(rows))
+for r in rows: print(r[:100])
+"
+echo "---links coverage---"
+grep "transfernow\|cognee\|infinite-brain\|U7UQlAWCKo8\|aMOgezEHXUc\|pvcSMlhNKlo\|DTCyvo6cC54\|haitham_talaat\|yukino.my\|hcnsec\|pinggy\|127.0.0.1:4416\|geasas\|api-anything" /workspace/wiki/repo/sources/links.md | wc -l
+echo "---timeline dates present---"
+grep -o "2026-[0-9-]*" /workspace/wiki/repo/timeline/timeline.md | sort -u
+106
+## 1. حمل قنوات اليوتيوب دي
+## 2. حمل كتب الشخصيات دي
+## 3. لو الكتاب صور مش نص
+## 4. ابنِ ويكي لكل مصدر
+## 5. حدّث الفهرس الموحد
+---index rows---
+106
+---MESSAGES 19 check diff---
+19
+1. **(س9)** `read the file named promptastra6fgss.md and do what the prompt says
+2. **(س6737)** `use sub agents`
+3. **(س6751)** `transfer           zeyusmoaz@gmail.com` — ثلاث مسافات بين الكلمت
+4. **(س6776)** `yes i want this and i cant download the files from the workspace
+5. **(س6850)** `continue your work and never stop`
+6. **(س11911)** `use this on github and upload every file and every thing to my 
+7. **(س12981)** `so did you finished and created the html file and evey thing?`
+8. **(س13013)** `https://www.transfernow.net/dl/20261103BdZVc6uf download this f
+9. **(س14956)** `continue and use sub agents dont ever do work by your self`
+10. **(س15324)** `Wait a minute, why are you clicking on the video? You have not
+11. **(س15474)** `what are you doing what is your plan`
+12. **(س15513)** `talk in arabic`
+13. **(س15635)** `stop everything`
+14. **(س15793)** `fork this session before the message i told you about download
+15. **(س17911)** `fork this session before the message i told you about download
+16. **(س18123)** `search in the chat history and you will find the main conversa
+17. **(س18253)** `search for it and find it no matter how`
+18. **(س18259)** `search for it and find it no matter how` — تكرار ثانٍ، لا يوجد
+19. **(س18265)** `search for it and find it no matter how` — تكرار ثالث، آخر سطر
+---MESSAGES section A rows---
+19
+| 1 | س9 | `read the file named promptastra6fgss.md and do what the prompt says and use every tool t
+| 2 | س6737 | `use sub agents` |
+| 3 | س6751 | `transfer           zeyusmoaz@gmail.com` |
+| 4 | س6776 | `yes i want this and i cant download the files from the workspace so upload it to tran
+| 5 | س6850 | `continue your work and never stop` |
+| 6 | س11911 | `use this on github and upload every file and every thing to my github account and sa
+| 7 | س12981 | `so did you finished and created the html file and evey thing?` |
+| 8 | س13013 | `https://www.transfernow.net/dl/20261103BdZVc6uf download this file and it contains m
+| 9 | س14956 | `continue and use sub agents dont ever do work by your self` |
+| 10 | س15324 | `Wait a minute, why are you clicking on the video? You have nothing to do with the v
+| 11 | س15474 | `what are you doing what is your plan` |
+| 12 | س15513 | `talk in arabic` |
+| 13 | س15635 | `stop everything` |
+| 14 | س15793 | `fork this session before the message i told you about download reales and file etc`
+| 15 | س17911 | `fork this session before the message i told you about download reales and file etc`
+| 16 | س18123 | `search in the chat history and you will find the main conversation,this coneversati
+| 17 | س18253 | `search for it and find it no matter how` |
+| 18 | س18259 | `search for it and find it no matter how` — تكرار ثانٍ |
+| 19 | س18265 | `search for it and find it no matter how` — تكرار ثالث، آخر سطر في التصدير |
+---links coverage---
+20
+---timeline dates present---
+2026-10-06
+2026-10-18
+2026-10-19
+2026-10-20
+2026-10-21
+2026-10-30
+2026-10-31
+2026-11-01
+2026-11-02
+2026-11-03
+2026-11-05
+> build · crouton-alpha-free
+[0m← [0mWrite work/review-4.md
+Created file successfully: work/review-4.md
+> build · crouton-alpha-free
+DONE

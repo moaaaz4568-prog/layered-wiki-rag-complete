@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+[True] ///root/r/NB2/00_SYSTEMS/LOG.md
+[True] ///root/r/V3/00_CHARTER/ANTI_DEAD_FORMULA.md
+[True] ///root/r/V3/00_CHARTER/FORMAT_MASTER.md
+[True] ///root/r/V3/00_CHARTER/GATES_11.md
+[True] ///root/r/V3/00_CHARTER/TRUTH_NUMBERS.md
+[True] ///root/r/V3/02_CONCEPTS/07_branding/C_Contrarian_Belief_Lever.md
+[True] ///sdcard/wikillm/22_future_simulation_part1.md
+[True] ///sdcard/wikillm/22_future_simulation_part2.md
+[False] /INDEX.md
+[False] /masters/Master_Brand_Identity_System.json
+[True] /root/r/NB2/00_SYSTEMS/LOG.md
+[True] /root/r/V3/00_CHARTER/ANTI_DEAD_FORMULA.md
+[True] /root/r/V3/00_CHARTER/FORMAT_MASTER.md
+[True] /root/r/V3/00_CHARTER/GATES_11.md
+[True] /root/r/V3/00_CHARTER/TRUTH_NUMBERS.md
+[True] /root/r/V3/02_CONCEPTS/07_branding/C_Contrarian_Belief_Lever.md
+[True] /sdcard/NEXUS_LLM_WIKI/systems/17_FOLDER_INDEX_CONTRACT.md
+[True] /sdcard/NEXUS_WIKI_SKILLS/opinion-context-evaluation/SKILL.md
+[True] /sdcard/wikillm/22_future_simulation_part1.md
+[True] /sdcard/wikillm/22_future_simulation_part2.md
+[True] /sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_11_BUSINESS_EXECUTION.md
+[False] /sdcard/wikillm/argon_version/wiki_ver2/tools/count.py

@@ -1,0 +1,3 @@
+Command failed to run: fork/exec /root/.local/bin/agy: invalid argument.
+
+No output from the command.

@@ -1,0 +1,512 @@
+[0m
+> build · crouton-alpha-free
+Applying the six documentation fixes — reading the reviews first to verify each claim.
+[0m→ [0mRead work/review-3.md 
+[0m→ [0mRead work/review-1-partB.md 
+[0m→ [0mRead repo/AGENTS.md 
+[0m→ [0mRead repo/MASTER.md 
+[0m→ [0mRead repo/docs/STRUCTURE.md 
+[0m→ [0mRead repo/timeline/timeline.md 
+> build · crouton-alpha-free
+Fixing the six stale claims. First gathering fresh evidence — inventory, checklist contents, and the correct sources.
+[0m→ [0mRead repo/sources/file-inventory.md 
+[0m→ [0mRead repo/masters/README.md 
+[0m→ [0mRead repo/masters/review/checklist.md 
+[0m$ [0mls -l /workspace/wiki/work/archive-inventory-01.md /workspace/wiki/work/analysis-wiki-talk-01.md /workspace/wiki/work/repo-plan-01.md 2>&1; grep -n "212MB\|2713\|2,713\|212 ميجا\|212.*ملف" /workspace/wiki/work/archive-inventory-01.md 2>&1 | head -n 20
+-rw-r--r-- 1 box box 66334 Nov  5 00:40 /workspace/wiki/work/analysis-wiki-talk-01.md
+-rw-r--r-- 1 box box  8662 Nov  5 00:50 /workspace/wiki/work/archive-inventory-01.md
+-rw-r--r-- 1 box box 23880 Nov  5 00:51 /workspace/wiki/work/repo-plan-01.md
+3:**المصدر:** `/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/` (212MB فعلي، 2713 ملفاً مقاساً بـ `find -type f`؛ الوثيقة تذكر 2707)
+6:**الميزانية المعلنة:** 250MB → الفعلي ~211–212MB. المساحة الحرة المعلنة على `/mnt/sdcard`: 497MB.
+77:الجذر ~1MB · `00` 1.4M · `01` 19M · `02` 2.2M · `03` 14M · `04` 7.2M · `05` 150M · `06` 17M · `07` 2.1M · `_RESERVE` 8K = **~212M / 2713 ملفاً** — ضمن ميزانية 250MB ✅
+[0m$ [0mls -R /workspace/wiki/repo | head -n 100; echo "---convénients---"; ls -l /workspace/wiki/repo/masters/ /workspace/wiki/repo/masters/review/ 2>&1; echo "---count---"; find /workspace/wiki/repo -type f | wc -l; find /workspace/wiki/repo -type f | sort
+/workspace/wiki/repo:
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+config
+CONTEXT.md
+DESIGN-REFERENCE.md
+docs
+IDEAS.md
+index
+MASTER.md
+masters
+MESSAGES.md
+PROVENANCE.md
+README.md
+reference
+REJECTED.md
+sources
+templates
+timeline
+
+/workspace/wiki/repo/config:
+books.yaml
+models.yaml
+personas.yaml
+thresholds.yaml
+
+/workspace/wiki/repo/docs:
+CHUNKING.md
+CONCEPTS.md
+CONTRADICTION-POLICY.md
+EVALUATION.md
+GOALS.md
+KNOWN-ANSWER-SET.md
+METADATA-SCHEMA.md
+RULES.md
+SOURCES.md
+STAGES.md
+STRUCTURE.md
+
+/workspace/wiki/repo/index:
+bm25-results.md
+manifest-pointer.md
+
+/workspace/wiki/repo/masters:
+README.md
+review
+
+/workspace/wiki/repo/masters/review:
+checklist.md
+
+/workspace/wiki/repo/reference:
+non-goals.md
+purposes.md
+
+/workspace/wiki/repo/sources:
+archive-index.md
+file-inventory.md
+links.md
+session-export-index.md
+wiki-talk-index.md
+
+/workspace/wiki/repo/templates:
+master.md
+term.md
+
+/workspace/wiki/repo/timeline:
+timeline.md
+---convénients---
+/workspace/wiki/repo/masters/:
+total 8
+-rw-r--r-- 1 box box 1532 Nov  5 00:53 README.md
+drwxr-xr-x 2 box box 4096 Nov  5 00:53 review
+
+/workspace/wiki/repo/masters/review/:
+total 4
+-rw-r--r-- 1 box box 1455 Nov  5 00:53 checklist.md
+---count---
+42
+/workspace/wiki/repo/AGENTS.md
+/workspace/wiki/repo/ARCHITECTURE.md
+/workspace/wiki/repo/CHANGELOG.md
+/workspace/wiki/repo/config/books.yaml
+/workspace/wiki/repo/config/models.yaml
+/workspace/wiki/repo/config/personas.yaml
+/workspace/wiki/repo/config/thresholds.yaml
+/workspace/wiki/repo/CONTEXT.md
+/workspace/wiki/repo/DESIGN-REFERENCE.md
+/workspace/wiki/repo/docs/CHUNKING.md
+/workspace/wiki/repo/docs/CONCEPTS.md
+/workspace/wiki/repo/docs/CONTRADICTION-POLICY.md
+/workspace/wiki/repo/docs/EVALUATION.md
+/workspace/wiki/repo/docs/GOALS.md
+/workspace/wiki/repo/docs/KNOWN-ANSWER-SET.md
+/workspace/wiki/repo/docs/METADATA-SCHEMA.md
+/workspace/wiki/repo/docs/RULES.md
+/workspace/wiki/repo/docs/SOURCES.md
+/workspace/wiki/repo/docs/STAGES.md
+/workspace/wiki/repo/docs/STRUCTURE.md
+/workspace/wiki/repo/.env.example
+/workspace/wiki/repo/.gitignore
+/workspace/wiki/repo/IDEAS.md
+/workspace/wiki/repo/index/bm25-results.md
+/workspace/wiki/repo/index/manifest-pointer.md
+/workspace/wiki/repo/MASTER.md
+/workspace/wiki/repo/masters/README.md
+/workspace/wiki/repo/masters/review/checklist.md
+/workspace/wiki/repo/MESSAGES.md
+/workspace/wiki/repo/PROVENANCE.md
+/workspace/wiki/repo/README.md
+/workspace/wiki/repo/reference/non-goals.md
+/workspace/wiki/repo/reference/purposes.md
+/workspace/wiki/repo/REJECTED.md
+/workspace/wiki/repo/sources/archive-index.md
+/workspace/wiki/repo/sources/file-inventory.md
+/workspace/wiki/repo/sources/links.md
+/workspace/wiki/repo/sources/session-export-index.md
+/workspace/wiki/repo/sources/wiki-talk-index.md
+/workspace/wiki/repo/templates/master.md
+/workspace/wiki/repo/templates/term.md
+/workspace/wiki/repo/timeline/timeline.md
+> build · crouton-alpha-free
+[0m$ [0mls -R /workspace/wiki/repo; echo "---EXISTENCE---"; for d in raw wiki terms src bin skills tests snapshots out; do if [ -e "/workspace/wiki/repo/$d" ]; then echo "$d EXISTS"; else echo "$d MISSING"; fi; done; if [ -e "/workspace/wiki/repo/index" ]; then echo "index EXISTS (dir has md files, not code layer)"; ls -l /workspace/wiki/repo/index; fi; echo "---CHECKLIST COUNT---"; grep -c "^- \[ \]" /workspace/wiki/repo/masters/review/checklist.md; grep -n "^- \[ \]" /workspace/wiki/repo/masters/review/checklist.md; echo "---ARCHIVE---"; grep -n "212\|2713\|2,713\|du -" /workspace/wiki/work/archive-inventory-01.md | head -n 20
+/workspace/wiki/repo:
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+config
+CONTEXT.md
+DESIGN-REFERENCE.md
+docs
+IDEAS.md
+index
+MASTER.md
+masters
+MESSAGES.md
+PROVENANCE.md
+README.md
+reference
+REJECTED.md
+sources
+templates
+timeline
+
+/workspace/wiki/repo/config:
+books.yaml
+models.yaml
+personas.yaml
+thresholds.yaml
+
+/workspace/wiki/repo/docs:
+CHUNKING.md
+CONCEPTS.md
+CONTRADICTION-POLICY.md
+EVALUATION.md
+GOALS.md
+KNOWN-ANSWER-SET.md
+METADATA-SCHEMA.md
+RULES.md
+SOURCES.md
+STAGES.md
+STRUCTURE.md
+
+/workspace/wiki/repo/index:
+bm25-results.md
+manifest-pointer.md
+
+/workspace/wiki/repo/masters:
+README.md
+review
+
+/workspace/wiki/repo/masters/review:
+checklist.md
+
+/workspace/wiki/repo/reference:
+non-goals.md
+purposes.md
+
+/workspace/wiki/repo/sources:
+archive-index.md
+file-inventory.md
+links.md
+session-export-index.md
+wiki-talk-index.md
+
+/workspace/wiki/repo/templates:
+master.md
+term.md
+
+/workspace/wiki/repo/timeline:
+timeline.md
+---EXISTENCE---
+raw MISSING
+wiki MISSING
+terms MISSING
+src MISSING
+bin MISSING
+skills MISSING
+tests MISSING
+snapshots MISSING
+out MISSING
+index EXISTS (dir has md files, not code layer)
+total 8
+-rw-r--r-- 1 box box 3124 Nov  5 00:53 bm25-results.md
+-rw-r--r-- 1 box box 1082 Nov  5 00:53 manifest-pointer.md
+---CHECKLIST COUNT---
+10
+8:- [ ] مراجعة بشرية كاملة لمحتوى الماستر — خصوصًا الصفحات الحساسة دينيًا / علميًا
+9:- [ ] إثبات حي: فحص القرص بعد التوليد، لا ادعاء نجاح من الوكلاء وحده
+10:- [ ] كل إجابة باستشهاد بمقطع خام — لا استثناء
+11:- [ ] الخامة (Raw) لم تُمس — القراءة فقط
+12:- [ ] الاستشهادات: المسار + عنوان المقطع + معرّف المقطع موجودة وصالحة
+13:- [ ] لا تناقض ميكانيكي (رقم/تاريخ) لم يُحكم بشريًا
+14:- [ ] المصطلحات اكتملت في المجلد الفرعي قبل الاعتماد
+15:- [ ] commit صغير منطقي وCHANGELOG آخر
+16:- [ ] لا أسرار (grep §5.2 في repo-plan-01)
+17:- [ ] الاعتماد نفسه مُوسوم OBSERVED بالأمر والمسار
+---ARCHIVE---
+3:**المصدر:** `/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/` (212MB فعلي، 2713 ملفاً مقاساً بـ `find -type f`؛ الوثيقة تذكر 2707)
+5:**النطاق:** هذه الوثائق العلوية فقط + قياسات `du -sh` لكل مجلد.
+6:**الميزانية المعلنة:** 250MB → الفعلي ~211–212MB. المساحة الحرة المعلنة على `/mnt/sdcard`: 497MB.
+20:## 2) خريطة المجلدات (قياس فعلي `du -sh` داخل `/workspace/wiki/archive-extract/`)
+77:الجذر ~1MB · `00` 1.4M · `01` 19M · `02` 2.2M · `03` 14M · `04` 7.2M · `05` 150M · `06` 17M · `07` 2.1M · `_RESERVE` 8K = **~212M / 2713 ملفاً** — ضمن ميزانية 250MB ✅
+> build · crouton-alpha-free
+[0m← [0mEdit repo/MASTER.md
+Index: repo/MASTER.md
+===================================================================
+--- repo/MASTER.md
++++ repo/MASTER.md
+@@ -17,9 +17,9 @@
+ ## 3. الحالة الحالية (صادقة — لا ماسترز نشطة بمحتوى مثبت في هذه البيئة)
+ 
+ | المقياس | الرقم | الدليل |
+ |---|---|---|
+-| ماسترز في هذه الدفعة (repo/) | **صفر ملف ماستر نشط** | [OBSERVED: فهرس /workspace/wiki/repo/ في 2026-11-05 — لا يوجد مجلد masters/ ولا أي ملف .md إلا الملفات الستة هذه] |
++| ماسترز في هذه الدفعة (repo/) | **صفر ماستر نشط بمحتوى مثبت؛ مجلد masters/ توثيقي فقط** | [OBSERVED 2026-11-05 — `ls -R` repo/ أظهر masters/README.md وmasters/review/checklist.md فقط، بلا أي ملف ماستر نشط] |
+ | ماسترز في wikillm (تقرير منقول) | **5 ماسترز مقابل 27,742 ذرة مصطلح** | [REPORTED: analysis §2.4 — خرق «مصطلحات قبل ماستر»] |
+ | ماسترز في الويكي القديمة | **70 ماستر** (موصوفة «سيئة جداً وكلام غلط») | [REPORTED: analysis §2.4 — مثال واحد تُحوّل لقاعدة عامة بالغلط] |
+ | هل ماستر v0.1 جاهز؟ | **لا** — v0.1 لم يُبنَ بعد | [PROPOSED: repo-plan §2: «لا تُزرع ماسترز حقيقية في v0.1»] |
+ 
+
+> build · crouton-alpha-free
+[0m$ [0mgrep -n "ماسترز في هذه الدفعة\|لا يوجد مجلد masters\|توثيقي فقط" /workspace/wiki/repo/MASTER.md
+21:| ماسترز في هذه الدفعة (repo/) | **صفر ماستر نشط بمحتوى مثبت؛ مجلد masters/ توثيقي فقط** | [OBSERVED 2026-11-05 — `ls -R` repo/ أظهر masters/README.md وmasters/review/checklist.md فقط، بلا أي ملف ماستر نشط] |
+> build · crouton-alpha-free
+[0m← [0mEdit repo/MASTER.md
+Index: repo/MASTER.md
+===================================================================
+--- repo/MASTER.md
++++ repo/MASTER.md
+@@ -32,9 +32,9 @@
+ - القاعدة الوقائية: لا ماستر قبل اكتمال مصطلحات المجلد — [REPORTED: analysis §1.8.3].
+ 
+ ## 5. بوابة مراجعة الاعتماد (§review)
+ 
+-1. قائمة مراجعة بشرية (`masters/review/checklist.md`) — محتواها = [UNKNOWN في هذه البيئة: الملف غير موجود في repo/] — [PROPOSED: analysis §4.3].
++1. قائمة مراجعة بشرية (`masters/review/checklist.md`) — موجودة في repo/ وتضم 10 نقاط اعتماد [OBSERVED 2026-11-05 — `grep -c '^- \[ \]'` = 10]: مراجعة بشرية كاملة خصوصًا الصفحات الحساسة دينيًا/علميًا؛ إثبات حي بفحص القرص بعد التوليد لا ادعاء الوكلاء وحده؛ كل إجابة باستشهاد بمقطع خام بلا استثناء؛ الخامة (Raw) لم تُمس قراءة فقط؛ الاستشهادات (مسار + عنوان مقطع + معرّف) موجودة وصالحة؛ لا تناقض ميكانيكي (رقم/تاريخ) لم يُحكم بشريًا؛ المصطلحات مكتملة في المجلد الفرعي قبل الاعتماد؛ commit صغير منطقي وCHANGELOG آخر؛ لا أسرار (grep §5.2 في repo-plan-01)؛ الاعتماد نفسه موسوم OBSERVED بالأمر والمسار — والترقية لـ Canon بموافقة إنسان فقط [OBSERVED: قراءة masters/review/checklist.md مباشرة].
+ 2. المعايير المعلنة في الخطة: موافقة إنسان + إثبات حي + استشهاد بالمقطع الخام — [REPORTED: repo-plan §3.3].
+ 3. الترقية لا تُتم إلا بموافقة إنسان؛ الوكيل لا يرقّي شغله — [REPORTED: analysis §1.8.9].
+ 
+ ## 6. ما يجري NOT_RUN / UNKNOWN
+
+> build · crouton-alpha-free
+[0m$ [0mgrep -n "checklist.md" /workspace/wiki/repo/MASTER.md | head -n 5
+15:5. **بوابة الاعتماد:** كل ماستر يمر بمراجعة بشرية قبل اعتماده canon — [REPORTED: analysis §4.3 `masters/review/checklist.md` + §1.8.9].
+21:| ماسترز في هذه الدفعة (repo/) | **صفر ماستر نشط بمحتوى مثبت؛ مجلد masters/ توثيقي فقط** | [OBSERVED 2026-11-05 — `ls -R` repo/ أظهر masters/README.md وmasters/review/checklist.md فقط، بلا أي ملف ماستر نشط] |
+36:1. قائمة مراجعة بشرية (`masters/review/checklist.md`) — موجودة في repo/ وتضم 10 نقاط اعتماد [OBSERVED 2026-11-05 — `grep -c '^- \[ \]'` = 10]: مراجعة بشرية كاملة خصوصًا الصفحات الحساسة دينيًا/علميًا؛ إثبات حي بفحص القرص بعد التوليد لا ادعاء الوكلاء وحده؛ كل إجابة باستشهاد بمقطع خام بلا استثناء؛ الخامة (Raw) لم تُمس قراءة فقط؛ الاستشهادات (مسار + عنوان مقطع + معرّف) موجودة وصالحة؛ لا تناقض ميكانيكي (رقم/تاريخ) لم يُحكم بشريًا؛ المصطلحات مكتملة في المجلد الفرعي قبل الاعتماد؛ commit صغير منطقي وCHANGELOG آخر؛ لا أسرار (grep §5.2 في repo-plan-01)؛ الاعتماد نفسه موسوم OBSERVED بالأمر والمسار — والترقية لـ Canon بموافقة إنسان فقط [OBSERVED: قراءة masters/review/checklist.md مباشرة].
+> build · crouton-alpha-free
+[0m← [0mEdit repo/MASTER.md
+Index: repo/MASTER.md
+===================================================================
+--- repo/MASTER.md
++++ repo/MASTER.md
+@@ -44,8 +44,8 @@
+ - قيمة عتبة الاعتماد (كم مصطلحًا يكفي لماستر؟) = [UNKNOWN: لم تُعرَّف في أي مصدر مقروء].
+ 
+ ## 7. مرجع
+ 
+-- القواعد الـ13: `analysis-wiki-talk-01.md` §1.8 — [REPORTED].
+-- الشجرة المقترحة: `analysis-wiki-talk-01.md` §4.3 — [REPORTED].
+-- خطة المستودع §3.1 (MASTER.md) — [REPORTED: repo-plan-01.md].
+-- التصميم §2.9 (الماستر الرئيسي والمتخصص) — [REPORTED: عناوين layered-wiki-rag-design.md المقروءة مباشرة — OBSERVED: قراءة العناوين عبر grep].
++- القواعد الـ13: `../work/analysis-wiki-talk-01.md` §1.8 (خارج المستودع) — [REPORTED].
++- الشجرة المقترحة: `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع) — [REPORTED].
++- خطة المستودع §3.1 (MASTER.md) — [REPORTED: `../work/repo-plan-01.md` (خارج المستودع)].
++- التصميم §2.9 (الماستر الرئيسي والمتخصص) — [REPORTED: `DESIGN-REFERENCE.md` + `ARCHITECTURE.md` هنا، والتصميم الكامل على GitHub فرع layered-wiki-rag-design.md].
+
+> build · crouton-alpha-free
+[0m$ [0mgrep -n "خارج المستودع\|DESIGN-REFERENCE.md + ARCHITECTURE.md هنا\|layered-wiki-rag-design" /workspace/wiki/repo/MASTER.md
+48:- القواعد الـ13: `../work/analysis-wiki-talk-01.md` §1.8 (خارج المستودع) — [REPORTED].
+49:- الشجرة المقترحة: `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع) — [REPORTED].
+50:- خطة المستودع §3.1 (MASTER.md) — [REPORTED: `../work/repo-plan-01.md` (خارج المستودع)].
+51:- التصميم §2.9 (الماستر الرئيسي والمتخصص) — [REPORTED: `DESIGN-REFERENCE.md` + `ARCHITECTURE.md` هنا، والتصميم الكامل على GitHub فرع layered-wiki-rag-design.md].
+> build · crouton-alpha-free
+[0m← [0mEdit repo/docs/STRUCTURE.md
+Index: repo/docs/STRUCTURE.md
+===================================================================
+--- repo/docs/STRUCTURE.md
++++ repo/docs/STRUCTURE.md
+@@ -1,7 +1,7 @@
+ # STRUCTURE — شجرة المستودع الشرحية
+ 
+-> الحالة: PROPOSED — بنية مخططة في `work/repo-plan-01.md` §2، لم تُبنَ كاملة بعد.
++> الحالة: ملفات §§2-4 موجودة على القرص (42 ملفاً في repo/ في 2026-11-05 — `find repo/ -type f | wc -l` = 42) [OBSERVED 2026-11-05]؛ طبقات §5 raw/wiki/terms/src مخططة فقط، غير موجودة في repo/ الآن — بنية مخططة في `../work/repo-plan-01.md` §2 (خارج المستودع).
+ > المصدر: `analysis-wiki-talk-01.md` §4.3 + `repo-plan-01.md` §2.
+ > وسم الدليل: OBSERVED = مقاس على القرص، REPORTED = منقول من تقرير، PROPOSED = مقترح مستقبلي، UNKNOWN = لا دليل، NOT_RUN = لم يُشغَّل بعد.
+ 
+ ## 1. المستودع الحالي
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/docs/STRUCTURE.md
+Index: repo/docs/STRUCTURE.md
+===================================================================
+--- repo/docs/STRUCTURE.md
++++ repo/docs/STRUCTURE.md
+@@ -7,9 +7,9 @@
+ ## 1. المستودع الحالي
+ 
+ - الاسم المقترح: `layered-wiki-rag` | REPORTED — `analysis-wiki-talk-01.md` §4.1
+ - مستودع خاص (Private) | REPORTED — `analysis-wiki-talk-01.md` §1.2 + §3.2
+-- المستودع الحالي `layered-wiki-rag` (حسب الخطة، 5 ملفات) | REPORTED — `repo-plan-01.md` §1.3
++- المستودع الحالي `layered-wiki-rag` | REPORTED — `../work/repo-plan-01.md` §1.3 (خارج المستودع) — العدد التاريخي كان 5 ملفات حسب الخطة وقت كتابتها [REPORTED تاريخي — `../work/repo-plan-01.md` §1.3]؛ الحالي في 2026-11-05 = 42 ملفاً على القرص (`find repo/ -type f | wc -l`) [OBSERVED 2026-11-05]
+ - القرار: استخدام الحالي لا جديد | REPORTED — `repo-plan-01.md` §1.3
+ - إجمالي المستودع النصي المستهدف | PROPOSED — `repo-plan-01.md` §2
+ 
+ ## 2. الجذر
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/docs/STRUCTURE.md
+Index: repo/docs/STRUCTURE.md
+===================================================================
+--- repo/docs/STRUCTURE.md
++++ repo/docs/STRUCTURE.md
+@@ -53,19 +53,21 @@
+ - `index/` — مؤشر فهرس 5,896 صفحة + نتائج BM25 المقاسة على هيثم | PROPOSED + OBSERVED — `repo-plan-01.md` §2
+ 
+ ## 5. طبقات البيانات (من التصميم)
+ 
+-- `raw/` — طبقة الخام: للقراءة فقط، لا تُعدَّل أبدًا | REPORTED — `analysis-wiki-talk-01.md` §1.8 القاعدة 8
+-- `wiki/` — طبقة الويكي المترجمة (تجميع لا حقيقة) | REPORTED — `analysis-wiki-talk-01.md` §4.3
+-- `terms/` — المصطلحات أولاً وقبل الماستر | REPORTED — `analysis-wiki-talk-01.md` §1.8 القاعدة 3
+-- `index/` (كود) — BM25 ثم Dense ثم Hybrid/RRF/Rerank | REPORTED — `analysis-wiki-talk-01.md` §4.3
+-- `src/` — ingest → retrieve → generate → audit → eval → tools | REPORTED — `analysis-wiki-talk-01.md` §4.3
+-- `bin/` — سكربتات yt-wiki النظيفة (download → build → ask) | REPORTED — `analysis-wiki-talk-01.md` §1.4
+-- `skills/` — مهارة yt-wiki + wiki-build + rag-pipeline | REPORTED — `analysis-wiki-talk-01.md` §4.3
+-- `tests/` — اختبارات BM25 + Dense-vs-keyword + Known-answer | REPORTED — `analysis-wiki-talk-01.md` §4.3
+-- `snapshots/before-bulk/` — لقطة قبل أي تغيير جماعي (هذا فقط يُرفع) | REPORTED — `analysis-wiki-talk-01.md` §4.3
+-- `out/` — مخرجات تجريبية (غير متتبع) | REPORTED — `analysis-wiki-talk-01.md` §4.3
++> **ملاحظة صريحة:** طبقات §5 أدناه كلها [PROPOSED] — مخطط فقط، غير موجود في repo/ الآن. فُحص على القرص في 2026-11-05: `raw/` و`wiki/` و`terms/` و`src/` و`bin/` و`skills/` و`tests/` و`snapshots/` و`out/` كلها غائبة من repo/؛ `index/` الموجودة هي مجلد وثائق (bm25-results.md + manifest-pointer.md) لا طبقة كود. كل سطر أدناه يصف التصميم [REPORTED] لا موجودًا على القرص.
+ 
++- `raw/` — طبقة الخام: للقراءة فقط، لا تُعدَّل أبدًا | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §1.8 القاعدة 8 (خارج المستودع)
++- `wiki/` — طبقة الويكي المترجمة (تجميع لا حقيقة) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
++- `terms/` — المصطلحات أولاً وقبل الماستر | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §1.8 القاعدة 3 (خارج المستودع)
++- `index/` (كود) — BM25 ثم Dense ثم Hybrid/RRF/Rerank | PROPOSED — مخطط فقط، غير موجود في repo/ الآن (الموجود `index/` وثائق فقط) | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
++- `src/` — ingest → retrieve → generate → audit → eval → tools | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
++- `bin/` — سكربتات yt-wiki النظيفة (download → build → ask) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §1.4 (خارج المستودع)
++- `skills/` — مهارة yt-wiki + wiki-build + rag-pipeline | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
++- `tests/` — اختبارات BM25 + Dense-vs-keyword + Known-answer | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
++- `snapshots/before-bulk/` — لقطة قبل أي تغيير جماعي (هذا فقط يُرفع) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
++- `out/` — مخرجات تجريبية (غير متتبع) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
++
+ ## 6. القياسات الرقمية المرجعية
+ 
+ - 6 ويكيات، 5,896 صفحة، 31.3MB (31,262,266 بايت) | OBSERVED — `analysis-wiki-talk-01.md` §1.7
+ - ابن سيرين 780، ابن تيمية 81، ابن القيم 556، هيثم طلعت 210، عماد رشاد 1,423، علاء حامد 2,846 | OBSERVED — `analysis-wiki-talk-01.md` §1.7
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/docs/STRUCTURE.md
+Index: repo/docs/STRUCTURE.md
+===================================================================
+--- repo/docs/STRUCTURE.md
++++ repo/docs/STRUCTURE.md
+@@ -73,10 +73,10 @@
+ - ابن سيرين 780، ابن تيمية 81، ابن القيم 556، هيثم طلعت 210، عماد رشاد 1,423، علاء حامد 2,846 | OBSERVED — `analysis-wiki-talk-01.md` §1.7
+ - هيثم كامل: 210 صفحة، 601,084 بايت | OBSERVED — `analysis-wiki-talk-01.md` §1.10
+ - أصغر 20 صفحة لهيثم: 37,402 بايت، 129 مقطعًا | OBSERVED — `analysis-wiki-talk-01.md` §1.7
+ - متوسط صفحة هيثم 2,336 بايت مقابل ابن تيمية 10,458 بايت | OBSERVED — `analysis-wiki-talk-01.md` §1.7
+-- أرشيف الويكي الكامل: 212MB، 2,713 ملفًا على القرص | OBSERVED — `archive-inventory-01.md` §2، §6
+-- `05_CONVERSATIONS`: 150M، 990 ملفًا (أكبر قسم) | OBSERVED — `archive-inventory-01.md` §2
++- أرشيف الويكي الكامل: 212MB، 2,713 ملفًا على القرص | OBSERVED — `sources/file-inventory.md` + المصدر الخارجي `../work/archive-inventory-01.md` §2، §6 (خارج المستودع)
++- `05_CONVERSATIONS`: 150M، 990 ملفًا (أكبر قسم) | OBSERVED — `sources/file-inventory.md` + المصدر الخارجي `../work/archive-inventory-01.md` §2 (خارج المستودع)
+ 
+ ## 7. ما يُمنع رفعه أبدًا
+ 
+ - `MANIFEST.json` الكامل (780K) — يُشار إليه بمؤشر فقط | REPORTED — `repo-plan-01.md` §1.2 + §2
+
+> build · crouton-alpha-free
+[0m$ [0mgrep -n "مخطط فقط\|file-inventory.md\|42 ملفاً\|PROPOSED.*غير موجود" /workspace/wiki/repo/docs/STRUCTURE.md | head -n 25
+3:> الحالة: ملفات §§2-4 موجودة على القرص (42 ملفاً في repo/ في 2026-11-05 — `find repo/ -type f | wc -l` = 42) [OBSERVED 2026-11-05]؛ طبقات §5 raw/wiki/terms/src مخططة فقط، غير موجودة في repo/ الآن — بنية مخططة في `../work/repo-plan-01.md` §2 (خارج المستودع).
+11:- المستودع الحالي `layered-wiki-rag` | REPORTED — `../work/repo-plan-01.md` §1.3 (خارج المستودع) — العدد التاريخي كان 5 ملفات حسب الخطة وقت كتابتها [REPORTED تاريخي — `../work/repo-plan-01.md` §1.3]؛ الحالي في 2026-11-05 = 42 ملفاً على القرص (`find repo/ -type f | wc -l`) [OBSERVED 2026-11-05]
+57:> **ملاحظة صريحة:** طبقات §5 أدناه كلها [PROPOSED] — مخطط فقط، غير موجود في repo/ الآن. فُحص على القرص في 2026-11-05: `raw/` و`wiki/` و`terms/` و`src/` و`bin/` و`skills/` و`tests/` و`snapshots/` و`out/` كلها غائبة من repo/؛ `index/` الموجودة هي مجلد وثائق (bm25-results.md + manifest-pointer.md) لا طبقة كود. كل سطر أدناه يصف التصميم [REPORTED] لا موجودًا على القرص.
+59:- `raw/` — طبقة الخام: للقراءة فقط، لا تُعدَّل أبدًا | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §1.8 القاعدة 8 (خارج المستودع)
+60:- `wiki/` — طبقة الويكي المترجمة (تجميع لا حقيقة) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+61:- `terms/` — المصطلحات أولاً وقبل الماستر | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §1.8 القاعدة 3 (خارج المستودع)
+62:- `index/` (كود) — BM25 ثم Dense ثم Hybrid/RRF/Rerank | PROPOSED — مخطط فقط، غير موجود في repo/ الآن (الموجود `index/` وثائق فقط) | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+63:- `src/` — ingest → retrieve → generate → audit → eval → tools | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+64:- `bin/` — سكربتات yt-wiki النظيفة (download → build → ask) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §1.4 (خارج المستودع)
+65:- `skills/` — مهارة yt-wiki + wiki-build + rag-pipeline | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+66:- `tests/` — اختبارات BM25 + Dense-vs-keyword + Known-answer | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+67:- `snapshots/before-bulk/` — لقطة قبل أي تغيير جماعي (هذا فقط يُرفع) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+68:- `out/` — مخرجات تجريبية (غير متتبع) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+77:- أرشيف الويكي الكامل: 212MB، 2,713 ملفًا على القرص | OBSERVED — `sources/file-inventory.md` + المصدر الخارجي `../work/archive-inventory-01.md` §2، §6 (خارج المستودع)
+78:- `05_CONVERSATIONS`: 150M، 990 ملفًا (أكبر قسم) | OBSERVED — `sources/file-inventory.md` + المصدر الخارجي `../work/archive-inventory-01.md` §2 (خارج المستودع)
+> build · crouton-alpha-free
+[0m← [0mEdit repo/AGENTS.md
+Index: repo/AGENTS.md
+===================================================================
+--- repo/AGENTS.md
++++ repo/AGENTS.md
+@@ -31,9 +31,9 @@
+ ## جودة التنفيذ
+ - التزم بالحدود: لا ترفع ملفات إخراجية أو محلية.
+ - أبقِ التغييرات صغيرة، ووثّق ما لم يُختبر.
+ - اذكر عند عدم اليقين بدل التخمين.
+-- التزم بقيود خطة المستودع في `work/repo-plan-01.md`.
++- التزم بقيود خطة المستودع في `../work/repo-plan-01.md` (خارج المستودع).
+ 
+ ## التزامات المحتوى
+ - ممنوع اعتماد الأسرار في الأمثلة أو الوثائق.
+ - ممنوع إخفاء حالة `NOT_RUN` أو `UNKNOWN` خلف لغة واثقة.
+
+> build · crouton-alpha-free
+[0m$ [0mgrep -n "repo-plan-01" /workspace/wiki/repo/AGENTS.md
+35:- التزم بقيود خطة المستودع في `../work/repo-plan-01.md` (خارج المستودع).
+> build · crouton-alpha-free
+Fixing AGENTS and timeline next — confirming archive evidence first.
+[0m$ [0mgrep -n "212MB\|2713\|2,713" /workspace/wiki/repo/timeline/timeline.md; grep -n "212MB\|2713\|2,713\|du -sh\|find" /workspace/wiki/work/archive-inventory-01.md | head -n 20
+28:| 2026-11-03 → 2026-11-05 | **الأرشيف 212MB/2713 ملف** (`WIKI_ARCHIVE_2026-11-03`)؛ الجرد الجدولي؛ خطة المستودع `layered-wiki-rag` | REPORTED |
+3:**المصدر:** `/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/` (212MB فعلي، 2713 ملفاً مقاساً بـ `find -type f`؛ الوثيقة تذكر 2707)
+5:**النطاق:** هذه الوثائق العلوية فقط + قياسات `du -sh` لكل مجلد.
+6:**الميزانية المعلنة:** 250MB → الفعلي ~211–212MB. المساحة الحرة المعلنة على `/mnt/sdcard`: 497MB.
+20:## 2) خريطة المجلدات (قياس فعلي `du -sh` داخل `/workspace/wiki/archive-extract/`)
+77:الجذر ~1MB · `00` 1.4M · `01` 19M · `02` 2.2M · `03` 14M · `04` 7.2M · `05` 150M · `06` 17M · `07` 2.1M · `_RESERVE` 8K = **~212M / 2713 ملفاً** — ضمن ميزانية 250MB ✅
+> build · crouton-alpha-free
+[0m← [0mEdit repo/timeline/timeline.md
+Index: repo/timeline/timeline.md
+===================================================================
+--- repo/timeline/timeline.md
++++ repo/timeline/timeline.md
+@@ -24,9 +24,9 @@
+ | 2026-11-02 08:53 → 13:36 | مسح كامل للشات؛ أول اختبار BM25 على 20 صفحة لهشام؛ توسيع 210 صفحة هيثم (601,084 بايت): 12/15 أولى، 14/15 أول 3، عناوين 8/8 أولى | REPORTED |
+ | 2026-11-02 22:33 → 23:07 | تغطية كاملة للشات الرئيسي والمحادثات الجانبية؛ تصحيح غلط الجرد الأول | REPORTED |
+ | 2026-11-03 08:53 → 09:07 | جمود الرام: 429 ميجا متاح فقط، موديل 1–2GB لا يُفتح؛ نتائج تضمين keyword على كل 210 هيثم (عناوين 4/4 أولى، صياغات 1/3 أولى: الجلطة 28، الدين 35) | REPORTED |
+ | 2026-11-03 18:34 → 18:36 | إيقاف رابط OpenCode المتجدد + تجميع كلام الويكي في ملف واحد (`wiki_all_talk.md`) | REPORTED |
+-| 2026-11-03 → 2026-11-05 | **الأرشيف 212MB/2713 ملف** (`WIKI_ARCHIVE_2026-11-03`)؛ الجرد الجدولي؛ خطة المستودع `layered-wiki-rag` | REPORTED |
++| 2026-11-03 → 2026-11-05 | **الأرشيف 212MB/2713 ملف** (`WIKI_ARCHIVE_2026-11-03`)؛ الجرد الجدولي؛ خطة المستودع `layered-wiki-rag` | OBSERVED 2026-11-03 — `../work/archive-inventory-01.md` §2، §6 (خارج المستودع): 212MB فعلي مقاس بـ `du -sh` و2713 ملفاً مقاساً بـ `find -type f` من `/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/` |
+ 
+ ## نقاط قياس رئيسية (لا أرقام مخترعة)
+ 
+ - 2026-10-19: الفهرس الموحد 4,262 صفحة (1,418 + 2,844) — yt-wiki.
+
+> build · crouton-alpha-free
+[0m$ [0mgrep -n "archive-inventory-01\|212MB" /workspace/wiki/repo/timeline/timeline.md
+28:| 2026-11-03 → 2026-11-05 | **الأرشيف 212MB/2713 ملف** (`WIKI_ARCHIVE_2026-11-03`)؛ الجرد الجدولي؛ خطة المستودع `layered-wiki-rag` | OBSERVED 2026-11-03 — `../work/archive-inventory-01.md` §2، §6 (خارج المستودع): 212MB فعلي مقاس بـ `du -sh` و2713 ملفاً مقاساً بـ `find -type f` من `/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/` |
+> build · crouton-alpha-free
+[0m$ [0mgrep -n "لا يوجد مجلد masters\|UNKNOWN.*checklist\|analysis-wiki-talk-01.md.*خارج\|ARCHITECTURE.md هنا\|work/repo-plan-01.md.*خارج\|OBSERVED 2026-11-05\|42 ملفاً\|PROPOSED.*غير موجود\|file-inventory.md" /workspace/wiki/repo/MASTER.md /workspace/wiki/repo/docs/STRUCTURE.md /workspace/wiki/repo/AGENTS.md /workspace/wiki/repo/timeline/timeline.md 2>&1 | head -n 60; echo "---"; ls /workspace/wiki/repo/masters/review/checklist.md
+/workspace/wiki/repo/MASTER.md:21:| ماسترز في هذه الدفعة (repo/) | **صفر ماستر نشط بمحتوى مثبت؛ مجلد masters/ توثيقي فقط** | [OBSERVED 2026-11-05 — `ls -R` repo/ أظهر masters/README.md وmasters/review/checklist.md فقط، بلا أي ملف ماستر نشط] |
+/workspace/wiki/repo/MASTER.md:36:1. قائمة مراجعة بشرية (`masters/review/checklist.md`) — موجودة في repo/ وتضم 10 نقاط اعتماد [OBSERVED 2026-11-05 — `grep -c '^- \[ \]'` = 10]: مراجعة بشرية كاملة خصوصًا الصفحات الحساسة دينيًا/علميًا؛ إثبات حي بفحص القرص بعد التوليد لا ادعاء الوكلاء وحده؛ كل إجابة باستشهاد بمقطع خام بلا استثناء؛ الخامة (Raw) لم تُمس قراءة فقط؛ الاستشهادات (مسار + عنوان مقطع + معرّف) موجودة وصالحة؛ لا تناقض ميكانيكي (رقم/تاريخ) لم يُحكم بشريًا؛ المصطلحات مكتملة في المجلد الفرعي قبل الاعتماد؛ commit صغير منطقي وCHANGELOG آخر؛ لا أسرار (grep §5.2 في repo-plan-01)؛ الاعتماد نفسه موسوم OBSERVED بالأمر والمسار — والترقية لـ Canon بموافقة إنسان فقط [OBSERVED: قراءة masters/review/checklist.md مباشرة].
+/workspace/wiki/repo/MASTER.md:48:- القواعد الـ13: `../work/analysis-wiki-talk-01.md` §1.8 (خارج المستودع) — [REPORTED].
+/workspace/wiki/repo/MASTER.md:49:- الشجرة المقترحة: `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع) — [REPORTED].
+/workspace/wiki/repo/MASTER.md:50:- خطة المستودع §3.1 (MASTER.md) — [REPORTED: `../work/repo-plan-01.md` (خارج المستودع)].
+/workspace/wiki/repo/docs/STRUCTURE.md:3:> الحالة: ملفات §§2-4 موجودة على القرص (42 ملفاً في repo/ في 2026-11-05 — `find repo/ -type f | wc -l` = 42) [OBSERVED 2026-11-05]؛ طبقات §5 raw/wiki/terms/src مخططة فقط، غير موجودة في repo/ الآن — بنية مخططة في `../work/repo-plan-01.md` §2 (خارج المستودع).
+/workspace/wiki/repo/docs/STRUCTURE.md:11:- المستودع الحالي `layered-wiki-rag` | REPORTED — `../work/repo-plan-01.md` §1.3 (خارج المستودع) — العدد التاريخي كان 5 ملفات حسب الخطة وقت كتابتها [REPORTED تاريخي — `../work/repo-plan-01.md` §1.3]؛ الحالي في 2026-11-05 = 42 ملفاً على القرص (`find repo/ -type f | wc -l`) [OBSERVED 2026-11-05]
+/workspace/wiki/repo/docs/STRUCTURE.md:57:> **ملاحظة صريحة:** طبقات §5 أدناه كلها [PROPOSED] — مخطط فقط، غير موجود في repo/ الآن. فُحص على القرص في 2026-11-05: `raw/` و`wiki/` و`terms/` و`src/` و`bin/` و`skills/` و`tests/` و`snapshots/` و`out/` كلها غائبة من repo/؛ `index/` الموجودة هي مجلد وثائق (bm25-results.md + manifest-pointer.md) لا طبقة كود. كل سطر أدناه يصف التصميم [REPORTED] لا موجودًا على القرص.
+/workspace/wiki/repo/docs/STRUCTURE.md:59:- `raw/` — طبقة الخام: للقراءة فقط، لا تُعدَّل أبدًا | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §1.8 القاعدة 8 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:60:- `wiki/` — طبقة الويكي المترجمة (تجميع لا حقيقة) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:61:- `terms/` — المصطلحات أولاً وقبل الماستر | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §1.8 القاعدة 3 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:62:- `index/` (كود) — BM25 ثم Dense ثم Hybrid/RRF/Rerank | PROPOSED — مخطط فقط، غير موجود في repo/ الآن (الموجود `index/` وثائق فقط) | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:63:- `src/` — ingest → retrieve → generate → audit → eval → tools | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:64:- `bin/` — سكربتات yt-wiki النظيفة (download → build → ask) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §1.4 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:65:- `skills/` — مهارة yt-wiki + wiki-build + rag-pipeline | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:66:- `tests/` — اختبارات BM25 + Dense-vs-keyword + Known-answer | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:67:- `snapshots/before-bulk/` — لقطة قبل أي تغيير جماعي (هذا فقط يُرفع) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:68:- `out/` — مخرجات تجريبية (غير متتبع) | PROPOSED — مخطط فقط، غير موجود في repo/ الآن | REPORTED — `../work/analysis-wiki-talk-01.md` §4.3 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:77:- أرشيف الويكي الكامل: 212MB، 2,713 ملفًا على القرص | OBSERVED — `sources/file-inventory.md` + المصدر الخارجي `../work/archive-inventory-01.md` §2، §6 (خارج المستودع)
+/workspace/wiki/repo/docs/STRUCTURE.md:78:- `05_CONVERSATIONS`: 150M، 990 ملفًا (أكبر قسم) | OBSERVED — `sources/file-inventory.md` + المصدر الخارجي `../work/archive-inventory-01.md` §2 (خارج المستودع)
+/workspace/wiki/repo/AGENTS.md:35:- التزم بقيود خطة المستودع في `../work/repo-plan-01.md` (خارج المستودع).
+---
+/workspace/wiki/repo/masters/review/checklist.md
+> build · crouton-alpha-free
+- **MASTER.md** (L21): ادعاء «لا يوجد مجلد masters/» كان كاذبًا على القرص — صحّحتُه بـ `ls -R` الخاص بي: `masters/README.md` و`masters/review/checklist.md` موجودان فقط، وفعّلتُ العبارة المطلوبة «صفر ماستر نشط بمحتوى مثبت؛ مجلد masters/ توثيقي فقط» مع وسم OBSERVED وتاريخ 2026-11-05 — تحقق بـ `grep`. ✅
+- **MASTER.md** (L36): قلبتُ UNKNOWN إلى OBSERVED — قمتُ بقراءة `masters/review/checklist.md` مباشرة وعددتُ بـ `grep -c '^- \[ \]' = 10`، ولخّصتُ النقاط العشر كلها (مراجعة بشرية كاملة للصفحات الحساسة دينيًا/علميًا … موسوم OBSERVED بالأمر والمسار) مع بقاء موافقة الإنسان فقط للترقية — تحقق بـ `grep`. ✅
+- **MASTER.md** (L48/L51): حوّلتُ المراجع المعلّقة `analysis-wiki-talk-01.md` إلى `../work/analysis-wiki-talk-01.md (خارج المستودع)`، واستبدلتُ `layered-wiki-rag-design.md` بـ «DESIGN-REFERENCE.md + ARCHITECTURE.md هنا، والتصميم الكامل على GitHub فرع layered-wiki-rag-design.md» — تحقق بـ `grep`. ✅
+- **STRUCTURE.md**: حدّثتُ الرأس L3 من «لم تُبنَ كاملة بعد» إلى حقيقة مؤرّخة: 42 ملفًا على القرص (`find repo/ -type f | wc -l = 42` في 2026-11-05، ملفات §§2-4 موجودة) وأن طبقات §5 (raw/wiki/terms/src …) مخططة فقط؛ صرتُ «5 ملفات» في L11 عددًا تاريخيًا موسومًا REPORTED مع الحالي OBSERVED 2026-11-05 = 42؛ وسمتُ كل سطر في §5 بـ PROPOSED «مخطط فقط، غير موجود في repo/ الآن» وأضفتُ ملاحظة صريحة (فُحصت: raw/wiki/terms/src/bin/skills/tests/snapshots/out غائبة، وindex/ وثائق فقط لا كود)؛ وحوّلتُ L75 `archive-inventory-01.md` إلى `sources/file-inventory.md` (in-repo) + المصدر الخارجي `../work/archive-inventory-01.md` — تحقق بـ `grep`. ✅
+- **AGENTS.md** (L35): صحّحتُ الترتيب من `work/repo-plan-01.md` إلى `../work/repo-plan-01.md (خارج المستودع)` — تحقق بـ `grep`. ✅
+- **timeline.md** (~L28): قلبتُ وسم ادّعاء الأرشيف 212MB/2713 من REPORTED إلى OBSERVED 2026-11-03 وأضفتُ الاستشهاد الصحيح `../work/archive-inventory-01.md` §2، §6 (خارج المستودع) مع طريقة القياس (212MB فعلي مقاس بـ `du -sh` و2713 ملفًا بـ `find -type f` من WIKI_ARCHIVE_2026-11-03) — تحقق بـ `grep`. ✅
+
+All fixes verified with `grep` after each edit; Arabic preserved; evidence labels kept; no secrets touched.
+
+DONE

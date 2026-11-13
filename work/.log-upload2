@@ -1,0 +1,204 @@
+[0m
+> build · crouton-alpha-free
+Uploading to your private repo — first checking the clone, token, and history before any push.
+[0m→ [0mRead . 
+> build · crouton-alpha-free
+Your clone instructions look partially truncated — I'll inspect CONTEXT, PROVENANCE, and the clone state before pushing anything.
+[0m→ [0mRead /tmp/opencode/lwr-clone 
+[0m→ [0mRead PROVENANCE.md 
+[0m→ [0mRead CONTEXT.md 
+[0m→ [0mRead AGENTS.md 
+> build · crouton-alpha-free
+İnstruction truncated
+[0m$ [0mcd /tmp/opencode/lwr-clone && pwd; ls -1; echo "--- remote ---"; git remote -v; echo "--- status ---"; git status --porcelain --branch; echo "--- log ---"; git log --oneline -5; echo "--- counts ---"; find . -path ./.git -prune -o -type f -print | wc -l; find ./provenance -type f 2>/dev/null | wc -l; ls -R provenance/ 2>/dev/null | head -100; echo "--- token file exists? ---"; ls -l /tmp/opencode/gh_tok.txt; echo "token bytes (wc, not content):"; wc -c < /tmp/opencode/gh_tok.txt
+/tmp/opencode/lwr-clone
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+CHECKSUMS.sha256
+config
+CONTEXT.md
+DESIGN-REFERENCE.md
+docs
+IDEAS.md
+index
+layered-wiki-rag-design.md
+layered-wiki-rag-guide.html
+MASTER.md
+masters
+MESSAGES.md
+promptastra6fgss.md
+provenance
+PROVENANCE.md
+README.md
+reference
+REJECTED.md
+sources
+templates
+timeline
+--- remote ---
+origin	https://github.com/moaaaz4568-prog/layered-wiki-rag.git (fetch)
+origin	https://github.com/moaaaz4568-prog/layered-wiki-rag.git (push)
+--- status ---
+## main...origin/main [ahead 1]
+--- log ---
+79480a3 organize: structured knowledge repo (README/CONTEXT/MESSAGES/IDEAS + docs/sources/timeline/config + provenance)
+5b70e59 docs: add promptastra6fgss.md
+23c129b docs: add layered-wiki-rag-guide.html
+351c64f docs: add layered-wiki-rag-design.md
+d40c5ad docs: add README.md
+--- counts ---
+60
+14
+provenance/:
+raw
+work
+
+provenance/raw:
+wiki_all_talk.md
+
+provenance/work:
+analysis-session-01.md
+analysis-wiki-talk-01.md
+archive-inventory-01.md
+repo-plan-01.md
+research-01.md
+review-1.md
+review-1-partA.md
+review-1-partB.md
+review-1-partC.md
+review-2.md
+review-3.md
+review-3-verify.md
+review-4.md
+--- token file exists? ---
+-rw-r--r-- 1 box box 41 Nov  5 00:37 /tmp/opencode/gh_tok.txt
+token bytes (wc, not content):
+41
+> build · crouton-alpha-free
+Clone looks ahead by 1 commit with provenance/work at 13 files — verifying counts, history, and the pending diff before any push.
+[0m$ [0mcd /tmp/opencode/lwr-clone && echo "== provenance/work ==" && find ./provenance/work -type f | sort && echo "work count:" && find ./provenance/work -type f | wc -l && echo "== provenance/raw ==" && find ./provenance/raw -type f | sort && echo "raw count:" && find ./provenance/raw -type f | wc -l && echo "== total provenance ==" && find ./provenance -type f | wc -l && echo "== total repo (excl .git) ==" && find . -path ./.git -prune -o -type f -print | wc -l && echo "== ahead commit stat ==" && git show --stat HEAD && echo "== remote ==" && git remote -v && echo "== PROVENANCE tail ==" && tail -n 30 PROVENANCE.md
+== provenance/work ==
+./provenance/work/analysis-session-01.md
+./provenance/work/analysis-wiki-talk-01.md
+./provenance/work/archive-inventory-01.md
+./provenance/work/repo-plan-01.md
+./provenance/work/research-01.md
+./provenance/work/review-1.md
+./provenance/work/review-1-partA.md
+./provenance/work/review-1-partB.md
+./provenance/work/review-1-partC.md
+./provenance/work/review-2.md
+./provenance/work/review-3.md
+./provenance/work/review-3-verify.md
+./provenance/work/review-4.md
+work count:
+13
+== provenance/raw ==
+./provenance/raw/wiki_all_talk.md
+raw count:
+1
+== total provenance ==
+14
+== total repo (excl .git) ==
+60
+== ahead commit stat ==
+commit 79480a3080d060d2919c2320f65ec329a9f25a7c
+Author: moaz <moaz@local>
+Date:   Thu Nov 5 01:05:40 2026 +0200
+
+    organize: structured knowledge repo (README/CONTEXT/MESSAGES/IDEAS + docs/sources/timeline/config + provenance)
+
+ .env.example                             |    1 +
+ .gitignore                               |   22 +
+ AGENTS.md                                |   51 +-
+ ARCHITECTURE.md                          |  126 ++
+ CHANGELOG.md                             |   45 +
+ CONTEXT.md                               |  116 ++
+ DESIGN-REFERENCE.md                      |   58 +
+ IDEAS.md                                 |   75 ++
+ MASTER.md                                |   51 +
+ MESSAGES.md                              |  109 ++
+ PROVENANCE.md                            |   67 +
+ README.md                                |   85 +-
+ REJECTED.md                              |   45 +
+ config/books.yaml                        |   25 +
+ config/models.yaml                       |   42 +
+ config/personas.yaml                     |   54 +
+ config/thresholds.yaml                   |   21 +
+ docs/CHUNKING.md                         |   43 +
+ docs/CONCEPTS.md                         |   42 +
+ docs/CONTRADICTION-POLICY.md             |   44 +
+ docs/EVALUATION.md                       |   54 +
+ docs/GOALS.md                            |   55 +
+ docs/KNOWN-ANSWER-SET.md                 |   52 +
+ docs/METADATA-SCHEMA.md                  |   36 +
+ docs/RULES.md                            |   53 +
+ docs/SOURCES.md                          |   52 +
+ docs/STAGES.md                           |   50 +
+ docs/STRUCTURE.md                        |   92 ++
+ index/bm25-results.md                    |   39 +
+ index/manifest-pointer.md                |   16 +
+ masters/README.md                        |   25 +
+ masters/review/checklist.md              |   23 +
+ provenance/raw/wiki_all_talk.md          | 2012 ++++++++++++++++++++++++++++++
+ provenance/work/analysis-session-01.md   |   85 ++
+ provenance/work/analysis-wiki-talk-01.md |  712 +++++++++++
+ provenance/work/archive-inventory-01.md  |   79 ++
+ provenance/work/repo-plan-01.md          |  205 +++
+ provenance/work/research-01.md           |   48 +
+ provenance/work/review-1-partA.md        |   12 +
+ provenance/work/review-1-partB.md        |   12 +
+ provenance/work/review-1-partC.md        |   32 +
+ provenance/work/review-1.md              |   52 +
+ provenance/work/review-2.md              |   19 +
+ provenance/work/review-3-verify.md       |   17 +
+ provenance/work/review-3.md              |   78 ++
+ provenance/work/review-4.md              |  237 ++++
+ reference/non-goals.md                   |   38 +
+ reference/purposes.md                    |   44 +
+ sources/archive-index.md                 |   76 ++
+ sources/file-inventory.md                |  135 ++
+ sources/links.md                         |   38 +
+ sources/session-export-index.md          |   83 ++
+ sources/wiki-talk-index.md               |  122 ++
+ templates/master.md                      |   56 +
+ templates/term.md                        |   38 +
+ timeline/timeline.md                     |   42 +
+ 56 files changed, 5912 insertions(+), 29 deletions(-)
+== remote ==
+origin	https://github.com/moaaaz4568-prog/layered-wiki-rag.git (fetch)
+origin	https://github.com/moaaaz4568-prog/layered-wiki-rag.git (push)
+== PROVENANCE tail ==
+## 4. الأسرار (وجود فقط — لا قيمة أبدًا)
+
+| السر | الوجود | الدليل |
+|---|---|---|
+| GitHub PAT | **موجود في الجلسة** — يُلغى ويُدوَّر | [REPORTED: repo-plan §1.2.4 + §5.2] |
+| مفتاح Yukino | **موجود لحظيًا**، يُرسل ولا يُخزَّن — `{env:YUKINO_API_KEY}` مرجع فقط | [REPORTED: repo-plan §1.2.4 + analysis §1.8.7] |
+| مفتاح hcnsec | **وجود ملف `.hcnsec_key` في yt-wiki** — القيمة غير موجودة هنا | [REPORTED: analysis §1.4] |
+| كوكيز يوتيوب | **وجود `cookies.txt` على الجهاز** — القيمة غير منسوخة | [REPORTED: analysis §2.2.6] |
+| `.env` | لا يُنسخ أبدًا — `.env.example` بلا قيمة فقط | [REPORTED: repo-plan §1.2.4 + §5.2] |
+
+> قيمة أي سر أعلاه = [UNKNOWN — ممنوع النسخ]. عند ظهور أي قيمة مشتبهة في الذاكرة يجب حذفها فورًا وتدويرها — [PROPOSED: repo-plan §5.2]؛ لا تُدوَّر هنا.
+
+## 5. ما لم يُفتح
+
+- محتوى الـ5,896 صفحة كاملًا — لم يُقرأ، فقط manifest وقياسات — [UNKNOWN: analysis §6].
+- ملفات wikillm الخام على `/sdcard` — لا نعرفها إلا من تقارير النموذج الآخر — [UNKNOWN: analysis §6].
+- ترتيب الآخرين من 144 فيديو (الوصول جزئي فقط) — [UNKNOWN: analysis §6].
+- `MANIFEST.json` الكامل ومحتوى `hashes.sha256` — لم تُفتح/تُقَس هنا — [UNKNOWN].
+
+## 6. التحقق المقترح قبل أي رفع
+
+- [ ] `grep -rn 'ghp_\|github_pat_\|AKIA\|BEGIN .*PRIVATE\|YUKINO\|HCNSEC\|COOKIES' .` صفر تطابق لقيم حقيقية — [PROPOSED: repo-plan §5.2].
+- [ ] `sha256sum -c hashes.sha256` داخل الأرشيف (تحقق من المصدر لا المستودع) — [NOT_RUN: لم يُنفَّذ في هذه الدفعة].
+- [ ] `git remote -v` خالٍ من التوكن قبل أي push — [NOT_RUN: لا remote بعد].
+
+## 7. مرجع
+
+- الخطة: `work/repo-plan-01.md` (§1، §3.1، §5) — [REPORTED].
+- التحليل: `work/analysis-wiki-talk-01.md` (§2، §5، §6) — [REPORTED].
+- قاعدة الوسم: `repo-plan-01.md` §1.2.3 — [REPORTED].
+> build · crouton-alpha-free
+Counts match: 13 files in provenance/work, 1 in raw, 14 total, 60 in the repo, 1 commit ahead of origin/main — now appending the provenance section and running the secret scan before pushing.

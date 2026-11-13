@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+SYS_06: 3
+SYS_07: 4
+SYS_08: 8
+SYS_09: 10
+SYS_10: 4

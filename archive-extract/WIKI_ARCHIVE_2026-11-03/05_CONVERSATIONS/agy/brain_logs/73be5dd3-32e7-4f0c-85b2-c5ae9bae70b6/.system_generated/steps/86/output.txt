@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+EXISTS: /root/r/V3/00_CHARTER/FORMAT_MASTER.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/business_architecture/01_systems_ops/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/business_architecture/02_hiring/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/business_architecture/03_metrics/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/content_strategy/01_content_pillars/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/content_strategy/02_distribution/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/content_strategy/03_repurposing/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/outreach/01_cold_email/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/outreach/02_linkedin_dm/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/outreach/03_followup_sequences/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/pricing_offers/01_pricing_tiers/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/pricing_offers/02_offer_design/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/pricing_offers/03_guarantees/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/sales/01_discovery_qualification/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/sales/02_closing/INDEX.md
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains/sales/03_objection_handling/INDEX.md

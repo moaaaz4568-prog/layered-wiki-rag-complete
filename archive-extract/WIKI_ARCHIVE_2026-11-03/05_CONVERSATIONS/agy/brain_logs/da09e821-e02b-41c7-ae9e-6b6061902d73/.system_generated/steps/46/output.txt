@@ -1,0 +1,29 @@
+Command exited with code 0.
+
+Command output:
+/sdcard/NEXUS_WIKI_SKILLS/
+/sdcard/NEXUS_WIKI_SKILLS/source-ingestion-and-dedup
+/sdcard/NEXUS_WIKI_SKILLS/source-ingestion-and-dedup/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/claim-extraction-and-evidence
+/sdcard/NEXUS_WIKI_SKILLS/claim-extraction-and-evidence/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/opinion-context-evaluation
+/sdcard/NEXUS_WIKI_SKILLS/opinion-context-evaluation/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/concept-deepening
+/sdcard/NEXUS_WIKI_SKILLS/concept-deepening/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/master-synthesis-retrieval-gate
+/sdcard/NEXUS_WIKI_SKILLS/master-synthesis-retrieval-gate/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/evidence-driven-reasoning
+/sdcard/NEXUS_WIKI_SKILLS/evidence-driven-reasoning/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/wiki-iteration-and-risk-control
+/sdcard/NEXUS_WIKI_SKILLS/wiki-iteration-and-risk-control/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/INDEX.md
+/sdcard/NEXUS_WIKI_SKILLS/domain-discovery-and-routing
+/sdcard/NEXUS_WIKI_SKILLS/domain-discovery-and-routing/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/new-to-done-source-lifecycle
+/sdcard/NEXUS_WIKI_SKILLS/new-to-done-source-lifecycle/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/domain-term-inventory
+/sdcard/NEXUS_WIKI_SKILLS/domain-term-inventory/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/sequential-domain-orchestration
+/sdcard/NEXUS_WIKI_SKILLS/sequential-domain-orchestration/SKILL.md
+/sdcard/NEXUS_WIKI_SKILLS/folder-index-and-handoff
+/sdcard/NEXUS_WIKI_SKILLS/folder-index-and-handoff/SKILL.md

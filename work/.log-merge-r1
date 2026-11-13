@@ -1,0 +1,13 @@
+[0m
+> build · crouton-alpha-free
+Merging your three review parts into one final report — re-checking that timeline claim first.
+[0m→ [0mRead work/review-1.md 
+[0m→ [0mRead work/review-1-partA.md 
+[0m→ [0mRead work/review-1-partB.md 
+[0m→ [0mRead work/review-1-partC.md 
+[0m✱ [0mGrep "212|2713" [90min work/archive-inventory-01.md · 3 matches[0m
+> build · crouton-alpha-free
+[0m← [0mWrite work/review-1.md
+Wrote file successfully: work/review-1.md
+> build · crouton-alpha-free
+DONE

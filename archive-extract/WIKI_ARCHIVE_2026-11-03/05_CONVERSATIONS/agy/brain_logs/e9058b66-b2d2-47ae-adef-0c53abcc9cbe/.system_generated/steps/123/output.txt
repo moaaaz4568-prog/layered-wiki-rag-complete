@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Files: 88
+Lines:   6954 total
+Systems: 15
+Templates: 45

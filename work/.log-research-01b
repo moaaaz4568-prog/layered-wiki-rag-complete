@@ -1,0 +1,28 @@
+[0m
+> build · crouton-alpha-free
+Writing your research brief first, then gathering sources — file landing at `work/research-01.md`.
+[0m← [0mWrite work/research-01.md
+Created file successfully: work/research-01.md
+> build · crouton-alpha-free
+Draft saved — now hunting real patterns and sources.
+[0m✗ [0mWeb Search "AGENTS.md CLAUDE.md CONTEXT.md pattern AI context files GitHub best practices" failed
+[91m[1mError: [0mWeb search cancelled
+> build · crouton-alpha-free
+Draft saved — now hunting real patterns and sources.
+[0m% [0mWebFetch https://help.obsidian.md/ 
+[0m% [0mWebFetch https://agents.md/ 
+[0m✗ [0mWebFetch https://github.com/anthropic/claude-code failed
+[91m[1mError: [0mStatusCode: non 2xx status code (404 GET https://github.com/anthropic/claude-code)
+> build · crouton-alpha-free
+[0m% [0mWebFetch https://obsidian.md/help/How+to 
+[0m% [0mWebFetch https://github.com/agentsmd/agents.md 
+[0m% [0mWebFetch https://github.com/search?q=second+brain+obsidian+chat+export&type=repositories 
+[0m% [0mWebFetch https://github.com/anthropics/claude-code 
+> build · crouton-alpha-free
+First batch verified — pulling memory and vault patterns next.
+[0m% [0mWebFetch https://docs.anthropic.com/en/docs/claude-code/memory 
+[0m% [0mWebFetch https://github.com/search?q=agent+memory+skill&type=repositories 
+[0m% [0mWebFetch https://github.com/YeonDu1/claude-archive-to-obsidian 
+[0m% [0mWebFetch https://github.com/luismurdaneta-rgb/second-brain-engine 
+> build · crouton-alpha-free
+Core pipeline and native memory mapped — now checking skills and vault conventions.

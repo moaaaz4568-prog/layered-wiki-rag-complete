@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+total 26192
+-rw-rw----.   1 root aid_everybody   7025 Aug 15 04:34 01-setup-commands.md
+-rw-rw----.   1 root aid_everybody  18540 Aug 15 04:34 02-master-prompt.md
+-rw-rw----.   1 root aid_everybody   5338 Sep 19 07:55 README.txt
+-rw-rw----.   1 root aid_everybody  42748 Aug 15 04:34 [Arabic (auto-generated)] ازاي تسعر خدمتك صح في توزيع المحتوي بسهولة [DownSub.com].srt
+-rw-rw----.   1 root aid_everybody  27385 Sep 19 12:20 aaronxshepherd__1,000 hours of studying the best cold email strategies in 21 minutes__zW_3wJUB-d0.txt
+-rw-rw----.   1 root aid_everybody  31929 Sep 19 12:22 aaronxshepherd__21 Cold Email Hacks To Book More Sales Calls INSTANTLY__i7vdM5SZsmk.txt
+-rw-rw----.   1 root aid_everybody  25539 Sep 19 12:29 aaronxshepherd__6 INSANE AI Tools That Changed Cold Email Forever__h8MzSU9buQA.txt
+-rw-rw----.   1 root aid_everybody  28648 Sep 19 12:22 aaronxshepherd__6 INSANE Claude Code Use Cases For Cold Email__p-0_N9A9_d4.txt
+-rw-rw----.   1 root aid_everybody  20378 Sep 19 12:24 aaronxshepherd__Apollo.io vs Prospeo Which is Better for Cold Email__dUnS3oUsi6w.txt
+-rw-rw----.   1 root aid_everybody  26732 Sep 19 12:25 aaronxshepherd__Beginner's Guide to Cold Email in 2026 (FULL SETUP)__L-E2HEtXTjc.txt
+-rw-rw----.   1 root aid_everybody  14951 Sep 19 12:19 aaronxshepherd__Claude Code + Clay Just Changed Cold Email Forever__zgiKbqpyS98.txt
+-rw-rw----.   1 root aid_everybody  43239 Sep 19 12:20 aaronxshepherd__Cold Email is Hard, Until You Write Scripts Like This__yX5uiphK7NM.txt
+-rw-rw----.   1 root aid_everybody  11547 Sep 19 12:28 aaronxshepherd__Cold Email is about to change FOREVER (and nobody even realizes)__TaB_FUr9W48.txt
+-rw-rw----.   1 root aid_everybody  12252 Sep 19 12:29 aaronxshepherd__Copy This Cold Email Style, It'll Blow Up Your Business__qGdP9nE8Rdk.txt
+-rw-rw----.   1 root aid_everybody  16439 Sep 19 12:27 aaronxshepherd__Give me 13 minutes and I’ll teach you how to book 47 calls in 45 days__d_Bb8xkLuvw.txt
+-rw-rw----.   1 root aid_everybody  28511 Sep 19 12:26 aaronxshepherd__Give me 24 min and I’ll make your cold emails impossible to ignore__N5ORVjBPlcg.txt
+-rw-rw----.   1 root aid_everybody  23050 Sep 19 12:19 aaronxshepherd__How I Generated 302 Positive Replies in 30 Days From Cold Email (Step by Step)__e5_G-jHH7U8.txt
+-rw-rw----.   1 root aid_everybody  13420 Sep 19 12:29 aaronxshepherd__How I booked 21 calls in 3 weeks so you can just copy me [Case Study]__2Kw0oRbIoqo.txt
+-rw-rw----.   1 root aid_everybody  16449 Sep 19 12:21 aaronxshepherd__How I'd Send 1,500,000 Cold Emails in 30 Days With Claude Code__zwHXuzeuTsE.txt

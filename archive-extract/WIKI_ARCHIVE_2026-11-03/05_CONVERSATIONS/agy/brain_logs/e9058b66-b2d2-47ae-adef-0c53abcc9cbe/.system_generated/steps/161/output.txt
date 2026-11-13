@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+105:- **المصدر الحقيقي المتحقق:** `/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1. The Biggest Problem in Sales (1).txt`
+140:test -e "/sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1. The Biggest Problem in Sales (1).txt" && echo "SOURCE_EXISTS"

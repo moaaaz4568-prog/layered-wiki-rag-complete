@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+bash: line 1: .*?: command not found
+/sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_11_BUSINESS_EXECUTION.md ['TODO', 'TBD', 'XXX']
+/sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_12_AUDIT.md ['TODO', 'TBD', 'XXX']

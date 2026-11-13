@@ -1,0 +1,31 @@
+Command exited with code 0.
+
+Command output:
+{
+  "root": "/mnt/sdcard/wikillm/argon_version/wiki_ver2",
+  "total_files": 90,
+  "md_files": 85,
+  "total_lines_md": 6954,
+  "systems_count": 15,
+  "systems_lines": {
+    "SYS_01_CHARTER.md": 76,
+    "SYS_02_NAMING.md": 96,
+    "SYS_03_TREE.md": 79,
+    "SYS_04_THINKING_ENGINE.md": 72,
+    "SYS_05_INGESTION.md": 68,
+    "SYS_06_TERMS_DEEPENING.md": 141,
+    "SYS_07_MASTER_ANATOMY.md": 183,
+    "SYS_08_PLURALISM.md": 137,
+    "SYS_09_CUMULATIVE_SYNTHESIS.md": 113,
+    "SYS_10_INDEXES.md": 139,
+    "SYS_11_BUSINESS_EXECUTION.md": 73,
+    "SYS_12_AUDIT.md": 104,
+    "SYS_13_DELEGATION.md": 78,
+    "SYS_14_ANTI_PATTERNS.md": 120,
+    "SYS_15_DYNAMIC_EXPANSION.md": 85
+  },
+  "templates_count": 45,
+  "index_files_count": 21,
+  "tools_count": 4,
+  "cjk_count": 0
+}

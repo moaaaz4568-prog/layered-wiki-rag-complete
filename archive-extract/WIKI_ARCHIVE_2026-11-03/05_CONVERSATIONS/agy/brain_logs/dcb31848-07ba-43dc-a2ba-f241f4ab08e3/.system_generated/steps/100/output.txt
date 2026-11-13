@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+total 144
+-rw-rw----. 1 root aid_everybody   167 Oct 25 09:13 review1.log
+-rw-rw----. 1 root aid_everybody   167 Oct 25 09:13 review2.log
+-rw-rw----. 1 root aid_everybody   484 Oct 25 09:12 review3.json
+-rw-rw----. 1 root aid_everybody   247 Oct 25 09:12 review3.log
+-rw-rw----. 1 root aid_everybody 17630 Oct 25 08:16 wave1.json
+-rw-rw----. 1 root aid_everybody  9526 Oct 25 08:16 wave1.log
+-rw-rw----. 1 root aid_everybody 18766 Oct 25 08:15 wave2.json
+-rw-rw----. 1 root aid_everybody 11986 Oct 25 08:15 wave2.log
+-rw-rw----. 1 root aid_everybody 18411 Oct 25 08:26 wave3.json
+-rw-rw----. 1 root aid_everybody 11915 Oct 25 08:26 wave3.log
+-rw-rw----. 1 root aid_everybody 18408 Oct 25 08:19 wave4.json
+-rw-rw----. 1 root aid_everybody 12254 Oct 25 08:19 wave4.log

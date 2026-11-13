@@ -1,0 +1,26 @@
+Command exited with code 0.
+
+Command output:
+/root/r/V3_SYS/:
+total 371
+drwxr-xr-x.  3 root root  3488 Oct  1 07:47 .
+drwxr-xr-x. 53 root root 20480 Oct 24 12:26 ..
+-rw-r--r--.  1 root root 29147 Oct  1 02:36 AUDIT_NB2.json
+-rw-r--r--.  1 root root 17662 Oct  1 02:36 AUDIT_NB2.md
+-rw-r--r--.  1 root root 29144 Oct  1 07:47 AUDIT_NB2_j8.json
+-rw-r--r--.  1 root root 29153 Oct  1 07:28 AUDIT_NB2_verify.json
+-rw-r--r--.  1 root root 17664 Oct  1 07:28 AUDIT_NB2_verify.md
+-rw-r--r--.  1 root root 31830 Oct  1 02:38 AUDIT_V1.json
+-rw-r--r--.  1 root root 19728 Oct  1 02:38 AUDIT_V1.md
+-rw-r--r--.  1 root root 31829 Oct  1 07:33 AUDIT_V1_verify.json
+-rw-r--r--.  1 root root 19729 Oct  1 07:33 AUDIT_V1_verify.md
+-rw-r--r--.  1 root root  6452 Oct  3 10:59 COUNTS.json
+-rw-r--r--.  1 root root  6356 Oct  1 01:35 COUNTS.md
+-rw-r--r--.  1 root root  3268 Oct  1 01:47 README.md
+drwxr-xr-x.  2 root root  3488 Oct  1 01:53 __pycache__
+-rw-r--r--.  1 root root 56318 Oct  1 02:28 audit.py
+-rw-r--r--.  1 root root 31707 Oct  1 01:28 count.py
+
+/sdcard/wikillm/argon_version/wiki_ver1/tools/:
+total 8
+-rw-rw----. 1 root aid_everybody 5211 Oct 25 00:07 nexus_rag.py

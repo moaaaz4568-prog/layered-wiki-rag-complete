@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+drwxrwx---. 2 root aid_everybody 3488 Oct 25 09:12 /sdcard/wikillm/argon_version/_agy_logs

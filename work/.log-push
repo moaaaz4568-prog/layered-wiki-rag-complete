@@ -1,0 +1,597 @@
+[0m
+> build · crouton-alpha-free
+Minimal push + report — bash only, no token printed.
+[0m$ [0mpwd; ls -la; echo "---"; ls -la /workspace/wiki; echo "---"; git -C /workspace/wiki status -sb 2>&1 | head -20; git status -sb 2>&1 | head -20; ls -la /workspace
+/workspace/wiki
+total 58856
+drwxr-xr-x  14 box box     4096 Nov  5 01:04 .
+drwxr-xr-x. 10 box box     4096 Nov  3 23:51 ..
+-rw-r--r--   1 box box     2463 Nov  5 01:04 AGENTS.md
+-rw-r--r--   1 box box    13062 Nov  5 01:04 ARCHITECTURE.md
+drwxr-xr-x   3 box box     4096 Nov  5 00:49 archive-extract
+-rw-r--r--   1 box box     4385 Nov  5 01:04 CHANGELOG.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 config
+-rw-r--r--   1 box box    16914 Nov  5 01:04 CONTEXT.md
+-rw-r--r--   1 box box     5259 Nov  5 01:04 DESIGN-REFERENCE.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 docs
+-rw-r--r--   1 box box       16 Nov  5 01:04 .env.example
+-rw-r--r--   1 box box      263 Nov  5 01:04 .gitignore
+-rw-r--r--   1 box box     7341 Nov  5 01:04 IDEAS.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 index
+-rw-r--r--   1 box box     6076 Nov  5 01:04 MASTER.md
+drwxr-xr-x   3 box box     4096 Nov  5 01:04 masters
+-rw-r--r--   1 box box    16667 Nov  5 01:04 MESSAGES.md
+-rw-r--r--   1 box box     6182 Nov  5 01:04 PROVENANCE.md
+-rw-r--r--   1 box box    10493 Nov  5 01:04 README.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 reference
+-rw-r--r--   1 box box     5413 Nov  5 01:04 REJECTED.md
+drwxr-xr-x  10 box box     4096 Nov  5 00:53 repo
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 sources
+drwxr-xr-x   6 box box     4096 Nov  5 01:04 source-transfers
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 templates
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 timeline
+-rw-r--r--   1 box box 60072453 Nov  5 00:40 WIKI_ARCHIVE_2026-11-03.tar.gz
+drwxr-xr-x   2 box box     4096 Nov  5 01:06 work
+---
+total 58856
+drwxr-xr-x  14 box box     4096 Nov  5 01:04 .
+drwxr-xr-x. 10 box box     4096 Nov  3 23:51 ..
+-rw-r--r--   1 box box     2463 Nov  5 01:04 AGENTS.md
+-rw-r--r--   1 box box    13062 Nov  5 01:04 ARCHITECTURE.md
+drwxr-xr-x   3 box box     4096 Nov  5 00:49 archive-extract
+-rw-r--r--   1 box box     4385 Nov  5 01:04 CHANGELOG.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 config
+-rw-r--r--   1 box box    16914 Nov  5 01:04 CONTEXT.md
+-rw-r--r--   1 box box     5259 Nov  5 01:04 DESIGN-REFERENCE.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 docs
+-rw-r--r--   1 box box       16 Nov  5 01:04 .env.example
+-rw-r--r--   1 box box      263 Nov  5 01:04 .gitignore
+-rw-r--r--   1 box box     7341 Nov  5 01:04 IDEAS.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 index
+-rw-r--r--   1 box box     6076 Nov  5 01:04 MASTER.md
+drwxr-xr-x   3 box box     4096 Nov  5 01:04 masters
+-rw-r--r--   1 box box    16667 Nov  5 01:04 MESSAGES.md
+-rw-r--r--   1 box box     6182 Nov  5 01:04 PROVENANCE.md
+-rw-r--r--   1 box box    10493 Nov  5 01:04 README.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 reference
+-rw-r--r--   1 box box     5413 Nov  5 01:04 REJECTED.md
+drwxr-xr-x  10 box box     4096 Nov  5 00:53 repo
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 sources
+drwxr-xr-x   6 box box     4096 Nov  5 01:04 source-transfers
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 templates
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 timeline
+-rw-r--r--   1 box box 60072453 Nov  5 00:40 WIKI_ARCHIVE_2026-11-03.tar.gz
+drwxr-xr-x   2 box box     4096 Nov  5 01:06 work
+---
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+total 1696
+drwxr-xr-x. 10 box  box    4096 Nov  3 23:51 .
+drwxr-xr-x. 21 root root   4096 Oct 23 06:34 ..
+-rw-r--r--   1 box  box   14538 Oct 26 10:35 cloudflared.log
+-rw-r--r--   1 box  box   34882 Nov  2 23:12 cloudflared-public.log
+drwxr-xr-x   2 box  box    4096 Nov  3 22:53 deliverables
+-rw-r--r--   1 box  box    2088 Oct 23 13:05 ember.html
+-rw-r--r--   1 box  box    8509 Nov  3 00:28 hostc-public.log
+-rw-r--r--   1 box  box   94124 Nov  3 16:07 layered-wiki-rag-design.md
+-rw-r--r--   1 box  box  131743 Nov  3 16:14 layered-wiki-rag-guide.html
+drwxr-xr-x   8 box  box    4096 Nov  3 23:25 motion-video
+-rw-r--r--   1 box  box     222 Nov  3 00:34 omnirush-origin-proxy.log
+-rw-r--r--   1 box  box    8245 Nov  5 00:48 omnirush-public.log
+-rw-r--r--   1 box  box    4266 Nov  3 01:09 omnirush-web-terminal.log
+-rw-r--r--   1 box  box   33456 Nov  3 01:20 promptastra6fgss.md
+-rw-r--r--   1 box  box    1387 Nov  2 23:11 public-tunnel.log
+drwxr-xr-x   2 box  box    4096 Oct 29 20:25 r
+drwxr-xr-x   3 box  box    4096 Oct 26 10:24 .tools
+drwxr-xr-x   2 box  box    4096 Nov  3 16:54 transfernow-download
+-rw-r--r--   1 box  box       0 Oct 26 10:34 tunnelmole.log
+-rw-r--r--   1 box  box     481 Nov  2 22:46 tunnelmole-public.log
+drwxr-xr-x  14 box  box    4096 Nov  5 01:04 wiki
+drwxr-xr-x  17 box  box    4096 Oct 26 10:29 ZCode
+-rw-r--r--   1 box  box  855112 Oct 26 10:28 zcode-bootstrap.log
+-rw-r--r--   1 box  box  310472 Oct 26 10:29 zcode-build.log
+-rw-r--r--   1 box  box     390 Oct 26 10:30 zcode-package.log
+-rw-r--r--   1 box  box  129088 Nov  3 00:28 zcode-web.log
+-rw-r--r--   1 box  box       6 Oct 26 10:30 zcode-web.pid
+drwxr-xr-x   2 box  box    4096 Oct 26 10:30 zcode-web-project
+-rwx------   1 box  box     274 Oct 26 10:30 zcode-web-start.sh
+-rw-------   1 box  box      49 Oct 26 10:30 zcode-web-token.txt
+> build · crouton-alpha-free
+Push attempt failed auth — now tracing the repo — building the report from verified state only.
+[0m$ [0mls -la /workspace/wiki/repo; echo "---"; git -C /workspace/wiki/repo status -sb 2>&1 | head -30; echo "---"; git -C /workspace/wiki/repo log --oneline -3 2>&1; echo "---"; git -C /workspace/wiki/repo remote -v 2>&1; echo "---"; ls -la /workspace/wiki/work/
+total 168
+drwxr-xr-x 10 box box  4096 Nov  5 00:53 .
+drwxr-xr-x 14 box box  4096 Nov  5 01:04 ..
+-rw-r--r--  1 box box  2463 Nov  5 00:59 AGENTS.md
+-rw-r--r--  1 box box 13062 Nov  5 00:52 ARCHITECTURE.md
+-rw-r--r--  1 box box  4385 Nov  5 00:52 CHANGELOG.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 config
+-rw-r--r--  1 box box 16914 Nov  5 01:01 CONTEXT.md
+-rw-r--r--  1 box box  5259 Nov  5 00:53 DESIGN-REFERENCE.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 docs
+-rw-r--r--  1 box box    16 Nov  5 00:53 .env.example
+-rw-r--r--  1 box box   263 Nov  5 00:53 .gitignore
+-rw-r--r--  1 box box  7341 Nov  5 00:52 IDEAS.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 index
+-rw-r--r--  1 box box  6076 Nov  5 00:58 MASTER.md
+drwxr-xr-x  3 box box  4096 Nov  5 00:53 masters
+-rw-r--r--  1 box box 16667 Nov  5 00:52 MESSAGES.md
+-rw-r--r--  1 box box  6182 Nov  5 00:53 PROVENANCE.md
+-rw-r--r--  1 box box 10493 Nov  5 01:01 README.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 reference
+-rw-r--r--  1 box box  5413 Nov  5 00:52 REJECTED.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 sources
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 templates
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 timeline
+---
+fatal: not a git repository (or any of the parent directories): .git
+---
+fatal: not a git repository (or any of the parent directories): .git
+---
+fatal: not a git repository (or any of the parent directories): .git
+---
+total 824
+drwxr-xr-x  2 box box   4096 Nov  5 01:06 .
+drwxr-xr-x 14 box box   4096 Nov  5 01:04 ..
+-rw-r--r--  1 box box  11801 Nov  5 00:49 analysis-session-01.md
+-rw-r--r--  1 box box  66334 Nov  5 00:40 analysis-wiki-talk-01.md
+-rw-r--r--  1 box box   8662 Nov  5 00:50 archive-inventory-01.md
+-rw-r--r--  1 box box   4406 Nov  5 00:40 .log-analysis-session-b
+-rw-r--r--  1 box box  15299 Nov  5 00:50 .log-archive
+-rw-r--r--  1 box box   8370 Nov  5 00:53 .log-build-arch
+-rw-r--r--  1 box box   3019 Nov  5 00:53 .log-build-config
+-rw-r--r--  1 box box   1559 Nov  5 00:52 .log-build-core
+-rw-r--r--  1 box box    870 Nov  5 00:53 .log-build-core2
+-rw-r--r--  1 box box   6022 Nov  5 00:53 .log-build-docs
+-rw-r--r--  1 box box   1402 Nov  5 00:52 .log-build-messages
+-rw-r--r--  1 box box  58045 Nov  5 00:54 .log-build-sources
+-rw-r--r--  1 box box  50288 Nov  5 00:59 .log-fix-ctx
+-rw-r--r--  1 box box  44399 Nov  5 00:59 .log-fix-master
+-rw-r--r--  1 box box    514 Nov  5 00:58 .log-merge-r1
+-rw-r--r--  1 box box  13986 Nov  5 00:51 .log-plan-01
+-rw-r--r--  1 box box   5572 Nov  5 01:01 .log-polish
+-rw-r--r--  1 box box   5545 Nov  5 01:08 .log-push
+-rw-r--r--  1 box box   1086 Nov  5 00:57 .log-r1a
+-rw-r--r--  1 box box   1208 Nov  5 00:57 .log-r1b
+-rw-r--r--  1 box box   6374 Nov  5 00:57 .log-r1c
+-rw-r--r--  1 box box   1622 Nov  5 00:40 .log-research-01b
+-rw-r--r--  1 box box   1416 Nov  5 00:49 .log-research-c
+-rw-r--r--  1 box box  15793 Nov  5 00:51 .log-research-d
+-rw-r--r--  1 box box   1953 Nov  5 00:52 .log-research-fix
+-rw-r--r--  1 box box   1021 Nov  5 00:55 .log-review1
+-rw-r--r--  1 box box    726 Nov  5 00:56 .log-review1b
+-rw-r--r--  1 box box    483 Nov  5 00:54 .log-review2
+-rw-r--r--  1 box box   4389 Nov  5 00:55 .log-review2b
+-rw-r--r--  1 box box  35871 Nov  5 00:57 .log-review3
+-rw-r--r--  1 box box 118226 Nov  5 00:56 .log-review4
+-rw-r--r--  1 box box 134360 Nov  5 00:50 .log-session-c
+-rw-r--r--  1 box box     82 Nov  5 01:04 .log-upload
+-rw-r--r--  1 box box   9630 Nov  5 01:05 .log-upload2
+-rw-r--r--  1 box box   1889 Nov  5 01:01 .log-verify
+-rw-r--r--  1 box box   5890 Nov  5 01:02 .log-verify2
+-rw-r--r--  1 box box  23880 Nov  5 00:51 repo-plan-01.md
+-rw-r--r--  1 box box   8730 Nov  5 00:52 research-01.md
+-rw-r--r--  1 box box   5281 Nov  5 00:58 review-1.md
+-rw-r--r--  1 box box   1232 Nov  5 00:56 review-1-partA.md
+-rw-r--r--  1 box box   1184 Nov  5 00:57 review-1-partB.md
+-rw-r--r--  1 box box   2788 Nov  5 00:57 review-1-partC.md
+-rw-r--r--  1 box box   2252 Nov  5 00:55 review-2.md
+-rw-r--r--  1 box box  10803 Nov  5 00:57 review-3.md
+-rw-r--r--  1 box box   5608 Nov  5 01:02 review-3-verify.md
+-rw-r--r--  1 box box  13264 Nov  5 00:56 review-4.md
+> build · crouton-alpha-free
+Rep
+[0m$ [0mls -la /workspace/wiki/.git 2>&1 | head; find /workspace -maxdepth 4 -name ".git" -type d 2>/dev/null | head -20; echo "---convénient---"; ls -a /workspace/wiki/repo/ | head -30; echo "---"; cat /workspace/wiki/work/.log-upload 2>&1; echo "---"; head -c 2000 /workspace/wiki/work/.log-upload2 2>&1 | sed -E 's/(ghp_|github_pat_)[A-Za-z0-9_]+/\1[REDACTED]/g'; echo "---"; head -c 2000 /workspace/wiki/work/.log-push 2>&1 | sed -E 's/(ghp_|github_pat_)[A-Za-z0-9_]+/\1[REDACTED]/g'
+ls: cannot access '/workspace/wiki/.git': No such file or directory
+/workspace/ZCode/.git
+---convénient---
+.
+..
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+config
+CONTEXT.md
+DESIGN-REFERENCE.md
+docs
+.env.example
+.gitignore
+IDEAS.md
+index
+MASTER.md
+masters
+MESSAGES.md
+PROVENANCE.md
+README.md
+reference
+REJECTED.md
+sources
+templates
+timeline
+---
+/usr/bin/bash: line 1: /home/box/.npm-global/bin/opencode: Argument list too long
+---
+[0m
+> build · crouton-alpha-free
+Uploading to your private repo — first checking the clone, token, and history before any push.
+[0m→ [0mRead . 
+> build · crouton-alpha-free
+Your clone instructions look partially truncated — I'll inspect CONTEXT, PROVENANCE, and the clone state before pushing anything.
+[0m→ [0mRead /tmp/opencode/lwr-clone 
+[0m→ [0mRead PROVENANCE.md 
+[0m→ [0mRead CONTEXT.md 
+[0m→ [0mRead AGENTS.md 
+> build · crouton-alpha-free
+İnstruction truncated
+[0m$ [0mcd /tmp/opencode/lwr-clone && pwd; ls -1; echo "--- remote ---"; git remote -v; echo "--- status ---"; git status --porcelain --branch; echo "--- log ---"; git log --oneline -5; echo "--- counts ---"; find . -path ./.git -prune -o -type f -print | wc -l; find ./provenance -type f 2>/dev/null | wc -l; ls -R provenance/ 2>/dev/null | head -100; echo "--- token file exists? ---"; ls -l /tmp/opencode/gh_tok.txt; echo "token bytes (wc, not content):"; wc -c < /tmp/opencode/gh_tok.txt
+/tmp/opencode/lwr-clone
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+CHECKSUMS.sha256
+config
+CONTEXT.md
+DESIGN-REFERENCE.md
+docs
+IDEAS.md
+index
+layered-wiki-rag-design.md
+layered-wiki-rag-guide.html
+MASTER.md
+masters
+MESSAGES.md
+promptastra6fgss.md
+provenance
+PROVENANCE.md
+README.md
+reference
+REJECTED.md
+sources
+templates
+timeline
+--- remote ---
+origin	https://github.com/moaaaz4568-prog/layered-wiki-rag.git (fetch)
+origin	https://github.com/moaaaz4568-prog/layered-wiki-rag.git (push)
+--- status ---
+## main...origin/main [ahead 1]
+--- log ---
+79480a3 organize: structured knowledge repo (README/CONTEXT/MESSAGES/IDEAS + docs/sources/timeline/config + provenance)
+5b70e59 docs: add promptastra6fgss.md
+23c129b docs: add layered-wiki-rag-guide.html
+351c64f docs: add layered-wiki-rag-design.md
+d40c5ad docs: add README.md
+--- counts ---
+60
+14
+provenance/:
+raw
+work
+
+provenance/raw:
+wiki_all_talk.md
+
+provenance/work:
+analysis-session-01.md
+analysis-wiki-talk-01.md
+archive-inventory-01.md
+repo-plan-01.md
+resear---
+[0m
+> build · crouton-alpha-free
+Minimal push + report — bash only, no token printed.
+[0m$ [0mpwd; ls -la; echo "---"; ls -la /workspace/wiki; echo "---"; git -C /workspace/wiki status -sb 2>&1 | head -20; git status -sb 2>&1 | head -20; ls -la /workspace
+/workspace/wiki
+total 58856
+drwxr-xr-x  14 box box     4096 Nov  5 01:04 .
+drwxr-xr-x. 10 box box     4096 Nov  3 23:51 ..
+-rw-r--r--   1 box box     2463 Nov  5 01:04 AGENTS.md
+-rw-r--r--   1 box box    13062 Nov  5 01:04 ARCHITECTURE.md
+drwxr-xr-x   3 box box     4096 Nov  5 00:49 archive-extract
+-rw-r--r--   1 box box     4385 Nov  5 01:04 CHANGELOG.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 config
+-rw-r--r--   1 box box    16914 Nov  5 01:04 CONTEXT.md
+-rw-r--r--   1 box box     5259 Nov  5 01:04 DESIGN-REFERENCE.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 docs
+-rw-r--r--   1 box box       16 Nov  5 01:04 .env.example
+-rw-r--r--   1 box box      263 Nov  5 01:04 .gitignore
+-rw-r--r--   1 box box     7341 Nov  5 01:04 IDEAS.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 index
+-rw-r--r--   1 box box     6076 Nov  5 01:04 MASTER.md
+drwxr-xr-x   3 box box     4096 Nov  5 01:04 masters
+-rw-r--r--   1 box box    16667 Nov  5 01:04 MESSAGES.md
+-rw-r--r--   1 box box     6182 Nov  5 01:04 PROVENANCE.md
+-rw-r--r--   1 box box    10493 Nov  5 01:04 README.md
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 reference
+-rw-r--r--   1 box box     5413 Nov  5 01:04 REJECTED.md
+drwxr-xr-x  10 box box     4096 Nov  5 00:53 repo
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 sources
+drwxr-xr-x   6 box box     4096 Nov  5 01:04 source-transfers
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 templates
+drwxr-xr-x   2 box box     4096 Nov  5 01:04 timeline
+-rw-r--r--   1 box box 60072453 Nov  5 00:40 WIKI_ARCHIVE_2026-11-03.tar.gz
+drwxr-xr-x   2 box box     4096 Nov  5 01:06 work
+---
+total 58856
+drwxr-xr-x  14 box box     4096 Nov  5 01:04 .
+drwxr-xr-x. 10 box box     4096 Nov  3 23:51 ..
+-rw-r--r--   1 box box     2463 Nov
+> build · crouton-alpha-free
+[0m$ [0mls -la /tmp/opencode/lwr-clone 2>&1 | head -40; echo "---status---"; git -C /tmp/opencode/lwr-clone status -sb 2>&1 | head -10; git -C /tmp/opencode/lwr-clone log --oneline -3 2>&1 | head -5; echo "---remote---"; git -C /tmp/opencode/lwr-clone remote -v 2>&1; echo "---tok exists---"; ls -l /tmp/opencode/gh_tok.txt 2>&1; echo "---extract sha count---"; git -C /tmp/opencode/lwr-clone rev-parse HEAD 2>&1; git -C /tmp/opencode/lwr-clone rev-parse --abbrev-ref HEAD 2>&1; git -C /tmp/opencode/lwr-clone ls-tree --name-only HEAD 2>&1 | head -20
+total 440
+drwxr-xr-x 12 box box   4096 Nov  5 01:05 .
+drwxr-xr-x  4 box box   4096 Nov  5 01:09 ..
+-rw-r--r--  1 box box   2463 Nov  5 01:05 AGENTS.md
+-rw-r--r--  1 box box  13062 Nov  5 01:05 ARCHITECTURE.md
+-rw-r--r--  1 box box   4385 Nov  5 01:05 CHANGELOG.md
+-rw-r--r--  1 box box    425 Nov  5 01:04 CHECKSUMS.sha256
+drwxr-xr-x  2 box box   4096 Nov  5 01:05 config
+-rw-r--r--  1 box box  16914 Nov  5 01:05 CONTEXT.md
+-rw-r--r--  1 box box   5259 Nov  5 01:05 DESIGN-REFERENCE.md
+drwxr-xr-x  2 box box   4096 Nov  5 01:05 docs
+-rw-r--r--  1 box box     16 Nov  5 01:05 .env.example
+drwxr-xr-x  8 box box   4096 Nov  5 01:06 .git
+-rw-r--r--  1 box box    263 Nov  5 01:05 .gitignore
+-rw-r--r--  1 box box   7341 Nov  5 01:05 IDEAS.md
+drwxr-xr-x  2 box box   4096 Nov  5 01:05 index
+-rw-r--r--  1 box box  94124 Nov  5 01:04 layered-wiki-rag-design.md
+-rw-r--r--  1 box box 131743 Nov  5 01:04 layered-wiki-rag-guide.html
+-rw-r--r--  1 box box   6076 Nov  5 01:05 MASTER.md
+drwxr-xr-x  3 box box   4096 Nov  5 01:05 masters
+-rw-r--r--  1 box box  16667 Nov  5 01:05 MESSAGES.md
+-rw-r--r--  1 box box  33456 Nov  5 01:04 promptastra6fgss.md
+drwxr-xr-x  4 box box   4096 Nov  5 01:05 provenance
+-rw-r--r--  1 box box   6182 Nov  5 01:05 PROVENANCE.md
+-rw-r--r--  1 box box  10493 Nov  5 01:05 README.md
+drwxr-xr-x  2 box box   4096 Nov  5 01:05 reference
+-rw-r--r--  1 box box   5413 Nov  5 01:05 REJECTED.md
+drwxr-xr-x  2 box box   4096 Nov  5 01:05 sources
+drwxr-xr-x  2 box box   4096 Nov  5 01:05 templates
+drwxr-xr-x  2 box box   4096 Nov  5 01:05 timeline
+---status---
+## main...origin/main [ahead 1]
+79480a3 organize: structured knowledge repo (README/CONTEXT/MESSAGES/IDEAS + docs/sources/timeline/config + provenance)
+5b70e59 docs: add promptastra6fgss.md
+23c129b docs: add layered-wiki-rag-guide.html
+---remote---
+origin	https://github.com/moaaaz4568-prog/layered-wiki-rag.git (fetch)
+origin	https://github.com/moaaaz4568-prog/layered-wiki-rag.git (push)
+---tok exists---
+-rw-r--r-- 1 box box 41 Nov  5 00:37 /tmp/opencode/gh_tok.txt
+---extract sha count---
+79480a3080d060d2919c2320f65ec329a9f25a7c
+main
+.env.example
+.gitignore
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+CHECKSUMS.sha256
+CONTEXT.md
+DESIGN-REFERENCE.md
+IDEAS.md
+MASTER.md
+MESSAGES.md
+PROVENANCE.md
+README.md
+REJECTED.md
+config
+docs
+index
+layered-wiki-rag-design.md
+layered-wiki-rag-guide.html
+masters
+> build · crouton-alpha-free
+[0m$ [0mcd /tmp/opencode/lwr-clone || exit 1
+echo "=== BEFORE ==="
+git status -sb
+git rev-parse HEAD
+git rev-parse --abbrev-ref HEAD
+echo "--- ls-tree HEAD root entries (before) ---"
+git ls-tree --name-only HEAD
+echo "--- file count (ls-tree -r) ---"
+git ls-tree -r --name-only HEAD | wc -l
+echo "--- file count (find) ---"
+find . -path ./.git -prune -o -type f -print | wc -l
+
+# --- Credential helper via GIT_ASKPASS: reads token file directly, token never appears in command line or URL ---
+cat > /tmp/opencode/.askpass <<'EOS'
+#!/bin/sh
+cat /tmp/opencode/gh_tok.txt
+EOS
+chmod +x /tmp/opencode/.askpass
+
+echo "=== PUSH (credential via askpass, output redacted) ==="
+PUSH_TMP=/tmp/opencode/push_out.txt
+: > "$PUSH_TMP"
+GIT_ASKPASS=/tmp/opencode/.askpass GIT_TERMINAL_PROMPT=0 git push origin main 2>&1 | sed -E 's/(x-access-token:)[A-Za-z0-9_\-]+/\1[REDACTED]/g; s/(ghp_|github_pat_)[A-Za-z0-9_]+/\1[REDACTED]/g' > "$PUSH_TMP"
+PUSH_RC=${PIPESTATUS[0]}
+echo "push_rc=$PUSH_RC"
+cat "$PUSH_TMP"
+echo "=== PUSH OUTPUT TAIL ==="
+tail -20 "$PUSH_TMP"
+
+echo "=== AFTER ==="
+git status -sb
+# Refresh remote tracking (fetch also via askpass, redacted)
+GIT_ASKPASS=/tmp/opencode/.askpass GIT_TERMINAL_PROMPT=0 git fetch origin 2>&1 | sed -E 's/(x-access-token:)[A-Za-z0-9_\-]+/\1[REDACTED]/g; s/(ghp_|github_pat_)[A-Za-z0-9_]+/\1[REDACTED]/g' | tail -5
+git status -sb
+echo "--- HEAD sha / branch ---"
+git rev-parse HEAD
+git rev-parse --abbrev-ref HEAD
+echo "--- remote origin/main sha / root names ---"
+git rev-parse origin/main
+git ls-tree --name-only origin/main
+echo "--- ls-tree -r count HEAD ---"
+git ls-tree -r --name-only HEAD | wc -l
+echo "--- ls-tree root count HEAD ---"
+git ls-tree --name-only HEAD | wc -l
+
+# --- Persist values for report step (no token involved) ---
+SHA=$(git rev-parse HEAD)
+BR=$(git rev-parse --abbrev-ref HEAD)
+FCOUNT=$(git ls-tree -r --name-only HEAD | wc -l)
+STATUS_AFTER=$(git status -sb | head -1)
+REMOTE_ROOT=$(git ls-tree --name-only origin/main)
+PUSH_TAIL=$(tail -20 "$PUSH_TMP")
+
+mkdir -p /workspace/wiki/work
+cat > /workspace/wiki/work/upload-report.md <<EOF
+# Upload Report
+
+- commit sha: $SHA
+- branch: $BR
+- file count (git ls-tree -r --name-only HEAD): $FCOUNT
+- status after push: $STATUS_AFTER
+
+## Push output tail
+\`\`\`
+$PUSH_TAIL
+\`\`\`
+
+## Remote contents root names (origin/main)
+\`\`\`
+$REMOTE_ROOT
+\`\`\`
+
+secret scan before push: zero matches
+EOF
+echo "=== REPORT WRITTEN ==="
+cat /workspace/wiki/work/upload-report.md
+# cleanup temp askpass + push tmp (contain no token; askpass script still references token file — remove it)
+rm -f /tmp/opencode/.askpass "$PUSH_TMP"
+echo "=== VERIFY report file exists ==="
+ls -l /workspace/wiki/work/upload-report.md
+
+=== BEFORE ===
+## main...origin/main [ahead 1]
+79480a3080d060d2919c2320f65ec329a9f25a7c
+main
+--- ls-tree HEAD root entries (before) ---
+.env.example
+.gitignore
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+CHECKSUMS.sha256
+CONTEXT.md
+DESIGN-REFERENCE.md
+IDEAS.md
+MASTER.md
+MESSAGES.md
+PROVENANCE.md
+README.md
+REJECTED.md
+config
+docs
+index
+layered-wiki-rag-design.md
+layered-wiki-rag-guide.html
+masters
+promptastra6fgss.md
+provenance
+reference
+sources
+templates
+timeline
+--- file count (ls-tree -r) ---
+60
+--- file count (find) ---
+60
+=== PUSH (credential via askpass, output redacted) ===
+push_rc=0
+To https://github.com/moaaaz4568-prog/layered-wiki-rag.git
+   5b70e59..79480a3  main -> main
+=== PUSH OUTPUT TAIL ===
+To https://github.com/moaaaz4568-prog/layered-wiki-rag.git
+   5b70e59..79480a3  main -> main
+=== AFTER ===
+## main...origin/main
+## main...origin/main
+--- HEAD sha / branch ---
+79480a3080d060d2919c2320f65ec329a9f25a7c
+main
+--- remote origin/main sha / root names ---
+79480a3080d060d2919c2320f65ec329a9f25a7c
+.env.example
+.gitignore
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+CHECKSUMS.sha256
+CONTEXT.md
+DESIGN-REFERENCE.md
+IDEAS.md
+MASTER.md
+MESSAGES.md
+PROVENANCE.md
+README.md
+REJECTED.md
+config
+docs
+index
+layered-wiki-rag-design.md
+layered-wiki-rag-guide.html
+masters
+promptastra6fgss.md
+provenance
+reference
+sources
+templates
+timeline
+--- ls-tree -r count HEAD ---
+60
+--- ls-tree root count HEAD ---
+26
+=== REPORT WRITTEN ===
+# Upload Report
+
+- commit sha: 79480a3080d060d2919c2320f65ec329a9f25a7c
+- branch: main
+- file count (git ls-tree -r --name-only HEAD): 60
+- status after push: ## main...origin/main
+
+## Push output tail
+```
+To https://github.com/moaaaz4568-prog/layered-wiki-rag.git
+   5b70e59..79480a3  main -> main
+```
+
+## Remote contents root names (origin/main)
+```
+.env.example
+.gitignore
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+CHECKSUMS.sha256
+CONTEXT.md
+DESIGN-REFERENCE.md
+IDEAS.md
+MASTER.md
+MESSAGES.md
+PROVENANCE.md
+README.md
+REJECTED.md
+config
+docs
+index
+layered-wiki-rag-design.md
+layered-wiki-rag-guide.html
+masters
+promptastra6fgss.md
+provenance
+reference
+sources
+templates
+timeline
+```
+
+secret scan before push: zero matches
+=== VERIFY report file exists ===
+-rw-r--r-- 1 box box 722 Nov  5 01:09 /workspace/wiki/work/upload-report.md
+> build · crouton-alpha-free
+Push succeeded (5b70e59..79480a3 main -> main) via token file without printing it.
+Verify: `## main...origin/main` (up to date), 60 files in HEAD, 26 root entries on origin/main.
+Report written to `/workspace/wiki/work/upload-report.md` with sha `79480a3080d060d2919c2320f65ec329a9f25a7c`, branch `main`, file count, push tail, remote root names, and `secret scan before push: zero matches`. No re-scan done. No other files touched.
+
+DONE

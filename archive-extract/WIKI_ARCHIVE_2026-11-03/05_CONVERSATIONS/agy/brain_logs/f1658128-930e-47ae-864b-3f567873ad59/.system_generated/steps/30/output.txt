@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+=== CHECK 2: CHINESE CHARS ===
+SYS_01_CHARTER.md: 0 CJK
+SYS_02_NAMING.md: 0 CJK
+SYS_03_TREE.md: 0 CJK
+SYS_04_THINKING_ENGINE.md: 0 CJK
+SYS_05_INGESTION.md: 0 CJK
+SYS_06_TERMS_DEEPENING.md: 0 CJK
+SYS_07_MASTER_ANATOMY.md: 0 CJK
+SYS_08_PLURALISM.md: 0 CJK
+
+=== CHECK 3: TODO/TBD ===
+SYS_01_CHARTER.md:55: - **الخط الأحمر R11 — منع الملفات الوهمية (Placeholders):** لا يُسمح بإنشاء ملفات تحوي علامات حجز مكان فارغة (مثل TODO أو TBD). كل ملف إما محتوى تشغيلي كامل أو قالب معتمد.
+
+=== CHECK 1: EMPTY HEADINGS ===
+SYS_03_TREE.md: EMPTY HEADING at line 48: ## 3. التعداد الثلاثي الحاجب وعلاج انزلاق النوع (The Triple Screening Gate)
+SYS_06_TERMS_DEEPENING.md: EMPTY HEADING at line 24: ## 1. الفلسفة ونوايا المالك: من النص الخام إلى الإدراك المعمّق
+SYS_06_TERMS_DEEPENING.md: EMPTY HEADING at line 87: ## 3. بوابات القبول الرقمية D05 وD06 (من GATES_11)
+SYS_07_MASTER_ANATOMY.md: EMPTY HEADING at line 25: ## 1. فلسفة الماستر والشرط الحاكم الأساسي
+SYS_08_PLURALISM.md: EMPTY HEADING at line 21: ## 1. فلسفة تعددية الآراء ومنطق المالك
+SYS_08_PLURALISM.md: EMPTY HEADING at line 88: ## 4. قاعدة التناقض الجوهرية (Contradiction Resolution Rule)

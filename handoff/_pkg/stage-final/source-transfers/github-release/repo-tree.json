@@ -1,0 +1,55 @@
+{
+  "sha": "5b70e5923099bedcb3c911b9a20c3eb3821c8c64",
+  "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/5b70e5923099bedcb3c911b9a20c3eb3821c8c64",
+  "tree": [
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b94058dfe1d6c405026b172e5a4a367c868d752",
+      "size": 1617,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/3b94058dfe1d6c405026b172e5a4a367c868d752"
+    },
+    {
+      "path": "CHECKSUMS.sha256",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca46dddae1257d79009d26217fd3c2023f70b3f6",
+      "size": 425,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/ca46dddae1257d79009d26217fd3c2023f70b3f6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2898cb932bdc539459000378d23fb563fb7be8a0",
+      "size": 1212,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/2898cb932bdc539459000378d23fb563fb7be8a0"
+    },
+    {
+      "path": "layered-wiki-rag-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26914d48e8d9c7bd8c9980d4d226e747bd5ea339",
+      "size": 94124,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/26914d48e8d9c7bd8c9980d4d226e747bd5ea339"
+    },
+    {
+      "path": "layered-wiki-rag-guide.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9093e17a2131629d1e3be15531e53a71da23f950",
+      "size": 131743,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/9093e17a2131629d1e3be15531e53a71da23f950"
+    },
+    {
+      "path": "promptastra6fgss.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69460fb9949973f0081adeb57e2a5a7bd737cf0c",
+      "size": 33456,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/69460fb9949973f0081adeb57e2a5a7bd737cf0c"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+00_source_antigravity_omnirush_planning.md  21_wikis_analysis.md
+01_user_messages_from_agy.md		    22_future_simulation_part1.md
+06_user_messages_claude_wiki.md		    22_future_simulation_part2.md
+06b_user_messages_claude_substantive.md     23_protocol_review.md
+07_user_messages_omnirush.md		    BUILD_PROTOCOL.md
+07b_user_messages_omnirush_db.md	    _architect_task.md
+07c_gpt6_session_user_messages.md	    _archive
+08_user_messages_claude_extra.md	    argon_version
+10_FULL_CONTEXT.md			    glm_version
+11_USER_VISION_AND_RULES.md		    haiku_version
+12_AGY_NEXUS_OS_CRITIQUE.md		    kimi_version
+20_user_intent_facts.md			    minimax_version

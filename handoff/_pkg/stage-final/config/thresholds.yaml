@@ -1,0 +1,21 @@
+# thresholds.yaml — عتبات التقييم
+# المخطط: work/repo-plan-01.md §2 (config/thresholds.yaml) + §1.8
+# القاعدة: لا رقم مخترع قبل القياسين الأولين — القيم أدناه UNKNOWN عمدا
+
+status: "NOT_RUN"
+note: "كل القيم فارغة / TODO حتى يكتمل القياسان الأولان؛ لا تُملأ من التخمين"
+
+thresholds:
+  top_k: null
+  recall_at_k: null
+  recall_target: null
+  answer_latency_max_s: null
+  rerank_latency_max_s: null
+  faithfulness_min: null
+
+todo:
+  - "تحديد k بعد أول قياسين موثّقين"
+  - "تحديد حد Recall@10 بعد أول قياسين موثّقين"
+  - "تحديد زمن الإجابة الأقصى بعد أول قياسين موثّقين"
+
+fill_rule: "لا تملأ قبل أول قياسين — حسب repo-plan-01.md §2 و§1.8؛ يُوسم أي اقتراح قبله PROPOSED لا OBSERVED"

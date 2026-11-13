@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+[False] /masters/Master_Brand_Identity_System.json
+[True] /root/r/V3/00_CHARTER/FORMAT_MASTER.md
+[True] /root/r/data/masters/Master_Brand_Identity_System.json
+[True] /sdcard/NEXUS_LLM_WIKI/systems/17_FOLDER_INDEX_CONTRACT.md
+[True] /sdcard/NEXUS_WIKI_SKILLS/opinion-context-evaluation/SKILL.md

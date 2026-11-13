@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+  File "/sdcard/wikillm/argon_version/wiki_ver2/tools/generate_templates.py", line 286
+    "كيف تُصمم لوحة تحكم أسبوعية تكتشف نقاط الاختناق في الأداء قبل تفاقمها؟
+    ^
+SyntaxError: unterminated string literal (detected at line 286)

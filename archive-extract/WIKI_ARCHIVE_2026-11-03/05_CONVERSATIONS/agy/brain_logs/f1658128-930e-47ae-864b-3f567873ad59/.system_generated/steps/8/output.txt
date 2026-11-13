@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+AGENTS.md    README.md	    _BUILD_REPORT.md  systems
+COUNTS.json  START_HERE.md  domains	      tools

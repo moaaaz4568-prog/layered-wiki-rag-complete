@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+157:- **المصادر المعتمدة:** خريطة شجرة الويكي وتوزيع الماسترات في `domains/INDEX.md`.

@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+BROKEN: /01_cold_email/INDEX.md
+BROKEN: /01_content_pillars/INDEX.md
+BROKEN: /01_discovery_qualification/INDEX.md
+BROKEN: /01_pricing_tiers/INDEX.md
+BROKEN: /01_systems_ops/INDEX.md
+BROKEN: /02_closing/INDEX.md
+BROKEN: /02_distribution/INDEX.md
+BROKEN: /02_hiring/INDEX.md
+BROKEN: /02_linkedin_dm/INDEX.md
+BROKEN: /02_offer_design/INDEX.md
+BROKEN: /03_followup_sequences/INDEX.md
+BROKEN: /03_guarantees/INDEX.md
+BROKEN: /03_metrics/INDEX.md
+BROKEN: /03_objection_handling/INDEX.md
+BROKEN: /03_repurposing/INDEX.md
+BROKEN: /INDEX.md
+EXISTS: /root/r/V3/00_CHARTER/FORMAT_MASTER.md

@@ -1,0 +1,77 @@
+Command exited with code 0.
+
+Command output:
+=== Testing paths in: systems/SYS_09_CUMULATIVE_SYNTHESIS.md ===
+  L13: NOT FOUND: SYS_01_CHARTER.md
+  L14: NOT FOUND: SYS_05_INGESTION.md
+  L15: NOT FOUND: SYS_07_MASTER_ANATOMY.md
+  L85: NOT FOUND: M_Sales_Closing_Architecture.md
+  L86: NOT FOUND: /sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1
+  L106: NOT FOUND: SYS_09_CUMULATIVE_SYNTHESIS.md
+  L109: NOT FOUND: SYS_09_CUMULATIVE_SYNTHESIS.md
+  L112: NOT FOUND: /sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1
+=== Testing paths in: systems/SYS_10_INDEXES.md ===
+  L13: NOT FOUND: SYS_01_CHARTER.md
+  L14: NOT FOUND: SYS_03_TREE.md
+  L15: NOT FOUND: SYS_07_MASTER_ANATOMY.md
+  L28: NOT FOUND: INDEX.md
+  L29: NOT FOUND: INDEX.md
+  L40: NOT FOUND: INDEX.md
+  L67: NOT FOUND: INDEX.md
+  L70: NOT FOUND: INDEX.md
+  L95: NOT FOUND: INDEX.md
+  L122: NOT FOUND: C_Price_Anchor.md
+  L123: NOT FOUND: C_Silence_Tactic.md
+  L132: NOT FOUND: SYS_10_INDEXES.md
+  L135: NOT FOUND: SYS_10_INDEXES.md
+  L138: NOT FOUND: /sdcard/Nexus_Brain/Nexus_Brain/brain/processed/1
+=== Testing paths in: systems/SYS_11_BUSINESS_EXECUTION.md ===
+  All paths exist! (PASS)
+=== Testing paths in: systems/SYS_12_AUDIT.md ===
+  All paths exist! (PASS)
+=== Testing paths in: systems/SYS_13_DELEGATION.md ===
+  All paths exist! (PASS)
+=== Testing paths in: systems/SYS_14_ANTI_PATTERNS.md ===
+  L48: NOT FOUND: INDEX.md
+  L80: NOT FOUND: audit.py
+  L120: NOT FOUND: audit.py
+=== Testing paths in: systems/SYS_15_DYNAMIC_EXPANSION.md ===
+  L35: NOT FOUND: FORMAT_MASTER.md
+  L67: NOT FOUND: audit.py
+  L76: NOT FOUND: INDEX.md
+=== Testing paths in: README.md ===
+  L43: NOT FOUND: SYS_01_CHARTER.md
+  L44: NOT FOUND: SYS_02_NAMING.md
+  L45: NOT FOUND: SYS_03_TREE.md
+  L46: NOT FOUND: SYS_04_THINKING_ENGINE.md
+  L47: NOT FOUND: SYS_05_INGESTION.md
+  L71: NOT FOUND: nexus_rag.py
+  L71: NOT FOUND: count.py
+  L71: NOT FOUND: audit.py
+=== Testing paths in: START_HERE.md ===
+  L39: NOT FOUND: INDEX.md
+  L54: NOT FOUND: SYS_01_CHARTER.md
+  L55: NOT FOUND: SYS_02_NAMING.md
+  L56: NOT FOUND: SYS_03_TREE.md
+  L57: NOT FOUND: SYS_04_THINKING_ENGINE.md
+  L58: NOT FOUND: SYS_05_INGESTION.md
+  L59: NOT FOUND: SYS_06_TERMINOLOGY_DEEPENING.md
+  L60: NOT FOUND: SYS_07_MASTER_ANATOMY.md
+  L61: NOT FOUND: SYS_08_OPINION_PLURALISM.md
+  L62: NOT FOUND: SYS_09_INCREMENTAL_SYNTHESIS.md
+  L63: NOT FOUND: SYS_10_INDEXES_AND_RETRIEVAL.md
+  L64: NOT FOUND: SYS_11_BUSINESS_EXECUTION.md
+  L65: NOT FOUND: SYS_12_AUDIT_AND_GATES.md
+  L66: NOT FOUND: SYS_13_DELEGATION_WORKERS.md
+  L67: NOT FOUND: SYS_14_ANTI_PATTERNS.md
+  L68: NOT FOUND: SYS_15_DYNAMIC_SCALING.md
+  L71: NOT FOUND: INDEX.md
+  L79: NOT FOUND: nexus_rag.py
+  L80: NOT FOUND: count.py
+  L81: NOT FOUND: audit.py
+=== Testing paths in: AGENTS.md ===
+  All paths exist! (PASS)
+=== Testing paths in: _BUILD_REPORT.md ===
+  L31: NOT FOUND: /sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_0
+  L79: NOT FOUND: /sdcard/Nexus_Brain/Nexus_Brain/brain/aaronxshepherd__21
+  L79: NOT FOUND: INSTANTLY__i7vdM5SZsmk.txt

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+drwxrwx---. 28 root aid_everybody 4096 Oct 25 00:00 /sdcard

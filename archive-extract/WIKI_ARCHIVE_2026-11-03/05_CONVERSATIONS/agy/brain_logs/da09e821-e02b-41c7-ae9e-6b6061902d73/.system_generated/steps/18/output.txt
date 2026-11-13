@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+   166 /sdcard/wikillm/21_wikis_analysis.md
+   147 /root/r/V3/00_CHARTER/ANTI_DEAD_FORMULA.md
+   155 /root/r/V3/00_CHARTER/DO_MASTER.md
+   433 /root/r/V3/00_CHARTER/FORMAT_CONCEPT.md
+   259 /root/r/V3/00_CHARTER/FORMAT_MASTER.md
+   181 /root/r/V3/00_CHARTER/FORMAT_TERM.md
+   214 /root/r/V3/00_CHARTER/GATES_11.md
+   152 /root/r/V3/00_CHARTER/NAMING.md
+   237 /root/r/V3/00_CHARTER/ONTOLOGY.md
+   156 /root/r/V3/00_CHARTER/TRUTH_NUMBERS.md
+  2100 total

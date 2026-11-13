@@ -1,0 +1,25 @@
+# books.yaml — قوائم كتب الشخصيات الكلاسيكية
+# المصادر: work/analysis-wiki-talk-01.md §1.4 / §1.5
+# المخطط: work/repo-plan-01.md §2 (config/books.yaml)
+# ملاحظة: نقل الأسماء من البرومبت إلى هذا الملف حسب القرار في §1.5
+# لا أسرار في هذا الملف
+
+sources:
+  - slug: ibn-sirin
+    books:
+      - title_ar: "تفسير الأحلام لابن سيرين"
+
+  - slug: ibn-taymiyyah
+    books: []
+
+  - slug: ibn-al-qayyim
+    books:
+      - title_ar: "زاد المعاد في هدي خير العباد"
+      - title_ar: "مدارج السالكين"
+      - title_ar: "الداء والدواء"
+      - title_ar: "الفوائد"
+
+notes:
+  - statement: "القوائم أعلاه كما وردت حرفيا في analysis-wiki-talk-01.md §1.5؛ لم تُخترع كتب لابن تيمية لأن المصدر لم يذكرها"
+  - statement: "تحميل كتب علماء تفسير أحلام آخرين وفرويد ويونغ كانت طلبا في 2026-10-19 ولم تُثبت بأوامر قياس في المصدر المقروء — لا تدرج هنا كأسماء إلا ما ورد في §1.5"
+  - statement: "جهة التفاصيل التشغيلية المقروءة: ~/workspace/yt-wiki/books.yaml و ~/workspace/yt-wiki/bin/download-book.py كما وردا في §2.2.1"

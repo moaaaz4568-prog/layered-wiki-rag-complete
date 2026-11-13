@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+total 80
+-rw-rw----. 1 root aid_everybody 2542 Oct 25 01:00 INDEX.md
+-rw-rw----. 1 root aid_everybody 3827 Oct 24 17:01 SYS_01_CORE_CHARTER.md
+-rw-rw----. 1 root aid_everybody 2836 Oct 24 17:01 SYS_02_NAMING_AND_IDENTIFIERS.md
+-rw-rw----. 1 root aid_everybody 3500 Oct 24 17:03 SYS_03_DIRECTORY_TAXONOMY.md
+-rw-rw----. 1 root aid_everybody 4242 Oct 24 17:05 SYS_04_COGNITIVE_REASONING.md
+-rw-rw----. 1 root aid_everybody 3243 Oct 24 17:06 SYS_05_ZERO_LOSS_INGESTION.md
+-rw-rw----. 1 root aid_everybody 4230 Oct 24 17:07 SYS_06_CONCEPT_ARCHITECTURE.md
+-rw-rw----. 1 root aid_everybody 4799 Oct 24 17:09 SYS_07_MASTER_PLAYBOOK_ANATOMY.md
+-rw-rw----. 1 root aid_everybody 3191 Oct 24 17:11 SYS_08_PLURALISM_MATRIX.md
+-rw-rw----. 1 root aid_everybody 3240 Oct 24 17:12 SYS_09_LIVING_SYNTHESIS.md
+-rw-rw----. 1 root aid_everybody 2816 Oct 24 17:13 SYS_10_INDEXING_RETRIEVAL.md
+-rw-rw----. 1 root aid_everybody 3389 Oct 24 17:14 SYS_11_BUSINESS_EXECUTION.md
+-rw-rw----. 1 root aid_everybody 3138 Oct 24 17:16 SYS_12_AUDIT_QA.md
+-rw-rw----. 1 root aid_everybody 3952 Oct 25 01:03 SYS_13_DELEGATION_PROTOCOL.md
+-rw-rw----. 1 root aid_everybody 4420 Oct 24 17:19 SYS_14_ANTI_PATTERNS.md
+-rw-rw----. 1 root aid_everybody 3687 Oct 24 17:20 SYS_15_DYNAMIC_EXPANSION.md

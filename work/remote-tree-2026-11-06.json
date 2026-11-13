@@ -1,0 +1,571 @@
+{
+  "sha": "37ad6448490a5cb55463f3d7e10b10489ff3a036",
+  "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/37ad6448490a5cb55463f3d7e10b10489ff3a036",
+  "tree": [
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a593eb51c835cde23d798f7e4d2064466499f66",
+      "size": 16,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/5a593eb51c835cde23d798f7e4d2064466499f66"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f17d4dcf69126f2debde0f1a2b2c031aecabb2b0",
+      "size": 263,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/f17d4dcf69126f2debde0f1a2b2c031aecabb2b0"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b94058dfe1d6c405026b172e5a4a367c868d752",
+      "size": 1617,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/3b94058dfe1d6c405026b172e5a4a367c868d752"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "656a10faea5efc94a3cbba012a2e491fe65aa804",
+      "size": 13062,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/656a10faea5efc94a3cbba012a2e491fe65aa804"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87fe46cc1eee73569d5c40bab1ef78b4f524f925",
+      "size": 4385,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/87fe46cc1eee73569d5c40bab1ef78b4f524f925"
+    },
+    {
+      "path": "CHECKSUMS.sha256",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca46dddae1257d79009d26217fd3c2023f70b3f6",
+      "size": 425,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/ca46dddae1257d79009d26217fd3c2023f70b3f6"
+    },
+    {
+      "path": "CONTEXT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe5a5fb9bcc08e14bc9b8fd429e5363b0f2495f8",
+      "size": 16914,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/fe5a5fb9bcc08e14bc9b8fd429e5363b0f2495f8"
+    },
+    {
+      "path": "DESIGN-REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b1446059a23661e1f2d5027e6e961220c7b9c10",
+      "size": 5259,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/4b1446059a23661e1f2d5027e6e961220c7b9c10"
+    },
+    {
+      "path": "IDEAS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b175123ba3b7248287d579959e7ceaf3d140b220",
+      "size": 7341,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/b175123ba3b7248287d579959e7ceaf3d140b220"
+    },
+    {
+      "path": "MASTER.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb88915068a562554c833b6548a77e95a0a55b53",
+      "size": 6076,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/cb88915068a562554c833b6548a77e95a0a55b53"
+    },
+    {
+      "path": "MESSAGES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1fe40f49d9ef925452ed3129db0d20f88a7f990",
+      "size": 16667,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/e1fe40f49d9ef925452ed3129db0d20f88a7f990"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4aae7e85f5aeec1a1a5dbc9b6b8a356cc552dae",
+      "size": 6182,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/c4aae7e85f5aeec1a1a5dbc9b6b8a356cc552dae"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2898cb932bdc539459000378d23fb563fb7be8a0",
+      "size": 1212,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/2898cb932bdc539459000378d23fb563fb7be8a0"
+    },
+    {
+      "path": "REJECTED.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0617dd8d621da9049000325b169d79e912a81200",
+      "size": 5413,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/0617dd8d621da9049000325b169d79e912a81200"
+    },
+    {
+      "path": "config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "894c2d4f9f5fc7e4c4d1a5b39a11591adf5d0d4f",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/894c2d4f9f5fc7e4c4d1a5b39a11591adf5d0d4f"
+    },
+    {
+      "path": "config/books.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70f4a7b037b0cbb289d17b4c236aa8bae83c9a3e",
+      "size": 1395,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/70f4a7b037b0cbb289d17b4c236aa8bae83c9a3e"
+    },
+    {
+      "path": "config/models.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c030fa7a68456ce69710a874762d04505b00c1",
+      "size": 1953,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/68c030fa7a68456ce69710a874762d04505b00c1"
+    },
+    {
+      "path": "config/personas.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f51d6d39165ae19dbb356c09d1ca7bb86618e5fa",
+      "size": 2545,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/f51d6d39165ae19dbb356c09d1ca7bb86618e5fa"
+    },
+    {
+      "path": "config/thresholds.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e135ba2024edc553b61f595d37aa3f600b3e7cba",
+      "size": 939,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/e135ba2024edc553b61f595d37aa3f600b3e7cba"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "591139316f7cc6287c3b8e748ddaa8e59aea9311",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/591139316f7cc6287c3b8e748ddaa8e59aea9311"
+    },
+    {
+      "path": "docs/CHUNKING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c89e4dced0285e1a2ded0e13cdc1403983ab7959",
+      "size": 4303,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/c89e4dced0285e1a2ded0e13cdc1403983ab7959"
+    },
+    {
+      "path": "docs/CONCEPTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f9555798b6e2202fb3f645ad7c1846abec3d50",
+      "size": 4991,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/76f9555798b6e2202fb3f645ad7c1846abec3d50"
+    },
+    {
+      "path": "docs/CONTRADICTION-POLICY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd28abbcfcf3f5ef5909c939d4132637d7e26292",
+      "size": 4960,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/bd28abbcfcf3f5ef5909c939d4132637d7e26292"
+    },
+    {
+      "path": "docs/EVALUATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27abf899e6cbde74af5c8007f0ca4541b3851245",
+      "size": 5626,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/27abf899e6cbde74af5c8007f0ca4541b3851245"
+    },
+    {
+      "path": "docs/GOALS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d43002b2d7a91b6f85f049c3e18e7ada440db901",
+      "size": 5880,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/d43002b2d7a91b6f85f049c3e18e7ada440db901"
+    },
+    {
+      "path": "docs/KNOWN-ANSWER-SET.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1679aea817614539303f36556d6113e61c5b4ae3",
+      "size": 5732,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/1679aea817614539303f36556d6113e61c5b4ae3"
+    },
+    {
+      "path": "docs/METADATA-SCHEMA.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a33762313033e967f0a31efb18ca2c2801ab14",
+      "size": 4060,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/72a33762313033e967f0a31efb18ca2c2801ab14"
+    },
+    {
+      "path": "docs/RULES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b57d785b4289188a3a8c6cdf599d274e3349d826",
+      "size": 6243,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/b57d785b4289188a3a8c6cdf599d274e3349d826"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547ea2b2e6938a38557f7cde7f2003dd6fb12340",
+      "size": 6282,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/547ea2b2e6938a38557f7cde7f2003dd6fb12340"
+    },
+    {
+      "path": "docs/STAGES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73ab30cd925db9653e584e4f99dc1de00a97ac2c",
+      "size": 5697,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/73ab30cd925db9653e584e4f99dc1de00a97ac2c"
+    },
+    {
+      "path": "docs/STRUCTURE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aaad85a8d27facd41304c731cf0dbfdd48a2d46",
+      "size": 10254,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/2aaad85a8d27facd41304c731cf0dbfdd48a2d46"
+    },
+    {
+      "path": "index",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69dbe19dfe154b185e0a1d4f0ea37dd012aca814",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/69dbe19dfe154b185e0a1d4f0ea37dd012aca814"
+    },
+    {
+      "path": "index/bm25-results.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aaca25a25f043bef58844d1e5e70442bc60162f",
+      "size": 3124,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/2aaca25a25f043bef58844d1e5e70442bc60162f"
+    },
+    {
+      "path": "index/manifest-pointer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8630e7a30758c69117895c9c88522ab48dafc4bb",
+      "size": 1082,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/8630e7a30758c69117895c9c88522ab48dafc4bb"
+    },
+    {
+      "path": "layered-wiki-rag-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26914d48e8d9c7bd8c9980d4d226e747bd5ea339",
+      "size": 94124,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/26914d48e8d9c7bd8c9980d4d226e747bd5ea339"
+    },
+    {
+      "path": "layered-wiki-rag-guide.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9093e17a2131629d1e3be15531e53a71da23f950",
+      "size": 131743,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/9093e17a2131629d1e3be15531e53a71da23f950"
+    },
+    {
+      "path": "masters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce7c85d6e9972cf10f45469a1b7d223e5edb49b8",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/ce7c85d6e9972cf10f45469a1b7d223e5edb49b8"
+    },
+    {
+      "path": "masters/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b13f934e2573824ff5156ec80ce8f13e6397c82a",
+      "size": 1532,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/b13f934e2573824ff5156ec80ce8f13e6397c82a"
+    },
+    {
+      "path": "masters/review",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c96a22cd8278cddbc9b1566c62565b20368a2763",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/c96a22cd8278cddbc9b1566c62565b20368a2763"
+    },
+    {
+      "path": "masters/review/checklist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "becd4221ddc34aac68f0880ce0f17153f31b0462",
+      "size": 1455,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/becd4221ddc34aac68f0880ce0f17153f31b0462"
+    },
+    {
+      "path": "promptastra6fgss.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69460fb9949973f0081adeb57e2a5a7bd737cf0c",
+      "size": 33456,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/69460fb9949973f0081adeb57e2a5a7bd737cf0c"
+    },
+    {
+      "path": "provenance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c411bd694aaeae7d9ac6e4792a9574753cdb8c9",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/5c411bd694aaeae7d9ac6e4792a9574753cdb8c9"
+    },
+    {
+      "path": "provenance/raw",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e875dc48e7935bc7380b2261747d92dd3b558994",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/e875dc48e7935bc7380b2261747d92dd3b558994"
+    },
+    {
+      "path": "provenance/raw/wiki_all_talk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd2f447db9037bf41258da813e1fb7a0e4b15d0c",
+      "size": 175533,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/cd2f447db9037bf41258da813e1fb7a0e4b15d0c"
+    },
+    {
+      "path": "provenance/work",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27bd3b3b70956ec0f3e53860a9a706a5522ac7cb",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/27bd3b3b70956ec0f3e53860a9a706a5522ac7cb"
+    },
+    {
+      "path": "provenance/work/analysis-session-01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63e760d4b679e15d8a2ca7a49761d6fc8627b1fe",
+      "size": 11801,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/63e760d4b679e15d8a2ca7a49761d6fc8627b1fe"
+    },
+    {
+      "path": "provenance/work/analysis-wiki-talk-01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfd92b8e7d62963dafc0a54c37dde1762bf0b8da",
+      "size": 66334,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/bfd92b8e7d62963dafc0a54c37dde1762bf0b8da"
+    },
+    {
+      "path": "provenance/work/archive-inventory-01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fa3d462eaa956b5136f2b1539978a3b6a12a233",
+      "size": 8662,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/5fa3d462eaa956b5136f2b1539978a3b6a12a233"
+    },
+    {
+      "path": "provenance/work/repo-plan-01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e01f6148885f95c4a542f73cf13a45da6243c7f4",
+      "size": 23880,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/e01f6148885f95c4a542f73cf13a45da6243c7f4"
+    },
+    {
+      "path": "provenance/work/research-01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e883a99cbf8359ad209980547cf7e7279cf72df4",
+      "size": 8730,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/e883a99cbf8359ad209980547cf7e7279cf72df4"
+    },
+    {
+      "path": "provenance/work/review-1-partA.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5e58e437363562d3b6533543689a068ea8490d4",
+      "size": 1232,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/a5e58e437363562d3b6533543689a068ea8490d4"
+    },
+    {
+      "path": "provenance/work/review-1-partB.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54a4bd4d45ecd1f5060ae73966d82f8e96544f75",
+      "size": 1184,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/54a4bd4d45ecd1f5060ae73966d82f8e96544f75"
+    },
+    {
+      "path": "provenance/work/review-1-partC.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d33e7e3d1b071d624c8a14f7499158029feaad97",
+      "size": 2788,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/d33e7e3d1b071d624c8a14f7499158029feaad97"
+    },
+    {
+      "path": "provenance/work/review-1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45394a8ea31a52d0d73a89397e3aee00812af22d",
+      "size": 5281,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/45394a8ea31a52d0d73a89397e3aee00812af22d"
+    },
+    {
+      "path": "provenance/work/review-2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "777b843c34c9580d2519465ac167c78decf9c766",
+      "size": 2252,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/777b843c34c9580d2519465ac167c78decf9c766"
+    },
+    {
+      "path": "provenance/work/review-3-verify.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47b7d49034b33548c2e829f9a5f13eb4c2ede376",
+      "size": 5608,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/47b7d49034b33548c2e829f9a5f13eb4c2ede376"
+    },
+    {
+      "path": "provenance/work/review-3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71ba89f08c738caf1e08ef829d2fede6715afb05",
+      "size": 10803,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/71ba89f08c738caf1e08ef829d2fede6715afb05"
+    },
+    {
+      "path": "provenance/work/review-4.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b646e2388662610a3a226ac3cf86e1c8359ff650",
+      "size": 13264,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/b646e2388662610a3a226ac3cf86e1c8359ff650"
+    },
+    {
+      "path": "reference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b91d0fdb6fc3565b0bf8968d63c66d5c1b66dbb",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/3b91d0fdb6fc3565b0bf8968d63c66d5c1b66dbb"
+    },
+    {
+      "path": "reference/non-goals.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25221cbcf162fbcd1a0ad6e99df0b0a00b29adc0",
+      "size": 3138,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/25221cbcf162fbcd1a0ad6e99df0b0a00b29adc0"
+    },
+    {
+      "path": "reference/purposes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab9760bd3523ce9d6ed6b26db05869160271e047",
+      "size": 4483,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/ab9760bd3523ce9d6ed6b26db05869160271e047"
+    },
+    {
+      "path": "sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19d185cf6ee7546cc5d72d6b4920ad07f7675b57",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/19d185cf6ee7546cc5d72d6b4920ad07f7675b57"
+    },
+    {
+      "path": "sources/archive-index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b662ca9544402b0dc123e9bd1ce1cb7c853c1d03",
+      "size": 9082,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/b662ca9544402b0dc123e9bd1ce1cb7c853c1d03"
+    },
+    {
+      "path": "sources/file-inventory.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03ee8d6eb4e72b6da2740e3c4a35b905a2ad864",
+      "size": 14601,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/c03ee8d6eb4e72b6da2740e3c4a35b905a2ad864"
+    },
+    {
+      "path": "sources/links.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db432acf2eb9c23e9400b4fd2e3662671958115e",
+      "size": 4662,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/db432acf2eb9c23e9400b4fd2e3662671958115e"
+    },
+    {
+      "path": "sources/session-export-index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5c48137897d52dba61d85435ea79a54cd54cf6",
+      "size": 11772,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/ed5c48137897d52dba61d85435ea79a54cd54cf6"
+    },
+    {
+      "path": "sources/wiki-talk-index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e272df28c3e010e78397927be752e8a86477a8e4",
+      "size": 20173,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/e272df28c3e010e78397927be752e8a86477a8e4"
+    },
+    {
+      "path": "templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79c0f64fd34c5196065ae8c1743b42f716886510",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/79c0f64fd34c5196065ae8c1743b42f716886510"
+    },
+    {
+      "path": "templates/master.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beb8c3bdfdeefd79797cb0d57e5ba26f75a69ac3",
+      "size": 1976,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/beb8c3bdfdeefd79797cb0d57e5ba26f75a69ac3"
+    },
+    {
+      "path": "templates/term.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a316206352b512e7767ba0239856412878d624a5",
+      "size": 983,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/a316206352b512e7767ba0239856412878d624a5"
+    },
+    {
+      "path": "timeline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c492d92e434baf4b06b43ee02a63a4e59760bd6",
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/trees/7c492d92e434baf4b06b43ee02a63a4e59760bd6"
+    },
+    {
+      "path": "timeline/timeline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce51de1a4cc22e329a26ce145e5df913bb715468",
+      "size": 5542,
+      "url": "https://api.github.com/repos/moaaaz4568-prog/layered-wiki-rag/git/blobs/ce51de1a4cc22e329a26ce145e5df913bb715468"
+    }
+  ],
+  "truncated": false
+}

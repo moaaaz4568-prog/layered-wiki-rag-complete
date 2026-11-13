@@ -1,0 +1,532 @@
+[0m
+> build · crouton-alpha-free
+Fresh-reader review — starting with CONTEXT.md in isolation, then tracing the reading map against the real tree.
+[0m→ [0mRead repo/CONTEXT.md 
+> build · crouton-alpha-free
+CONTEXT.md alone carries purpose and measured state. Now checking the rest of the map.
+[0m→ [0mRead repo/README.md 
+[0m→ [0mRead repo/MASTER.md 
+[0m→ [0mRead repo/AGENTS.md 
+[0m→ [0mRead repo/docs/STRUCTURE.md 
+> build · crouton-alpha-free
+[0m→ [0mRead repo 
+[0m$ [0mls -R /workspace/wiki/repo; echo '---hidden---'; ls -la /workspace/wiki/repo; echo '---find---'; find /workspace/wiki/repo -type f | sort; echo '---git---'; git -C /workspace/wiki/repo status --short 2>&1 | head -20; git -C /workspace/wiki/repo ls-files 2>&1 | head -50
+/workspace/wiki/repo:
+AGENTS.md
+ARCHITECTURE.md
+CHANGELOG.md
+config
+CONTEXT.md
+DESIGN-REFERENCE.md
+docs
+IDEAS.md
+index
+MASTER.md
+masters
+MESSAGES.md
+PROVENANCE.md
+README.md
+reference
+REJECTED.md
+sources
+templates
+timeline
+
+/workspace/wiki/repo/config:
+books.yaml
+models.yaml
+personas.yaml
+thresholds.yaml
+
+/workspace/wiki/repo/docs:
+CHUNKING.md
+CONCEPTS.md
+CONTRADICTION-POLICY.md
+EVALUATION.md
+GOALS.md
+KNOWN-ANSWER-SET.md
+METADATA-SCHEMA.md
+RULES.md
+SOURCES.md
+STAGES.md
+STRUCTURE.md
+
+/workspace/wiki/repo/index:
+bm25-results.md
+manifest-pointer.md
+
+/workspace/wiki/repo/masters:
+README.md
+review
+
+/workspace/wiki/repo/masters/review:
+checklist.md
+
+/workspace/wiki/repo/reference:
+non-goals.md
+purposes.md
+
+/workspace/wiki/repo/sources:
+archive-index.md
+file-inventory.md
+links.md
+session-export-index.md
+wiki-talk-index.md
+
+/workspace/wiki/repo/templates:
+master.md
+term.md
+
+/workspace/wiki/repo/timeline:
+timeline.md
+---hidden---
+total 164
+drwxr-xr-x 10 box box  4096 Nov  5 00:53 .
+drwxr-xr-x  6 box box  4096 Nov  5 00:52 ..
+-rw-r--r--  1 box box  2432 Nov  5 00:53 AGENTS.md
+-rw-r--r--  1 box box 13062 Nov  5 00:52 ARCHITECTURE.md
+-rw-r--r--  1 box box  4385 Nov  5 00:52 CHANGELOG.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 config
+-rw-r--r--  1 box box 15085 Nov  5 00:52 CONTEXT.md
+-rw-r--r--  1 box box  5259 Nov  5 00:53 DESIGN-REFERENCE.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 docs
+-rw-r--r--  1 box box    16 Nov  5 00:53 .env.example
+-rw-r--r--  1 box box   263 Nov  5 00:53 .gitignore
+-rw-r--r--  1 box box  7341 Nov  5 00:52 IDEAS.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 index
+-rw-r--r--  1 box box  5030 Nov  5 00:52 MASTER.md
+drwxr-xr-x  3 box box  4096 Nov  5 00:53 masters
+-rw-r--r--  1 box box 16667 Nov  5 00:52 MESSAGES.md
+-rw-r--r--  1 box box  6182 Nov  5 00:53 PROVENANCE.md
+-rw-r--r--  1 box box  9696 Nov  5 00:52 README.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 reference
+-rw-r--r--  1 box box  5413 Nov  5 00:52 REJECTED.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 sources
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 templates
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 timeline
+---find---
+/workspace/wiki/repo/AGENTS.md
+/workspace/wiki/repo/ARCHITECTURE.md
+/workspace/wiki/repo/CHANGELOG.md
+/workspace/wiki/repo/config/books.yaml
+/workspace/wiki/repo/config/models.yaml
+/workspace/wiki/repo/config/personas.yaml
+/workspace/wiki/repo/config/thresholds.yaml
+/workspace/wiki/repo/CONTEXT.md
+/workspace/wiki/repo/DESIGN-REFERENCE.md
+/workspace/wiki/repo/docs/CHUNKING.md
+/workspace/wiki/repo/docs/CONCEPTS.md
+/workspace/wiki/repo/docs/CONTRADICTION-POLICY.md
+/workspace/wiki/repo/docs/EVALUATION.md
+/workspace/wiki/repo/docs/GOALS.md
+/workspace/wiki/repo/docs/KNOWN-ANSWER-SET.md
+/workspace/wiki/repo/docs/METADATA-SCHEMA.md
+/workspace/wiki/repo/docs/RULES.md
+/workspace/wiki/repo/docs/SOURCES.md
+/workspace/wiki/repo/docs/STAGES.md
+/workspace/wiki/repo/docs/STRUCTURE.md
+/workspace/wiki/repo/.env.example
+/workspace/wiki/repo/.gitignore
+/workspace/wiki/repo/IDEAS.md
+/workspace/wiki/repo/index/bm25-results.md
+/workspace/wiki/repo/index/manifest-pointer.md
+/workspace/wiki/repo/MASTER.md
+/workspace/wiki/repo/masters/README.md
+/workspace/wiki/repo/masters/review/checklist.md
+/workspace/wiki/repo/MESSAGES.md
+/workspace/wiki/repo/PROVENANCE.md
+/workspace/wiki/repo/README.md
+/workspace/wiki/repo/reference/non-goals.md
+/workspace/wiki/repo/reference/purposes.md
+/workspace/wiki/repo/REJECTED.md
+/workspace/wiki/repo/sources/archive-index.md
+/workspace/wiki/repo/sources/file-inventory.md
+/workspace/wiki/repo/sources/links.md
+/workspace/wiki/repo/sources/session-export-index.md
+/workspace/wiki/repo/sources/wiki-talk-index.md
+/workspace/wiki/repo/templates/master.md
+/workspace/wiki/repo/templates/term.md
+/workspace/wiki/repo/timeline/timeline.md
+---git---
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+> build · crouton-alpha-free
+[0m$ [0mcd /workspace/wiki/repo && grep -oE '`[^`]+`' CONTEXT.md README.md MASTER.md docs/STRUCTURE.md AGENTS.md | sort -u; echo '===work refs==='; grep -n "work/" CONTEXT.md README.md MASTER.md docs/STRUCTURE.md AGENTS.md | head -80; echo '===sizes==='; wc -l CONTEXT.md README.md MASTER.md docs/STRUCTURE.md AGENTS.md; du -h DESIGN-REFERENCE.md ARCHITECTURE.md CONTEXT.md; echo '===masters content==='; ls -R masters; cat masters/README.md; echo '===checklist head==='; head -30 masters/review/checklist.md
+AGENTS.md:`AGENTS.md`
+AGENTS.md:`CONTEXT.md`
+AGENTS.md:`.env.example`
+AGENTS.md:`.gitignore`
+AGENTS.md:`NOT_RUN`
+AGENTS.md:`OBSERVED`
+AGENTS.md:`PROPOSED`
+AGENTS.md:`REPORTED`
+AGENTS.md:`UNKNOWN`
+AGENTS.md:`work/repo-plan-01.md`
+CONTEXT.md:`/sdcard/wikillm`
+CONTEXT.md:`work/analysis-session-01.md`
+CONTEXT.md:`work/analysis-wiki-talk-01.md`
+CONTEXT.md:`work/repo-plan-01.md`
+docs/STRUCTURE.md:`05_CONVERSATIONS`
+docs/STRUCTURE.md:`AGENTS.md`
+docs/STRUCTURE.md:`analysis-wiki-talk-01.md`
+docs/STRUCTURE.md:`ARCHITECTURE.md`
+docs/STRUCTURE.md:`archive-inventory-01.md`
+docs/STRUCTURE.md:`bin/`
+docs/STRUCTURE.md:`CHANGELOG.md`
+docs/STRUCTURE.md:`config/`
+docs/STRUCTURE.md:`CONTEXT.md`
+docs/STRUCTURE.md:`conversations_index.csv`
+docs/STRUCTURE.md:`cookies.txt`
+docs/STRUCTURE.md:`*.db`
+docs/STRUCTURE.md:`docs/`
+docs/STRUCTURE.md:`docs/CHUNKING.md`
+docs/STRUCTURE.md:`docs/CONCEPTS.md`
+docs/STRUCTURE.md:`docs/CONTRADICTION-POLICY.md`
+docs/STRUCTURE.md:`docs/EVALUATION.md`
+docs/STRUCTURE.md:`docs/GOALS.md`
+docs/STRUCTURE.md:`docs/KNOWN-ANSWER-SET.md`
+docs/STRUCTURE.md:`docs/METADATA-SCHEMA.md`
+docs/STRUCTURE.md:`docs/RULES.md`
+docs/STRUCTURE.md:`docs/SOURCES.md`
+docs/STRUCTURE.md:`docs/STAGES.md`
+docs/STRUCTURE.md:`docs/STRUCTURE.md`
+docs/STRUCTURE.md:`*.env`
+docs/STRUCTURE.md:`.env.example`
+docs/STRUCTURE.md:`.gitignore`
+docs/STRUCTURE.md:`.hcnsec_key`
+docs/STRUCTURE.md:`IDEAS.md`
+docs/STRUCTURE.md:`index/`
+docs/STRUCTURE.md:`layered-wiki-rag`
+docs/STRUCTURE.md:`*.log`
+docs/STRUCTURE.md:`MANIFEST.json`
+docs/STRUCTURE.md:`MASTER.md`
+docs/STRUCTURE.md:`masters/`
+docs/STRUCTURE.md:`masters/review/checklist.md`
+docs/STRUCTURE.md:`MESSAGES.md`
+docs/STRUCTURE.md:`*.opus`
+docs/STRUCTURE.md:`out/`
+docs/STRUCTURE.md:`PROVENANCE.md`
+docs/STRUCTURE.md:`raw/`
+docs/STRUCTURE.md:`README.md`
+docs/STRUCTURE.md:`reference/`
+docs/STRUCTURE.md:`REJECTED.md`
+docs/STRUCTURE.md:`repo-plan-01.md`
+docs/STRUCTURE.md:`skills/`
+docs/STRUCTURE.md:`snapshots/before-bulk/`
+docs/STRUCTURE.md:`source_inventory.csv`
+docs/STRUCTURE.md:`sources/`
+docs/STRUCTURE.md:`src/`
+docs/STRUCTURE.md:`templates/`
+docs/STRUCTURE.md:`terms/`
+docs/STRUCTURE.md:`tests/`
+docs/STRUCTURE.md:`timeline/`
+docs/STRUCTURE.md:`wiki/`
+docs/STRUCTURE.md:`work/repo-plan-01.md`
+docs/STRUCTURE.md:`zcode-*`
+MASTER.md:`analysis-wiki-talk-01.md`
+MASTER.md:`masters/`
+MASTER.md:`masters/review/checklist.md`
+MASTER.md:`terms/`
+README.md:`ARCHITECTURE.md`
+README.md:`CONTEXT.md`
+README.md:`docs/`
+README.md:`IDEAS.md`
+README.md:`MASTER.md`
+README.md:`MESSAGES.md`
+README.md:`moaaaz4568-prog/layered-wiki-rag`
+README.md:`sources/`
+README.md:`timeline/`
+README.md:`work/analysis-session-01.md`
+README.md:`work/analysis-wiki-talk-01.md`
+README.md:`work/repo-plan-01.md`
+===work refs===
+CONTEXT.md:3:> اقرأ هذا الملف فقط إن أردت فهم المشروع دون أي ملف آخر. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
+CONTEXT.md:4:> كل حقيقة هنا موسومة بوسم دليل ومصدرها. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+CONTEXT.md:9:- قال معاذ في 2026-10-19 إنه يريد سكربتا يحمل ترجمات يوتيوب ويحوّلها إلى ويكي مشتركة، ثم يسأل عنها فيجيب مستعينا بتفكير كل الأشخاص وعقولهم. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.1]
+CONTEXT.md:10:- الهدف المنقول من البريف الأصلي هو إخراج عقول متخصصة في جانب واحد، ومن هنا جاءت فكرة الماسترز. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.1]
+CONTEXT.md:11:- القاعدة الحرفية لمعاذ: كل ملف يدخل الويكي يدخل بكل محتواه بلا استثناء، ولا رأي صح ورأي خطأ، إلا الرأي الغبي جدا أو خارج المجال فيحذف كاملا. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.8]
+CONTEXT.md:12:- قاعدة معاذ الحرفية الأخرى: «مفيش حجر خالص، ونعرض الطرفين دايما». [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.2]
+CONTEXT.md:13:- القاعدة البنيوية: مصطلحات أولا، وماستر فقط بعد اكتمال مصطلحات المجلد الرئيسي. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.8]
+CONTEXT.md:14:- النقل لا الحذف: المراحل r ثم done ثم processed. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.8]
+CONTEXT.md:15:- المقطع الصحيح حسب التعريف هو عنوان وفقرة أو نطاق محارف أو جدول وقائمة، لا تقطيع أعمى بالحروف. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.8]
+CONTEXT.md:16:- المستودع خاص لا عام. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.2 و `work/repo-plan-01.md` §1.2]
+CONTEXT.md:20:- ست ويكيات ضمت 5896 صفحة بحجم 31.3MB وبالحجم بالبايت 31262266. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.7]
+CONTEXT.md:21:- التوزيع كان: ابن سيرين 780 وابن تيمية 81 وابن القيم 556 وهيثم طلعت 210 وعماد رشاد 1423 وعلاء حامد 2846. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.7]
+CONTEXT.md:22:- الرقم الأولي كان 5889 ثم صُحح إلى 5896 بفرق 7. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.7]
+CONTEXT.md:23:- متوسط صفحة هيثم 2336 بايت مقابل متوسط ابن تيمية 10458 بايت. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.7]
+CONTEXT.md:24:- أصغر 20 صفحة لهيثم ضمت 37402 بايت و129 مقطعا. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.7 و §1.10]
+CONTEXT.md:25:- كامل 210 صفحة لهيثم ضم 601084 بايت، وأكبر 20 صفحة فيها ضم 123205 بايت. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:26:- BM25 على كامل 210 صفحة أعطت 12 من 15 في المرتبة الأولى و14 من 15 في أول 3. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:27:- أسئلة العناوين بالنص بقيت 8 من 8 في المرتبة الأولى على 210 صفحة. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:28:- الصياغات المختلفة أعطت 1 من 3 فقط في المرتبة الأولى، وواحدة في المرتبة 28 وأخرى في المرتبة 35. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:29:- على أصغر 20 صفحة: 4 أسئلة بالعنوان بالنص ذهبت 4 من 4 في المرتبة الأولى، و3 بصياغة مختلفة ذهبت منها 1 من 3 في المرتبة الأولى. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:30:- الرام المتاح لحظة القياس كان 429 ميجا. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:31:- حُملت 144 فيديو كاملة، والخام VTT كان 47MB والنصوص TXT كانت 7.4MB. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.9]
+CONTEXT.md:32:- نص الإنجليزي المجموع كان 2783968 حرفا و509906 كلمة، والمقروء فعليا 143 لأن فيديو واحدا موسيقى بلا كلام. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.9]
+CONTEXT.md:33:- الحاسوب في القياس كان بمعالجين و7.7GB رام. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.7]
+CONTEXT.md:37:- النظام الأول Muse: ويكي للتوثيق وفهارس وملفات system prompts، وكان به دليل قراءة. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §2 مع ملخص repo-plan]
+CONTEXT.md:38:- النظام الثاني wikillm على `/sdcard/wikillm`: بنية دستور وأنظمة تشغيل وقوالب وأدوات قياس، لا طبقات RAG. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §2.4]
+CONTEXT.md:39:- لم يفتح Muse ملفات wikillm مباشرة، فكل ما عنها منقول من تقارير نموذج آخر. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` سطر التنبيه المنهجي و §2.4]
+CONTEXT.md:40:- في wikillm: 15 ملف نظام و45 قالبا و21 فهرسا. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §2.4]
+CONTEXT.md:41:- في wikillm: 27742 ذرة مصطلح مقابل 5 ماسترز فقط، وهو خرق لقاعدة مصطلحات قبل ماستر. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §2.4]
+CONTEXT.md:42:- في wikillm: بوابة فحص معطوبة لأن أمر العد يرجع صفرا دائما ففُسر نجاحا. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §2.4]
+CONTEXT.md:43:- النظام الثالث Infinite Brain OS: مستودع MIT به 584 ملف و4.7MB وكل الفحوص ناجحة على 228 عقدة. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §2.5]
+CONTEXT.md:44:- دورة الحياة فيه: scratch ثم research ثم candidate ثم canon، والترقية بموافقة المشغل فقط. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §2.5 و §1.11]
+CONTEXT.md:48:- طبقة الكلمات صامتة تقريبا على التضخم في أسئلة العناوين فقط. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:49:- الفجوة المقاسة هي الصياغات العامة المشتركة الكلمات، وهي ما يجب أن يغلقه التضمين الكثيف وإعادة الترتيب. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:50:- الخلاصة المقاسة: الكلمات وحدها تكفي لصياغة العنوان بالنص، والكثيف مع إعادة الترتيب صار عائقا لا رفاهية. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:51:- لا تركيب الآن لأن الرام 429 ميجا لا تكفي موديلا بحجم 1 إلى 2 جيجا. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:52:- تحفظان مقاسيان: الـ20 صفحة مختصرات رفيعة وبعض ترجمتها مقتطعة، وهذا هيثم فقط لا بقية الويكيات. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+CONTEXT.md:56:- العينة أولا: v0.1 بهيثم فقط، ثم شخصية شخصية، ولا نقل جماعي لـ5896 صفحة. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و `work/analysis-wiki-talk-01.md` §1.11]
+CONTEXT.md:57:- كل عملية تحتاج نظاما حرفيا: الوكلاء يعملون والمشرف يخطط ويوجه ويفحص. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.8]
+CONTEXT.md:58:- أي رقم بلا أمر قياس يوسم تقديرا، وما لم يُقرأ يوسم UNKNOWN. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و `work/analysis-wiki-talk-01.md` §1.8]
+CONTEXT.md:59:- لا ادعاء نجاح قبل فحص القرص. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.8 و `work/analysis-session-01.md` §3]
+CONTEXT.md:60:- الخام للقراءة فقط ولا يُعدَّل أبدا. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.8]
+CONTEXT.md:61:- مراجعة بشرية قبل نشر أو اعتماد أي صفحة مجمعة. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.11]
+CONTEXT.md:62:- Git ولقطة كاملة قبل أي تغيير جماعي. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.11]
+CONTEXT.md:63:- مفتاح Yukino يُستخدم لحظيا ولا يُكتب في ملف كنص، والمرجع هو متغير بيئة بلا قيمة. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.8]
+CONTEXT.md:64:- وُثق قرار في الجلسة: استخدام مفتاح GitHub مرة واحدة دون حفظه في أي ملف، واستبعاد السجلات والأسرار. [OBSERVED — المصدر: `work/analysis-session-01.md` §2]
+CONTEXT.md:68:- الحجر الصحي مقابل حرية المحتوى لم يُحسم: التصميم يقترح الحجر حتى حكم إنسان، وقاعدة معاذ «مفيش حجر خالص». [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §3.1 و §3.3]
+CONTEXT.md:69:- رؤية شاملة مقابل استرجاع انتقائي لم يُحسم: معاذ قال «يرى كل ما في الويكي»، والتصميم يقترح استرجاع Top-k. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §3.3]
+CONTEXT.md:70:- الحد بين الرأي الغبي القابل للحذف والرأي المختلف المشروع لم يُعرَّف بعد. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.8 و §3.1]
+CONTEXT.md:71:- النشر العام مقابل الخاص لم يُحسم مستقبلا: البريف يقول خاص، والرسائل تذكر مشروعا عاما في سياق المستقبل. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §3.3]
+CONTEXT.md:72:- bge-m3 وُسم مرشحا مشروطا بالاختبار لا اختيارا نهائيا، والاختبار لم يُشغَّل بعد. [NOT_RUN — المصدر: `work/analysis-wiki-talk-01.md` §1.8 و §3.3]
+CONTEXT.md:73:- RRF والهجين ذُكرا كحل متفق عليه دون تنفيذ مثبت. [UNKNOWN — المصدر: `work/analysis-wiki-talk-01.md` §3.3]
+CONTEXT.md:74:- قيمة k والعتبة وزمن الإجابة الأقصى ومجموعة الأسئلة المعرفة كلها UNKNOWN. [UNKNOWN — المصدر: `work/analysis-wiki-talk-01.md` §3.1 و §6]
+CONTEXT.md:75:- فلتر scratch الاستبعادي يصطدم بـ«كل ملف يدخل»، والحل المقترح أن كل صفحاتنا تصبح research أو أعلى. [PROPOSED — المصدر: `work/analysis-wiki-talk-01.md` §2.5 و §3.3]
+CONTEXT.md:79:- الأرشيف المقاس كان 2713 ملف بحجم 212MB، وملف التصميم في المستودع الحالي حجمه 92KB. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و §1.1]
+CONTEXT.md:80:- كلام الويكي 106 رسالة، والجلسة المصدّرة 18267 سطرا، والتصميم 92KB، والبرومبت الأصلي 233 سطرا بحدوده فقط. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و `work/analysis-session-01.md` سطر المصدر و `work/analysis-wiki-talk-01.md` عنوان التحليل]
+CONTEXT.md:81:- الأصل يبقى محليا: لا يُرفع MANIFEST.json الكامل ولا المحادثات الخام ولا قاعدة بيانات ضخمة. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و §2]
+CONTEXT.md:82:- الحقائق من الفهرس الكامل لا تُعاد كتابتها، بل يُشار إليها بمسارها. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+CONTEXT.md:83:- مصدر كل قسم في المستودع معرف بجدول المصادر في الخطة: README وCONTEXT من التحليلين، MESSAGES من النصوص الحرفية، ARCHITECTURE من التصميم، وAGENTS من ملف نظام آخر لم يُفحص مباشرة. [REPORTED — المصدر: `work/repo-plan-01.md` §4]
+CONTEXT.md:84:- الجلسة الكاملة ومسارات ملفات العمل محفوظة في التحليلين المحليين لا في المستودع. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §2.2 و `work/analysis-session-01.md` §2]
+CONTEXT.md:88:- كل حقيقة جديدة تُوسم بواحد من: OBSERVED أو REPORTED أو PROPOSED أو UNKNOWN أو NOT_RUN. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+CONTEXT.md:89:- OBSERVED تعني مقاسا أو مقروءا مباشرة مع ذكر الأمر أو المسار. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+CONTEXT.md:90:- REPORTED تعني منقولا من تقرير أو رسالة آخر دون فحص مباشر. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+CONTEXT.md:91:- PROPOSED تعني اقتراحا أو قرارا مستقبليا غير منفذ. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+CONTEXT.md:92:- NOT_RUN تعني تجربة أو اختبارا مقترحا ولم يُشغَّل بعد. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+CONTEXT.md:93:- أي تغيير يجب أن يحدثملف السياق والمنشأ والفهارس معا، لا ملفا واحدا وحده. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1 و §6]
+CONTEXT.md:94:- الأرقام لا تُحدَّث إلا بأمر قياس جديد مكتوب معها. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و `work/analysis-wiki-talk-01.md` §1.8]
+CONTEXT.md:95:- لا قيمة سرية تُكتب أبدا: يُذكر وجودها فقط إن كان لها علاقة بالعمل الحالي. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و `work/analysis-session-01.md` §4]
+CONTEXT.md:99:- هذا الملف وحده يكفي لأي مساعد جديد في الجلسة التالية، دون قراءة أي ملف آخر في المستودع. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
+README.md:3:> هذا الملف خريطة قراءة لما في هذا المستودع وما ليس فيه. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
+README.md:4:> المستودع خاص لا عام. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و `work/analysis-wiki-talk-01.md` §1.2]
+README.md:8:- يشرح ما أُنجز وما قيل عن الويكي بحيث يفتحه أي محادثة ذكاء اصطناعي جديدة فلا يحتاج إعادة قراءة الأرشيف من الصفر. [PROPOSED — المصدر: `work/repo-plan-01.md` §1.1]
+README.md:9:- لا يضم النصوص الكاملة للأرشيف. الأرشيف يبقى محليا ولا يُرفع. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+README.md:10:- الحكم على «كل شيء» هنا يعني: غاية وقياس وقرارات وأفكار ومصادر وفجوات، لا نسخة من الأرشيف. [PROPOSED — المصدر: `work/repo-plan-01.md` §1.1 و §2]
+README.md:14:1. خاص فقط: لا نشر عام ولا رفع للأرشيف الخام. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2.1]
+README.md:15:2. لا اختراع: كل رقم له أمر قياس أو يوسم تقديرا، وما لم يُقرأ يوسم UNKNOWN. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2.2]
+README.md:16:3. وسم الدليل إجباري على كل حقيقة: OBSERVED أو REPORTED أو PROPOSED أو UNKNOWN أو NOT_RUN. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2.3]
+README.md:17:4. لا أسرار أبدا: لا تُنسخ قيم الرموز والمفاتيح والكوكيز، ويُذكر وجودها فقط. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2.4]
+README.md:18:5. الخام للقراءة فقط: حقائق الفهرس الكامل لا تُعاد كتابتها بل يُشار إليها بمسارها. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2.5]
+README.md:19:6. العينة أولا: لا نقل جماعي، والبداية بهيثم وحده ثم شخصية شخصية. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2.6]
+===sizes===
+  101 CONTEXT.md
+   79 README.md
+   51 MASTER.md
+   90 docs/STRUCTURE.md
+   40 AGENTS.md
+  361 total
+8.0K	DESIGN-REFERENCE.md
+16K	ARCHITECTURE.md
+16K	CONTEXT.md
+===masters content===
+masters:
+README.md
+review
+
+masters/review:
+checklist.md
+# الماسترز — masters/README
+
+> **الدليل:** PROPOSED (قواعد مقترحة) — العمل الفعلي للماسترز لاحقًا بوسم OBSERVED فقط
+> **المرجع:** analysis-wiki-talk-01.md §1.8.3 وقرار «مصطلحات أولاً» في repo-plan-01.md §3.3
+
+## التعريف
+
+الماستر = ملف يقرأه النموذج مرة واحدة فيصبح خبيرًا في مجلد كامل. لا يُنشأ قبل اكتمال مصطلحات مجلده الرئيسي.
+
+## خطوات التوليد
+
+1. تُجمع المصطلحات كاملة من الخام (مصطلح = اسم + تعريف + مصدر).
+2. تُبنى مصطلحات المجلد الفرعي.
+3. يُكتب الماستر الرئيسي + فرعيات بالإحالة.
+
+## القاعدة التي لا تُكسر
+
+- لا ماستر قبل اكتمال مصطلحات المجلد — حتى لو ضربت المساندة أو بادرات المحتوى.
+- الخرق المرصود: 27,742 ذرة مصطلح مقابل 5 ماسترز فقط في wikillm = ماستر قبل مصطلح. هذه هي الحالة الاحترازية التي تمنع تكرارها هنا.
+- أي ماستر لاحق يُدرج ضمن checklist.md قبل أي اعتماد.
+
+## الحالة الآن
+
+- لا ماسترز نشطة بمحتوى مثبت في v0.1؛ المجلد الحالي توثيق طريقة التوليد فقط.
+- لا توليد جماعي ولا مستودعًا بنشأ قبل التشغيل البشري.
+===checklist head===
+# قائمة مراجعة بشرية قبل الاعتماد — masters/review/checklist
+
+> **الدليل:** PROPOSED (بوابة مقترحة) — العمل الفعلي للماسترز لاحقًا بوسم OBSERVED فقط
+> **القاعدة:** الترقية لـ Canon بموافقة إنسان فقط؛ الوكيل لا يرقّي شغله
+
+## نقاط الاعتماد
+
+- [ ] مراجعة بشرية كاملة لمحتوى الماستر — خصوصًا الصفحات الحساسة دينيًا / علميًا
+- [ ] إثبات حي: فحص القرص بعد التوليد، لا ادعاء نجاح من الوكلاء وحده
+- [ ] كل إجابة باستشهاد بمقطع خام — لا استثناء
+- [ ] الخامة (Raw) لم تُمس — القراءة فقط
+- [ ] الاستشهادات: المسار + عنوان المقطع + معرّف المقطع موجودة وصالحة
+- [ ] لا تناقض ميكانيكي (رقم/تاريخ) لم يُحكم بشريًا
+- [ ] المصطلحات اكتملت في المجلد الفرعي قبل الاعتماد
+- [ ] commit صغير منطقي وCHANGELOG آخر
+- [ ] لا أسرار (grep §5.2 في repo-plan-01)
+- [ ] الاعتماد نفسه مُوسوم OBSERVED بالأمر والمسار
+
+## قرار الإنسان
+
+- APPROVED / REJECTED (يُدخل يدويًا)
+
+> لا يُكتب APPROVED إلا بيد إنسان. الوكيل لا يوقع الاعتماد.
+> build · crouton-alpha-free
+[0m$ [0mcd /workspace/wiki && ls -la; ls -la repo/ | head; ls work/ 2>&1 | head -30; echo '===MASTER false claims==='; grep -n "صفر ملف\|ستة\|الملفات الستة\|لا يوجد مجلد" repo/MASTER.md; echo '===README 5 files claim==='; grep -n "خمسة\|5 ملفات\|ملفات آمنة" repo/README.md repo/docs/STRUCTURE.md repo/CONTEXT.md; echo '===design size==='; du -h repo/DESIGN-REFERENCE.md repo/ARCHITECTURE.md; wc -c repo/*.md | sort -n
+total 58696
+drwxr-xr-x   6 box box     4096 Nov  5 00:52 .
+drwxr-xr-x. 10 box box     4096 Nov  3 23:51 ..
+drwxr-xr-x   3 box box     4096 Nov  5 00:49 archive-extract
+drwxr-xr-x  10 box box     4096 Nov  5 00:53 repo
+drwxr-xr-x   2 box box     4096 Nov  5 00:06 source-transfers
+-rw-r--r--   1 box box 60072453 Nov  5 00:40 WIKI_ARCHIVE_2026-11-03.tar.gz
+drwxr-xr-x   2 box box     4096 Nov  5 00:55 work
+total 164
+drwxr-xr-x 10 box box  4096 Nov  5 00:53 .
+drwxr-xr-x  6 box box  4096 Nov  5 00:52 ..
+-rw-r--r--  1 box box  2432 Nov  5 00:53 AGENTS.md
+-rw-r--r--  1 box box 13062 Nov  5 00:52 ARCHITECTURE.md
+-rw-r--r--  1 box box  4385 Nov  5 00:52 CHANGELOG.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 config
+-rw-r--r--  1 box box 15085 Nov  5 00:52 CONTEXT.md
+-rw-r--r--  1 box box  5259 Nov  5 00:53 DESIGN-REFERENCE.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 docs
+analysis-session-01.md
+analysis-wiki-talk-01.md
+archive-inventory-01.md
+repo-plan-01.md
+research-01.md
+review-1.md
+review-2.md
+===MASTER false claims===
+21:| ماسترز في هذه الدفعة (repo/) | **صفر ملف ماستر نشط** | [OBSERVED: فهرس /workspace/wiki/repo/ في 2026-11-05 — لا يوجد مجلد masters/ ولا أي ملف .md إلا الملفات الستة هذه] |
+===README 5 files claim===
+repo/README.md:50:- المستودع الحالي له commit واحد موثق رقمه الكامل في ملفات التحليل، وبه 5 ملفات آمنة بلا أسرار. [OBSERVED — المصدر: `work/analysis-session-01.md` §2 و `work/repo-plan-01.md` §1.3]
+repo/README.md:69:- لا يحتوي هذا المستودع على أي قيمة سرية. [OBSERVED — المصدر: محتوى الملفات الخمسة المكتوبة في جلسة البناء هذه]
+repo/docs/STRUCTURE.md:11:- المستودع الحالي `layered-wiki-rag` (حسب الخطة، 5 ملفات) | REPORTED — `repo-plan-01.md` §1.3
+===design size===
+8.0K	repo/DESIGN-REFERENCE.md
+16K	repo/ARCHITECTURE.md
+ 2432 repo/AGENTS.md
+ 4385 repo/CHANGELOG.md
+ 5030 repo/MASTER.md
+ 5259 repo/DESIGN-REFERENCE.md
+ 5413 repo/REJECTED.md
+ 6182 repo/PROVENANCE.md
+ 7341 repo/IDEAS.md
+ 9696 repo/README.md
+13062 repo/ARCHITECTURE.md
+15085 repo/CONTEXT.md
+16667 repo/MESSAGES.md
+90552 total
+> build · crouton-alpha-free
+[0m✗ [0mRead work/review-3.md failed
+[91m[1mError: [0mFile not found: /workspace/wiki/work/review-3.md
+[0m$ [0mcd /workspace/wiki && ls -la work/; echo '===MASTER line36 truth==='; ls repo/masters/review/checklist.md; echo '===STRUCTURE missing refs check==='; for f in README.md CONTEXT.md MESSAGES.md IDEAS.md ARCHITECTURE.md MASTER.md REJECTED.md CHANGELOG.md PROVENANCE.md AGENTS.md DESIGN-REFERENCE.md docs/GOALS.md docs/RULES.md docs/CONCEPTS.md docs/METADATA-SCHEMA.md docs/CHUNKING.md docs/EVALUATION.md docs/CONTRADICTION-POLICY.md docs/KNOWN-ANSWER-SET.md docs/STAGES.md docs/SOURCES.md sources/archive-index.md sources/file-inventory.md sources/links.md sources/session-export-index.md sources/wiki-talk-index.md timeline/timeline.md reference/purposes.md reference/non-goals.md templates/term.md templates/master.md config/personas.yaml config/books.yaml config/models.yaml config/thresholds.yaml index/bm25-results.md index/manifest-pointer.md masters/README.md masters/review/checklist.md; do if [ -e "repo/$f" ]; then echo "OK  $f"; else echo "MISSING $f"; fi; done; echo '===PROPOSED-only dirs==='; for d in raw wiki terms src bin skills tests snapshots out; do if [ -e "repo/$d" ]; then echo "EXISTS $d"; else echo "ABSENT $d"; fi; done; echo '===AGENTS work ref==='; ls repo/work/ 2>&1; ls work/repo-plan-01.md
+total 604
+drwxr-xr-x 2 box box   4096 Nov  5 00:55 .
+drwxr-xr-x 6 box box   4096 Nov  5 00:52 ..
+-rw-r--r-- 1 box box  11801 Nov  5 00:49 analysis-session-01.md
+-rw-r--r-- 1 box box  66334 Nov  5 00:40 analysis-wiki-talk-01.md
+-rw-r--r-- 1 box box   8662 Nov  5 00:50 archive-inventory-01.md
+-rw-r--r-- 1 box box   4406 Nov  5 00:40 .log-analysis-session-b
+-rw-r--r-- 1 box box  15299 Nov  5 00:50 .log-archive
+-rw-r--r-- 1 box box   8370 Nov  5 00:53 .log-build-arch
+-rw-r--r-- 1 box box   3019 Nov  5 00:53 .log-build-config
+-rw-r--r-- 1 box box   1559 Nov  5 00:52 .log-build-core
+-rw-r--r-- 1 box box    870 Nov  5 00:53 .log-build-core2
+-rw-r--r-- 1 box box   6022 Nov  5 00:53 .log-build-docs
+-rw-r--r-- 1 box box   1402 Nov  5 00:52 .log-build-messages
+-rw-r--r-- 1 box box  58045 Nov  5 00:54 .log-build-sources
+-rw-r--r-- 1 box box  13986 Nov  5 00:51 .log-plan-01
+-rw-r--r-- 1 box box   1622 Nov  5 00:40 .log-research-01b
+-rw-r--r-- 1 box box   1416 Nov  5 00:49 .log-research-c
+-rw-r--r-- 1 box box  15793 Nov  5 00:51 .log-research-d
+-rw-r--r-- 1 box box   1953 Nov  5 00:52 .log-research-fix
+-rw-r--r-- 1 box box   1021 Nov  5 00:55 .log-review1
+-rw-r--r-- 1 box box    436 Nov  5 00:55 .log-review1b
+-rw-r--r-- 1 box box    483 Nov  5 00:54 .log-review2
+-rw-r--r-- 1 box box   4389 Nov  5 00:55 .log-review2b
+-rw-r--r-- 1 box box  31311 Nov  5 00:56 .log-review3
+-rw-r--r-- 1 box box 113493 Nov  5 00:56 .log-review4
+-rw-r--r-- 1 box box 134360 Nov  5 00:50 .log-session-c
+-rw-r--r-- 1 box box  23880 Nov  5 00:51 repo-plan-01.md
+-rw-r--r-- 1 box box   8730 Nov  5 00:52 research-01.md
+-rw-r--r-- 1 box box    577 Nov  5 00:55 review-1.md
+-rw-r--r-- 1 box box   2252 Nov  5 00:55 review-2.md
+===MASTER line36 truth===
+repo/masters/review/checklist.md
+===STRUCTURE missing refs check===
+OK  README.md
+OK  CONTEXT.md
+OK  MESSAGES.md
+OK  IDEAS.md
+OK  ARCHITECTURE.md
+OK  MASTER.md
+OK  REJECTED.md
+OK  CHANGELOG.md
+OK  PROVENANCE.md
+OK  AGENTS.md
+OK  DESIGN-REFERENCE.md
+OK  docs/GOALS.md
+OK  docs/RULES.md
+OK  docs/CONCEPTS.md
+OK  docs/METADATA-SCHEMA.md
+OK  docs/CHUNKING.md
+OK  docs/EVALUATION.md
+OK  docs/CONTRADICTION-POLICY.md
+OK  docs/KNOWN-ANSWER-SET.md
+OK  docs/STAGES.md
+OK  docs/SOURCES.md
+OK  sources/archive-index.md
+OK  sources/file-inventory.md
+OK  sources/links.md
+OK  sources/session-export-index.md
+OK  sources/wiki-talk-index.md
+OK  timeline/timeline.md
+OK  reference/purposes.md
+OK  reference/non-goals.md
+OK  templates/term.md
+OK  templates/master.md
+OK  config/personas.yaml
+OK  config/books.yaml
+OK  config/models.yaml
+OK  config/thresholds.yaml
+OK  index/bm25-results.md
+OK  index/manifest-pointer.md
+OK  masters/README.md
+OK  masters/review/checklist.md
+===PROPOSED-only dirs===
+ABSENT raw
+ABSENT wiki
+ABSENT terms
+ABSENT src
+ABSENT bin
+ABSENT skills
+ABSENT tests
+ABSENT snapshots
+ABSENT out
+===AGENTS work ref===
+ls: cannot access 'repo/work/': No such file or directory
+work/repo-plan-01.md
+> build · crouton-alpha-free
+Verdict formed: reading map mostly real but stale OBSERVED claims and work/ links will mislead a newcomer. Writing findings to work/review-3.md now.
+[0m← [0mWrite work/review-3.md
+Created file successfully: work/review-3.md
+> build · crouton-alpha-free
+DONE

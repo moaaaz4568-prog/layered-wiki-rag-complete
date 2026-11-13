@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+EXISTS: /sdcard/wikillm/BUILD_PROTOCOL.md
+EXISTS: /sdcard/wikillm/22_future_simulation_part1.md
+EXISTS: /sdcard/wikillm/22_future_simulation_part2.md
+EXISTS: /root/r/V3/00_CHARTER/GATES_11.md
+EXISTS: /root/r/V3/00_CHARTER/TRUTH_NUMBERS.md
+EXISTS: /root/r/V3/00_CHARTER/FORMAT_MASTER.md
+EXISTS: /root/r/V3/00_CHARTER/NAMING.md
+EXISTS: /root/r/V3/00_CHARTER/ONTOLOGY.md
+EXISTS: /root/r/V3/00_CHARTER/ANTI_DEAD_FORMULA.md
+EXISTS: /root/r/V3/02_CONCEPTS/07_branding/C_Contrarian_Belief_Lever.md
+EXISTS: /sdcard/Nexus_Brain/Nexus_Brain/brain
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/systems
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/tools
+EXISTS: /sdcard/wikillm/argon_version/wiki_ver2/domains

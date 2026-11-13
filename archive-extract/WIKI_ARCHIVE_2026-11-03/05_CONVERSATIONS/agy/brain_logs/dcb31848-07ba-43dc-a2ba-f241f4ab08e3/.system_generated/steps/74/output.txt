@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+/sdcard/NEXUS_LLM_WIKI/systems/17_FOLDER_INDEX_CONTRACT.md -> exists: True

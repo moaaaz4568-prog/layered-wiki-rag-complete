@@ -1,0 +1,53 @@
+Command exited with code 0.
+
+Command output:
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+count.py — اداة احصاء الارقام من القرص حصرا وفق قاعدة sima_yi.
+القاعدة: الرقم الذي لا يقابله امر shell يلغى، والمصدر الوحيد هو COUNTS.json.
+
+الاستخدام:
+  python3 tools/count.py              # جمع الاحصائيات وتوليد COUNTS.json
+  python3 tools/count.py --check      # مطابقة الارقام مع القرص ووسم المخالف بـ ⚠️
+"""
+
+import argparse
+import json
+import os
+import re
+import sys
+
+DEFAULT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def scan_disk(root):
+    """جمع احصائيات القرص الفعلية بحصر دقيق للملفات والاسطر."""
+    counts = {
+        "root": root,
+        "total_files": 0,
+        "md_files": 0,
+        "total_lines_md": 0,
+        "systems_count": 0,
+        "systems_lines": {},
+        "templates_count": 0,
+        "index_files_count": 0,
+        "tools_count": 0,
+        "cjk_count": 0,
+    }
+
+    systems_dir = os.path.join(root, "systems")
+    domains_dir = os.path.join(root, "domains")
+    tools_dir = os.path.join(root, "tools")
+
+    for dirpath, dirnames, filenames in os.walk(root):
+        # استبعاد المجلدات المؤقتة والارشيفية
+        dirnames[:] = [d for d in dirnames if not d.startswith(".") and d != "__pycache__"]
+        for filename in filenames:
+            if filename.startswith(".") or filename.endswith(".pyc"):
+                continue
+            counts["total_files"] += 1
+            filepath = os.path.join(dirpath, filename)
+
+            if filename.endswith(".md"):
+                counts["md_files"] += 1

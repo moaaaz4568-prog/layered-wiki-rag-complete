@@ -1,0 +1,175 @@
+[0m
+> build · crouton-alpha-free
+أنشئ ملفات التنظيم الستة بالعربية مع وسوم الأدلة — أقرأ الخطط أولاً.
+[0m→ [0mRead work/analysis-wiki-talk-01.md 
+[0m→ [0mRead work/repo-plan-01.md 
+[0m$ [0mgrep '^#' /workspace/layered-wiki-rag-design.md 2>&1 | head -n 200; echo "---EXISTS---"; ls -la /workspace/layered-wiki-rag-design.md /workspace/wiki/repo/ 2>&1
+# layered-wiki-rag: تصميم معماري عام لويكي طبقية مع RAG
+## قاموس الحالة ومصدر الادعاء
+### مصادر مسموحة وحدود القراءة
+# 1. فهم في صفحة واحدة
+## الهدف
+## قواعد غير قابلة للمساومة
+## المقارنة المختصرة بين الأنماط الثلاثة
+## موقع الأرقام المهمة
+## النتيجة المعمارية في سطر
+# 2. الويكي المثالية: المعمارية والبنية الدقيقة
+## 2.1 الاسم والحدود
+## 2.2 شجرة المجلدات المقترحة
+### وظيفة INDEX والتوجيه
+## 2.3 الطبقات من الأدنى إلى الأعلى
+### 1) `raw/` — الخام
+### 2) `normalized/` — النسخة الموحّدة
+### 3) `terms/` — المصطلحات
+### 4) `masters/` — الماسترز
+### 5) `wiki/` — صفحات الويكي
+### 6) `index/` — البحث المشتق
+### 7) `eval/` — التقييم المنفصل
+### 8) `ops/` — التشغيل والحوكمة
+## 2.4 مخطط metadata حقلاً حقلاً
+### مثال front matter
+## 2.5 provenance من المصدر إلى الجواب
+## 2.6 أدوار الوكلاء والمشرف
+### الوكلاء
+### المشرف
+### التحكم في الكتابة
+## 2.7 خط ingest خطوة بخطوة
+## 2.8 خط الاستعلام خطوة بخطوة
+## 2.9 الماستر الرئيسي والمتخصص: قاعدة البناء
+## 2.10 بوابات الجودة
+# 3. كل قرار: البديل والكلفة والاختبار
+## 3.1 جدول قرارات التنفيذ
+## 3.2 كيف تُحسب الكلفة دون اختراع رقم
+## 3.3 العتبات وحالات الانتقال
+## 3.4 مصدر كل اختيار
+# 4. التناقض والحجر وREJECTED ومنع الخطأ
+## 4.1 ما الذي نعده تناقضاً؟
+## 4.2 مسار اكتشاف التناقض
+## 4.3 سياسة الحجر المتوافقة مع «كل ملف يدخل»
+## 4.4 ملف `REJECTED.md`
+## 4.5 منع الخطأ من أن يصبح بنية
+## 4.6 ماذا نفعل عند فشل بوابة؟
+# 5. خطة v0.1 بالضبط و20 سؤالاً معروف الإجابة
+## 5.1 نطاق v0.1 المغلق
+### ما يدخل بالضبط
+### ما لا يدخل v0.1
+### ترتيب الخروج
+### معيار نجاح v0.1
+## 5.2 مجموعة الأسئلة العشرين
+### بروتوكول الأسئلة
+# 6. خطة التجارب الست
+## التجربة 1 — اختبار المضمن قبل اختياره
+## التجربة 2 — فلتر المنظور والnamespace
+## التجربة 3 — Recall@10 مع reranking وبدونه
+## التجربة 4 — تهيئة Git والرجوع
+## التجربة 5 — وحدة التقطيع A مقابل B
+## التجربة 6 — طبقة الويكي مع وبدونها
+### مصفوفة نتائج التجارب
+# 7. ما لا نعرفه وأسئلة المستخدم
+## 7.1 ما لا نعرفه من الملف وحده
+## 7.2 أسئلة يجب أن يجيب عنها المستخدم قبل التوسع
+# 8. اختبار التصميم على خمس حالات
+## الحالة 1 — سؤال معروف في مقطع واحد
+## الحالة 2 — سؤال شمولي
+## الحالة 3 — سؤال متناقض
+## الحالة 4 — سؤال بلا إجابة في المصادر
+## الحالة 5 — سؤال مقارن بين منظورين
+### خلاصة الحالات
+# 9. قائمة القرارات الأخيرة
+## إبقاء
+## تعديل
+## تأجيل
+## القرار التنفيذي المختصر
+# 10. الخلاصة العامة والمصادر
+## ما الذي نبنيه؟
+## لماذا بهذا الشكل؟
+## ما الذي نرفضه؟
+## قاعدة التشغيل النهائية
+## مصفوفة المصادر والوسوم
+## خاتمة القارئ الذي لم يقرأ البريف
+---EXISTS---
+-rw-r--r-- 1 box box 94124 Nov  3 16:07 /workspace/layered-wiki-rag-design.md
+
+/workspace/wiki/repo/:
+total 8
+drwxr-xr-x 2 box box 4096 Nov  5 00:52 .
+drwxr-xr-x 6 box box 4096 Nov  5 00:52 ..
+> build · crouton-alpha-free
+[0m→ [0mRead work/analysis-wiki-talk-01.md [90m[offset=503][0m
+> build · crouton-alpha-free
+قرأت الخطط — أجمع قياسات القرص وأكتب الملفات الستة.
+[0m$ [0mls -lh /workspace/wiki/work/ /workspace/wiki/repo/ /workspace/layered-wiki-rag-design.md; echo "---"; wc -l /workspace/wiki/work/repo-plan-01.md /workspace/wiki/work/analysis-wiki-talk-01.md /workspace/layered-wiki-rag-design.md; echo "---"; ls -la /workspace/wiki/work/ | head -n 50
+-rw-r--r-- 1 box box  92K Nov  3 16:07 /workspace/layered-wiki-rag-design.md
+
+/workspace/wiki/repo/:
+total 0
+
+/workspace/wiki/work/:
+total 128K
+-rw-r--r-- 1 box box  12K Nov  5 00:49 analysis-session-01.md
+-rw-r--r-- 1 box box  65K Nov  5 00:40 analysis-wiki-talk-01.md
+-rw-r--r-- 1 box box 8.5K Nov  5 00:50 archive-inventory-01.md
+-rw-r--r-- 1 box box  24K Nov  5 00:51 repo-plan-01.md
+-rw-r--r-- 1 box box 8.3K Nov  5 00:51 research-01.md
+---
+   205 /workspace/wiki/work/repo-plan-01.md
+   712 /workspace/wiki/work/analysis-wiki-talk-01.md
+   791 /workspace/layered-wiki-rag-design.md
+  1708 total
+---
+total 348
+drwxr-xr-x 2 box box   4096 Nov  5 00:52 .
+drwxr-xr-x 6 box box   4096 Nov  5 00:52 ..
+-rw-r--r-- 1 box box  11801 Nov  5 00:49 analysis-session-01.md
+-rw-r--r-- 1 box box  66334 Nov  5 00:40 analysis-wiki-talk-01.md
+-rw-r--r-- 1 box box   8662 Nov  5 00:50 archive-inventory-01.md
+-rw-r--r-- 1 box box   4406 Nov  5 00:40 .log-analysis-session-b
+-rw-r--r-- 1 box box  15299 Nov  5 00:50 .log-archive
+-rw-r--r-- 1 box box   4772 Nov  5 00:52 .log-build-arch
+-rw-r--r-- 1 box box    991 Nov  5 00:52 .log-build-core
+-rw-r--r-- 1 box box    531 Nov  5 00:52 .log-build-messages
+-rw-r--r-- 1 box box  13986 Nov  5 00:51 .log-plan-01
+-rw-r--r-- 1 box box   1622 Nov  5 00:40 .log-research-01b
+-rw-r--r-- 1 box box   1416 Nov  5 00:49 .log-research-c
+-rw-r--r-- 1 box box  15793 Nov  5 00:51 .log-research-d
+-rw-r--r-- 1 box box 134360 Nov  5 00:50 .log-session-c
+-rw-r--r-- 1 box box  23880 Nov  5 00:51 repo-plan-01.md
+-rw-r--r-- 1 box box   8456 Nov  5 00:51 research-01.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/ARCHITECTURE.md
+Created file successfully: repo/ARCHITECTURE.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/MASTER.md
+Created file successfully: repo/MASTER.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/REJECTED.md
+Created file successfully: repo/REJECTED.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/CHANGELOG.md
+Created file successfully: repo/CHANGELOG.md
+> build · crouton-alpha-free
+[0m← [0mEdit repo/CHANGELOG.md
+Index: repo/CHANGELOG.md
+===================================================================
+--- repo/CHANGELOG.md
++++ repo/CHANGELOG.md
+@@ -23,9 +23,9 @@
+ 
+ - الحالة: الإصدار يُرجع 404 — [REPORTED: repo-plan §1.3 + §3.1].
+ - لا يُخترع بديل ولا محتوى لهذا الإصدار — موثّق كفجوة فقط — [REPORTED: repo-plan §3.1: «لا يُخترع بديل»].
+ 
+-### الدفعة C — دفعة التنظيم الحالية (هذه Dفعة: 6 ملفات جذر)
++### الدفعة C — دفعة التنظيم الحالية (هذه الدفعة: 6 ملفات جذر)
+ 
+ - الملفات المكتوبة في `/workspace/wiki/repo/` (2026-11-05):
+   - `ARCHITECTURE.md` — [OBSERVED: أُنشئ في هذه الدفعة].
+   - `MASTER.md` — [OBSERVED: أُنشئ في هذه الدفعة].
+
+> build · crouton-alpha-free
+[0m← [0mWrite repo/PROVENANCE.md
+Created file successfully: repo/PROVENANCE.md
+> build · crouton-alpha-free
+[0m← [0mWrite repo/DESIGN-REFERENCE.md
+Created file successfully: repo/DESIGN-REFERENCE.md
+> build · crouton-alpha-free
+أتحقق من الملفات الستة وأعدّتها نصًا قبل الإتمام.

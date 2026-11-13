@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+BROKEN: /INDEX.md
+EXISTS: /root/r/V3/00_CHARTER/FORMAT_MASTER.md

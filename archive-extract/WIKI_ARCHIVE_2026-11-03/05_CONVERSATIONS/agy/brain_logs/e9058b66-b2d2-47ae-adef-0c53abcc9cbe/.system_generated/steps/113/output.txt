@@ -1,0 +1,30 @@
+Command exited with code 0.
+
+Command output:
+/sdcard/wikillm/argon_version/wiki_ver2/:
+total 51
+-rw-rw----. 1 root aid_everybody 9917 Oct 25 08:10 AGENTS.md
+-rw-rw----. 1 root aid_everybody 7761 Oct 25 08:09 README.md
+-rw-rw----. 1 root aid_everybody 9230 Oct 25 08:10 START_HERE.md
+-rw-rw----. 1 root aid_everybody 6108 Oct 25 08:15 _BUILD_REPORT.md
+drwxrwx---. 7 root aid_everybody 3488 Oct 25 08:12 domains
+drwxrwx---. 2 root aid_everybody 3488 Oct 25 08:13 systems
+drwxrwx---. 3 root aid_everybody 3488 Oct 25 08:15 tools
+
+/sdcard/wikillm/argon_version/wiki_ver2/systems/:
+total 168
+-rw-rw----. 1 root aid_everybody  9603 Oct 25 08:11 SYS_01_CHARTER.md
+-rw-rw----. 1 root aid_everybody  7025 Oct 25 08:11 SYS_02_NAMING.md
+-rw-rw----. 1 root aid_everybody  8803 Oct 25 08:12 SYS_03_TREE.md
+-rw-rw----. 1 root aid_everybody  8717 Oct 25 08:13 SYS_04_THINKING_ENGINE.md
+-rw-rw----. 1 root aid_everybody  7620 Oct 25 08:13 SYS_05_INGESTION.md
+-rw-rw----. 1 root aid_everybody 12498 Oct 25 08:09 SYS_06_TERMS_DEEPENING.md
+-rw-rw----. 1 root aid_everybody 16338 Oct 25 08:10 SYS_07_MASTER_ANATOMY.md
+-rw-rw----. 1 root aid_everybody 12190 Oct 25 08:11 SYS_08_PLURALISM.md
+-rw-rw----. 1 root aid_everybody  9095 Oct 25 08:13 SYS_09_CUMULATIVE_SYNTHESIS.md
+-rw-rw----. 1 root aid_everybody  8962 Oct 25 08:12 SYS_10_INDEXES.md
+-rw-rw----. 1 root aid_everybody  7954 Oct 25 08:10 SYS_11_BUSINESS_EXECUTION.md
+-rw-rw----. 1 root aid_everybody  8618 Oct 25 08:11 SYS_12_AUDIT.md
+-rw-rw----. 1 root aid_everybody  7754 Oct 25 08:12 SYS_13_DELEGATION.md
+-rw-rw----. 1 root aid_everybody 11096 Oct 25 08:12 SYS_14_ANTI_PATTERNS.md
+-rw-rw----. 1 root aid_everybody  7177 Oct 25 08:13 SYS_15_DYNAMIC_EXPANSION.md

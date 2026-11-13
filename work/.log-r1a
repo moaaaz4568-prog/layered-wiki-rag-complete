@@ -1,0 +1,20 @@
+[0m
+> build · crouton-alpha-free
+Extracting 6 claims from the BM25 results to cross-check them.
+[0m→ [0mRead repo/index/bm25-results.md 
+> build · crouton-alpha-free
+Loaded the BM25 doc — now cross-checking its six key numbers against the analysis source.
+[0m✱ [0mGrep "37,402" [90min work/analysis-wiki-talk-01.md · 3 matches[0m
+[0m✱ [0mGrep "601,084" [90min work/analysis-wiki-talk-01.md · 1 match[0m
+[0m✱ [0mGrep "12/15" [90min work/analysis-wiki-talk-01.md · 2 matches[0m
+[0m✱ [0mGrep "14/15" [90min work/analysis-wiki-talk-01.md · 3 matches[0m
+[0m✱ [0mGrep "123,205" [90min work/analysis-wiki-talk-01.md · 1 match[0m
+[0m✱ [0mGrep "429" [90min work/analysis-wiki-talk-01.md · 6 matches[0m
+> build · crouton-alpha-free
+All 6 checks passed — writing the review table now.
+[0m← [0mWrite work/review-1-partA.md
+Created file successfully: work/review-1-partA.md
+> build · crouton-alpha-free
+Wrote `/workspace/wiki/work/review-1-partA.md` with 6 PASS claims checked against `/workspace/wiki/work/analysis-wiki-talk-01.md`.
+
+DONE

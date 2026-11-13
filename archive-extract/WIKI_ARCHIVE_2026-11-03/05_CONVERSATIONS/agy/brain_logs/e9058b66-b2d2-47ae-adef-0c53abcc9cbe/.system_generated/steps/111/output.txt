@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+[1] /sdcard/wikillm/argon_version/wiki_ver2/systems/SYS_05_INGESTION.md:40 (درجة: 20)
+    يتم فحص وجوده وحساب بصمة SHA-256 الخاصة به عبر الأمر: ```bash test -e "/sdcard/Nexus_Brain/Nexus_Brain/brain/aaronxshepherd__21 Cold Email Hacks To Book More Sales Calls INSTANTLY__i7vdM5SZsmk.txt" && sha256sum "/sdcard/Nexus_Brain/Nexus_Brain/brain/aaronxshepherd__21 Cold Ema...
+[2] /sdcard/wikillm/argon_version/wiki_ver2/_BUILD_REPORT.md:79 (درجة: 15)
+    المصدر المختبر: ```bash test -e "/sdcard/Nexus_Brain/Nexus_Brain/brain/aaronxshepherd__21 Cold Email Hacks To Book More Sales Calls INSTANTLY__i7vdM5SZsmk.txt" && echo "EXISTS CONFIRMED" ``` المخرج الحرفي:
+[3] /sdcard/wikillm/argon_version/wiki_ver2/domains/business_architecture/01_systems_ops/PLAYBOOK_TEMPLATE.md:51 (درجة: 15)

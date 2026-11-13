@@ -1,0 +1,34 @@
+# Secrets & local files
+*.env
+!.env.example
+.hcnsec_key
+cookies.txt
+
+# Data / databases / artifacts
+*.db
+MANIFEST.json
+zcode-*
+archive-extract/
+source-transfers/
+
+# Media / generated
+*.opus
+*.vtt
+*.log
+
+# Archives / caches / deps
+*.zip
+node_modules/
+__pycache__/
+
+# ضوابط أمنية إضافية (تدقيق أمني 2026-11-05)
+# أرشيفات مضغوطة كبيرة غير مغطاة سابقاً (مثل WIKI_ARCHIVE_2026-11-03.tar.gz في الجذر)
+*.tar.gz
+*.tgz
+*.gz
+# سجلات مخفية بصيغة .log-* (تحتوي أسراراً) لا تطابق *.log
+.log-*
+work/.log*
+# ملفات الفهارس الممنوعة بخطة المستودع §2 (conversations_index.csv / source_inventory.csv)
+# ملاحظة: لا يوجد أي ملف *.csv داخل repo/ يعتمد عليه (فُحص بـ find)؛ كل CSVs الحالية تحت archive-extract/ المتجاهَل أصلاً
+*.csv

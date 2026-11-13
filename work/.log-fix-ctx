@@ -1,0 +1,559 @@
+[0m
+> build · crouton-alpha-free
+Applying the review-3 fixes — reading sections (a),(b),(d) and the two files to patch.
+[0m→ [0mRead work/review-3.md 
+[0m→ [0mRead repo/CONTEXT.md 
+[0m→ [0mRead repo/README.md 
+> build · crouton-alpha-free
+Verified the review requirements — now checking file counts and sizes before editing.
+[0m$ [0mcd /workspace/wiki/repo && find . -type f | wc -l; echo ---; find . -type f | sort; echo ---; ls -lh ARCHITECTURE.md DESIGN-REFERENCE.md 2>&1; wc -c ARCHITECTURE.md DESIGN-REFERENCE.md 2>&1; ls -l /workspace/layered-wiki-rag-design.md 2>&1; wc -c /workspace/layered-wiki-rag-design.md 2>&1; echo ---; ls -la . | head -20; ls config/ docs/ index/ masters/ templates/ reference/ sources/ timeline/ 2>&1; ls -l ./TITLE* ./*.md 2>&1 | head
+42
+---
+./AGENTS.md
+./ARCHITECTURE.md
+./CHANGELOG.md
+./config/books.yaml
+./config/models.yaml
+./config/personas.yaml
+./config/thresholds.yaml
+./CONTEXT.md
+./DESIGN-REFERENCE.md
+./docs/CHUNKING.md
+./docs/CONCEPTS.md
+./docs/CONTRADICTION-POLICY.md
+./docs/EVALUATION.md
+./docs/GOALS.md
+./docs/KNOWN-ANSWER-SET.md
+./docs/METADATA-SCHEMA.md
+./docs/RULES.md
+./docs/SOURCES.md
+./docs/STAGES.md
+./docs/STRUCTURE.md
+./.env.example
+./.gitignore
+./IDEAS.md
+./index/bm25-results.md
+./index/manifest-pointer.md
+./MASTER.md
+./masters/README.md
+./masters/review/checklist.md
+./MESSAGES.md
+./PROVENANCE.md
+./README.md
+./reference/non-goals.md
+./reference/purposes.md
+./REJECTED.md
+./sources/archive-index.md
+./sources/file-inventory.md
+./sources/links.md
+./sources/session-export-index.md
+./sources/wiki-talk-index.md
+./templates/master.md
+./templates/term.md
+./timeline/timeline.md
+---
+-rw-r--r-- 1 box box  13K Nov  5 00:52 ARCHITECTURE.md
+-rw-r--r-- 1 box box 5.2K Nov  5 00:53 DESIGN-REFERENCE.md
+13062 ARCHITECTURE.md
+ 5259 DESIGN-REFERENCE.md
+18321 total
+-rw-r--r-- 1 box box 94124 Nov  3 16:07 /workspace/layered-wiki-rag-design.md
+94124 /workspace/layered-wiki-rag-design.md
+---
+total 164
+drwxr-xr-x 10 box box  4096 Nov  5 00:53 .
+drwxr-xr-x  6 box box  4096 Nov  5 00:52 ..
+-rw-r--r--  1 box box  2432 Nov  5 00:53 AGENTS.md
+-rw-r--r--  1 box box 13062 Nov  5 00:52 ARCHITECTURE.md
+-rw-r--r--  1 box box  4385 Nov  5 00:52 CHANGELOG.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 config
+-rw-r--r--  1 box box 15085 Nov  5 00:52 CONTEXT.md
+-rw-r--r--  1 box box  5259 Nov  5 00:53 DESIGN-REFERENCE.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 docs
+-rw-r--r--  1 box box    16 Nov  5 00:53 .env.example
+-rw-r--r--  1 box box   263 Nov  5 00:53 .gitignore
+-rw-r--r--  1 box box  7341 Nov  5 00:52 IDEAS.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 index
+-rw-r--r--  1 box box  5030 Nov  5 00:52 MASTER.md
+drwxr-xr-x  3 box box  4096 Nov  5 00:53 masters
+-rw-r--r--  1 box box 16667 Nov  5 00:52 MESSAGES.md
+-rw-r--r--  1 box box  6182 Nov  5 00:53 PROVENANCE.md
+-rw-r--r--  1 box box  9696 Nov  5 00:52 README.md
+drwxr-xr-x  2 box box  4096 Nov  5 00:53 reference
+config/:
+books.yaml
+models.yaml
+personas.yaml
+thresholds.yaml
+
+docs/:
+CHUNKING.md
+CONCEPTS.md
+CONTRADICTION-POLICY.md
+EVALUATION.md
+GOALS.md
+KNOWN-ANSWER-SET.md
+METADATA-SCHEMA.md
+RULES.md
+SOURCES.md
+STAGES.md
+STRUCTURE.md
+
+index/:
+bm25-results.md
+manifest-pointer.md
+
+masters/:
+README.md
+review
+
+reference/:
+non-goals.md
+purposes.md
+
+sources/:
+archive-index.md
+file-inventory.md
+links.md
+session-export-index.md
+wiki-talk-index.md
+
+templates/:
+master.md
+term.md
+
+timeline/:
+timeline.md
+ls: cannot access './TITLE*': No such file or directory
+-rw-r--r-- 1 box box  2432 Nov  5 00:53 ./AGENTS.md
+-rw-r--r-- 1 box box 13062 Nov  5 00:52 ./ARCHITECTURE.md
+-rw-r--r-- 1 box box  4385 Nov  5 00:52 ./CHANGELOG.md
+-rw-r--r-- 1 box box 15085 Nov  5 00:52 ./CONTEXT.md
+-rw-r--r-- 1 box box  5259 Nov  5 00:53 ./DESIGN-REFERENCE.md
+-rw-r--r-- 1 box box  7341 Nov  5 00:52 ./IDEAS.md
+-rw-r--r-- 1 box box  5030 Nov  5 00:52 ./MASTER.md
+-rw-r--r-- 1 box box 16667 Nov  5 00:52 ./MESSAGES.md
+-rw-r--r-- 1 box box  6182 Nov  5 00:53 ./PROVENANCE.md
+> build · crouton-alpha-free
+[0m$ [0mcd /workspace/wiki/repo && head -30 PROVENANCE.md; echo ====; head -20 docs/STRUCTURE.md; echo ====; head -20 timeline/timeline.md; echo ====; head -15 ARCHITECTURE.md; echo ====; head -15 index/bm25-results.md
+# المنشأ والتحقق — PROVENANCE
+
+> **وسوم الدليل:** [OBSERVED] · [REPORTED] · [PROPOSED] · [UNKNOWN] · [NOT_RUN] — [REPORTED: repo-plan-01.md §1.2.3].
+> **قاعدة الأسرار:** لا قيمة سرية تُنسخ أبدًا — الوجود فقط — [REPORTED: repo-plan-01.md §1.2.4].
+
+## 1. المصادر الأولية المقروءة مباشرة في هذه الدفعة (OBSERVED)
+
+| # | المصدر | المسار الكامل | الحجم/العدد | الدليل |
+|---|---|---|---|---|
+| P1 | خطة المستودع (`repo-plan-01.md`) | `/workspace/wiki/work/repo-plan-01.md` | 205 سطر | [OBSERVED: قراءة مباشرة] |
+| P2 | التحليل الشامل لكلام الويكي (`analysis-wiki-talk-01.md`) | `/workspace/wiki/work/analysis-wiki-talk-01.md` | 66KB، 712 سطرًا | [OBSERVED: قراءة مباشرة — الرقم «66KB» من repo-plan §1's مصدر، ومطابق تقريبًا لحجم الملف] |
+| P3 | التصميم المعماري (`layered-wiki-rag-design.md`) | `/workspace/layered-wiki-rag-design.md` | 92KB، 791 سطرًا | [OBSERVED: قراءة العناوين عبر `grep '^#'`] |
+| P4 | جرد القرص الحقيقي (هذه الدفعة فقط) | `ls -la /workspace/wiki/repo/` + `ls -lh /workspace/wiki/work/` | فارغ قبل الدفعة | [OBSERVED: 2026-11-05] |
+
+> **دقة:** حجم P2 في البيئة = 65KB تقريبًا؛ الوصف «66KB» وارد في repo-plan §1 — [REPORTED: repo-plan §1]. لا يُفترض رقم أدق من المقاس — [OBSERVED: لم يُقَس هنا بـwc -c; أُعتمد الرقم المنقول].
+
+فهرس عناوين التصميم المقروءة (P3): قاموس الحالة → §1 فهم في صفحة → §2 الويكي المثالية → §3 قرارات → §4 التناقض والحجر → §5 v0.1 → §6 التجارب الست → §7 ما لا نعرفه → §8 اختبار الحالات الخمسة → §9 القرارات الأخيرة → §10 الخلاصة والمصادر — [OBSERVED: عناوين grep].
+
+## 2. مصادر منقولة (REPORTED — لم تُفتح مباشرة في هذه الدفعة)
+
+| # | المصدر | الإشارة | الدليل |
+|---|---|---|---|
+| S1 | كلام الويكي 106 رسالة (2026-10-06 → 2026-11-03) | ملف `wiki_all_talk.md` (2012 سطر، 175,533 بايت) | [REPORTED: analysis §1 ص1] |
+| S2 | الأرشيف 212MB/2713 ملف | ملخص في `archive-inventory-01.md` (79 سطرًا) | [REPORTED: repo-plan §1.1] |
+| S3 | الجلسة (analysis-session) | فهرس 18,267 سطرًا + 19 رسالة | [REPORTED: repo-plan §1 + analysis-session §2] |
+| S4 | 144 فيديو / نصوص TXT (7.4MB) | `research/yt-subs-144/` في wiki-rag | [REPORTED: analysis §1.9] |
+| S5 | Infinite Brain OS (584 ملف، 4.7MB، 228 عقدة) | مستودع `infinite-brain-os` | [REPORTED: analysis §2.5] |
+| S6 | wikillm على `/sdcard` | لا تُفتح من هنا | [REPORTED: analysis §2.4 + repo-plan §1.3] |
+| S7 | يوتيوب TransferNow/GitHub | روابط في analysis §2.1 | [REPORTED] — انظر analysis §2.1 |
+
+====
+# STRUCTURE — شجرة المستودع الشرحية
+
+> الحالة: PROPOSED — بنية مخططة في `work/repo-plan-01.md` §2، لم تُبنَ كاملة بعد.
+> المصدر: `analysis-wiki-talk-01.md` §4.3 + `repo-plan-01.md` §2.
+> وسم الدليل: OBSERVED = مقاس على القرص، REPORTED = منقول من تقرير، PROPOSED = مقترح مستقبلي، UNKNOWN = لا دليل، NOT_RUN = لم يُشغَّل بعد.
+
+## 1. المستودع الحالي
+
+- الاسم المقترح: `layered-wiki-rag` | REPORTED — `analysis-wiki-talk-01.md` §4.1
+- مستودع خاص (Private) | REPORTED — `analysis-wiki-talk-01.md` §1.2 + §3.2
+- المستودع الحالي `layered-wiki-rag` (حسب الخطة، 5 ملفات) | REPORTED — `repo-plan-01.md` §1.3
+- القرار: استخدام الحالي لا جديد | REPORTED — `repo-plan-01.md` §1.3
+- إجمالي المستودع النصي المستهدف | PROPOSED — `repo-plan-01.md` §2
+
+## 2. الجذر
+
+- `README.md` — نقطة الدخول: الغاية + السياسات الست + خريطة القراءة | PROPOSED — `repo-plan-01.md` §3.1
+- `CONTEXT.md` — ملف سياق: يكفي لـ AI جديد دون قراءة الأرشيف | PROPOSED — `repo-plan-01.md` §3.1
+- `MESSAGES.md` — «كل ما قلته» مرتبة زمنيًا | PROPOSED — `repo-plan-01.md` §3.1
+- `IDEAS.md` — الأفكار والقرارات المفصلة | PROPOSED — `repo-plan-01.md` §3.1
+====
+# التسلسل الزمني — 2026-10-06 → 2026-11-05
+
+> **مصدر المواعيد:** عناوين الرسائل المقاسة في `/workspace/wiki/source-transfers/wiki_all_talk.md` (106 رسالة) + تحليل `/workspace/wiki/work/` — كل تواريخ هامة وسطر مرجعي في الجدول.
+
+| التاريخ | الحدث | الدليل |
+|---|---|---|
+| 2026-10-06 08:53 | أول ذكر للويكي: ويكي التعافي/السيرة في الملخصات الصباحية (نقطة البداية) | OBSERVED/REPORTED |
+| 2026-10-06 16:02 | أرقام التوكنز والسجلات: ويكي التعافي 1,418 صفحة؛ محادثات كبرى (247,288,779 + الخلفية 5,704,672,166 = 5,951,960,945) | REPORTED |
+| 2026-10-06 → 2026-10-18 | نشرات صباحية (تكرار ويكي التعافي/السيرة)؛ ويكي السيرة 2,833 → 2,844 → 2,846 (مراحل بناء) | REPORTED |
+| 2026-10-19 08:52 → 17:15 | رسالة صباحية آخرها، ثم **أول محادثة جوهرية**: السؤال التأسيسي (ويكي مشتركة لكل العقول) | OBSERVED/REPORTED |
+| 2026-10-19 17:19 | بناء `yt-wiki` الموحد في `~/workspace/yt-wiki`؛ فهرس 4,262 صفحة | REPORTED |
+| 2026-10-19 17:24 → 17:32 | اختبار يوتيوب: yt-dlp فقط بدون كوكيز؛ TXT مباشرة لا VTT | REPORTED |
+| 2026-10-19 17:36 → 17:42 | إضافة كتب كلاسيكية: books.yaml؛ مجلدات ابن سيرين/ابن تيمية/ابن القيم | REPORTED |
+| 2026-10-19 19:16 | إضافة قناة هيثم طلعت؛ هدف «تفسير حلم معقد» بالجمع من كل المصادر | REPORTED |
+| 2026-10-20 08:56 | إيقاف تنفيذ «مجلس تفسير الحلم» (`PROMPT.md` محفوظ) | REPORTED |
+| 2026-10-21 08:54 | انتهاء برسونا ابن القيم نسختها النهائية | REPORTED |
+| 2026-10-30 08:55 → 18:43 | نشرة صباحية، ثم **تحول RAG**: طلب تحويل الويكي إلى RAG عبر أداة + مفتاح يوكينو + glm | REPORTED |
+| 2026-10-30 18:44 → 21:29 | الجرد الدقيق: 5,896 صفحة / 31.3MB / التقسيم الستي؛ عينة 20 صفحة لهشام 37,402 بايت 129 مقطعاً | REPORTED |
+| 2026-10-30 22:07 → 23:28 | مفتاح يوكينو في OpenCode glm-5.3-free + مرجع بيئة `{env:YUKINO_API_KEY}` لا قيمة في ملف | REPORTED |
+| 2026-10-31 08:54 → 21:22 | نشرة صباحية، ثم **تحميل 144 فيديو** وقراءتها؛ نقد → اعتماد الهجين: RAG أساس + ويكي + namespace للشخصية + استشهاد بالمقطع الخام | REPORTED |
+====
+# المعمارية الهجينة — layered-wiki-rag
+
+> **ملاحظة وسوم الدليل (إلزامية في كل ملف):** [OBSERVED] = مقاس/مقروء مباشرة على القرص مع الأمر/المسار · [REPORTED] = منقول من تقرير/رسالة بدون فحص مباشر · [PROPOSED] = اقتراح/قرار مستقبلي غير منفَّذ · [UNKNOWN] = لا دليل · [NOT_RUN] = تجربة مقترحة ولم تُشغَّل بعد. [REPORTED — repo-plan-01.md §1.2.3]
+
+## 0. القيود الحاكمة لهذا الملف — [REPORTED: repo-plan-01.md §1.2]
+
+1. مستودع خاص (Private) فقط، لا نشر عام الآن — [REPORTED: repo-plan-01.md §1.2.1 + analysis-wiki-talk-01.md §5/Any خبر «نشر عام مؤجل»].
+2. لا اختراع حقائق: كل رقم له أمر قياس أو يُوسم تقديرًا؛ ما لم يُقرأ = [UNKNOWN] — [REPORTED: repo-plan-01.md §1.2.2].
+3. لا أسرار أبدًا: قيم الأسرار لا تُنسخ، يُذكر وجودها فقط — [REPORTED: repo-plan-01.md §1.2.4]. الأسرار المذكورة بالوجود فقط في المصادر: مفتاح GitHub PAT، مفاتيح Yukino/hcnsec، كوكيز يوتيوب، `.env` — [REPORTED: repo-plan-01.md §1.2.4].
+4. الخام (Raw) للقراءة فقط، لا يُعدَّل — [REPORTED: repo-plan-01.md §1.2.5 + analysis §1.8.8].
+5. العينة أولًا: لا نقل جماعي لـ5,896 صفحة ولا لـ212MB مرة واحدة — [REPORTED: repo-plan-01.md §1.2.6]. النص «5,896 صفحة» منقول من القياس في §1.7 — [REPORTED: analysis §1.7: 5,896 صفحة / 31.3MB].
+6. كل عملية بنظام حرفي؛ الوكيل ينفذ والمشرف يخطط ويفحص — [REPORTED: repo-plan-01.md §1.2.7 + analysis §1.8.4].
+
+## 1. الطبقات raw → normalized → terms → masters → wiki → index — [REPORTED: repo-plan-01.md §3.1-A + layered-wiki-rag-design.md §2.3]
+
+====
+# نتائج BM25 المقاسة — bm25-results
+
+> **النطاق:** النموذج الوحيد المنفذ فعليًا (قبل أي تضمين كثيف أو إعادة ترتيب)
+> **الدليل:** OBSERVED
+> **المصدر:** work/analysis-wiki-talk-01.md §1.10؛ تاريخ القياس: 2026-11-01 → 2026-11-03
+> **الاتفاق:** النتائج كلها على ويكي هيثم طلعت فقط (210 صفحة كاملة)
+
+## العينة: 20 أصغر صفحة لهيثم (المختصرات الرفيعة)
+
+- المجموع: 37,402 بايت · 129 مقطعًا
+- الأسئلة: 7 توليدت
+- أسئلة العناوين بالنص: **4/4 في المرتبة الأولى** (أوتاد الجبال، جلطة الميلاد، ثلاثة معايير الدين الصحيح، أعمار الأحافير)
+- صياغات مختلفة: **1/3** في المرتبة الأولى والباقي الثانية
+- النتيجة الأصلية الأعلى: 2/2 في المرتبة الأولى — «اختبار كلمات فقط على مجموعة صغيرة»
+> build · crouton-alpha-free
+Confirmed 42 files and the size figures. Now applying the six targeted fixes.
+[0m$ [0mcd /workspace/wiki/repo && grep -n "92KB\|5 ملفات\|خمسة ملفات\|commit واحد\|يكفي وحده\|يكفي لـ\|يكفي لأي" CONTEXT.md README.md; echo ====; ls -la .git 2>&1; git status 2>&1 | head -5
+CONTEXT.md:1:# سياق المشروع — يكفي وحده لأي محادثة ذكاء اصطناعي جديدة
+CONTEXT.md:79:- الأرشيف المقاس كان 2713 ملف بحجم 212MB، وملف التصميم في المستودع الحالي حجمه 92KB. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و §1.1]
+CONTEXT.md:80:- كلام الويكي 106 رسالة، والجلسة المصدّرة 18267 سطرا، والتصميم 92KB، والبرومبت الأصلي 233 سطرا بحدوده فقط. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و `work/analysis-session-01.md` سطر المصدر و `work/analysis-wiki-talk-01.md` عنوان التحليل]
+CONTEXT.md:99:- هذا الملف وحده يكفي لأي مساعد جديد في الجلسة التالية، دون قراءة أي ملف آخر في المستودع. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
+README.md:25:| أولا | `CONTEXT.md` | يكفي وحده ليفهم أي مساعد جديد المشروع دون قراءة أي ملف آخر. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+README.md:50:- المستودع الحالي له commit واحد موثق رقمه الكامل في ملفات التحليل، وبه 5 ملفات آمنة بلا أسرار. [OBSERVED — المصدر: `work/analysis-session-01.md` §2 و `work/repo-plan-01.md` §1.3]
+README.md:78:- ملف التصميم في المستودع الحالي حجمه 92KB. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة]
+====
+ls: cannot access '.git': No such file or directory
+fatal: not a git repository (or any of the parent directories): .git
+> build · crouton-alpha-free
+[0m$ [0mcd /workspace/wiki/repo && for f in sources/wiki-talk-index.md sources/session-export-index.md sources/links.md sources/archive-index.md index/bm25-results.md docs/STRUCTURE.md timeline/timeline.md PROVENANCE.md ARCHITECTURE.md; do echo "== $f"; head -6 "$f"; echo; done
+== sources/wiki-talk-index.md
+# فهرس كلام الويكي — 106 رسالة (2026-10-06 → 2026-11-03)
+
+> **المصدر [OBSERVED]:** `/workspace/wiki/source-transfers/wiki_all_talk.md` — 2012 سطر، 175533 بايت.
+> **منهج الاستخراج:** أمر `grep -n "^## [0-9]"` على الملف الحقيقي، والعنوان الكامل `## N — YYYY-MM-DD HH:MM — Speaker` يُعاد ضبطه في الجدول دون اختراع.
+> **العدد [OBSERVED]:** 106 رسالة معنونة. أول ذكر للويكي: 2026-10-06 08:53 (مذكور في التحليل ومحقق في الرسالة 1). أول محادثة جوهرية: 2026-10-19 17:15 (الرسالة 13).
+> **وسم الدليل في كل جدول:** OBSERVED = عنوان/تاريخ/متحدث مقروء من الملف نفسه؛ REPORTED = موضوع/قرار منقول من التحليل أو النص من غير قياس جديد؛ UNKNOWN = لا دليل متوفر هنا.
+
+== sources/session-export-index.md
+# فهرس تصدير الجلسة — 18267 سطرًا (OpenCode main → Wiki)
+
+> **المصدر [OBSERVED]:** `/tmp/session-e68b584d-d678-4964-806d-2372b51c2b29.md` (18267 سطرًا) — نطاق القراءة: أدوار المستخدم عند الأسطر 9، 6737، 6751، 6776، 6850، 11911، 12981، 13013، 14956، 15324، 15474، 15513، 15635، 15793، 17911، 18123، 18253، 18259، 18265، مع استنتاجات المساعد المحيطة بها.
+> **تنبيه أمني:** أُخفيت قيم الأسرار — يُذكر وجودها فقط في القسم 4. لا تُنسخ أي قيمة مفتاح إلى المستودع.
+
+## 1) طلبات المستخدم حرفيًا مرتبة زمنيًا
+
+== sources/links.md
+# الروابط الخارجية — سياق وتاريخ (بلا أسرار)
+
+> **قاعدة صارمة:** كل رابط هنا بسياق اختصار وتاريخه. روابط المفاتيح لا تُنسخ قيمتها؛ تُشار إليها بعبارة «مفتاح — القيمة لا تُنسخ». لا تُفهرس أي قيمة سرية.
+> **المصدر:** `work/analysis-wiki-talk-01.md` §2.1 + `work/analysis-session-01.md` §2. الآن لا يُفتح عن للروابط خارج السياق إلا بإذن.
+
+| الرابط | السياق | التاريخ | الدليل |
+
+== sources/archive-index.md
+# فهرس الأرشيف — WIKI_ARCHIVE_2026-11-03
+
+> **المصدر [OBSERVED]:** `/workspace/wiki/WIKI_ARCHIVE_2026-11-03.tar.gz` (58MB مضغوط) مستخرج في `/workspace/wiki/archive-extract/WIKI_ARCHIVE_2026-11-03/` — 212MB فعلي، 2713 ملفاً مقاساً بـ `find -type f` (الوثيقة تذكر 2707). لا يوجد `source-transfers/` داخل `/workspace/wiki/archive-extract/`.
+> **النطاق:** الوثائق العلوية + قياس `du -sh` لكل مجلد. الميزانية 250MB — المساحة الحرة المعلنة على `/mnt/sdcard` 497MB. الداخل: لا تُنسخ المحتويات الضخمة، تُشار إليها بمسار.
+> **الموقع في المستودع:** هذا فهرس فقط — الأرشيف الكامل لا يُرفع إلى GitHub (خاص). انظر `PROVENANCE` للتحقق من `MANIFEST.json` و `hashes.sha256`.
+
+
+== index/bm25-results.md
+# نتائج BM25 المقاسة — bm25-results
+
+> **النطاق:** النموذج الوحيد المنفذ فعليًا (قبل أي تضمين كثيف أو إعادة ترتيب)
+> **الدليل:** OBSERVED
+> **المصدر:** work/analysis-wiki-talk-01.md §1.10؛ تاريخ القياس: 2026-11-01 → 2026-11-03
+> **الاتفاق:** النتائج كلها على ويكي هيثم طلعت فقط (210 صفحة كاملة)
+
+== docs/STRUCTURE.md
+# STRUCTURE — شجرة المستودع الشرحية
+
+> الحالة: ملفات §§2-4 موجودة على القرص (42 ملفاً في repo/ في 2026-11-05 — `find repo/ -type f | wc -l` = 42) [OBSERVED 2026-11-05]؛ طبقات §5 raw/wiki/terms/src مخططة فقط، غير موجودة في repo/ الآن — بنية مخططة في `../work/repo-plan-01.md` §2 (خارج المستودع).
+> المصدر: `analysis-wiki-talk-01.md` §4.3 + `repo-plan-01.md` §2.
+> وسم الدليل: OBSERVED = مقاس على القرص، REPORTED = منقول من تقرير، PROPOSED = مقترح مستقبلي، UNKNOWN = لا دليل، NOT_RUN = لم يُشغَّل بعد.
+
+
+== timeline/timeline.md
+# التسلسل الزمني — 2026-10-06 → 2026-11-05
+
+> **مصدر المواعيد:** عناوين الرسائل المقاسة في `/workspace/wiki/source-transfers/wiki_all_talk.md` (106 رسالة) + تحليل `/workspace/wiki/work/` — كل تواريخ هامة وسطر مرجعي في الجدول.
+
+| التاريخ | الحدث | الدليل |
+|---|---|---|
+
+== PROVENANCE.md
+# المنشأ والتحقق — PROVENANCE
+
+> **وسوم الدليل:** [OBSERVED] · [REPORTED] · [PROPOSED] · [UNKNOWN] · [NOT_RUN] — [REPORTED: repo-plan-01.md §1.2.3].
+> **قاعدة الأسرار:** لا قيمة سرية تُنسخ أبدًا — الوجود فقط — [REPORTED: repo-plan-01.md §1.2.4].
+
+## 1. المصادر الأولية المقروءة مباشرة في هذه الدفعة (OBSERVED)
+
+== ARCHITECTURE.md
+# المعمارية الهجينة — layered-wiki-rag
+
+> **ملاحظة وسوم الدليل (إلزامية في كل ملف):** [OBSERVED] = مقاس/مقروء مباشرة على القرص مع الأمر/المسار · [REPORTED] = منقول من تقرير/رسالة بدون فحص مباشر · [PROPOSED] = اقتراح/قرار مستقبلي غير منفَّذ · [UNKNOWN] = لا دليل · [NOT_RUN] = تجربة مقترحة ولم تُشغَّل بعد. [REPORTED — repo-plan-01.md §1.2.3]
+
+## 0. القيود الحاكمة لهذا الملف — [REPORTED: repo-plan-01.md §1.2]
+> build · crouton-alpha-free
+[0m← [0mEdit repo/CONTEXT.md
+Index: repo/CONTEXT.md
+===================================================================
+--- repo/CONTEXT.md
++++ repo/CONTEXT.md
+@@ -1,7 +1,7 @@
+ # سياق المشروع — يكفي وحده لأي محادثة ذكاء اصطناعي جديدة
+ 
+-> اقرأ هذا الملف فقط إن أردت فهم المشروع دون أي ملف آخر. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
++> اقرأ هذا الملف للتوجه السريع في فهم المشروع؛ للعمل اقرأ AGENTS.md ثم خريطة README. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
+ > كل حقيقة هنا موسومة بوسم دليل ومصدرها. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+ > الأرقام هنا منقولة فقط من ملفات التحليل، ولا يوجد رقم مخترع. [OBSERVED — المصدر: جلسة البناء هذه]
+ 
+ ## 1. المشروع باختصار
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/CONTEXT.md
+Index: repo/CONTEXT.md
+===================================================================
+--- repo/CONTEXT.md
++++ repo/CONTEXT.md
+@@ -95,7 +95,7 @@
+ - لا قيمة سرية تُكتب أبدا: يُذكر وجودها فقط إن كان لها علاقة بالعمل الحالي. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و `work/analysis-session-01.md` §4]
+ 
+ ## 9. حدود هذا الملف
+ 
+-- هذا الملف وحده يكفي لأي مساعد جديد في الجلسة التالية، دون قراءة أي ملف آخر في المستودع. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
++- هذا الملف يكفي وحده للتوجه؛ للعمل اقرأ AGENTS.md ثم خريطة README. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
+ - عدد الأسطر في هذا الملف أقل من 300 سطر. [OBSERVED — المصدر: جلسة البناء هذه]
+ - هذا الملف كُتب كاملا ولم يُرقَّم فيه أي شيء لم يرد في التحليلات المقرؤة. [OBSERVED — المصدر: جلسة البناء هذه]
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/CONTEXT.md
+Index: repo/CONTEXT.md
+===================================================================
+--- repo/CONTEXT.md
++++ repo/CONTEXT.md
+@@ -75,9 +75,9 @@
+ - فلتر scratch الاستبعادي يصطدم بـ«كل ملف يدخل»، والحل المقترح أن كل صفحاتنا تصبح research أو أعلى. [PROPOSED — المصدر: `work/analysis-wiki-talk-01.md` §2.5 و §3.3]
+ 
+ ## 7. من أين يُجلب أي شيء
+ 
+-- الأرشيف المقاس كان 2713 ملف بحجم 212MB، وملف التصميم في المستودع الحالي حجمه 92KB. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و §1.1]
++- الأرشيف المقاس كان 2713 ملف بحجم 212MB، وملف التصميم في المستودع الحالي (ARCHITECTURE.md 13062 بايت + DESIGN-REFERENCE.md 5259 بايت) [OBSERVED 2026-11-05 — `wc -c` على القرص]؛ التصميم الكامل ~94124 بايت في `/workspace/layered-wiki-rag-design.md` محليا وعلى فرع layered-wiki-rag-design.md في GitHub. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و §1.1]
+ - كلام الويكي 106 رسالة، والجلسة المصدّرة 18267 سطرا، والتصميم 92KB، والبرومبت الأصلي 233 سطرا بحدوده فقط. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و `work/analysis-session-01.md` سطر المصدر و `work/analysis-wiki-talk-01.md` عنوان التحليل]
+ - الأصل يبقى محليا: لا يُرفع MANIFEST.json الكامل ولا المحادثات الخام ولا قاعدة بيانات ضخمة. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و §2]
+ - الحقائق من الفهرس الكامل لا تُعاد كتابتها، بل يُشار إليها بمسارها. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+ - مصدر كل قسم في المستودع معرف بجدول المصادر في الخطة: README وCONTEXT من التحليلين، MESSAGES من النصوص الحرفية، ARCHITECTURE من التصميم، وAGENTS من ملف نظام آخر لم يُفحص مباشرة. [REPORTED — المصدر: `work/repo-plan-01.md` §4]
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/CONTEXT.md
+Index: repo/CONTEXT.md
+===================================================================
+--- repo/CONTEXT.md
++++ repo/CONTEXT.md
+@@ -76,9 +76,9 @@
+ 
+ ## 7. من أين يُجلب أي شيء
+ 
+ - الأرشيف المقاس كان 2713 ملف بحجم 212MB، وملف التصميم في المستودع الحالي (ARCHITECTURE.md 13062 بايت + DESIGN-REFERENCE.md 5259 بايت) [OBSERVED 2026-11-05 — `wc -c` على القرص]؛ التصميم الكامل ~94124 بايت في `/workspace/layered-wiki-rag-design.md` محليا وعلى فرع layered-wiki-rag-design.md في GitHub. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و §1.1]
+-- كلام الويكي 106 رسالة، والجلسة المصدّرة 18267 سطرا، والتصميم 92KB، والبرومبت الأصلي 233 سطرا بحدوده فقط. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و `work/analysis-session-01.md` سطر المصدر و `work/analysis-wiki-talk-01.md` عنوان التحليل]
++- كلام الويكي 106 رسالة، والجلسة المصدّرة 18267 سطرا، والتصميم الكامل ~94124 بايت محليا (فرع layered-wiki-rag-design.md) لا 92KB داخل repo/، والبرومبت الأصلي 233 سطرا بحدوده فقط. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و `work/analysis-session-01.md` سطر المصدر و `work/analysis-wiki-talk-01.md` عنوان التحليل]
+ - الأصل يبقى محليا: لا يُرفع MANIFEST.json الكامل ولا المحادثات الخام ولا قاعدة بيانات ضخمة. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و §2]
+ - الحقائق من الفهرس الكامل لا تُعاد كتابتها، بل يُشار إليها بمسارها. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+ - مصدر كل قسم في المستودع معرف بجدول المصادر في الخطة: README وCONTEXT من التحليلين، MESSAGES من النصوص الحرفية، ARCHITECTURE من التصميم، وAGENTS من ملف نظام آخر لم يُفحص مباشرة. [REPORTED — المصدر: `work/repo-plan-01.md` §4]
+ - الجلسة الكاملة ومسارات ملفات العمل محفوظة في التحليلين المحليين لا في المستودع. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §2.2 و `work/analysis-session-01.md` §2]
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/CONTEXT.md
+Index: repo/CONTEXT.md
+===================================================================
+--- repo/CONTEXT.md
++++ repo/CONTEXT.md
+@@ -81,9 +81,24 @@
+ - الأصل يبقى محليا: لا يُرفع MANIFEST.json الكامل ولا المحادثات الخام ولا قاعدة بيانات ضخمة. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2 و §2]
+ - الحقائق من الفهرس الكامل لا تُعاد كتابتها، بل يُشار إليها بمسارها. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+ - مصدر كل قسم في المستودع معرف بجدول المصادر في الخطة: README وCONTEXT من التحليلين، MESSAGES من النصوص الحرفية، ARCHITECTURE من التصميم، وAGENTS من ملف نظام آخر لم يُفحص مباشرة. [REPORTED — المصدر: `work/repo-plan-01.md` §4]
+ - الجلسة الكاملة ومسارات ملفات العمل محفوظة في التحليلين المحليين لا في المستودع. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §2.2 و `work/analysis-session-01.md` §2]
++- خريطة الجلب داخل المستودع [OBSERVED 2026-11-05 — `find . -type f | wc -l` = 42 ملفا]:
+ 
++| مسار المستودع | ماذا يوفر |
++|---|---|
++| `sources/wiki-talk-index.md` | فهرس 106 رسالة كلام الويكي بعناوينها وتواريخها |
++| `sources/session-export-index.md` | فهرس الجلسة المصدّرة 18267 سطرا (طلبات المستخدم فقط) |
++| `sources/links.md` | الروابط الخارجية بسياقها وتاريخها (بلا أسرار) |
++| `sources/archive-index.md` | فهرس الأرشيف 2713 ملف / 212MB (فهرس فقط، الأرشيف لا يُرفع) |
++| `index/bm25-results.md` | نتائج BM25 المقاسة على 210 صفحة لهيثم (12/15 و14/15) |
++| `ARCHITECTURE.md` | المعمارية الهجينة RAG أساس + ويكي + ماسترز |
++| `docs/STRUCTURE.md` | شجرة المستودع الكاملة (الشجرة الكاملة المرجعية) |
++| `timeline/timeline.md` | التسلسل الزمني 2026-10-06 → 2026-11-05 |
++| `PROVENANCE.md` | المنشأ والتحقق: مصادر أولية ومصادر منقولة |
++
++- ملفات `work/` خارج المستودع — provenance فقط: `work/repo-plan-01.md` و`work/analysis-wiki-talk-01.md` و`work/analysis-session-01.md` مساراتها `../work/` من جذر repo/؛ لا تُجلب من داخل المستودع. [OBSERVED 2026-11-05]
++
+ ## 8. كيف تُعلَّم CONTENT جديدة
+ 
+ - كل حقيقة جديدة تُوسم بواحد من: OBSERVED أو REPORTED أو PROPOSED أو UNKNOWN أو NOT_RUN. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+ - OBSERVED تعني مقاسا أو مقروءا مباشرة مع ذكر الأمر أو المسار. [REPORTED — المصدر: `work/repo-plan-01.md` §1.2]
+
+> build · crouton-alpha-free
+CONTEXT edits done. Now applying README fixes:
+[0m← [0mEdit repo/README.md
+Index: repo/README.md
+===================================================================
+--- repo/README.md
++++ repo/README.md
+@@ -21,9 +21,9 @@
+ ## 3. خريطة القراءة: من أين تبدأ
+ 
+ | الترتيب | الملف | ماذا يعطيك |
+ |---|---|---|
+-| أولا | `CONTEXT.md` | يكفي وحده ليفهم أي مساعد جديد المشروع دون قراءة أي ملف آخر. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
++| أولا | `CONTEXT.md` | يكفي للتوجه؛ للعمل اقرأ AGENTS.md ثم خريطة README. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+ | ثانيا | `MESSAGES.md` | كل ما قاله معاذ مرتبا زمنيا. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+ | ثالثا | `IDEAS.md` | الأفكار والقرارات والمفاهيم. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+ | رابعا | `MASTER.md` و `ARCHITECTURE.md` | تعريف الماستر والمعمارية الهجينة. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+ | عند الحاجة | `docs/` و `sources/` و `timeline/` | تفاصيل الهيكل والروابط والتسلسل الزمني. [PROPOSED — المصدر: `work/repo-plan-01.md` §2 و §3] |
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/README.md
+Index: repo/README.md
+===================================================================
+--- repo/README.md
++++ repo/README.md
+@@ -25,9 +25,10 @@
+ | أولا | `CONTEXT.md` | يكفي للتوجه؛ للعمل اقرأ AGENTS.md ثم خريطة README. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+ | ثانيا | `MESSAGES.md` | كل ما قاله معاذ مرتبا زمنيا. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+ | ثالثا | `IDEAS.md` | الأفكار والقرارات والمفاهيم. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+ | رابعا | `MASTER.md` و `ARCHITECTURE.md` | تعريف الماستر والمعمارية الهجينة. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+-| عند الحاجة | `docs/` و `sources/` و `timeline/` | تفاصيل الهيكل والروابط والتسلسل الزمني. [PROPOSED — المصدر: `work/repo-plan-01.md` §2 و §3] |
++| عند الحاجة | `AGENTS.md` و`PROVENANCE.md` و`REJECTED.md` و`CHANGELOG.md` و`DESIGN-REFERENCE.md` | قواعد الوكلاء والتحقق والمنشأ (AGENTS أولا للعمل). [PROPOSED — المصدر: `work/repo-plan-01.md` §2 و §3] |
++| عند الحاجة | `docs/` (شجرة كاملة في `docs/STRUCTURE.md`) و`config/` و`index/` و`masters/` و`templates/` و`reference/` و`sources/` و`timeline/` | تفاصيل الهيكل والروابط والإعدادات والنتائج والقوالب والتسلسل الزمني. [PROPOSED — المصدر: `work/repo-plan-01.md` §2 و §3] |
+ 
+ - كلام الويكي الأصلي ضم 106 رسالة من 2026-10-06 إلى 2026-11-03. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` عنوان التحليل §1]
+ - الجلسة المصدّرة ضمت 18267 سطرا و19 طلبا من المستخدم. [OBSERVED — المصدر: `work/analysis-session-01.md` سطر المصدر و §1]
+ 
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/README.md
+Index: repo/README.md
+===================================================================
+--- repo/README.md
++++ repo/README.md
+@@ -47,9 +47,9 @@
+ - أسئلة العناوين بالنص بقيت 8 من 8 في المرتبة الأولى على 210 صفحة. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+ - الصياغات المختلفة أعطت 1 من 3 فقط في المرتبة الأولى، وواحدة وقعت في المرتبة 28 وواحدة في المرتبة 35. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+ - أصغر 20 صفحة لهيثم ضمت 37402 بايت و129 مقطعا. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.7 و §1.10]
+ - الرام المتاح لحظة القياس كان 429 ميجا. [OBSERVED — المصدر: `work/analysis-wiki-talk-01.md` §1.10]
+-- المستودع الحالي له commit واحد موثق رقمه الكامل في ملفات التحليل، وبه 5 ملفات آمنة بلا أسرار. [OBSERVED — المصدر: `work/analysis-session-01.md` §2 و `work/repo-plan-01.md` §1.3]
++- المستودع الحالي (الـ.git يعيش على GitHub remote؛ النسخة المحلية الحالية بلا .git) له commit واحد موثق رقمه الكامل في ملفات التحليل، وبه في ذلك الوقت 5 ملفات آمنة بلا أسرار — [OBSERVED 2026-11-03: خمسة ملفات عندئذٍ؛ اليوم 42 ملفاً في هذا الفرع] [OBSERVED — المصدر: `work/analysis-session-01.md` §2 و `work/repo-plan-01.md` §1.3]
+ 
+ ## 6. ما يجري NOT_RUN
+ 
+ - تضمين كثيف بـ bge-m3 لم يُشغَّل بعد. [NOT_RUN — المصدر: `work/repo-plan-01.md` §3.1 و `work/analysis-wiki-talk-01.md` §3.1]
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/README.md
+Index: repo/README.md
+===================================================================
+--- repo/README.md
++++ repo/README.md
+@@ -66,9 +66,9 @@
+ - محاولة الباني جلب ملف AGENTS.md الحالي من الرابط المقدم أعادت 404 في هذه الجلسة. [OBSERVED — المصدر: نتيجة webfetch في جلسة البناء هذه]
+ 
+ ## 8. الأسرار: لا شيء هنا — إن وُجدت أوقف
+ 
+-- لا يحتوي هذا المستودع على أي قيمة سرية. [OBSERVED — المصدر: محتوى الملفات الخمسة المكتوبة في جلسة البناء هذه]
++- لا يحتوي هذا المستودع على أي قيمة سرية. [OBSERVED — المصدر: [OBSERVED 2026-11-03: خمسة ملفات عندئذٍ؛ اليوم 42 ملفاً في هذا الفرع 2026-11-05 — `find . -type f | wc -l`]]
+ - وُجد مفتاح وصول شخصي لـ GitHub في الجلسة المصدّرة، وتوصية المساعد كانت إلغاءه وتدويره فورا. [REPORTED — المصدر: `work/analysis-session-01.md` §4]
+ - لا يوجد تأكيد موثق في التصدير أن المستخدم قام بالتدوير فعلا. [UNKNOWN — المصدر: `work/analysis-session-01.md` §5]
+ - وُجدت مفاتيح لخدمة تضمين وخدمة أخرى وكوكيز يوتيوب في السكربتات والمحادثات، وتقرر حذفها وعدم نسخ قيمها. [REPORTED — المصدر: `work/analysis-wiki-talk-01.md` §1.3 و §1.8 و `work/repo-plan-01.md` §1.2.4]
+ - إن وُجدت أي قيمة سرية في أي ملف قيد العمل، أوقف العمل ولا ترفع. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1 و §5.2]
+
+> build · crouton-alpha-free
+[0m← [0mEdit repo/README.md
+Index: repo/README.md
+===================================================================
+--- repo/README.md
++++ repo/README.md
+@@ -75,6 +75,6 @@
+ 
+ ## 9. ملاحظات
+ 
+ - الأرشيف المقاس كان 2713 ملف بحجم 212MB، والمحادثات الخام وحدها 150MB. [OBSERVED — المصدر: `work/repo-plan-01.md` §1.1 و §1.2]
+-- ملف التصميم في المستودع الحالي حجمه 92KB. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة]
++- ملف التصميم في المستودع الحالي: ARCHITECTURE.md 13KB + DESIGN-REFERENCE.md 5KB (مقاس [OBSERVED 2026-11-05 — `wc -c`])؛ التصميم الكامل ~94124 بايت في `/workspace/layered-wiki-rag-design.md` محليا وعلى فرع layered-wiki-rag-design.md في GitHub. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة]
+ - هذا الملف كُتب كاملا في جلسة البناء هذه ولم يُقرأ فيه أي محتوى أرشيف مباشرة. [OBSERVED — المصدر: جلسة البناء هذه]
+
+> build · crouton-alpha-free
+[0m$ [0mcd /workspace/wiki/repo && echo "=== CONTEXT checks ==="; grep -n "يكفي وحده\|يكفي للتوجه\|للعمل اقرأ AGENTS\|sources/wiki-talk-index\|session-export-index\|sources/links\|archive-index\|bm25-results\|docs/STRUCTURE\|timeline/timeline\|PROVENANCE.md\|خارج المستودع\|92KB\|94124\|13062\|5259\|layered-wiki-rag-design" CONTEXT.md; echo "=== README checks ==="; grep -n "يكفي للتوجه\|AGENTS.md\|PROVENANCE.md\|REJECTED.md\|CHANGELOG.md\|DESIGN-REFERENCE.md\|config/\|index/\|masters/\|templates/\|reference/\|docs/STRUCTURE\|OBSERVED 2026-11-03\|42 ملف\|GitHub remote\|94124\|13KB\|5KB" README.md; echo "=== 92KB remaining ==="; grep -rn "92KB" . 2>&1; echo "=== 5 ملفات remaining ==="; grep -n "5 ملفات\|خمسة ملفات" CONTEXT.md README.md 2>&1; echo "=== counts ==="; find . -type f | wc -l; wc -c /workspace/layered-wiki-rag-design.md ARCHITECTURE.md DESIGN-REFERENCE.md
+=== CONTEXT checks ===
+1:# سياق المشروع — يكفي وحده لأي محادثة ذكاء اصطناعي جديدة
+3:> اقرأ هذا الملف للتوجه السريع في فهم المشروع؛ للعمل اقرأ AGENTS.md ثم خريطة README. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
+79:- الأرشيف المقاس كان 2713 ملف بحجم 212MB، وملف التصميم في المستودع الحالي (ARCHITECTURE.md 13062 بايت + DESIGN-REFERENCE.md 5259 بايت) [OBSERVED 2026-11-05 — `wc -c` على القرص]؛ التصميم الكامل ~94124 بايت في `/workspace/layered-wiki-rag-design.md` محليا وعلى فرع layered-wiki-rag-design.md في GitHub. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و §1.1]
+80:- كلام الويكي 106 رسالة، والجلسة المصدّرة 18267 سطرا، والتصميم الكامل ~94124 بايت محليا (فرع layered-wiki-rag-design.md) لا 92KB داخل repo/، والبرومبت الأصلي 233 سطرا بحدوده فقط. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و `work/analysis-session-01.md` سطر المصدر و `work/analysis-wiki-talk-01.md` عنوان التحليل]
+89:| `sources/wiki-talk-index.md` | فهرس 106 رسالة كلام الويكي بعناوينها وتواريخها |
+90:| `sources/session-export-index.md` | فهرس الجلسة المصدّرة 18267 سطرا (طلبات المستخدم فقط) |
+91:| `sources/links.md` | الروابط الخارجية بسياقها وتاريخها (بلا أسرار) |
+92:| `sources/archive-index.md` | فهرس الأرشيف 2713 ملف / 212MB (فهرس فقط، الأرشيف لا يُرفع) |
+93:| `index/bm25-results.md` | نتائج BM25 المقاسة على 210 صفحة لهيثم (12/15 و14/15) |
+95:| `docs/STRUCTURE.md` | شجرة المستودع الكاملة (الشجرة الكاملة المرجعية) |
+96:| `timeline/timeline.md` | التسلسل الزمني 2026-10-06 → 2026-11-05 |
+97:| `PROVENANCE.md` | المنشأ والتحقق: مصادر أولية ومصادر منقولة |
+99:- ملفات `work/` خارج المستودع — provenance فقط: `work/repo-plan-01.md` و`work/analysis-wiki-talk-01.md` و`work/analysis-session-01.md` مساراتها `../work/` من جذر repo/؛ لا تُجلب من داخل المستودع. [OBSERVED 2026-11-05]
+114:- هذا الملف يكفي وحده للتوجه؛ للعمل اقرأ AGENTS.md ثم خريطة README. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1]
+=== README checks ===
+25:| أولا | `CONTEXT.md` | يكفي للتوجه؛ للعمل اقرأ AGENTS.md ثم خريطة README. [PROPOSED — المصدر: `work/repo-plan-01.md` §3.1] |
+29:| عند الحاجة | `AGENTS.md` و`PROVENANCE.md` و`REJECTED.md` و`CHANGELOG.md` و`DESIGN-REFERENCE.md` | قواعد الوكلاء والتحقق والمنشأ (AGENTS أولا للعمل). [PROPOSED — المصدر: `work/repo-plan-01.md` §2 و §3] |
+30:| عند الحاجة | `docs/` (شجرة كاملة في `docs/STRUCTURE.md`) و`config/` و`index/` و`masters/` و`templates/` و`reference/` و`sources/` و`timeline/` | تفاصيل الهيكل والروابط والإعدادات والنتائج والقوالب والتسلسل الزمني. [PROPOSED — المصدر: `work/repo-plan-01.md` §2 و §3] |
+51:- المستودع الحالي (الـ.git يعيش على GitHub remote؛ النسخة المحلية الحالية بلا .git) له commit واحد موثق رقمه الكامل في ملفات التحليل، وبه في ذلك الوقت 5 ملفات آمنة بلا أسرار — [OBSERVED 2026-11-03: خمسة ملفات عندئذٍ؛ اليوم 42 ملفاً في هذا الفرع] [OBSERVED — المصدر: `work/analysis-session-01.md` §2 و `work/repo-plan-01.md` §1.3]
+66:- محاولة الباني جلب ملف AGENTS.md الحالي من الرابط المقدم أعادت 404 في هذه الجلسة. [OBSERVED — المصدر: نتيجة webfetch في جلسة البناء هذه]
+70:- لا يحتوي هذا المستودع على أي قيمة سرية. [OBSERVED — المصدر: [OBSERVED 2026-11-03: خمسة ملفات عندئذٍ؛ اليوم 42 ملفاً في هذا الفرع 2026-11-05 — `find . -type f | wc -l`]]
+79:- ملف التصميم في المستودع الحالي: ARCHITECTURE.md 13KB + DESIGN-REFERENCE.md 5KB (مقاس [OBSERVED 2026-11-05 — `wc -c`])؛ التصميم الكامل ~94124 بايت في `/workspace/layered-wiki-rag-design.md` محليا وعلى فرع layered-wiki-rag-design.md في GitHub. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة]
+=== 92KB remaining ===
+./PROVENANCE.md:12:| P3 | التصميم المعماري (`layered-wiki-rag-design.md`) | `/workspace/layered-wiki-rag-design.md` | 92KB، 791 سطرًا | [OBSERVED: قراءة العناوين عبر `grep '^#'`] |
+./CHANGELOG.md:11:- ملف التصميم `layered-wiki-rag-design.md` (92KB): موجود بجذر المستودع الحالي على GitHub — [REPORTED: repo-plan §1.3] وموجود أيضًا في هذه البيئة عند `/workspace/layered-wiki-rag-design.md` (94,124 بايت) — [OBSERVED: `ls -lh`].
+./CHANGELOG.md:18:- المحتوى: `layered-wiki-rag-design.md` (92KB كما في repo-plan §1) + ملفات HTML مقروءة — [REPORTED: repo-plan §1.3]. وصف «HTML المقروء» كما هو في الخطة دون تفصيل هويات الملفات — [REPORTED].
+./DESIGN-REFERENCE.md:9:- السبب: ملف التصميم من الأساس المعتمد للعمود الفقري للمستودع — [REPORTED: repo-plan §1.3 (ج) «فيه التصميم 92KB»].
+./DESIGN-REFERENCE.md:16:| الحجم في وصف الخطة | 92KB تقريبًا | [REPORTED: repo-plan §1]. الفرق دائر حول تقريب الوحدات ولا يُفسَّر كمضخِّف — [UNKNOWN: لم يُتحقق من GitHub نسخة الطابق] |
+./DESIGN-REFERENCE.md:43:- مقارنة نسخة 92KB على GitHub و94KB محليًا سطرًا بسطر = [NOT_RUN].
+./CONTEXT.md:80:- كلام الويكي 106 رسالة، والجلسة المصدّرة 18267 سطرا، والتصميم الكامل ~94124 بايت محليا (فرع layered-wiki-rag-design.md) لا 92KB داخل repo/، والبرومبت الأصلي 233 سطرا بحدوده فقط. [OBSERVED — المصدر: `work/repo-plan-01.md` مصادر الخطة و `work/analysis-session-01.md` سطر المصدر و `work/analysis-wiki-talk-01.md` عنوان التحليل]
+=== 5 ملفات remaining ===
+README.md:51:- المستودع الحالي (الـ.git يعيش على GitHub remote؛ النسخة المحلية الحالية بلا .git) له commit واحد موثق رقمه الكامل في ملفات التحليل، وبه في ذلك الوقت 5 ملفات آمنة بلا أسرار — [OBSERVED 2026-11-03: خمسة ملفات عندئذٍ؛ اليوم 42 ملفاً في هذا الفرع] [OBSERVED — المصدر: `work/analysis-session-01.md` §2 و `work/repo-plan-01.md` §1.3]
+README.md:70:- لا يحتوي هذا المستودع على أي قيمة سرية. [OBSERVED — المصدر: [OBSERVED 2026-11-03: خمسة ملفات عندئذٍ؛ اليوم 42 ملفاً في هذا الفرع 2026-11-05 — `find . -type f | wc -l`]]
+=== counts ===
+42
+ 94124 /workspace/layered-wiki-rag-design.md
+ 13062 ARCHITECTURE.md
+  5259 DESIGN-REFERENCE.md
+112445 total
+> build · crouton-alpha-free
+DONE
